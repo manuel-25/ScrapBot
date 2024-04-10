@@ -8,8 +8,8 @@ async function scrapeJumboProduct(page) {
     const productSelector = '.vtex-search-result-3-x-galleryItem';
     await page.waitForSelector(productSelector, productsContainerSelector);
 
-    console.log('Scrapping...')
-    const articlesData = await page.evaluate((productsContainerSelector, productSelector) => {
+    console.log('Scrapping...');
+    const articlesData = await page.evaluate(async (productsContainerSelector, productSelector) => {
         const productsContainer = document.querySelector(productsContainerSelector);
         if (!productsContainer) return null; // No container found
 
@@ -18,9 +18,11 @@ async function scrapeJumboProduct(page) {
 
         const productsData = [];
 
-        productNodes.forEach(product => {
+        for (const product of productNodes) {
             const nombre = product.querySelector('.vtex-product-summary-2-x-productNameContainer')?.textContent.trim();
             const marca = product.querySelector('.vtex-product-summary-2-x-productBrandName')?.textContent.trim();
+
+            await new Promise(resolve => setTimeout(resolve, 10));
             const precio = product.querySelector('.jumboargentinaio-store-theme-1dCOMij_MzTzZOCohX1K7w')?.textContent.trim();
             const precioRegular = product.querySelector('.jumboargentinaio-store-theme-1QiyQadHj-1_x9js9EXUYK')?.textContent.trim();
 
@@ -30,7 +32,7 @@ async function scrapeJumboProduct(page) {
                 precio,
                 precioRegular
             });
-        });
+        }
 
         return productsData;
     }, productsContainerSelector, productSelector);
@@ -38,19 +40,33 @@ async function scrapeJumboProduct(page) {
     return articlesData;
 }
 
+
 async function scrollDown(page) {
-    console.log('Scrolling down...');
+    //console.log('Scrolling down...');
     try {
         const initialHeight = await page.evaluate(() => document.body.scrollHeight);
         await page.evaluate(() => {
             window.scrollBy(0, window.innerHeight);
         });
         await page.waitForFunction(`document.body.scrollHeight > ${initialHeight}`, { timeout: 1000 });
-        await delay(1200);
+        await delay(500);
         return true;
     } catch (error) {
         console.error('Error al hacer scroll:', error);
         return false;
+    }
+}
+
+async function getTotalPages(page) {
+    try {
+        await page.waitForSelector('.discoargentina-search-result-custom-1-x-span-selector-pages');
+        const pagesText = await page.$eval('.discoargentina-search-result-custom-1-x-span-selector-pages', el => el.textContent.trim());
+        const wordsArray  = pagesText.split(" ");
+        const totalPages = wordsArray[wordsArray.length - 1]
+        return totalPages;
+    } catch (error) {
+        console.error('Error al obtener el número total de páginas: ', error);
+        return 1;
     }
 }
 
@@ -66,44 +82,21 @@ async function goToPage(page, pageNumber) {
     await page.goto(url);
 }
 
-async function getTotalPages(page) {
-    try {
-        // Esperar a que los botones de página estén presentes
-        await page.waitForSelector('.discoargentina-search-result-custom-1-x-fetchMoreOptionItem');
-        
-        // Obtener todos los botones de página
-        const pageButtons = await page.$$eval('.discoargentina-search-result-custom-1-x-fetchMoreOptionItem', buttons => buttons);
-
-        // El número total de páginas es el valor del último botón
-        const lastPageButton = pageButtons[pageButtons.length - 1];
-        const totalPages = parseInt(await lastPageButton.evaluate(button => button.textContent.trim()));
-
-        return totalPages || 1;
-    } catch (error) {
-        console.error('Error al obtener el número total de páginas:', error);
-        return 1;
-    }
-}
-
 // MAIN FUNCTION
 async function main() {
     const startTime = new Date()
     const browser = await puppeteer.launch({ headless: true });
     const page = await browser.newPage();
     // Establecer el tamaño de la pantalla
-    await page.setViewport({ width: 1280, height: 3000 });
+    await page.setViewport({ width: 1280, height: 1000 });
     await page.goto(staticURL);
 
     let dataScrapped = [];
     let previousProductCount = 0;
     let pageNumber = 1
-    let totalPages = 50;
-
-    //totalPages = await getTotalPages(page)
-    console.log('Total pages:', totalPages);
-
+    let totalPages = 1;
+    
     while (pageNumber <= totalPages) {
-        console.log('Current page:', pageNumber);
         let currentProducts = await scrapeJumboProduct(page);
 
         if (!currentProducts || currentProducts.length === previousProductCount && pageNumber === totalPages) {
@@ -124,14 +117,14 @@ async function main() {
         await scrollDown(page);
 
         currentProducts = await scrapeJumboProduct(page);
-        console.log('Current products:', currentProducts.length, 'Previous products:', previousProductCount);
+        //console.log('Current products:', currentProducts.length, 'Previous products:', previousProductCount);
 
+        //Next page
         if(currentProducts.length === previousProductCount) {
-            // Intenta navegar a la siguiente página
+            totalPages = await getTotalPages(page)
+            console.log(`Current page: ${pageNumber}/${totalPages}`);
             pageNumber++;
-            console.log('Pagina: ', pageNumber);
             await goToPage(page, pageNumber);
-
             await delay(1000);
         }
     }
