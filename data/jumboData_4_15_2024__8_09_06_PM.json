@@ -1,0 +1,446 @@
+{
+  "time_spent": "0 minutos y 48 segundos",
+  "date": "2024-04-15T20:09:06.838Z",
+  "url": "https://www.jumbo.com.ar/arroz?_q=arroz&map=ft",
+  "totalProducts": 73,
+  "data": [
+    {
+      "nombre": "Arroz Pairboil Dos Hermanos 1 Kg",
+      "marca": "DOS HERMANOS",
+      "precio": "$2.650",
+      "precioRegular": "Precio regular: $2.650 x kg"
+    },
+    {
+      "nombre": "Arroz Largo Fino Vanguardia 1 Kg",
+      "marca": "VANGUARDIA",
+      "precio": "$1.800",
+      "precioRegular": "Precio regular: $1.800 x kg"
+    },
+    {
+      "nombre": "Arroz Parboil Gallo Oro En Bolsa 1 Kg",
+      "marca": "GALLO",
+      "precio": "$3.400",
+      "precioRegular": "Precio regular: $3.400 x kg"
+    },
+    {
+      "nombre": "Arroz Gallo Parboil Selec X500g",
+      "marca": "GALLO",
+      "precio": "$1.777",
+      "precioRegular": "Precio regular: $3.554 x kg"
+    },
+    {
+      "nombre": "Arroz Grano Largo Fino Dos Hermanos 1 Kg",
+      "marca": "DOS HERMANOS",
+      "precio": "$2.261",
+      "precioRegular": "Precio regular: $2.261 x kg"
+    },
+    {
+      "nombre": "Arroz Parboil Molinos Ala 1 Kg",
+      "marca": "Molinos Ala",
+      "precio": "$3.000",
+      "precioRegular": "Precio regular: $3.000 x kg"
+    },
+    {
+      "nombre": "Arroz Doble Carolina Molinos Ala X1kg",
+      "marca": "Molinos Ala",
+      "precio": "$5.100",
+      "precioRegular": "Precio regular: $5.100 x kg"
+    },
+    {
+      "nombre": "Arroz Ita Caabó Largo Fino Molinos Ala 1 Kg",
+      "marca": "Molinos Ala",
+      "precio": "$3.650",
+      "precioRegular": "Precio regular: $3.650 x kg"
+    },
+    {
+      "nombre": "Arroz Largo Fino Gallo 500 Gr",
+      "marca": "GALLO",
+      "precio": "$1.700",
+      "precioRegular": "Precio regular: $3.400 x kg"
+    },
+    {
+      "nombre": "Arroz Yamani  Molinos Ala 500 Gr",
+      "marca": "Molinos Ala",
+      "precio": "$4.200",
+      "precioRegular": "Precio regular: $8.400 x kg"
+    },
+    {
+      "nombre": "Arroz Carnaroli Molinos Ala 500 Gr",
+      "marca": "Molinos Ala",
+      "precio": "$4.250",
+      "precioRegular": "Precio regular: $8.500 x kg"
+    },
+    {
+      "nombre": "Arroz En Grano Molinos Ala 1 Kg",
+      "marca": "Molinos Ala",
+      "precio": "$3.457",
+      "precioRegular": "Precio regular: $3.457 x kg"
+    },
+    {
+      "nombre": "Arroz Gallo Largo Fino Selec X500g",
+      "marca": "GALLO",
+      "precio": "$1.700",
+      "precioRegular": "Precio regular: $3.400 x kg"
+    },
+    {
+      "nombre": "Arroz Gallo Largo Fino 1kg",
+      "marca": "GALLO",
+      "precio": "$3.200",
+      "precioRegular": "Precio regular: $3.200 x kg"
+    },
+    {
+      "nombre": "Arroz Yamani Dos Hermanos 500 Gr",
+      "marca": "DOS HERMANOS",
+      "precio": "$3.000",
+      "precioRegular": "Precio regular: $6.000 x kg"
+    },
+    {
+      "nombre": "Arroz Gallo Doble Carolina Selec X1kg",
+      "marca": "GALLO",
+      "precio": "$5.000",
+      "precioRegular": "Precio regular: $5.000 x kg"
+    },
+    {
+      "nombre": "Arroz Gallo Oro Selec Paraboil X1kg",
+      "marca": "GALLO",
+      "precio": "$3.750",
+      "precioRegular": "Precio regular: $3.750 x kg"
+    },
+    {
+      "nombre": "Arroz Gallo Integral Selección X1kg",
+      "marca": "GALLO",
+      "precio": "$1.350",
+      "precioRegular": "Precio regular: $1.350 x kg"
+    },
+    {
+      "nombre": "Arroz Luchetti Largo Fino X500g",
+      "marca": "LUCCHETTI",
+      "precio": "$1.350",
+      "precioRegular": "Precio regular: $2.700 x kg"
+    },
+    {
+      "nombre": "Arroz Mediterraneo Gallo 240 Gr",
+      "marca": "GALLO",
+      "precio": "$2.250",
+      "precioRegular": "Precio regular: $12.500 x kg"
+    },
+    {
+      "nombre": "Arroz Largo Fino Luchetti 1 Kg",
+      "marca": "LUCCHETTI",
+      "precio": "$2.500",
+      "precioRegular": "Precio regular: $2.500 x kg"
+    },
+    {
+      "nombre": "Arroz Parboil Molinos Ala 500 Gr",
+      "marca": "Molinos Ala",
+      "precio": "$1.800",
+      "precioRegular": "Precio regular: $3.600 x kg"
+    },
+    {
+      "nombre": "Arroz Wok Oriental Gallo 240 Gr",
+      "marca": "GALLO",
+      "precio": "$2.250",
+      "precioRegular": "Precio regular: $12.500 x kg"
+    },
+    {
+      "nombre": "Arroz Curry Asiatico Gallo 240 Gr",
+      "marca": "GALLO",
+      "precio": "$2.250",
+      "precioRegular": "Precio regular: $12.500 x kg"
+    },
+    {
+      "nombre": "Arroz Grano Largo Aromatico Dos Hermaos  500 Gr",
+      "marca": "DOS HERMANOS",
+      "precio": "$2.950",
+      "precioRegular": "Precio regular: $5.900 x kg"
+    },
+    {
+      "nombre": "Arroz Grano Largo 00000 Cuisine & Co 1kg",
+      "marca": "CUISINE & CO NBE MP",
+      "precio": "$1.950",
+      "precioRegular": "Precio regular: $1.950 x kg"
+    },
+    {
+      "nombre": "Arroz Gallo Integral Selec X500g",
+      "marca": "GALLO",
+      "precio": "$1.900",
+      "precioRegular": "Precio regular: $3.800 x kg"
+    },
+    {
+      "nombre": "Arroz Grano Largo Dos Hermanos 500 Gr",
+      "marca": "DOS HERMANOS",
+      "precio": "$3.000",
+      "precioRegular": "Precio regular: $6.000 x kg"
+    },
+    {
+      "nombre": "Arroz Al Curry Molé 200 Gr",
+      "marca": "Molé",
+      "precio": "$1.500",
+      "precioRegular": "Precio regular: $7.500 x kg"
+    },
+    {
+      "nombre": "Arroz Parboil Luchetti 1 Kg",
+      "marca": "LUCCHETTI",
+      "precio": "$2.900",
+      "precioRegular": "Precio regular: $2.900 x kg"
+    },
+    {
+      "nombre": "Arroz Integral Organico Planty  500 Gr",
+      "marca": "PLANTY",
+      "precio": "$3.850",
+      "precioRegular": "Precio regular: $9.625 x kg"
+    },
+    {
+      "nombre": "Arroz Parboil Luchetti 500 Gr",
+      "marca": "LUCCHETTI",
+      "precio": "$1.500",
+      "precioRegular": "Precio regular: $3.000 x kg"
+    },
+    {
+      "nombre": "Arroz Gallo Grano Largo Fino Selec X1kg",
+      "marca": "GALLO",
+      "precio": "$3.500",
+      "precioRegular": "Precio regular: $3.500 x kg"
+    },
+    {
+      "nombre": "Arroz Carnaroli Gallo X500 Gr",
+      "marca": "GALLO",
+      "precio": "$2.250",
+      "precioRegular": "Precio regular: $4.500 x kg"
+    },
+    {
+      "nombre": "Arroz Yamani Organico Planty 400 Gr",
+      "marca": "PLANTY",
+      "precio": "$3.850",
+      "precioRegular": "Precio regular: $9.625 x kg"
+    },
+    {
+      "nombre": "Vinagre Castello De Arroz 750 Ml",
+      "marca": "CASTELLO DE ARROZ",
+      "precio": "$7.750",
+      "precioRegular": "Precio regular: $10.333,33 x lt"
+    },
+    {
+      "nombre": "Arroz Scotti Carnaroli 210 Gr",
+      "marca": "SCOTTI",
+      "precio": "$5.000",
+      "precioRegular": "Precio regular: $23.809,52 x kg"
+    },
+    {
+      "nombre": "Arroz Basmati San Giorgio 500 Gr",
+      "marca": "SAN GIORGIO",
+      "precio": "$12.600",
+      "precioRegular": "Precio regular: $25.200 x kg"
+    },
+    {
+      "nombre": "Arroz Para Sushi San Giorgio 500 Gr",
+      "marca": "SAN GIORGIO",
+      "precio": "$9.550",
+      "precioRegular": "Precio regular: $19.100 x kg"
+    },
+    {
+      "nombre": "Arroz San Giorgio Carnaroli 1kg",
+      "marca": "SAN GIORGIO",
+      "precio": "$18.000",
+      "precioRegular": "Precio regular: $18.000 x kg"
+    },
+    {
+      "nombre": "Arroz Preparado Gallo Vegetales Selx240g",
+      "marca": "GALLO",
+      "precio": "$1.912,5",
+      "precioRegular": "Precio regular: $10.625 x kg"
+    },
+    {
+      "nombre": "Arroz Preparado Gallo Mix Sem Selx240g",
+      "marca": "GALLO",
+      "precio": "$1.912,5",
+      "precioRegular": "Precio regular: $10.625 x kg"
+    },
+    {
+      "nombre": "Arroz Para Paella San Giorgio 500 Gr",
+      "marca": "SAN GIORGIO",
+      "precio": "$12.600",
+      "precioRegular": "Precio regular: $25.200 x kg"
+    },
+    {
+      "nombre": "Arroz Para Sushi San Giorgio 1 Kg",
+      "marca": "SAN GIORGIO",
+      "precio": "$12.350",
+      "precioRegular": "Precio regular: $12.350 x kg"
+    },
+    {
+      "nombre": "Arroz Arborio San Giorgio 1 Kg",
+      "marca": "SAN GIORGIO",
+      "precio": "$14.750",
+      "precioRegular": "Precio regular: $14.750 x kg"
+    },
+    {
+      "nombre": "Arroz Preparado Gallo Queso Select X240g",
+      "marca": "GALLO",
+      "precio": "$1.912,5",
+      "precioRegular": "Precio regular: $10.625 x kg"
+    },
+    {
+      "nombre": "Arroz Scotti Carnaroli  210 Gr",
+      "marca": "SCOTTI",
+      "precio": "$5.000",
+      "precioRegular": "Precio regular: $23.809,52 x kg"
+    },
+    {
+      "nombre": "Arroz San Giorgio Arborio 500 Gr",
+      "marca": "SAN GIORGIO",
+      "precio": "$12.600",
+      "precioRegular": "Precio regular: $25.200 x kg"
+    },
+    {
+      "nombre": "Arroz Preparado Gallo Veg Baj Sodiox240g",
+      "marca": "GALLO",
+      "precio": "$1.912,5",
+      "precioRegular": "Precio regular: $10.625 x kg"
+    },
+    {
+      "nombre": "Risotto 4 Quesos Gallo 240 Gr",
+      "marca": "GALLO",
+      "precio": "$1.912,5",
+      "precioRegular": "Precio regular: $10.625 x kg"
+    },
+    {
+      "nombre": "Risotto A La Española Gallo 240 Gr",
+      "marca": "GALLO",
+      "precio": "$1.912,5",
+      "precioRegular": "Precio regular: $10.625 x kg"
+    },
+    {
+      "nombre": "Risotto Primavera Gallo 240 Gr",
+      "marca": "GALLO",
+      "precio": "$1.912,5",
+      "precioRegular": "Precio regular: $10.625 x kg"
+    },
+    {
+      "nombre": "Risotto Parmesano Y Azafran Gallo 240 Gr",
+      "marca": "GALLO",
+      "precio": "$2.250",
+      "precioRegular": "Precio regular: $12.500 x kg"
+    },
+    {
+      "nombre": "Risotto Basmati Gallo 240 Gr",
+      "marca": "GALLO",
+      "precio": "$2.250",
+      "precioRegular": "Precio regular: $12.500 x kg"
+    },
+    {
+      "nombre": "Salsa Guisos Y Arroces Knorr 340 G",
+      "marca": "KNORR",
+      "precio": "$900",
+      "precioRegular": "Precio regular: $2.647,06 x kg"
+    },
+    {
+      "nombre": "Porotos Mister Food Alubia 500 Gr",
+      "marca": "MISTER FOOD",
+      "precio": "$550",
+      "precioRegular": "Precio regular: $1.100 x kg"
+    },
+    {
+      "nombre": "Risotto De Hongos Molé 200 Gr",
+      "marca": "Molé",
+      "precio": "$1.500",
+      "precioRegular": "Precio regular: $7.500 x kg"
+    },
+    {
+      "nombre": "Basmati Superior Rice Sri Sri Tattva 1 Kg",
+      "marca": "Sri Sri Tattva",
+      "precio": "$10.000",
+      "precioRegular": "Precio regular: $10.000 x kg"
+    },
+    {
+      "nombre": "Risotto Al Pesto Molé 200 Gr",
+      "marca": "Molé",
+      "precio": "$1.500",
+      "precioRegular": "Precio regular: $7.500 x kg"
+    },
+    {
+      "nombre": "Maíz Pelado Jumbo 500 Gr",
+      "marca": "JUMBO MP",
+      "precio": "$550",
+      "precioRegular": "Precio regular: $1.100 x kg"
+    },
+    {
+      "nombre": "Snack De Arroz Queso Dos Hermanos 80 Gr",
+      "marca": "DOS HERMANOS",
+      "precio": "$1.400",
+      "precioRegular": "Precio regular: $17.500 x kg"
+    },
+    {
+      "nombre": "Poroto Egran Alubia 500 Gr",
+      "marca": "EGRAN",
+      "precio": "$3.750",
+      "precioRegular": "Precio regular: $7.500 x kg"
+    },
+    {
+      "nombre": "Quinoa Con Vegetales Y Champignones Frams 200 Gr",
+      "marca": "FRAMS",
+      "precio": "$5.850",
+      "precioRegular": "Precio regular: $29.250 x kg"
+    },
+    {
+      "nombre": "Porotos Alubia Cuisine-co 500 Gr",
+      "marca": "CUISINE & CO NBE MP",
+      "precio": "$3.800",
+      "precioRegular": "Precio regular: $7.600 x kg"
+    },
+    {
+      "nombre": "Croquetas De Arroz Caprese Molé 200 Gr",
+      "marca": "Molé",
+      "precio": "$1.500",
+      "precioRegular": "Precio regular: $10.000 x kg"
+    },
+    {
+      "nombre": "Risotto Marinero Scotti 210 Gr",
+      "marca": "SCOTTI",
+      "precio": "$5.000",
+      "precioRegular": "Precio regular: $23.809,52 x kg"
+    },
+    {
+      "nombre": "Snacks De Arroz Pizza Dos Hermanos 80g",
+      "marca": "DOS HERMANOS",
+      "precio": "$1.400",
+      "precioRegular": "Precio regular: $17.500 x kg"
+    },
+    {
+      "nombre": "Poroto Egran Colorados 500 Gr",
+      "marca": "EGRAN",
+      "precio": "$3.850",
+      "precioRegular": "Precio regular: $7.700 x kg"
+    },
+    {
+      "nombre": "Vinagre De Arroz San Giorgio 70 Ml",
+      "marca": "SAN GIORGIO",
+      "precio": "$2.938,9",
+      "precioRegular": "Precio regular: $41.984,29 x lt"
+    },
+    {
+      "nombre": "Trigo Candeal Egran 500 Gr",
+      "marca": "GRANERO",
+      "precio": "$1.400",
+      "precioRegular": "Precio regular: $2.800 x kg"
+    },
+    {
+      "nombre": "Poroto Egran Bolita 500 Gr",
+      "marca": "EGRAN",
+      "precio": "$1.000",
+      "precioRegular": "Precio regular: $2.000 x kg"
+    },
+    {
+      "nombre": "Kenko Vinagre De Arroz X 750ml",
+      "marca": "KENKO",
+      "precio": "$9.866,97",
+      "precioRegular": "Precio regular: $13.155,96 x lt"
+    },
+    {
+      "nombre": "Basmati Daily Rice Sri Sri Tattva 1 Kg",
+      "marca": "Sri Sri Tattva",
+      "precio": "$8.000",
+      "precioRegular": "Precio regular: $8.000 x kg"
+    }
+  ]
+}

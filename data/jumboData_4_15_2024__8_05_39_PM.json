@@ -1,0 +1,410 @@
+{
+  "time_spent": "0 minutos y 44 segundos",
+  "date": "2024-04-15T20:05:39.901Z",
+  "url": "https://www.jumbo.com.ar/pan?_q=pan&map=ft",
+  "totalProducts": 67,
+  "data": [
+    {
+      "nombre": "Pan Blanco Artesano Bimbo 500 Gr",
+      "marca": "ARTESANO",
+      "precio": "$4.900",
+      "precioRegular": "Precio regular: $9.800 x kg"
+    },
+    {
+      "nombre": "Pan Blanco Bimbo 550 Gr",
+      "marca": "BIMBO",
+      "precio": "$4.250",
+      "precioRegular": "Precio regular: $7.727,27 x kg"
+    },
+    {
+      "nombre": "Pan Integral Grano Entero Fargo 350 Gr",
+      "marca": "FARGO",
+      "precio": "$3.600",
+      "precioRegular": "Precio regular: $10.285,71 x kg"
+    },
+    {
+      "nombre": "Pan Con Semillas Oroweat 600 Gr",
+      "marca": "OROWEAT",
+      "precio": "$6.400",
+      "precioRegular": "Precio regular: $10.666,67 x kg"
+    },
+    {
+      "nombre": "Pan Integral Artesano Bimbo 500 Gr",
+      "marca": "ARTESANO",
+      "precio": "$5.750",
+      "precioRegular": "Precio regular: $11.500 x kg"
+    },
+    {
+      "nombre": "Pan Mix De Cereales Fargo 400 Gr",
+      "marca": "FARGO",
+      "precio": "$3.600",
+      "precioRegular": "Precio regular: $9.000 x kg"
+    },
+    {
+      "nombre": "Pan Salvado Plus Fargo 600 Gr",
+      "marca": "FARGO",
+      "precio": "$4.700",
+      "precioRegular": "Precio regular: $7.833,33 x kg"
+    },
+    {
+      "nombre": "Pan Con Cereales Oroweat 600 Gr",
+      "marca": "OROWEAT",
+      "precio": "$6.400",
+      "precioRegular": "Precio regular: $10.666,67 x kg"
+    },
+    {
+      "nombre": "Pan Multigrano X 1 U",
+      "marca": "FRESH MP",
+      "precio": "$2.699",
+      "precioRegular": "Precio regular: $2.699 x un"
+    },
+    {
+      "nombre": "Pan De Semillas Bimbo Artesano 500 Gr",
+      "marca": "ARTESANO",
+      "precio": "$5.750",
+      "precioRegular": "Precio regular: $11.500 x kg"
+    },
+    {
+      "nombre": "Pan Blanco Bimbo 400 Gr",
+      "marca": "BIMBO",
+      "precio": "$3.250",
+      "precioRegular": "Precio regular: $8.125 x kg"
+    },
+    {
+      "nombre": "Pan Integral Cero-cero Bimbo 350 Gr",
+      "marca": "BIMBO",
+      "precio": "$4.200",
+      "precioRegular": "Precio regular: $12.000 x kg"
+    },
+    {
+      "nombre": "Pan Blanco Lacteado Fargo 330 Gr",
+      "marca": "FARGO",
+      "precio": "$2.950",
+      "precioRegular": "Precio regular: $8.939,39 x kg"
+    },
+    {
+      "nombre": "Pan Lacteado Fargo 380 Gr",
+      "marca": "FARGO",
+      "precio": "$2.950",
+      "precioRegular": "Precio regular: $7.662,34 x kg"
+    },
+    {
+      "nombre": "Pan Kaiser (m) 1 Un",
+      "marca": "FRESH MP",
+      "precio": "$349",
+      "precioRegular": "Precio regular: $349 x un"
+    },
+    {
+      "nombre": "Pan De Mesa Tradicional La Perla 330 Gr",
+      "marca": "LA PERLA",
+      "precio": "$1.950",
+      "precioRegular": "Precio regular: $5.909,09 x kg"
+    },
+    {
+      "nombre": "Pan Pannini",
+      "marca": "FRESH MP",
+      "precio": "$859",
+      "precioRegular": "Precio regular: $859 x un"
+    },
+    {
+      "nombre": "Pan Lacteado Doña Noly 360 Gr",
+      "marca": "DOÑA NOLY",
+      "precio": "$1.750",
+      "precioRegular": "Precio regular: $4.861,11 x kg"
+    },
+    {
+      "nombre": "Pan Fargo Salvado Plus 350 Gr",
+      "marca": "FARGO",
+      "precio": "$3.400",
+      "precioRegular": "Precio regular: $9.714,29 x kg"
+    },
+    {
+      "nombre": "Pan Multicereal La Perla 360 Gr",
+      "marca": "LA PERLA",
+      "precio": "$2.650",
+      "precioRegular": "Precio regular: $7.361,11 x kg"
+    },
+    {
+      "nombre": "Pan Blanco Bimbo Cero Cero 385g",
+      "marca": "BIMBO",
+      "precio": "$3.600",
+      "precioRegular": "Precio regular: $9.350,65 x kg"
+    },
+    {
+      "nombre": "Pan Multicereal Chico 390 Gr",
+      "marca": "FRESH MP",
+      "precio": "$2.699",
+      "precioRegular": "Precio regular: $6.920,51 x kg"
+    },
+    {
+      "nombre": "Pan Con Lino Bimbo 380 Gr",
+      "marca": "BIMBO",
+      "precio": "$3.900",
+      "precioRegular": "Precio regular: $10.129,87 x kg"
+    },
+    {
+      "nombre": "Pan Blanco Schar X200gr",
+      "marca": "SCHAR",
+      "precio": "$3.800",
+      "precioRegular": "Precio regular: $19.000 x kg"
+    },
+    {
+      "nombre": "Pan Lactal Artesanal 530 Gr",
+      "marca": "FRESH MP",
+      "precio": "$3.699",
+      "precioRegular": "Precio regular: $6.979,25 x kg"
+    },
+    {
+      "nombre": "Pan Altamura",
+      "marca": "SIN MARCA",
+      "precio": "$1.899",
+      "precioRegular": "Precio regular: $1.899 x un"
+    },
+    {
+      "nombre": "Pan Integral Multicereal Schar X200gr",
+      "marca": "SCHAR",
+      "precio": "$4.200",
+      "precioRegular": "Precio regular: $21.000 x kg"
+    },
+    {
+      "nombre": "Pan Lomitero (m)",
+      "marca": "FRESH MP",
+      "precio": "$869",
+      "precioRegular": "Precio regular: $869 x un"
+    },
+    {
+      "nombre": "Pan De Campo Con Centeno Y Semillas X U",
+      "marca": "FRESH MP",
+      "precio": "$890,99",
+      "precioRegular": "Precio regular: $890,99 x un"
+    },
+    {
+      "nombre": "Pan Molde Blanco",
+      "marca": "FRESH MP",
+      "precio": "$2.399",
+      "precioRegular": "Precio regular: $6.663,89 x kg"
+    },
+    {
+      "nombre": "Pan Triple Salvado Doña Noly 540 Gr",
+      "marca": "DOÑA NOLY",
+      "precio": "$2.900",
+      "precioRegular": "Precio regular: $5.370,37 x kg"
+    },
+    {
+      "nombre": "Pan Para Pancho 1 U",
+      "marca": "FRESH MP",
+      "precio": "$699",
+      "precioRegular": "Precio regular: $699 x un"
+    },
+    {
+      "nombre": "Pan Pebete Schar 150 Gr",
+      "marca": "SCHAR",
+      "precio": "$5.100",
+      "precioRegular": "Precio regular: $32.075,47 x kg"
+    },
+    {
+      "nombre": "Pan Bavaria X 500 Gr",
+      "marca": "FRESH MP",
+      "precio": "$6.999",
+      "precioRegular": "Precio regular: $6.999 x un"
+    },
+    {
+      "nombre": "Pan Estrella",
+      "marca": "FRESH MP",
+      "precio": "$4.899",
+      "precioRegular": "Precio regular: $4.899 x un"
+    },
+    {
+      "nombre": "Pan Para Chips",
+      "marca": "FRESH MP",
+      "precio": "$1.199",
+      "precioRegular": "Precio regular: $1.199 x un"
+    },
+    {
+      "nombre": "Pan De Hamburguesa Artesano Bimbo 4 U",
+      "marca": "BIMBO",
+      "precio": "$2.400",
+      "precioRegular": "Precio regular: $10.000 x kg"
+    },
+    {
+      "nombre": "Pan Para Hamburguesa Con Sésamo Bimbo 4 U",
+      "marca": "BIMBO",
+      "precio": "$2.000",
+      "precioRegular": "Precio regular: $9.523,81 x kg"
+    },
+    {
+      "nombre": "Pan Para Hamburguesa La Perla 210 Gr",
+      "marca": "LA PERLA",
+      "precio": "$1.350",
+      "precioRegular": "Precio regular: $6.428,57 x kg"
+    },
+    {
+      "nombre": "Pan Para Panchos La Perla 220 Gr",
+      "marca": "LA PERLA",
+      "precio": "$1.350",
+      "precioRegular": "Precio regular: $6.136,36 x kg"
+    },
+    {
+      "nombre": "Pan De Panchos Bimbo Artesano 6 U",
+      "marca": "ARTESANO",
+      "precio": "$2.400",
+      "precioRegular": "Precio regular: $10.000 x kg"
+    },
+    {
+      "nombre": "Pan Brioche De Hamburguesa Artesano Bimbo 4 Un",
+      "marca": "BIMBO",
+      "precio": "$2.750",
+      "precioRegular": "Precio regular: $11.458,33 x kg"
+    },
+    {
+      "nombre": "Pan De Pancho Lactal 210 Gr",
+      "marca": "LACTAL",
+      "precio": "$1.400",
+      "precioRegular": "Precio regular: $6.666,67 x kg"
+    },
+    {
+      "nombre": "Pan Para Pancho Bimbo X 6u",
+      "marca": "BIMBO",
+      "precio": "$2.000",
+      "precioRegular": "Precio regular: $9.523,81 x kg"
+    },
+    {
+      "nombre": "Pan Para Panchos La Perla Super 6 U 350 Gr - 1 Paquete",
+      "marca": "LA PERLA",
+      "precio": "$2.700",
+      "precioRegular": "Precio regular: $7.714,29 x kg"
+    },
+    {
+      "nombre": "Pan Para Superpancho Fargo 390 Gr",
+      "marca": "FARGO",
+      "precio": "$3.000",
+      "precioRegular": "Precio regular: $7.692,31 x kg"
+    },
+    {
+      "nombre": "Pan De Hamburguesas Con Queso Gratinado Rey Oro 300 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$1.204",
+      "precioRegular": "Precio regular: $4.013,33 x kg"
+    },
+    {
+      "nombre": "Pan De Panchos Kansas X 6 Unidades  330 Gr",
+      "marca": "KANSAS",
+      "precio": "$1.742,39",
+      "precioRegular": "Precio regular: $5.807,97 x kg"
+    },
+    {
+      "nombre": "Pan Pebete Rey Oro 200g",
+      "marca": "SIN MARCA",
+      "precio": "$1.063",
+      "precioRegular": "Precio regular: $5.315 x kg"
+    },
+    {
+      "nombre": "Pan Rallado Fortificado Preferido 1 Kg",
+      "marca": "PREFERIDO",
+      "precio": "$2.550",
+      "precioRegular": "Precio regular: $2.550 x kg"
+    },
+    {
+      "nombre": "Pan Rallado Fortificado Preferido 500 Gr",
+      "marca": "PREFERIDO",
+      "precio": "$1.350",
+      "precioRegular": "Precio regular: $2.700 x kg"
+    },
+    {
+      "nombre": "Pan Rallado Mama Cocina X 500gr",
+      "marca": "MAMA COCINA",
+      "precio": "$1.100",
+      "precioRegular": "Precio regular: $2.200 x kg"
+    },
+    {
+      "nombre": "Rebozador Mama Cocina Para Freir X 1kg",
+      "marca": "MAMA COCINA",
+      "precio": "$2.000",
+      "precioRegular": "Precio regular: $2.000 x kg"
+    },
+    {
+      "nombre": "Rebozador Preferido Fortificado X1kg",
+      "marca": "PREFERIDO",
+      "precio": "$2.550",
+      "precioRegular": "Precio regular: $2.550 x kg"
+    },
+    {
+      "nombre": "Rebozador Preferido Fortificado 500g",
+      "marca": "PREFERIDO",
+      "precio": "$1.350",
+      "precioRegular": "Precio regular: $2.700 x kg"
+    },
+    {
+      "nombre": "Pan Rall Preferido Ajo Y Perej Fortificado X500g",
+      "marca": "PREFERIDO",
+      "precio": "$1.600",
+      "precioRegular": "Precio regular: $3.200 x kg"
+    },
+    {
+      "nombre": "Rebozador Preferido Crunch Fortificado X450g",
+      "marca": "PREFERIDO",
+      "precio": "$2.160",
+      "precioRegular": "Precio regular: $4.800 x kg"
+    },
+    {
+      "nombre": "Rebozador Jumbo 1 Kg",
+      "marca": "JUMBO MP",
+      "precio": "$1.400",
+      "precioRegular": "Precio regular: $1.400 x kg"
+    },
+    {
+      "nombre": "Rebozador Mama Cocina Para Freir X 500gr",
+      "marca": "MAMA COCINA",
+      "precio": "$1.050",
+      "precioRegular": "Precio regular: $2.100 x kg"
+    },
+    {
+      "nombre": "Rebozador Mama Cocina Para Horno X 1kg",
+      "marca": "MAMA COCINA",
+      "precio": "$2.500",
+      "precioRegular": "Precio regular: $2.500 x kg"
+    },
+    {
+      "nombre": "Rebozador Preferido Horno Fortificado X500g",
+      "marca": "PREFERIDO",
+      "precio": "$1.600",
+      "precioRegular": "Precio regular: $3.200 x kg"
+    },
+    {
+      "nombre": "Rebozador Preferido Horno Fort X1kg",
+      "marca": "PREFERIDO",
+      "precio": "$3.050",
+      "precioRegular": "Precio regular: $3.050 x kg"
+    },
+    {
+      "nombre": "Rebozador Tipo Panko Mama Cocina 400 Gr",
+      "marca": "MAMA COCINA",
+      "precio": "$2.200",
+      "precioRegular": "Precio regular: $5.500 x kg"
+    },
+    {
+      "nombre": "Rebozador Mama Cocina Para Horno X 500gr",
+      "marca": "MAMA COCINA",
+      "precio": "$1.350",
+      "precioRegular": "Precio regular: $2.700 x kg"
+    },
+    {
+      "nombre": "Pan Rallado Pureza Integral X 350 Gr",
+      "marca": "PUREZA",
+      "precio": "$1.250",
+      "precioRegular": "Precio regular: $3.571,43 x kg"
+    },
+    {
+      "nombre": "Pan Rallado Lucchetti X500 Gr",
+      "marca": "LUCCHETTI",
+      "precio": "$1.150",
+      "precioRegular": "Precio regular: $2.300 x kg"
+    },
+    {
+      "nombre": "Rebozador Preferido Crunch Fortificado 900g",
+      "marca": "PREFERIDO",
+      "precio": "$5.150",
+      "precioRegular": "Precio regular: $5.722,22 x kg"
+    }
+  ]
+}

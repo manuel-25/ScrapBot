@@ -1,0 +1,1058 @@
+{
+  "time_spent": "1 minutos y 45 segundos",
+  "date": "2024-04-15T20:26:23.054Z",
+  "url": "https://www.jumbo.com.ar/cerveza?_q=cerveza&map=ft",
+  "totalProducts": 175,
+  "data": [
+    {
+      "nombre": "Cerveza Schneider Rubia 710 Ml",
+      "marca": "SCHNEIDER",
+      "precio": "$2.040",
+      "precioRegular": "Precio regular: $2.873,24 x lt"
+    },
+    {
+      "nombre": "Cerveza Heineken Retornable 1 L",
+      "marca": "HEINEKEN",
+      "precio": "$3.325",
+      "precioRegular": "Precio regular: $3.325 x lt"
+    },
+    {
+      "nombre": "Cerveza Corona No Retornable 330 Ml",
+      "marca": "CORONA",
+      "precio": "$1.714",
+      "precioRegular": "Precio regular: $5.193,94 x lt"
+    },
+    {
+      "nombre": "Cerveza Andes Origen Rubia 473 Ml X 6 Un",
+      "marca": "ANDES",
+      "precio": "$9.594",
+      "precioRegular": "Precio regular: $1599 x un"
+    },
+    {
+      "nombre": "Cerveza Imperial Golden 1 L",
+      "marca": "IMPERIAL",
+      "precio": "$2.670",
+      "precioRegular": "Precio regular: $2.670 x lt"
+    },
+    {
+      "nombre": "Cerveza Imperial Ipa 473 Ml",
+      "marca": "IMPERIAL",
+      "precio": "$1.600",
+      "precioRegular": "Precio regular: $3.382,66 x lt"
+    },
+    {
+      "nombre": "Cerveza Corona 710 Ml",
+      "marca": "CORONA",
+      "precio": "$3.474",
+      "precioRegular": "Precio regular: $4.892,96 x lt"
+    },
+    {
+      "nombre": "Cerveza Imperial Extra Lager Uar 473 Ml",
+      "marca": "IMPERIAL",
+      "precio": "$1.550",
+      "precioRegular": "Precio regular: $3.100 x lt"
+    },
+    {
+      "nombre": "Cerveza Quilmes Clásica Retornable 1 L",
+      "marca": "QUILMES",
+      "precio": "$2.380",
+      "precioRegular": "Precio regular: $2.380 x lt"
+    },
+    {
+      "nombre": "Cerveza Heineken 150 Años 473 Ml",
+      "marca": "HEINEKEN",
+      "precio": "$1.462,5",
+      "precioRegular": "Precio regular: $3.900 x lt"
+    },
+    {
+      "nombre": "Cerveza Andes Origen Ipa Andina 473 Ml X 6 Un",
+      "marca": "ANDES",
+      "precio": "$7.675,2",
+      "precioRegular": "Precio regular: $1599 x un"
+    },
+    {
+      "nombre": "Cerveza Brahma Dorada Retornable 1 L",
+      "marca": "BRAHMA",
+      "precio": "$2.022,15",
+      "precioRegular": "Precio regular: $2.379 x lt"
+    },
+    {
+      "nombre": "Cerveza Quilmes Ipa Retornable 1 L",
+      "marca": "QUILMES",
+      "precio": "$1.903,2",
+      "precioRegular": "Precio regular: $2.379 x lt"
+    },
+    {
+      "nombre": "Cerveza Schneider Afa 1lt Ret.",
+      "marca": "SCHNEIDER",
+      "precio": "$1.543,75",
+      "precioRegular": "Precio regular: $2.375 x lt"
+    },
+    {
+      "nombre": "Cerveza Grolsch 473 Ml",
+      "marca": "GROLSCH",
+      "precio": "$1.150",
+      "precioRegular": "Precio regular: $2.431,29 x lt"
+    },
+    {
+      "nombre": "Cerveza Heineken 150 Años 710 Ml",
+      "marca": "HEINEKEN",
+      "precio": "$2.310",
+      "precioRegular": "Precio regular: $6.160 x lt"
+    },
+    {
+      "nombre": "Cerveza Stella Artois 473 Cc Six Pack Sin Alcohol",
+      "marca": "STELLA ARTOIS",
+      "precio": "$7.462,5",
+      "precioRegular": "Precio regular: $3.505,99 x lt"
+    },
+    {
+      "nombre": "Cerveza Amstel Lager 710 Ml",
+      "marca": "AMSTEL",
+      "precio": "$1.250",
+      "precioRegular": "Precio regular: $2.500 x lt"
+    },
+    {
+      "nombre": "Cerveza Quilmes Doble Malta Retornable 1 L",
+      "marca": "QUILMES",
+      "precio": "$1.903,2",
+      "precioRegular": "Precio regular: $2.379 x lt"
+    },
+    {
+      "nombre": "Cerveza Imperial Rubia 1 L",
+      "marca": "IMPERIAL",
+      "precio": "$1.735,5",
+      "precioRegular": "Precio regular: $2.670 x lt"
+    },
+    {
+      "nombre": "Cerveza Imperial Golden 710 Ml",
+      "marca": "IMPERIAL",
+      "precio": "$1.644,5",
+      "precioRegular": "Precio regular: $3.563,38 x lt"
+    },
+    {
+      "nombre": "Cerveza Imperial Ipa Retornable 1 L",
+      "marca": "IMPERIAL",
+      "precio": "$1.800,5",
+      "precioRegular": "Precio regular: $2.770 x lt"
+    },
+    {
+      "nombre": "Cerveza Miller Lager Ed. 1lt",
+      "marca": "MILLER",
+      "precio": "$1.963",
+      "precioRegular": "Precio regular: $3.020 x lt"
+    },
+    {
+      "nombre": "Cerveza Grolsch Retornable 925 Ml",
+      "marca": "GROLSCH",
+      "precio": "$2.161,25",
+      "precioRegular": "Precio regular: $3.594,59 x lt"
+    },
+    {
+      "nombre": "Cerveza Schneider Rubia Afa 473 Ml",
+      "marca": "SCHNEIDER",
+      "precio": "$895,7",
+      "precioRegular": "Precio regular: $2.913,32 x lt"
+    },
+    {
+      "nombre": "Cerveza Stella Artois 710 Ml X 4 Un",
+      "marca": "STELLA ARTOIS",
+      "precio": "$9.137,25",
+      "precioRegular": "Precio regular: $4.289,79 x lt"
+    },
+    {
+      "nombre": "Cerveza Imperial Rubia 710 Ml",
+      "marca": "IMPERIAL",
+      "precio": "$1.644,5",
+      "precioRegular": "Precio regular: $3.563,38 x lt"
+    },
+    {
+      "nombre": "Cerveza Quilmes Ipa 473 Ml X 6 Un",
+      "marca": "QUILMES",
+      "precio": "$7.038,85",
+      "precioRegular": "Precio regular: $2.917,9 x lt"
+    },
+    {
+      "nombre": "Cerveza Corona 410 Ml X 6 Un",
+      "marca": "CORONA",
+      "precio": "$9.521,25",
+      "precioRegular": "Precio regular: $5.160,57 x lt"
+    },
+    {
+      "nombre": "Cerveza Imperial Golden Ligera 473cc",
+      "marca": "IMPERIAL",
+      "precio": "$1.007,5",
+      "precioRegular": "Precio regular: $3.276,96 x lt"
+    },
+    {
+      "nombre": "Cerveza Andes Origen Rubia Retornable 1 L",
+      "marca": "ANDES",
+      "precio": "$2.169,6",
+      "precioRegular": "Precio regular: $2.712 x lt"
+    },
+    {
+      "nombre": "Cerveza Andes Origen Roja Botella Retornable 340mlx1",
+      "marca": "ANDES",
+      "precio": "$564",
+      "precioRegular": "Precio regular: $2.073,53 x lt"
+    },
+    {
+      "nombre": "Cerveza Warsteiner Retornable 1 L",
+      "marca": "WARSTEINER",
+      "precio": "$3.140",
+      "precioRegular": "Precio regular: $3.140 x lt"
+    },
+    {
+      "nombre": "Cerveza Andes Origen Ipa Andina Retornable 1 L",
+      "marca": "ANDES",
+      "precio": "$2.712",
+      "precioRegular": "Precio regular: $2.712 x lt"
+    },
+    {
+      "nombre": "Cerveza Imperial Apa 473 Ml",
+      "marca": "IMPERIAL",
+      "precio": "$1.040",
+      "precioRegular": "Precio regular: $3.382,66 x lt"
+    },
+    {
+      "nombre": "Cerveza Brahma Chopp Botella Retornable 1ltx1",
+      "marca": "BRAHMA",
+      "precio": "$1.750",
+      "precioRegular": "Precio regular: $1.750 x lt"
+    },
+    {
+      "nombre": "Cerveza Quilmes 0.0473 Ml X 6 Un",
+      "marca": "QUILMES",
+      "precio": "$6.142,1",
+      "precioRegular": "Precio regular: $1204,33 x un"
+    },
+    {
+      "nombre": "Cerveza Andes Origen Fresquita 473 Ml X 4 Un",
+      "marca": "ANDES",
+      "precio": "$5.116,8",
+      "precioRegular": "Precio regular: $2.253,7 x lt"
+    },
+    {
+      "nombre": "Cerveza Quilmes Clásica Lata 473mlx6",
+      "marca": "QUILMES",
+      "precio": "$7.452,9",
+      "precioRegular": "Precio regular: $1380,17 x un"
+    },
+    {
+      "nombre": "Cerveza Stella Artois Vinage Rubia 473cc Sixpa",
+      "marca": "STELLA ARTOIS",
+      "precio": "$9.365,6",
+      "precioRegular": "Precio regular: $4.125,09 x lt"
+    },
+    {
+      "nombre": "Cerveza Heineken Cero 355 Ml",
+      "marca": "HEINEKEN",
+      "precio": "$882",
+      "precioRegular": "Precio regular: $4.140,85 x lt"
+    },
+    {
+      "nombre": "Cerveza Andes Origen Roja Botella Retornable 1ltx1",
+      "marca": "ANDES",
+      "precio": "$2.169,6",
+      "precioRegular": "Precio regular: $2.712 x lt"
+    },
+    {
+      "nombre": "Cerveza Brahma Chopp Botella Retornable 340mlx1",
+      "marca": "BRAHMA",
+      "precio": "$705",
+      "precioRegular": "Precio regular: $2.073,53 x lt"
+    },
+    {
+      "nombre": "Cerveza Imperial Roja 473 Ml",
+      "marca": "IMPERIAL",
+      "precio": "$1.040",
+      "precioRegular": "Precio regular: $3.382,66 x lt"
+    },
+    {
+      "nombre": "Cerveza Miller Ed. 330cc",
+      "marca": "MILLER",
+      "precio": "$910",
+      "precioRegular": "Precio regular: $4.242,42 x lt"
+    },
+    {
+      "nombre": "Cerveza Antares Ipa 473 Ml",
+      "marca": "ANTARES",
+      "precio": "$1.755",
+      "precioRegular": "Precio regular: $5.708,25 x lt"
+    },
+    {
+      "nombre": "Cerveza Imperial Apa 1 L",
+      "marca": "IMPERIAL",
+      "precio": "$1.800,5",
+      "precioRegular": "Precio regular: $2.770 x lt"
+    },
+    {
+      "nombre": "Cerveza Stella Artois Blanche 473 Ml X 6 Un",
+      "marca": "STELLA ARTOIS",
+      "precio": "$8.780,25",
+      "precioRegular": "Precio regular: $4.125,09 x lt"
+    },
+    {
+      "nombre": "Cerveza Budweiser 710 Ml X 4 Un",
+      "marca": "BUDWEISER",
+      "precio": "$6.709,5",
+      "precioRegular": "Precio regular: $3.150 x lt"
+    },
+    {
+      "nombre": "Cerveza Andes Origen Negra 473 Ml X 6 Un",
+      "marca": "ANDES",
+      "precio": "$9.594",
+      "precioRegular": "Precio regular: $1599 x un"
+    },
+    {
+      "nombre": "Cerveza Warsteiner Edición Limitada 473 Ml",
+      "marca": "WARSTEINER",
+      "precio": "$1.820",
+      "precioRegular": "Precio regular: $3.847,78 x lt"
+    },
+    {
+      "nombre": "Cerveza Pampa Brewing Honey 473 Ml",
+      "marca": "PAMPA BREWING",
+      "precio": "$1.072,5",
+      "precioRegular": "Precio regular: $3.488,37 x lt"
+    },
+    {
+      "nombre": "Cerveza Amstel Lager Lata 473cc",
+      "marca": "AMSTEL",
+      "precio": "$1.246,05",
+      "precioRegular": "Precio regular: $2.634,36 x lt"
+    },
+    {
+      "nombre": "Cerveza Andes Origen Ipa Roja 473 Ml X 6 Un",
+      "marca": "ANDES",
+      "precio": "$7.675,2",
+      "precioRegular": "Precio regular: $1599 x un"
+    },
+    {
+      "nombre": "Cerveza Quilmes Doble Malta 473 Ml X 6 Un",
+      "marca": "QUILMES",
+      "precio": "$6.624,8",
+      "precioRegular": "Precio regular: $2.917,9 x lt"
+    },
+    {
+      "nombre": "Cerveza Andes Origen Fresquita Retornable 1 L",
+      "marca": "ANDES",
+      "precio": "$2.169,6",
+      "precioRegular": "Precio regular: $2.712 x lt"
+    },
+    {
+      "nombre": "Cerveza Quilmes Clásica Retornable 340 Ml",
+      "marca": "QUILMES",
+      "precio": "$705",
+      "precioRegular": "Precio regular: $2.073,53 x lt"
+    },
+    {
+      "nombre": "Cerveza Patagonia Amber Lager 473 Ml X 6 Un",
+      "marca": "PATAGONIA",
+      "precio": "$9.851,25",
+      "precioRegular": "Precio regular: $2189,17 x un"
+    },
+    {
+      "nombre": "Cerveza Antares Caravana 473 Ml",
+      "marca": "ANTARES",
+      "precio": "$1.755",
+      "precioRegular": "Precio regular: $5.708,25 x lt"
+    },
+    {
+      "nombre": "Cerveza Miller 710 Ml",
+      "marca": "MILLER",
+      "precio": "$1.820",
+      "precioRegular": "Precio regular: $3.943,66 x lt"
+    },
+    {
+      "nombre": "Cerveza Pampa Brewing Golden Ale 473 Ml",
+      "marca": "PAMPA BREWING",
+      "precio": "$1.072,5",
+      "precioRegular": "Precio regular: $3.488,37 x lt"
+    },
+    {
+      "nombre": "Cerveza Guinness Extra Stout 473 Ml",
+      "marca": "GUINNESS",
+      "precio": "$1.690",
+      "precioRegular": "Precio regular: $5.496,83 x lt"
+    },
+    {
+      "nombre": "Cerveza Miller 473 Ml",
+      "marca": "MILLER",
+      "precio": "$1.144",
+      "precioRegular": "Precio regular: $3.720,93 x lt"
+    },
+    {
+      "nombre": "Cerveza Pampa Brewing Amber Ale 473 Ml",
+      "marca": "PAMPA BREWING",
+      "precio": "$1.072,5",
+      "precioRegular": "Precio regular: $3.488,37 x lt"
+    },
+    {
+      "nombre": "Cerveza Pampa Brewing Cream Stout 473 Ml",
+      "marca": "PAMPA BREWING",
+      "precio": "$1.072,5",
+      "precioRegular": "Precio regular: $3.488,37 x lt"
+    },
+    {
+      "nombre": "Cerveza Patagonia 24.7 473 Ml X 6 Un",
+      "marca": "PATAGONIA",
+      "precio": "$9.851,25",
+      "precioRegular": "Precio regular: $2189,17 x un"
+    },
+    {
+      "nombre": "Cerveza Temple Wolf Ipa 473 Ml X 6 Un",
+      "marca": "TEMPLE",
+      "precio": "$8.537,75",
+      "precioRegular": "Precio regular: $2189,17 x un"
+    },
+    {
+      "nombre": "Cerveza Blue Moon 473 Ml",
+      "marca": "BLUE MOON",
+      "precio": "$1.320",
+      "precioRegular": "Precio regular: $4.651,16 x lt"
+    },
+    {
+      "nombre": "Cerveza Patagonia 24.7 730 Ml",
+      "marca": "PATAGONIA",
+      "precio": "$2.498,25",
+      "precioRegular": "Precio regular: $4.563,01 x lt"
+    },
+    {
+      "nombre": "Cerveza Imperial Golden 0.0355cc",
+      "marca": "IMPERIAL",
+      "precio": "$699",
+      "precioRegular": "Precio regular: $3.281,69 x lt"
+    },
+    {
+      "nombre": "Cerveza Patagonia Amber Lager 730 Ml",
+      "marca": "PATAGONIA",
+      "precio": "$3.331",
+      "precioRegular": "Precio regular: $4.563,01 x lt"
+    },
+    {
+      "nombre": "Cerveza Sol Rubia 330 Ml",
+      "marca": "SOL",
+      "precio": "$975",
+      "precioRegular": "Precio regular: $4.545,45 x lt"
+    },
+    {
+      "nombre": "Cerveza Patagonia Vera Ipa 730 Ml",
+      "marca": "PATAGONIA",
+      "precio": "$2.498,25",
+      "precioRegular": "Precio regular: $4.563,01 x lt"
+    },
+    {
+      "nombre": "Cerveza Patagonia Vera Ipa 473 Ml X 6 Un",
+      "marca": "PATAGONIA",
+      "precio": "$13.135",
+      "precioRegular": "Precio regular: $2189,17 x un"
+    },
+    {
+      "nombre": "Cerveza Antares Honey 473 Ml",
+      "marca": "ANTARES",
+      "precio": "$1.755",
+      "precioRegular": "Precio regular: $5.708,25 x lt"
+    },
+    {
+      "nombre": "Cerveza Brahma Dorada 473 Ml X 6 Un",
+      "marca": "BRAHMA",
+      "precio": "$7.452,9",
+      "precioRegular": "Precio regular: $2.917,9 x lt"
+    },
+    {
+      "nombre": "Cerveza Blue Moon 355 Ml",
+      "marca": "BLUE MOON",
+      "precio": "$1.680",
+      "precioRegular": "Precio regular: $7.887,32 x lt"
+    },
+    {
+      "nombre": "Cerveza Amstel Lager 473cc",
+      "marca": "AMSTEL",
+      "precio": "$1.065",
+      "precioRegular": "Precio regular: $3.002,11 x lt"
+    },
+    {
+      "nombre": "Cerveza Patagonia Amber Lager Botella Retornable 1ltx1",
+      "marca": "PATAGONIA",
+      "precio": "$2.640,75",
+      "precioRegular": "Precio regular: $3.521 x lt"
+    },
+    {
+      "nombre": "Cerveza Goose Island Ipa 473 Ml X 6 Un",
+      "marca": "GOOSE ISLAND",
+      "precio": "$8.594,6",
+      "precioRegular": "Precio regular: $2046,33 x un"
+    },
+    {
+      "nombre": "Cerveza Heineken 473 Ml",
+      "marca": "HEINEKEN",
+      "precio": "$1.462,5",
+      "precioRegular": "Precio regular: $4.122,62 x lt"
+    },
+    {
+      "nombre": "Cerveza Peñon Del águila Negra 473 Ml",
+      "marca": "PEÑON DEL AGUILA",
+      "precio": "$1.365",
+      "precioRegular": "Precio regular: $4.439,75 x lt"
+    },
+    {
+      "nombre": "Cerveza Antares Kolsch 473 Ml",
+      "marca": "ANTARES",
+      "precio": "$1.625",
+      "precioRegular": "Precio regular: $5.285,41 x lt"
+    },
+    {
+      "nombre": "Cerveza Pampa Brewing Ipa 473 Ml",
+      "marca": "PAMPA BREWING",
+      "precio": "$1.300",
+      "precioRegular": "Precio regular: $4.228,33 x lt"
+    },
+    {
+      "nombre": "Cerveza Patagonia Weisse 730 Ml",
+      "marca": "PATAGONIA",
+      "precio": "$3.331",
+      "precioRegular": "Precio regular: $4.563,01 x lt"
+    },
+    {
+      "nombre": "Cerveza Imperial Roja 0.0% 355cc",
+      "marca": "IMPERIAL",
+      "precio": "$699",
+      "precioRegular": "Precio regular: $3.281,69 x lt"
+    },
+    {
+      "nombre": "Cerveza Rubia Patagonia Bohemian Pilsener 730 Ml",
+      "marca": "PATAGONIA",
+      "precio": "$2.498,25",
+      "precioRegular": "Precio regular: $4.501,35 x lt"
+    },
+    {
+      "nombre": "Cerveza Bierhaus Ipa 473 Ml",
+      "marca": "BIERHAUS",
+      "precio": "$1.820",
+      "precioRegular": "Precio regular: $5.919,66 x lt"
+    },
+    {
+      "nombre": "Cerveza Patagonia Bohemian Pilsener 473 Ml X 6 Un",
+      "marca": "PATAGONIA",
+      "precio": "$13.135",
+      "precioRegular": "Precio regular: $2189,17 x un"
+    },
+    {
+      "nombre": "Cerveza Stella Artois Botella Retornable 975mlx1",
+      "marca": "STELLA ARTOIS",
+      "precio": "$2.664,8",
+      "precioRegular": "Precio regular: $3.416,41 x lt"
+    },
+    {
+      "nombre": "Cerveza Antares Ipa 25 Años 473 Ml",
+      "marca": "ANTARES",
+      "precio": "$2.340",
+      "precioRegular": "Precio regular: $7.610,99 x lt"
+    },
+    {
+      "nombre": "Cerveza Bieckert Bapa 473 Ml",
+      "marca": "BIECKERT",
+      "precio": "$1.140",
+      "precioRegular": "Precio regular: $3.800 x lt"
+    },
+    {
+      "nombre": "Cerveza Rabieta  Red Honey 473 Ml",
+      "marca": "RABIETA",
+      "precio": "$1.300",
+      "precioRegular": "Precio regular: $4.228,33 x lt"
+    },
+    {
+      "nombre": "Cerveza Antares Playa Grande 473 Ml",
+      "marca": "ANTARES",
+      "precio": "$1.755",
+      "precioRegular": "Precio regular: $5.708,25 x lt"
+    },
+    {
+      "nombre": "Cerveza Salta Cautiva Rubia 1 L",
+      "marca": "SALTA",
+      "precio": "$1.735,5",
+      "precioRegular": "Precio regular: $2.670 x lt"
+    },
+    {
+      "nombre": "Cerveza Kunstmann Ipa Session 470cc",
+      "marca": "KUNSTMANN",
+      "precio": "$1.539,6",
+      "precioRegular": "Precio regular: $5.459,57 x lt"
+    },
+    {
+      "nombre": "Cerveza Peñon Del águila Roja 473 Ml",
+      "marca": "PEÑON DEL AGUILA",
+      "precio": "$1.365",
+      "precioRegular": "Precio regular: $4.439,75 x lt"
+    },
+    {
+      "nombre": "Cerveza Antares Scotch 473 Ml",
+      "marca": "ANTARES",
+      "precio": "$1.625",
+      "precioRegular": "Precio regular: $5.285,41 x lt"
+    },
+    {
+      "nombre": "Cerveza Temple Scottish 473 Ml X 6 Un",
+      "marca": "TEMPLE",
+      "precio": "$8.537,75",
+      "precioRegular": "Precio regular: $2189,17 x un"
+    },
+    {
+      "nombre": "Cerveza Rabieta Red Irish Ale 473 Ml",
+      "marca": "RABIETA",
+      "precio": "$1.300",
+      "precioRegular": "Precio regular: $4.228,33 x lt"
+    },
+    {
+      "nombre": "Cerveza Temple Honey 473 Ml X 6 Un",
+      "marca": "TEMPLE",
+      "precio": "$8.537,75",
+      "precioRegular": "Precio regular: $2189,17 x un"
+    },
+    {
+      "nombre": "Cerveza Grolsch Ipa  473 Ml",
+      "marca": "GROLSCH",
+      "precio": "$1.267,5",
+      "precioRegular": "Precio regular: $4.122,62 x lt"
+    },
+    {
+      "nombre": "Cerveza Schneider 473 Ml",
+      "marca": "SCHNEIDER",
+      "precio": "$895,7",
+      "precioRegular": "Precio regular: $2.913,32 x lt"
+    },
+    {
+      "nombre": "Cerveza Rabieta American Ipa 473 Ml",
+      "marca": "RABIETA",
+      "precio": "$1.690",
+      "precioRegular": "Precio regular: $5.496,83 x lt"
+    },
+    {
+      "nombre": "Cerveza Miller 1lt Retornable",
+      "marca": "MILLER",
+      "precio": "$1.963",
+      "precioRegular": "Precio regular: $3.020 x lt"
+    },
+    {
+      "nombre": "Cerveza Rabieta Golden Ale 473 Ml",
+      "marca": "RABIETA",
+      "precio": "$1.300",
+      "precioRegular": "Precio regular: $4.228,33 x lt"
+    },
+    {
+      "nombre": "Cerveza Salta Cautiva Rubia 473 Ml",
+      "marca": "SALTA",
+      "precio": "$1.007,5",
+      "precioRegular": "Precio regular: $3.276,96 x lt"
+    },
+    {
+      "nombre": "Cerveza Peñon Del águila Rubia 473 Ml",
+      "marca": "PEÑON DEL AGUILA",
+      "precio": "$1.365",
+      "precioRegular": "Precio regular: $4.439,75 x lt"
+    },
+    {
+      "nombre": "Cerveza Patagonia Lager Coco 355cc",
+      "marca": "PATAGONIA",
+      "precio": "$1.641,75",
+      "precioRegular": "Precio regular: $6.166,2 x lt"
+    },
+    {
+      "nombre": "Cerveza Chachingo Botanic Lager 740 Ml",
+      "marca": "CHACHINGO",
+      "precio": "$2.668,8",
+      "precioRegular": "Precio regular: $6.010,81 x lt"
+    },
+    {
+      "nombre": "Cerveza Salta Cautiva Roja Retornable 1 L",
+      "marca": "SALTA",
+      "precio": "$1.735,5",
+      "precioRegular": "Precio regular: $2.670 x lt"
+    },
+    {
+      "nombre": "Cerveza Goose Island Lager 473 Ml X 6 Un",
+      "marca": "GOOSE ISLAND",
+      "precio": "$8.994,75",
+      "precioRegular": "Precio regular: $4.225,86 x lt"
+    },
+    {
+      "nombre": "Cerveza Andes Origen Rubia Lata 710 Ml X 4 Un",
+      "marca": "ANDES",
+      "precio": "$7.918,4",
+      "precioRegular": "Precio regular: $3.487,67 x lt"
+    },
+    {
+      "nombre": "Cerveza Salta Cautiva Roja 473 Ml",
+      "marca": "SALTA",
+      "precio": "$1.007,5",
+      "precioRegular": "Precio regular: $3.276,96 x lt"
+    },
+    {
+      "nombre": "Cerveza Salta Cautiva Retornable Blend 1 L",
+      "marca": "SALTA",
+      "precio": "$1.735,5",
+      "precioRegular": "Precio regular: $2.670 x lt"
+    },
+    {
+      "nombre": "Cerveza Brahma Dorada Botella No Retornable 710mlx1",
+      "marca": "BRAHMA",
+      "precio": "$2.001,6",
+      "precioRegular": "Precio regular: $2.224 x un"
+    },
+    {
+      "nombre": "Cerveza Peñon Del Aguila Waldbier 473 Ml",
+      "marca": "PEÑON DEL AGUILA",
+      "precio": "$1.430",
+      "precioRegular": "Precio regular: $4.651,16 x lt"
+    },
+    {
+      "nombre": "Cerveza Bieckert Costanerasur  473 Ml",
+      "marca": "BIECKERT",
+      "precio": "$1.140",
+      "precioRegular": "Precio regular: $4.016,91 x lt"
+    },
+    {
+      "nombre": "Cerveza Peñon Del águila Miel 473 Ml",
+      "marca": "PEÑON DEL AGUILA",
+      "precio": "$1.365",
+      "precioRegular": "Precio regular: $4.439,75 x lt"
+    },
+    {
+      "nombre": "Cerveza Salta Cautiva Session Ipa 473cc",
+      "marca": "SALTA",
+      "precio": "$980,77",
+      "precioRegular": "Precio regular: $3.190 x lt"
+    },
+    {
+      "nombre": "Cerveza Chachingo Grape Ale 740 Ml",
+      "marca": "CHACHINGO",
+      "precio": "$2.668,8",
+      "precioRegular": "Precio regular: $6.010,81 x lt"
+    },
+    {
+      "nombre": "Cerveza Peñon Del Aguila Abstemia 473 Ml",
+      "marca": "PEÑON DEL AGUILA",
+      "precio": "$1.625",
+      "precioRegular": "Precio regular: $5.285,41 x lt"
+    },
+    {
+      "nombre": "Cerveza Bierhaus Mex Lager 473 Ml",
+      "marca": "BIERHAUS",
+      "precio": "$1.430",
+      "precioRegular": "Precio regular: $4.651,16 x lt"
+    },
+    {
+      "nombre": "Cerveza Iguana 1lt Retornalbe",
+      "marca": "IGUANA",
+      "precio": "$2.120",
+      "precioRegular": "Precio regular: $2.120 x lt"
+    },
+    {
+      "nombre": "Cerveza Peñon Del Aguila Mexican Lager 473 Ml",
+      "marca": "PEÑON DEL AGUILA",
+      "precio": "$1.365",
+      "precioRegular": "Precio regular: $4.439,75 x lt"
+    },
+    {
+      "nombre": "Cerveza Patagonia Ipa 24.7 1lt Retornable.",
+      "marca": "PATAGONIA",
+      "precio": "$3.521",
+      "precioRegular": "Precio regular: $3.521 x lt"
+    },
+    {
+      "nombre": "Cerveza Goose Island Lager 710cc Fourpack",
+      "marca": "GOOSE ISLAND",
+      "precio": "$8.423,25",
+      "precioRegular": "Precio regular: $3.954,58 x lt"
+    },
+    {
+      "nombre": "Cerveza Stella Artois 710 Ml",
+      "marca": "STELLA ARTOIS",
+      "precio": "$2.083,2",
+      "precioRegular": "Precio regular: $3.667,61 x lt"
+    },
+    {
+      "nombre": "Cerveza Goose Island Lager Ow730cc",
+      "marca": "GOOSE ISLAND",
+      "precio": "$2.196,75",
+      "precioRegular": "Precio regular: $4.068,06 x lt"
+    },
+    {
+      "nombre": "Cerveza Temple Indie Golden 473 Ml X 6 Un",
+      "marca": "TEMPLE",
+      "precio": "$8.537,75",
+      "precioRegular": "Precio regular: $4.628,26 x lt"
+    },
+    {
+      "nombre": "Cerveza Sol Rubia 473 Ml",
+      "marca": "SOL",
+      "precio": "$1.950",
+      "precioRegular": "Precio regular: $4.122,62 x lt"
+    },
+    {
+      "nombre": "Cerveza Rabieta Red Ipa 473 Ml",
+      "marca": "RABIETA",
+      "precio": "$1.690",
+      "precioRegular": "Precio regular: $5.496,83 x lt"
+    },
+    {
+      "nombre": "Cerveza Bierhaus Scotch 473 Ml",
+      "marca": "BIERHAUS",
+      "precio": "$1.430",
+      "precioRegular": "Precio regular: $4.651,16 x lt"
+    },
+    {
+      "nombre": "Cerveza Rabieta Helles Munich 473 Ml",
+      "marca": "RABIETA",
+      "precio": "$1.300",
+      "precioRegular": "Precio regular: $4.228,33 x lt"
+    },
+    {
+      "nombre": "Cerveza Lit Light Lager 473 Ml",
+      "marca": "LIT",
+      "precio": "$1.105",
+      "precioRegular": "Precio regular: $3.594,08 x lt"
+    },
+    {
+      "nombre": "Cerveza Bierhaus Red Ipa 473 Ml",
+      "marca": "BIERHAUS",
+      "precio": "$1.820",
+      "precioRegular": "Precio regular: $5.919,66 x lt"
+    },
+    {
+      "nombre": "Cerveza Kunstmann Torobayo Roja 470 Ml",
+      "marca": "KUNSTMANN",
+      "precio": "$1.539,6",
+      "precioRegular": "Precio regular: $5.459,57 x lt"
+    },
+    {
+      "nombre": "Cerveza Rabieta Apa 473 Ml",
+      "marca": "RABIETA",
+      "precio": "$1.690",
+      "precioRegular": "Precio regular: $5.496,83 x lt"
+    },
+    {
+      "nombre": "Cerveza Bieckert Urbana Lata 473ml",
+      "marca": "BIECKERT",
+      "precio": "$1.140",
+      "precioRegular": "Precio regular: $3.800 x lt"
+    },
+    {
+      "nombre": "Cerveza Ortuzar Poker 473 Ml",
+      "marca": "ORTUZAR",
+      "precio": "$1.950",
+      "precioRegular": "Precio regular: $6.342,49 x lt"
+    },
+    {
+      "nombre": "Cerveza Bierhaus Honey 473 Ml",
+      "marca": "BIERHAUS",
+      "precio": "$1.430",
+      "precioRegular": "Precio regular: $4.651,16 x lt"
+    },
+    {
+      "nombre": "Cerveza Ortuzar Golden 473 Ml",
+      "marca": "ORTUZAR",
+      "precio": "$1.722,5",
+      "precioRegular": "Precio regular: $5.602,54 x lt"
+    },
+    {
+      "nombre": "Cerveza Ortuzar Ipa 473 Ml",
+      "marca": "ORTUZAR",
+      "precio": "$1.950",
+      "precioRegular": "Precio regular: $6.342,49 x lt"
+    },
+    {
+      "nombre": "Cerveza 27 Eazy Lata 473 Ml X 6 Un",
+      "marca": "27 EAZY",
+      "precio": "$8.040,5",
+      "precioRegular": "Precio regular: $4.358,7 x lt"
+    },
+    {
+      "nombre": "Cerveza Ortuzar Dubbel 473 Ml",
+      "marca": "ORTUZAR",
+      "precio": "$1.755",
+      "precioRegular": "Precio regular: $5.708,25 x lt"
+    },
+    {
+      "nombre": "Cerveza Ortuzar Scottish 473 Ml",
+      "marca": "ORTUZAR",
+      "precio": "$1.722,5",
+      "precioRegular": "Precio regular: $5.602,54 x lt"
+    },
+    {
+      "nombre": "Cerveza Ortuzar German Pils 473cc",
+      "marca": "ORTUZAR",
+      "precio": "$1.787,5",
+      "precioRegular": "Precio regular: $5.813,95 x lt"
+    },
+    {
+      "nombre": "Cerveza Cusqueña 330 Ml",
+      "marca": "CUSQUEÑA",
+      "precio": "$3.455",
+      "precioRegular": "Precio regular: $10.469,7 x lt"
+    },
+    {
+      "nombre": "Cerveza Cusqueña Oscura 330 Ml",
+      "marca": "CUSQUEÑA",
+      "precio": "$3.755",
+      "precioRegular": "Precio regular: $11.378,79 x lt"
+    },
+    {
+      "nombre": "Cerveza Ortuzar Porter 473cc",
+      "marca": "ORTUZAR",
+      "precio": "$1.787,5",
+      "precioRegular": "Precio regular: $5.813,95 x lt"
+    },
+    {
+      "nombre": "Cerveza Scotish Beepure 500 Ml",
+      "marca": "BEEPURE",
+      "precio": "$1.950",
+      "precioRegular": "Precio regular: $3.900 x lt"
+    },
+    {
+      "nombre": "Cerveza Blonde Beepure 500 Ml",
+      "marca": "BEEPURE",
+      "precio": "$1.950",
+      "precioRegular": "Precio regular: $3.900 x lt"
+    },
+    {
+      "nombre": "Cerveza Cusqueña Trigo 330 Ml",
+      "marca": "CUSQUEÑA",
+      "precio": "$3.955",
+      "precioRegular": "Precio regular: $11.984,85 x lt"
+    },
+    {
+      "nombre": "Cerveza Brahma Musica 2023 473cc",
+      "marca": "BRAHMA",
+      "precio": "$1.173",
+      "precioRegular": "Precio regular: $2.917,55 x lt"
+    },
+    {
+      "nombre": "Cerveza Brahma Dorada Lata 473mlx1",
+      "marca": "BRAHMA",
+      "precio": "$1.242",
+      "precioRegular": "Precio regular: $2.917,55 x lt"
+    },
+    {
+      "nombre": "Cerveza Oranjeboom Extra Strong 500 Ml",
+      "marca": "ORANJEBOOM",
+      "precio": "$5.100",
+      "precioRegular": "Precio regular: $10.200 x lt"
+    },
+    {
+      "nombre": "Cerveza Session Ipa Beepure 500 Ml",
+      "marca": "BEEPURE",
+      "precio": "$2.200",
+      "precioRegular": "Precio regular: $4.400 x lt"
+    },
+    {
+      "nombre": "Cerveza Köstritzer 500 Ml",
+      "marca": "KÍSTRITZER",
+      "precio": "$4.255",
+      "precioRegular": "Precio regular: $8.510 x lt"
+    },
+    {
+      "nombre": "Cerveza Oranjeboom Original 500 Ml",
+      "marca": "ORANJEBOOM",
+      "precio": "$5.300",
+      "precioRegular": "Precio regular: $10.600 x lt"
+    },
+    {
+      "nombre": "Cerveza Honey Beepure 500 Ml",
+      "marca": "BEEPURE",
+      "precio": "$1.950",
+      "precioRegular": "Precio regular: $3.900 x lt"
+    },
+    {
+      "nombre": "Cerveza Trio Extra Stout",
+      "marca": "SIN MARCA",
+      "precio": "$9.585,59",
+      "precioRegular": "Precio regular: $19.171,18 x lt"
+    },
+    {
+      "nombre": "Cerveza Kilikia Lager 500 Ml",
+      "marca": "KILIKIA",
+      "precio": "$11.600",
+      "precioRegular": "Precio regular: $23.200 x lt"
+    },
+    {
+      "nombre": "Cerveza Elitar 500ml Kilikia",
+      "marca": "KILIKIA",
+      "precio": "$11.600",
+      "precioRegular": "Precio regular: $23.200 x lt"
+    },
+    {
+      "nombre": "Cerveza Sol 1 L",
+      "marca": "SOL",
+      "precio": "$3.325",
+      "precioRegular": "Precio regular: $3.325 x lt"
+    },
+    {
+      "nombre": "Cerveza Kilikia Dark 500 Ml",
+      "marca": "KILIKIA",
+      "precio": "$11.600",
+      "precioRegular": "Precio regular: $23.200 x lt"
+    },
+    {
+      "nombre": "Cerveza De Trigo Weidmann Rubia 500 Ml",
+      "marca": "WEIDMANN",
+      "precio": "$5.700",
+      "precioRegular": "Precio regular: $11.400 x lt"
+    },
+    {
+      "nombre": "Cerveza 27 Eazy Lata 473mlx1",
+      "marca": "27 EAZY",
+      "precio": "$1.339,65",
+      "precioRegular": "Precio regular: $4.357,29 x lt"
+    },
+    {
+      "nombre": "Cerveza Köstritzer 330 Ml",
+      "marca": "KÍSTRITZER",
+      "precio": "$4.255",
+      "precioRegular": "Precio regular: $12.893,94 x lt"
+    },
+    {
+      "nombre": "Cerveza Monastère Blond 500ml",
+      "marca": "Monastere",
+      "precio": "$6.750",
+      "precioRegular": "Precio regular: $13.500 x lt"
+    },
+    {
+      "nombre": "Copa Cerveza 400 Ml  Nadirx1",
+      "marca": "NADIR",
+      "precio": "$2.768,35",
+      "precioRegular": "Precio regular: $4.259 x un"
+    },
+    {
+      "nombre": "Copa De Cerveza  400 M  Nadirx1",
+      "marca": "NADIR",
+      "precio": "$2.657,85",
+      "precioRegular": "Precio regular: $4.089 x un"
+    },
+    {
+      "nombre": "Vaso Cerveza 565cc",
+      "marca": "KREA",
+      "precio": "$1.806,35",
+      "precioRegular": "Precio regular: $2.779 x un"
+    },
+    {
+      "nombre": "Copa De Cerveza De Cristal De Bohemia Sylvia 3",
+      "marca": "CRISTAL DE BOHEMIA",
+      "precio": "$5.686,85",
+      "precioRegular": "Precio regular: $8.749 x un"
+    },
+    {
+      "nombre": "Vaso Cerveza .680 Ml  Nadirx1",
+      "marca": "NADIR",
+      "precio": "$4.250,35",
+      "precioRegular": "Precio regular: $6.539 x un"
+    },
+    {
+      "nombre": "Hard Seltzer Meet Pomelo 4,5310 Ml",
+      "marca": "MEET",
+      "precio": "$1.300",
+      "precioRegular": "Precio regular: $4.193,55 x lt"
+    }
+  ]
+}

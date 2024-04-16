@@ -1,0 +1,110 @@
+{
+  "time_spent": "0 minutos y 13 segundos",
+  "date": "2024-04-15T20:12:01.770Z",
+  "url": "https://www.jumbo.com.ar/batata?_q=batata&layout=grid&map=ft",
+  "totalProducts": 17,
+  "data": [
+    {
+      "nombre": "Batata Fraccionada 1 Kg",
+      "marca": "SIN MARCA",
+      "precio": "$1.150",
+      "precioRegular": "Precio regular: $1.150 x kg"
+    },
+    {
+      "nombre": "Batata Cubeteada Fresh 1 Kg",
+      "marca": "FRESH",
+      "precio": "$3.600",
+      "precioRegular": "Precio regular: $3.600 x kg"
+    },
+    {
+      "nombre": "Dulce De Batata Esnaola Con Vainilla   1 Kg",
+      "marca": "ESNAOLA",
+      "precio": "$3.879",
+      "precioRegular": "Precio regular: $3.879 x kg"
+    },
+    {
+      "nombre": "Chips De Batatas Fritas Nuestros Sabores 70 Gr",
+      "marca": "Nuestros Sabores",
+      "precio": "$1.000",
+      "precioRegular": "Precio regular: $1.250 x kg"
+    },
+    {
+      "nombre": "Dulce De Batata El Guri Bar-1-kg",
+      "marca": "EL GURI",
+      "precio": "$3.099",
+      "precioRegular": "Precio regular: $3.099 x kg"
+    },
+    {
+      "nombre": "Dulce De Batata Esnaola Con Chocolate",
+      "marca": "ESNAOLA",
+      "precio": "$3.979",
+      "precioRegular": "Precio regular: $3.979 x kg"
+    },
+    {
+      "nombre": "Dulce De Batata Con Chocolate El Guri Bar-1-kg",
+      "marca": "EL GURI",
+      "precio": "$3.099",
+      "precioRegular": "Precio regular: $3.099 x kg"
+    },
+    {
+      "nombre": "Chips De Remolacha Y Batata Raices 180 Gr",
+      "marca": "Nuestros Sabores",
+      "precio": "$1.000",
+      "precioRegular": "Precio regular: $12.500 x kg"
+    },
+    {
+      "nombre": "Dulce De Batata Esnaola Con Chocolate 500 Gr",
+      "marca": "ESNAOLA",
+      "precio": "$2.461",
+      "precioRegular": "Precio regular: $4.922 x kg"
+    },
+    {
+      "nombre": "Chips De Batata Con Merken X80g",
+      "marca": "SIN MARCA",
+      "precio": "$1.000",
+      "precioRegular": "Precio regular: $12.500 x kg"
+    },
+    {
+      "nombre": "Galletitas Pepitas De Batata",
+      "marca": "SIN MARCA",
+      "precio": "$1.999",
+      "precioRegular": "Precio regular: $1.999 x un"
+    },
+    {
+      "nombre": "Dulce De Batata Esnaola Con Chocolate Trozado Sobre 1 Kg",
+      "marca": "ESNAOLA",
+      "precio": "$3.979",
+      "precioRegular": "Precio regular: $3.979 x kg"
+    },
+    {
+      "nombre": "Dulce De Batata Manzoni Con Vainilla",
+      "marca": "MANZONI",
+      "precio": "$3.581",
+      "precioRegular": "Precio regular: $7.162 x kg"
+    },
+    {
+      "nombre": "Medallón Vegabundancia De Poroto Negros Y Batata 240 Gr",
+      "marca": "Vegabundancia",
+      "precio": "$3.200",
+      "precioRegular": "Precio regular: $13.333,33 x kg"
+    },
+    {
+      "nombre": "Dulce De Batata Manzoni Light Con Vainilla 500 Gr",
+      "marca": "MANZONI",
+      "precio": "$4.298",
+      "precioRegular": "Precio regular: $8.596 x kg"
+    },
+    {
+      "nombre": "Pasta Frola De Batata 1u",
+      "marca": "FRESH MP",
+      "precio": "$4.499",
+      "precioRegular": "Precio regular: $4.499 x un"
+    },
+    {
+      "nombre": "Medallones Quinoa Nutree Batata Y Curry 400g",
+      "marca": "NUTREE",
+      "precio": "$3.700",
+      "precioRegular": "Precio regular: $9.250 x kg"
+    }
+  ]
+}

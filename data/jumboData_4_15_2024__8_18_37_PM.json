@@ -1,0 +1,620 @@
+{
+  "time_spent": "1 minutos y 8 segundos",
+  "date": "2024-04-15T20:18:37.848Z",
+  "url": "https://www.jumbo.com.ar/fiambres?_q=fiambres&map=ft",
+  "totalProducts": 102,
+  "data": [
+    {
+      "nombre": "Salame Fuet Bocatti 130 Gr",
+      "marca": "BOCATTI",
+      "precio": "$2.680",
+      "precioRegular": "Precio regular: $20.615,38 x kg"
+    },
+    {
+      "nombre": "Salamin Cagnoli Picado Fino 1 Kg",
+      "marca": "CAGNOLI",
+      "precio": "$19.402",
+      "precioRegular": "Precio regular: $19.402 x kg"
+    },
+    {
+      "nombre": "Salame Bocatti Feteado 100 Gr",
+      "marca": "BOCATTI",
+      "precio": "$2.474",
+      "precioRegular": "Precio regular: $24.740 x kg"
+    },
+    {
+      "nombre": "Fuet Tandil Cagnoli 150 Gr",
+      "marca": "CAGNOLI",
+      "precio": "$3.657",
+      "precioRegular": "Precio regular: $24.380 x kg"
+    },
+    {
+      "nombre": "Leberwurst Paladini 250 Gr",
+      "marca": "PALADINI",
+      "precio": "$1.541",
+      "precioRegular": "Precio regular: $6.164 x kg"
+    },
+    {
+      "nombre": "Mortadela Bocatti Feteada X 70 Gr",
+      "marca": "BOCATTI",
+      "precio": "$1.245",
+      "precioRegular": "Precio regular: $17.785,71 x kg"
+    },
+    {
+      "nombre": "Mortadela Paladini Familiar 300 Gr",
+      "marca": "PALADINI",
+      "precio": "$2.082",
+      "precioRegular": "Precio regular: $6.940 x kg"
+    },
+    {
+      "nombre": "Salame Lario Milan  100 G",
+      "marca": "LARIO",
+      "precio": "$11.199",
+      "precioRegular": "Precio regular: $11.199 x kg"
+    },
+    {
+      "nombre": "Salame Milan Tripack Por Kg Mínimo 800 Gr Mayorista",
+      "marca": "JUMBO MP",
+      "precio": "$9.599",
+      "precioRegular": "Precio regular: $9.599 x kg"
+    },
+    {
+      "nombre": "Lomo Bocatti X Kg",
+      "marca": "BOCATTI",
+      "precio": "$13.640",
+      "precioRegular": "Precio regular: $13.640 x kg"
+    },
+    {
+      "nombre": "Salamin Lario Picado Fino Tipo Tandilero  Kg",
+      "marca": "LARIO",
+      "precio": "$13.999",
+      "precioRegular": "Precio regular: $13.999 x kg"
+    },
+    {
+      "nombre": "Salame Cagnoli Baston Picado Fino Pieza 1 Kg",
+      "marca": "CAGNOLI",
+      "precio": "$18.181",
+      "precioRegular": "Precio regular: $18.181 x kg"
+    },
+    {
+      "nombre": "Panceta Cagnoli Ahumada X Kg",
+      "marca": "CAGNOLI",
+      "precio": "$17.808",
+      "precioRegular": "Precio regular: $17.808 x kg"
+    },
+    {
+      "nombre": "Mortadela Cagnoli 300 Gr",
+      "marca": "CAGNOLI",
+      "precio": "$1.468",
+      "precioRegular": "Precio regular: $4.893,33 x kg"
+    },
+    {
+      "nombre": "Lomo Horneado Feteado L Abratto 120 Gr",
+      "marca": "L´ABRATTO",
+      "precio": "$2.496",
+      "precioRegular": "Precio regular: $24.960 x kg"
+    },
+    {
+      "nombre": "Salamin Cagnoli Picado Grueso Pieza 1 Kg",
+      "marca": "CAGNOLI",
+      "precio": "$19.402",
+      "precioRegular": "Precio regular: $19.402 x kg"
+    },
+    {
+      "nombre": "Longaniza Calabresa Cagnoli Pieza 1 Kg",
+      "marca": "CAGNOLI",
+      "precio": "$19.402",
+      "precioRegular": "Precio regular: $19.402 x kg"
+    },
+    {
+      "nombre": "Panceta Campo Austral",
+      "marca": "CAMPO AUSTRAL",
+      "precio": "$17.699",
+      "precioRegular": "Precio regular: $17.699 x kg"
+    },
+    {
+      "nombre": "Panceta Lario Feteada X 150g",
+      "marca": "LARIO",
+      "precio": "$3.644",
+      "precioRegular": "Precio regular: $24.293,33 x kg"
+    },
+    {
+      "nombre": "Bondiola Feteada Cagnoli 120 Gr",
+      "marca": "CAGNOLI",
+      "precio": "$2.948",
+      "precioRegular": "Precio regular: $24.566,67 x kg"
+    },
+    {
+      "nombre": "Leber Cagnoli Paq X 200 Gr",
+      "marca": "CAGNOLI",
+      "precio": "$NaN",
+      "precioRegular": "Precio regular: $6.216,95 x kg"
+    },
+    {
+      "nombre": "Salame Fuet Doina 150 Gr",
+      "marca": "DOINA",
+      "precio": "$2.190",
+      "precioRegular": "Precio regular: $14.600 x kg"
+    },
+    {
+      "nombre": "Mortadela Paladini Familiar 500 Gr",
+      "marca": "PALADINI",
+      "precio": "$3.537",
+      "precioRegular": "Precio regular: $7.074 x kg"
+    },
+    {
+      "nombre": "Tabla Porteña",
+      "marca": "SIN MARCA",
+      "precio": "$19.999",
+      "precioRegular": "Precio regular: $19.999 x kg"
+    },
+    {
+      "nombre": "Bondiola Paladini Fetas Finas X 120 G",
+      "marca": "PALADINI",
+      "precio": "$4.802",
+      "precioRegular": "Precio regular: $40.016,67 x kg"
+    },
+    {
+      "nombre": "Salamín Cabaña Argentina Picado Fino X Kg",
+      "marca": "CABAÑA ARGENTINA",
+      "precio": "$10.999",
+      "precioRegular": "Precio regular: $10.999 x kg"
+    },
+    {
+      "nombre": "Picada Fiesta",
+      "marca": "SIN MARCA",
+      "precio": "$36.900",
+      "precioRegular": "Precio regular: $18.450 x kg"
+    },
+    {
+      "nombre": "Sopresatta Cagnoli 135 Gr",
+      "marca": "CAGNOLI",
+      "precio": "$2.775",
+      "precioRegular": "Precio regular: $20.555,56 x kg"
+    },
+    {
+      "nombre": "Chorizo Candelario Sello De Oro 1 Kg",
+      "marca": "SELLO DE ORO",
+      "precio": "$14.896",
+      "precioRegular": "Precio regular: $14.896 x kg"
+    },
+    {
+      "nombre": "Bondiola Lario Feteada X 120g",
+      "marca": "LARIO",
+      "precio": "$3.158",
+      "precioRegular": "Precio regular: $26.316,67 x kg"
+    },
+    {
+      "nombre": "Mortadela Imperial Sobre-kg-1",
+      "marca": "CAMPO AUSTRAL",
+      "precio": "$7.093",
+      "precioRegular": "Precio regular: $7.093 x kg"
+    },
+    {
+      "nombre": "Lomo De Cerdo Paladini",
+      "marca": "PALADINI",
+      "precio": "$15.826",
+      "precioRegular": "Precio regular: $15.826 x kg"
+    },
+    {
+      "nombre": "Lomo De Cerdo 'lario' Feteado X 100 Gr.",
+      "marca": "LARIO",
+      "precio": "$19.499",
+      "precioRegular": "Precio regular: $19.499 x kg"
+    },
+    {
+      "nombre": "Mortadela Cagnoli X 180 Gr",
+      "marca": "CAGNOLI",
+      "precio": "$1.091",
+      "precioRegular": "Precio regular: $6.061,11 x kg"
+    },
+    {
+      "nombre": "Salame Cagnoli Baston Picado Grueso 1 Kg",
+      "marca": "CAGNOLI",
+      "precio": "$18.181",
+      "precioRegular": "Precio regular: $18.181 x kg"
+    },
+    {
+      "nombre": "Bondiola Lario Trozada 1 Kg",
+      "marca": "LARIO",
+      "precio": "$25.999",
+      "precioRegular": "Precio regular: $25.999 x kg"
+    },
+    {
+      "nombre": "Paleta Cocida Paladini Fetas Finas X 200 Gr",
+      "marca": "PALADINI",
+      "precio": "$3.593",
+      "precioRegular": "Precio regular: $17.965 x kg"
+    },
+    {
+      "nombre": "Mortadela Bocatti Con Pistacho",
+      "marca": "BOCATTI",
+      "precio": "$10.809",
+      "precioRegular": "Precio regular: $10.809 x kg"
+    },
+    {
+      "nombre": "Salchichón Calchaqui.",
+      "marca": "CALCHAQUI",
+      "precio": "$1.541",
+      "precioRegular": "Precio regular: $6.420,83 x kg"
+    },
+    {
+      "nombre": "Salamin Chacra 43 Picado Fino  Kg",
+      "marca": "CHACRA 43",
+      "precio": "$20.106",
+      "precioRegular": "Precio regular: $20.106 x kg"
+    },
+    {
+      "nombre": "Tabla Criolla",
+      "marca": "SIN MARCA",
+      "precio": "$18.900",
+      "precioRegular": "Precio regular: $18.900 x kg"
+    },
+    {
+      "nombre": "Salamín Paladini Picado Fino 1 Kg",
+      "marca": "PALADINI",
+      "precio": "$19.646",
+      "precioRegular": "Precio regular: $19.646 x kg"
+    },
+    {
+      "nombre": "Salame Picado Grueso Al Ají Molido Cagnoli 1 Kg",
+      "marca": "SIN MARCA",
+      "precio": "$23.127",
+      "precioRegular": "Precio regular: $23.127 x kg"
+    },
+    {
+      "nombre": "Salame Cagnoli Milan Pieza 1 Kg",
+      "marca": "CAGNOLI",
+      "precio": "$15.594",
+      "precioRegular": "Precio regular: $15.594 x kg"
+    },
+    {
+      "nombre": "Chorizo Porxas Dulce Feteado X 100g",
+      "marca": "PORXAS",
+      "precio": "$3.299",
+      "precioRegular": "Precio regular: $32.990 x kg"
+    },
+    {
+      "nombre": "Tabla De Quesos",
+      "marca": "SIN MARCA",
+      "precio": "$21.900",
+      "precioRegular": "Precio regular: $21.900 x kg"
+    },
+    {
+      "nombre": "Bondiola Paladini",
+      "marca": "PALADINI",
+      "precio": "$31.902",
+      "precioRegular": "Precio regular: $31.902 x kg"
+    },
+    {
+      "nombre": "Fuet España Extra X 160 Gr",
+      "marca": "ESPAÑA",
+      "precio": "$7.999",
+      "precioRegular": "Precio regular: $49.993,75 x kg"
+    },
+    {
+      "nombre": "Chorizo De Cerdo España Extra X 100 Gr",
+      "marca": "ESPAÑA",
+      "precio": "$5.399",
+      "precioRegular": "Precio regular: $53.990 x kg"
+    },
+    {
+      "nombre": "Lomo De Cerdo España Curado Y Salado 100 Gr",
+      "marca": "ESPAÑA",
+      "precio": "$6.599",
+      "precioRegular": "Precio regular: $65.990 x kg"
+    },
+    {
+      "nombre": "Salamín Chacra 43 Picado Grueso 1 Kg",
+      "marca": "43",
+      "precio": "$15.815",
+      "precioRegular": "Precio regular: $15.815 x kg"
+    },
+    {
+      "nombre": "Spianatta Cagnoli 1 Kg",
+      "marca": "CAGNOLI",
+      "precio": "$24.689",
+      "precioRegular": "Precio regular: $24.689 x kg"
+    },
+    {
+      "nombre": "Bondiola Cruda Familia Grión-feteada-bli-kg-1",
+      "marca": "FAMILIA GRIÓN",
+      "precio": "$23.999",
+      "precioRegular": "Precio regular: $23.999 x kg"
+    },
+    {
+      "nombre": "Spianata Con Ají Molido Cagnoli 1 Kg",
+      "marca": "CAGNOLI",
+      "precio": "$28.999",
+      "precioRegular": "Precio regular: $28.999 x kg"
+    },
+    {
+      "nombre": "Salame P/grueso Pimienta Cagnoli",
+      "marca": "SIN MARCA",
+      "precio": "$23.127",
+      "precioRegular": "Precio regular: $23.127 x kg"
+    },
+    {
+      "nombre": "Lomo Porxas 100 Gr",
+      "marca": "PORXAS",
+      "precio": "$4.299",
+      "precioRegular": "Precio regular: $42.990 x kg"
+    },
+    {
+      "nombre": "Salame Fuet Porxas Extra X 160g",
+      "marca": "PORXAS",
+      "precio": "$4.999",
+      "precioRegular": "Precio regular: $31.243,75 x kg"
+    },
+    {
+      "nombre": "Spianataa Las Finas Hierbas Cagnoli 1 Kg",
+      "marca": "CAGNOLI",
+      "precio": "$28.999",
+      "precioRegular": "Precio regular: $28.999 x kg"
+    },
+    {
+      "nombre": "Tabla Amigos",
+      "marca": "SIN MARCA",
+      "precio": "$21.900",
+      "precioRegular": "Precio regular: $21.900 x kg"
+    },
+    {
+      "nombre": "Salame Picado Fino Finas Hierbas Cagnoli 1 Kg",
+      "marca": "SIN MARCA",
+      "precio": "$23.127",
+      "precioRegular": "Precio regular: $23.127 x kg"
+    },
+    {
+      "nombre": "Spianata Cagnoli X Kg",
+      "marca": "CAGNOLI",
+      "precio": "$28.999",
+      "precioRegular": "Precio regular: $28.999 x kg"
+    },
+    {
+      "nombre": "Jamon Cocido Tripack Kg 1 Sob Minimo 800 Gr Mayorista",
+      "marca": "JUMBO MP",
+      "precio": "$7.999",
+      "precioRegular": "Precio regular: $7.999 x kg"
+    },
+    {
+      "nombre": "Jamon Cocido Cuisine & Co",
+      "marca": "CUISINE & CO NBE MP",
+      "precio": "$8.999",
+      "precioRegular": "Precio regular: $8.999 x kg"
+    },
+    {
+      "nombre": "Jamón Cocido Bocatti Feteado",
+      "marca": "BOCATTI",
+      "precio": "$2.955",
+      "precioRegular": "Precio regular: $22.730,77 x kg"
+    },
+    {
+      "nombre": "Jamon Paladini Cocido Fetas Finas X 200 Gr",
+      "marca": "PALADINI",
+      "precio": "$3.730",
+      "precioRegular": "Precio regular: $18.650 x kg"
+    },
+    {
+      "nombre": "Jamon Cocido Selec Cuisine &co",
+      "marca": "CUISINE & CO NBE MP",
+      "precio": "$18.999",
+      "precioRegular": "Precio regular: $18.999 x kg"
+    },
+    {
+      "nombre": "Jamon Cocido Bocatti 1 Kg",
+      "marca": "BOCATTI",
+      "precio": "$13.999",
+      "precioRegular": "Precio regular: $13.999 x kg"
+    },
+    {
+      "nombre": "Jamón Cocido Linea Permi Paladini X 150 Gr",
+      "marca": "PALADINI",
+      "precio": "$2.661",
+      "precioRegular": "Precio regular: $17.740 x kg"
+    },
+    {
+      "nombre": "Jamón Cocido Paladini Feteado 1 Kg",
+      "marca": "PALADINI",
+      "precio": "$14.637",
+      "precioRegular": "Precio regular: $14.637 x kg"
+    },
+    {
+      "nombre": "Jamon Cocido Lario Sobre 1 Kg",
+      "marca": "LARIO",
+      "precio": "$11.999",
+      "precioRegular": "Precio regular: $11.999 x kg"
+    },
+    {
+      "nombre": "Jamon Cocido Cagnoli Natural Feteado 1 Kg",
+      "marca": "CAGNOLI",
+      "precio": "$20.927",
+      "precioRegular": "Precio regular: $20.927 x kg"
+    },
+    {
+      "nombre": "Jamon Crudo Serrano Extrapulido 1 Kg",
+      "marca": "PORXAS",
+      "precio": "$29.900",
+      "precioRegular": "Precio regular: $29.900 x kg"
+    },
+    {
+      "nombre": "Fiambre De Cerdo Cocido Campo Austral Kg",
+      "marca": "CAMPO AUSTRAL",
+      "precio": "$9.799",
+      "precioRegular": "Precio regular: $9.799 x kg"
+    },
+    {
+      "nombre": "Jamón Crudo Serrano España 100 Gr",
+      "marca": "ESPAÑA",
+      "precio": "$5.999",
+      "precioRegular": "Precio regular: $59.990 x kg"
+    },
+    {
+      "nombre": "Jamon Crudo Serrano Extrapulido",
+      "marca": "PORXAS",
+      "precio": "$29.900",
+      "precioRegular": "Precio regular: $29.900 x kg"
+    },
+    {
+      "nombre": "Jamon Crudo Paladini Fetas Finas X 120gr",
+      "marca": "PALADINI",
+      "precio": "$5.527",
+      "precioRegular": "Precio regular: $46.058,33 x kg"
+    },
+    {
+      "nombre": "Jamon Crudo Campo Austral X 150 Gr",
+      "marca": "CAMPO AUSTRAL",
+      "precio": "$5.275",
+      "precioRegular": "Precio regular: $35.166,67 x kg"
+    },
+    {
+      "nombre": "Jamón Cocido Natural Feteado L´abratto",
+      "marca": "L´ABRATTO",
+      "precio": "$3.812",
+      "precioRegular": "Precio regular: $30.496 x kg"
+    },
+    {
+      "nombre": "Jamón Horneado Cagnoli Kg-1",
+      "marca": "CAGNOLI",
+      "precio": "$15.256",
+      "precioRegular": "Precio regular: $15.256 x kg"
+    },
+    {
+      "nombre": "Fiambre De Cerdo Lario X Kg.",
+      "marca": "LARIO",
+      "precio": "$9.799",
+      "precioRegular": "Precio regular: $9.799 x kg"
+    },
+    {
+      "nombre": "Jamon Cocido Cagnoli Genuino Pza 1 Kg",
+      "marca": "CAGNOLI",
+      "precio": "$20.927",
+      "precioRegular": "Precio regular: $20.927 x kg"
+    },
+    {
+      "nombre": "Jamón Crudo Serrano España 150 Gr",
+      "marca": "ESPAÑA",
+      "precio": "$8.899",
+      "precioRegular": "Precio regular: $59.326,67 x kg"
+    },
+    {
+      "nombre": "Jamón Crudo Feteado Porxas Serrano 100 Gr",
+      "marca": "PORXAS",
+      "precio": "$4.390",
+      "precioRegular": "Precio regular: $43.900 x kg"
+    },
+    {
+      "nombre": "Jamón Serrano Reserva Sin Hueso España X Kg",
+      "marca": "ESPAÑA",
+      "precio": "$39.900",
+      "precioRegular": "Precio regular: $39.900 x kg"
+    },
+    {
+      "nombre": "Jamón Crudo España Iberico De Cebo X 80 Gr.",
+      "marca": "ESPAÑA",
+      "precio": "$13.999",
+      "precioRegular": "Precio regular: $174.987,5 x kg"
+    },
+    {
+      "nombre": "Tapa Selección España X 100 Gr",
+      "marca": "ESPAÑA",
+      "precio": "$7.999",
+      "precioRegular": "Precio regular: $79.990 x kg"
+    },
+    {
+      "nombre": "Jam«n Cocido Natural Lábratto 1 Kg",
+      "marca": "L´ABRATTO",
+      "precio": "$22.804",
+      "precioRegular": "Precio regular: $22.804 x kg"
+    },
+    {
+      "nombre": "Jamon Crudo Campo Austral Tradicional Rendidor Pza 1 Kg",
+      "marca": "CAMPO AUSTRAL",
+      "precio": "$35.799",
+      "precioRegular": "Precio regular: $35.799 x kg"
+    },
+    {
+      "nombre": "Jamón Crudo Campo Austral Rendidor Feteado X Kg.",
+      "marca": "CAMPO AUSTRAL",
+      "precio": "$35.799",
+      "precioRegular": "Precio regular: $35.799 x kg"
+    },
+    {
+      "nombre": "Salchichas Vienissima X230g",
+      "marca": "VIENISSIMA",
+      "precio": "$1.400",
+      "precioRegular": "Precio regular: $6.086,96 x kg"
+    },
+    {
+      "nombre": "Salchichas Paladini Tipo Viena Sin Piel 225 Gr 6 U",
+      "marca": "PALADINI",
+      "precio": "$1.450",
+      "precioRegular": "Precio regular: $6.444,44 x kg"
+    },
+    {
+      "nombre": "Salchichas Vienissima X460g",
+      "marca": "VIENISSIMA",
+      "precio": "$2.650",
+      "precioRegular": "Precio regular: $5.760,87 x kg"
+    },
+    {
+      "nombre": "Salchichas Patyviena Clasicas X230g",
+      "marca": "PATY",
+      "precio": "$1.350",
+      "precioRegular": "Precio regular: $5.869,57 x kg"
+    },
+    {
+      "nombre": "Salchichas Patyviena Fun X190g",
+      "marca": "PATY",
+      "precio": "$1.150",
+      "precioRegular": "Precio regular: $6.052,63 x kg"
+    },
+    {
+      "nombre": "Salchichas Swift 12 U",
+      "marca": "SWIFT",
+      "precio": "$2.600",
+      "precioRegular": "Precio regular: $7.647,06 x kg"
+    },
+    {
+      "nombre": "Salchichas Hot Dog Swift 225 Gr",
+      "marca": "SWIFT",
+      "precio": "$1.400",
+      "precioRegular": "Precio regular: $6.222,22 x kg"
+    },
+    {
+      "nombre": "Salchichas Swift Kids 6 U- 190 Gr",
+      "marca": "SWIFT",
+      "precio": "$1.250",
+      "precioRegular": "Precio regular: $6.578,95 x kg"
+    },
+    {
+      "nombre": "Salchichas Patyviena Clasicas X460g",
+      "marca": "PATY",
+      "precio": "$2.600",
+      "precioRegular": "Precio regular: $5.652,17 x kg"
+    },
+    {
+      "nombre": "Salchichas Granja Iris De Viena X 6",
+      "marca": "GRANJA IRIS",
+      "precio": "$2.003,3",
+      "precioRegular": "Precio regular: $8.903,56 x kg"
+    },
+    {
+      "nombre": "Salchichas La Blanca 190 Gr 6 U",
+      "marca": "LA BLANCA",
+      "precio": "$1.100",
+      "precioRegular": "Precio regular: $5.789,47 x kg"
+    },
+    {
+      "nombre": "Salchichas Granja Iris Americana 225 Gr 5 U",
+      "marca": "GRANJA IRIS",
+      "precio": "$2.714",
+      "precioRegular": "Precio regular: $12.062,22 x kg"
+    },
+    {
+      "nombre": "Salchichas Union Ganadera Corta 190gr",
+      "marca": "UNION GANADERA",
+      "precio": "$1.350",
+      "precioRegular": "Precio regular: $7.105,26 x kg"
+    }
+  ]
+}

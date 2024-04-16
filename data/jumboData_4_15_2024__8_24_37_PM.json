@@ -1,0 +1,998 @@
+{
+  "time_spent": "1 minutos y 40 segundos",
+  "date": "2024-04-15T20:24:37.685Z",
+  "url": "https://www.jumbo.com.ar/aceite?_q=aceite&map=ft",
+  "totalProducts": 165,
+  "data": [
+    {
+      "nombre": "Aceite De Girasol Natura 1.5 L",
+      "marca": "NATURA",
+      "precio": "$2.854",
+      "precioRegular": "Precio regular: $1.902,67 x lt"
+    },
+    {
+      "nombre": "Aceite Girasol Legitimo 1.5 L",
+      "marca": "LEGITIMO",
+      "precio": "$2.300",
+      "precioRegular": "Precio regular: $1.533,33 x lt"
+    },
+    {
+      "nombre": "Aceite Girasol Pureza 1.5 L",
+      "marca": "PUREZA",
+      "precio": "$3.000",
+      "precioRegular": "Precio regular: $2.000 x lt"
+    },
+    {
+      "nombre": "Aceite Cañuelas De Girasol - 1.5 L",
+      "marca": "CAÑUELAS",
+      "precio": "$2.600",
+      "precioRegular": "Precio regular: $1.733,33 x lt"
+    },
+    {
+      "nombre": "Aceite Girasol Legitimo 900 Ml",
+      "marca": "LEGITIMO",
+      "precio": "$1.400",
+      "precioRegular": "Precio regular: $1.555,56 x lt"
+    },
+    {
+      "nombre": "Aceite De Oliva Extra Virgen Nucete 2000 Ml",
+      "marca": "NUCETE",
+      "precio": "$35.500",
+      "precioRegular": "Precio regular: $17.750 x lt"
+    },
+    {
+      "nombre": "Aceite Girasol Pureza 0,9 L",
+      "marca": "PUREZA",
+      "precio": "$1.700",
+      "precioRegular": "Precio regular: $1.888,89 x lt"
+    },
+    {
+      "nombre": "Aceite De Girasol Natura 900 Ml",
+      "marca": "NATURA",
+      "precio": "$1.800",
+      "precioRegular": "Precio regular: $2.000 x lt"
+    },
+    {
+      "nombre": "Aceite De Oliva Virgen Nucete Lata 500 Ml",
+      "marca": "NUCETE",
+      "precio": "$13.800",
+      "precioRegular": "Precio regular: $27.600 x lt"
+    },
+    {
+      "nombre": "Aceite De Girasol Natura 126 Ml",
+      "marca": "NATURA",
+      "precio": "$2.200",
+      "precioRegular": "Precio regular: $16.923,08 x lt"
+    },
+    {
+      "nombre": "Aceite De Oliva Oliovita Extra Virgen Clásico 500 Ml",
+      "marca": "OLIOVITA",
+      "precio": "$14.800",
+      "precioRegular": "Precio regular: $29.600 x lt"
+    },
+    {
+      "nombre": "Aceite Oliva Extra Virgen Intenso Cocinero 500 Ml",
+      "marca": "COCINERO",
+      "precio": "$8.362,5",
+      "precioRegular": "Precio regular: $22.300 x lt"
+    },
+    {
+      "nombre": "Aceite De Oliva Nucete Clásico 500 Ml",
+      "marca": "NUCETE",
+      "precio": "$12.500",
+      "precioRegular": "Precio regular: $25.000 x lt"
+    },
+    {
+      "nombre": "Aceite De Girasol Natura 3 L.",
+      "marca": "NATURA",
+      "precio": "$5.650",
+      "precioRegular": "Precio regular: $1.883,33 x lt"
+    },
+    {
+      "nombre": "Aceite De Girasol Cocinero 900 Ml",
+      "marca": "COCINERO",
+      "precio": "$1.750",
+      "precioRegular": "Precio regular: $1.944,44 x lt"
+    },
+    {
+      "nombre": "Aceite Fritolim Clasico X126cc",
+      "marca": "FRITOLIM",
+      "precio": "$2.750",
+      "precioRegular": "Precio regular: $21.825,4 x lt"
+    },
+    {
+      "nombre": "Aceite De Oliva Cocinero Puro X500cc",
+      "marca": "COCINERO",
+      "precio": "$8.600",
+      "precioRegular": "Precio regular: $17.200 x lt"
+    },
+    {
+      "nombre": "Aceite Oliva Extra Virgen Suave Cocinero 500 Ml",
+      "marca": "COCINERO",
+      "precio": "$11.150",
+      "precioRegular": "Precio regular: $22.300 x lt"
+    },
+    {
+      "nombre": "Aceite Oliva Lira Extra Virgen Pet 500ml",
+      "marca": "LIRA",
+      "precio": "$12.300",
+      "precioRegular": "Precio regular: $24.600 x lt"
+    },
+    {
+      "nombre": "Aceite De Oliva Cocinero Extra Virgen X500cc",
+      "marca": "COCINERO",
+      "precio": "$11.150",
+      "precioRegular": "Precio regular: $22.300 x lt"
+    },
+    {
+      "nombre": "Aceite De Girasol Cañuelas 900 Ml",
+      "marca": "CAÑUELAS",
+      "precio": "$1.650",
+      "precioRegular": "Precio regular: $1.833,33 x lt"
+    },
+    {
+      "nombre": "Aceite De Oliva Mediterráneo Oliovita 500 Ml",
+      "marca": "OLIOVITA",
+      "precio": "$9.375",
+      "precioRegular": "Precio regular: $25.000 x lt"
+    },
+    {
+      "nombre": "Aceite De Oliva Clásico Oliovita 500 Ml",
+      "marca": "OLIOVITA",
+      "precio": "$9.375",
+      "precioRegular": "Precio regular: $25.000 x lt"
+    },
+    {
+      "nombre": "Aceite De Oliva Extra Virgen Cuisine And Co 500 Ml",
+      "marca": "CUISINE & CO NBE MP",
+      "precio": "$13.250",
+      "precioRegular": "Precio regular: $26.500 x lt"
+    },
+    {
+      "nombre": "Aceite De Girasol Cocinero 1.5 L",
+      "marca": "COCINERO",
+      "precio": "$2.800",
+      "precioRegular": "Precio regular: $1.866,67 x lt"
+    },
+    {
+      "nombre": "Aceite De Oliva Clasica Oliovita 1 L",
+      "marca": "OLIOVITA",
+      "precio": "$23.475",
+      "precioRegular": "Precio regular: $31.300 x lt"
+    },
+    {
+      "nombre": "Aceite De Oliva Virgen Natura 120 Ml",
+      "marca": "NATURA",
+      "precio": "$2.662,5",
+      "precioRegular": "Precio regular: $29.583,33 x kg"
+    },
+    {
+      "nombre": "Aceite Natura Oliva Suave Andino X500cc",
+      "marca": "NATURA",
+      "precio": "$6.412,5",
+      "precioRegular": "Precio regular: $17.100 x lt"
+    },
+    {
+      "nombre": "Aceite Oliva Genovesa Zuccardi 500 Ml",
+      "marca": "FAMILIA ZUCCARDI",
+      "precio": "$16.687,5",
+      "precioRegular": "Precio regular: $44.500 x lt"
+    },
+    {
+      "nombre": "Aceite De Girasol Manteca Mazola 120 Ml",
+      "marca": "MAZOLA",
+      "precio": "$2.650",
+      "precioRegular": "Precio regular: $21.200 x lt"
+    },
+    {
+      "nombre": "Aceite Natura Oliva Fuerte Trivar X500cc",
+      "marca": "NATURA",
+      "precio": "$6.412,5",
+      "precioRegular": "Precio regular: $17.100 x lt"
+    },
+    {
+      "nombre": "Aceite Rocio Vegetal De Oliva Nucete 120 Gr",
+      "marca": "NUCETE",
+      "precio": "$2.325",
+      "precioRegular": "Precio regular: $25.833,33 x kg"
+    },
+    {
+      "nombre": "Aceite De Maíz Arcor 900 Ml",
+      "marca": "ARCOR",
+      "precio": "$4.450",
+      "precioRegular": "Precio regular: $4.944,44 x lt"
+    },
+    {
+      "nombre": "Aceite De Coco Virgen",
+      "marca": "GOD BLESS YOU",
+      "precio": "$9.600",
+      "precioRegular": "Precio regular: $42.666,67 x lt"
+    },
+    {
+      "nombre": "Aceite Lira Mezcla X1,5 Lt",
+      "marca": "LIRA",
+      "precio": "$6.350",
+      "precioRegular": "Precio regular: $4.233,33 x lt"
+    },
+    {
+      "nombre": "Aceite De Oliva La Española Extra Virgen 250 Ml",
+      "marca": "LA ESPAÑOLA",
+      "precio": "$5.475",
+      "precioRegular": "Precio regular: $29.200 x lt"
+    },
+    {
+      "nombre": "Aceite De Coco Neutro God Bless You 225 Ml",
+      "marca": "GOD BLESS YOU",
+      "precio": "$6.450",
+      "precioRegular": "Precio regular: $28.666,67 x lt"
+    },
+    {
+      "nombre": "Aceite Fritolim Oliva X126cc",
+      "marca": "FRITOLIM",
+      "precio": "$2.700",
+      "precioRegular": "Precio regular: $28.346,46 x lt"
+    },
+    {
+      "nombre": "Aceite De Oliva Gourmet Oliovita 500 Ml",
+      "marca": "OLIOVITA",
+      "precio": "$12.750",
+      "precioRegular": "Precio regular: $34.000 x lt"
+    },
+    {
+      "nombre": "Aceite Oliva Cocinero Puro X250cc",
+      "marca": "COCINERO",
+      "precio": "$3.712,5",
+      "precioRegular": "Precio regular: $19.800 x lt"
+    },
+    {
+      "nombre": "Aceite Oliva Picual Zuccardi 500 Ml",
+      "marca": "FAMILIA ZUCCARDI",
+      "precio": "$16.687,5",
+      "precioRegular": "Precio regular: $44.500 x lt"
+    },
+    {
+      "nombre": "Aceite Mezcla Blend Natura 900 Ml",
+      "marca": "NATURA",
+      "precio": "$3.550",
+      "precioRegular": "Precio regular: $3.944,44 x lt"
+    },
+    {
+      "nombre": "Aceite Girasol Y Oliva Cocinero 900 Ml",
+      "marca": "COCINERO",
+      "precio": "$4.150",
+      "precioRegular": "Precio regular: $4.611,11 x lt"
+    },
+    {
+      "nombre": "Aceite Natura Oliva Andino X500cc",
+      "marca": "NATURA",
+      "precio": "$9.600",
+      "precioRegular": "Precio regular: $19.200 x lt"
+    },
+    {
+      "nombre": "Aceite De Oliva Extra Virgen Con Albahaca La Toscana 250 Ml",
+      "marca": "LA TOSCANA",
+      "precio": "$10.275",
+      "precioRegular": "Precio regular: $54.800 x lt"
+    },
+    {
+      "nombre": "Aceite De Oliva Zuelo Intenso 500 Ml",
+      "marca": "ZUELO",
+      "precio": "$12.375",
+      "precioRegular": "Precio regular: $33.000 x lt"
+    },
+    {
+      "nombre": "Aceite Oliva Coratina Zuccardi 500 Ml",
+      "marca": "FAMILIA ZUCCARDI",
+      "precio": "$16.687,5",
+      "precioRegular": "Precio regular: $44.500 x lt"
+    },
+    {
+      "nombre": "Aceite Para Bebé Johnson's Puro X 200 Ml.",
+      "marca": "JOHNSON BABY",
+      "precio": "$6.000",
+      "precioRegular": "Precio regular: $30.000 x lt"
+    },
+    {
+      "nombre": "Aceite De Girasol Lira X 1.5 Lt",
+      "marca": "LIRA",
+      "precio": "$3.250",
+      "precioRegular": "Precio regular: $2.166,67 x lt"
+    },
+    {
+      "nombre": "Aceite Extra Virgen Clasico Lira 500 Ml",
+      "marca": "LIRA",
+      "precio": "$10.200",
+      "precioRegular": "Precio regular: $27.200 x lt"
+    },
+    {
+      "nombre": "Aceite Fritolim Manteca X126cc",
+      "marca": "FRITOLIM",
+      "precio": "$2.750",
+      "precioRegular": "Precio regular: $21.825,4 x lt"
+    },
+    {
+      "nombre": "Aceite De Oliva Suave La Toscana 250 Ml",
+      "marca": "LA TOSCANA",
+      "precio": "$10.275",
+      "precioRegular": "Precio regular: $54.800 x lt"
+    },
+    {
+      "nombre": "Aceite De Oliva La Toscana Extra Virgen Con Ajo 250 Ml",
+      "marca": "LA TOSCANA",
+      "precio": "$10.275",
+      "precioRegular": "Precio regular: $54.800 x lt"
+    },
+    {
+      "nombre": "Aceite El Olivar De Oliva Cortijo 250 Ml",
+      "marca": "CORTIJO",
+      "precio": "$6.300",
+      "precioRegular": "Precio regular: $33.600 x lt"
+    },
+    {
+      "nombre": "Aceite De Oliva Extra Virgen Cuisine-co 250 Ml",
+      "marca": "CUISINE & CO NBE MP",
+      "precio": "$8.150",
+      "precioRegular": "Precio regular: $32.600 x lt"
+    },
+    {
+      "nombre": "Aceite Oliva Picual Zuccardi 250 Ml",
+      "marca": "FAMILIA ZUCCARDI",
+      "precio": "$9.675",
+      "precioRegular": "Precio regular: $51.600 x lt"
+    },
+    {
+      "nombre": "Aceite De Oliva Zuelo Original 500ml",
+      "marca": "ZUELO",
+      "precio": "$12.375",
+      "precioRegular": "Precio regular: $33.000 x lt"
+    },
+    {
+      "nombre": "Aceite Lira De Maiz X900ml",
+      "marca": "LIRA",
+      "precio": "$3.450",
+      "precioRegular": "Precio regular: $3.833,33 x lt"
+    },
+    {
+      "nombre": "Aceite De Oliva Organico Cuisine-co 500 Ml",
+      "marca": "CUISINE & CO NBE MP",
+      "precio": "$15.300",
+      "precioRegular": "Precio regular: $30.600 x lt"
+    },
+    {
+      "nombre": "Aceite Girasol Cocinero Plus Oleico 900 L",
+      "marca": "COCINERO",
+      "precio": "$1.950",
+      "precioRegular": "Precio regular: $2.166,67 x lt"
+    },
+    {
+      "nombre": "Aceite De Coco Manteca Sin Tacc Chia Graal 180 Ml",
+      "marca": "CHIA GRAAL",
+      "precio": "$6.900",
+      "precioRegular": "Precio regular: $38.333,33 x kg"
+    },
+    {
+      "nombre": "Aceite De Oliva Extra Virgen Intenso Nucete 500 Ml",
+      "marca": "NUCETE",
+      "precio": "$12.500",
+      "precioRegular": "Precio regular: $25.000 x lt"
+    },
+    {
+      "nombre": "Aceite Oliva Genovesa Zuccardi 250 Ml",
+      "marca": "FAMILIA ZUCCARDI",
+      "precio": "$9.675",
+      "precioRegular": "Precio regular: $51.600 x lt"
+    },
+    {
+      "nombre": "Aceite Oliva Coratina Zuccardi 250 Ml",
+      "marca": "FAMILIA ZUCCARDI",
+      "precio": "$9.675",
+      "precioRegular": "Precio regular: $51.600 x lt"
+    },
+    {
+      "nombre": "Aceite De Oliva La Española Extra Virgen 500 Ml",
+      "marca": "LA ESPAÑOLA",
+      "precio": "$12.675",
+      "precioRegular": "Precio regular: $33.800 x lt"
+    },
+    {
+      "nombre": "Aceite De Coco Virgen God Bless You 125 Ml",
+      "marca": "GOD BLESS YOU",
+      "precio": "$6.350",
+      "precioRegular": "Precio regular: $50.800 x lt"
+    },
+    {
+      "nombre": "Aceite De Coco Neutro God Bless You 125 Ml",
+      "marca": "GOD BLESS YOU",
+      "precio": "$4.300",
+      "precioRegular": "Precio regular: $4.300 x un"
+    },
+    {
+      "nombre": "Aceite De Girasol Lira X 900 Ml",
+      "marca": "LIRA",
+      "precio": "$2.000",
+      "precioRegular": "Precio regular: $2.222,22 x lt"
+    },
+    {
+      "nombre": "Aceite Cortijo El Olivar Dicomere 3l",
+      "marca": "CORTIJO",
+      "precio": "$51.412,5",
+      "precioRegular": "Precio regular: $22.850 x lt"
+    },
+    {
+      "nombre": "Aceite De Oliva Gourmet Oliovita 3 L",
+      "marca": "OLIOVITA",
+      "precio": "$77.250",
+      "precioRegular": "Precio regular: $34.333,33 x lt"
+    },
+    {
+      "nombre": "Aceite De Oliva Suave La Toscana 500 Ml",
+      "marca": "LA TOSCANA",
+      "precio": "$18.225",
+      "precioRegular": "Precio regular: $48.600 x lt"
+    },
+    {
+      "nombre": "Aceite De Oliva Cocinero Puro X1l",
+      "marca": "COCINERO",
+      "precio": "$13.500",
+      "precioRegular": "Precio regular: $18.000 x lt"
+    },
+    {
+      "nombre": "Aceite Para Bebé Johnson's Puro X 100 Ml.",
+      "marca": "JOHNSON BABY",
+      "precio": "$4.650",
+      "precioRegular": "Precio regular: $46.500 x lt"
+    },
+    {
+      "nombre": "Aceite De Oliva Pesto La Toscana 250 Ml",
+      "marca": "LA TOSCANA",
+      "precio": "$10.275",
+      "precioRegular": "Precio regular: $54.800 x lt"
+    },
+    {
+      "nombre": "Aceite De Oliva Organico Cuisine And Co 250 Ml",
+      "marca": "CUISINE & CO NBE MP",
+      "precio": "$10.700",
+      "precioRegular": "Precio regular: $42.800 x lt"
+    },
+    {
+      "nombre": "Aceite De Oliva La Toscana Extra Virgen Con Oregano 250 Ml",
+      "marca": "LA TOSCANA",
+      "precio": "$10.275",
+      "precioRegular": "Precio regular: $54.800 x lt"
+    },
+    {
+      "nombre": "Aceite De Oliva Extra Virgen Con Ají Picante La Toscana 250 Ml",
+      "marca": "LA TOSCANA",
+      "precio": "$10.275",
+      "precioRegular": "Precio regular: $54.800 x lt"
+    },
+    {
+      "nombre": "Aceite Cocinero Girasol Eco X900ml",
+      "marca": "COCINERO",
+      "precio": "$1.804",
+      "precioRegular": "Precio regular: $2.004,44 x lt"
+    },
+    {
+      "nombre": "Aceite De Oliva La Española Orégano 250 Ml",
+      "marca": "LA ESPAÑOLA",
+      "precio": "$4.425",
+      "precioRegular": "Precio regular: $23.600 x lt"
+    },
+    {
+      "nombre": "Aceite Orgánico Pampa Gourmet 500 Ml",
+      "marca": "PAMPA GOURMET",
+      "precio": "$9.975",
+      "precioRegular": "Precio regular: $26.600 x lt"
+    },
+    {
+      "nombre": "Aceite De Canola Y Oliva Virgen Krol 500 Ml",
+      "marca": "KROL",
+      "precio": "$7.050",
+      "precioRegular": "Precio regular: $14.100 x lt"
+    },
+    {
+      "nombre": "Aceite La Española De Oliva Saborizado Limón 250 Cc",
+      "marca": "LA ESPAÑOLA",
+      "precio": "$4.425",
+      "precioRegular": "Precio regular: $23.600 x lt"
+    },
+    {
+      "nombre": "Aceite Terrasana De Oliva Extra Virgen Orgánic",
+      "marca": "TERRASANA",
+      "precio": "$17.550",
+      "precioRegular": "Precio regular: $46.800 x lt"
+    },
+    {
+      "nombre": "Aceite De Canola Krol Virgen 500 Ml",
+      "marca": "KROL",
+      "precio": "$7.050",
+      "precioRegular": "Precio regular: $14.100 x lt"
+    },
+    {
+      "nombre": "Aceite La Española De Oliva Saborizada Guindilla  250 Cc",
+      "marca": "LA ESPAÑOLA",
+      "precio": "$7.425",
+      "precioRegular": "Precio regular: $39.600 x lt"
+    },
+    {
+      "nombre": "Aceite Lira Oliva Ev Clas S-tacc X 500ml",
+      "marca": "LIRA",
+      "precio": "$12.450",
+      "precioRegular": "Precio regular: $33.200 x lt"
+    },
+    {
+      "nombre": "Aceite De Oliva Oliovita Organico X250cc",
+      "marca": "OLIOVITA",
+      "precio": "$9.075",
+      "precioRegular": "Precio regular: $48.400 x lt"
+    },
+    {
+      "nombre": "Aceite De Oliva Extra Virgen Ybarra 250 Ml",
+      "marca": "YBARRA",
+      "precio": "$12.150",
+      "precioRegular": "Precio regular: $64.800 x kg"
+    },
+    {
+      "nombre": "Kenko Aceite De Sesamo X 100ml",
+      "marca": "KENKO",
+      "precio": "$10.823,39",
+      "precioRegular": "Precio regular: $108.233,9 x lt"
+    },
+    {
+      "nombre": "Aceite De Oliva Yancanello Extra Virgen 250 Ml",
+      "marca": "YANCANELLO",
+      "precio": "$9.825",
+      "precioRegular": "Precio regular: $52.400 x lt"
+    },
+    {
+      "nombre": "Aceite De Oliva Extra Virgen Spray Mantova 200",
+      "marca": "SIN MARCA",
+      "precio": "$13.000",
+      "precioRegular": "Precio regular: $65.000 x lt"
+    },
+    {
+      "nombre": "Aceite De Coco Spray Mantova 147 Ml",
+      "marca": "SIN MARCA",
+      "precio": "$15.600",
+      "precioRegular": "Precio regular: $105.405,41 x lt"
+    },
+    {
+      "nombre": "Atun En Aceite La Campagnola 170 Gr",
+      "marca": "LA CAMPAGNOLA",
+      "precio": "$3.672",
+      "precioRegular": "Precio regular: $21.600 x kg"
+    },
+    {
+      "nombre": "Lomo De Atun Agua Y Aceite Cuisine & Co 120gr Escurrido 170 Gr Neto",
+      "marca": "CUISINE & CO NBE MP",
+      "precio": "$2.100",
+      "precioRegular": "Precio regular: $17.500 x kg"
+    },
+    {
+      "nombre": "Atún Desmenuzado En Agua Y En Aceite Maxima 120 Gr",
+      "marca": "Maxima MP",
+      "precio": "$700",
+      "precioRegular": "Precio regular: $5.833,33 x kg"
+    },
+    {
+      "nombre": "Vinagre De Alcohol Jumbo 500 Ml",
+      "marca": "JUMBO MP",
+      "precio": "$400",
+      "precioRegular": "Precio regular: $800 x lt"
+    },
+    {
+      "nombre": "Sardinas En Aceite cuisine-co 160 Gr",
+      "marca": "CUISINE & CO NBE MP",
+      "precio": "$2.050",
+      "precioRegular": "Precio regular: $19.339,62 x kg"
+    },
+    {
+      "nombre": "Vinagre Alcazar De Alcohol  X  1 Lt.",
+      "marca": "ALCAZAR",
+      "precio": "$1.100",
+      "precioRegular": "Precio regular: $1.100 x lt"
+    },
+    {
+      "nombre": "Aceto Balsámico Redución Casalta 400 Ml",
+      "marca": "CASALTA",
+      "precio": "$5.850",
+      "precioRegular": "Precio regular: $14.625 x lt"
+    },
+    {
+      "nombre": "Jugo De Limon Minerva 250 Ml",
+      "marca": "MINERVA",
+      "precio": "$800",
+      "precioRegular": "Precio regular: $3.200 x lt"
+    },
+    {
+      "nombre": "Vinagre De Alcohol Favinco Sin Tacc X 1lt",
+      "marca": "FAVINCO",
+      "precio": "$1.000",
+      "precioRegular": "Precio regular: $1.000 x lt"
+    },
+    {
+      "nombre": "Aceto Balsamico En Reduccion Cocinero 500 Ml",
+      "marca": "COCINERO",
+      "precio": "$5.350",
+      "precioRegular": "Precio regular: $10.700 x lt"
+    },
+    {
+      "nombre": "Caballa En Aceite Cuisine-co 380 Gr",
+      "marca": "CUISINE & CO NBE MP",
+      "precio": "$2.600",
+      "precioRegular": "Precio regular: $9.774,44 x kg"
+    },
+    {
+      "nombre": "Vinagre Alcazar De Alcohol X  500  Cc.",
+      "marca": "ALCAZAR",
+      "precio": "$750",
+      "precioRegular": "Precio regular: $1.500 x lt"
+    },
+    {
+      "nombre": "Vinagre De Manzana Jumbo 1 L",
+      "marca": "JUMBO MP",
+      "precio": "$1.250",
+      "precioRegular": "Precio regular: $1.250 x lt"
+    },
+    {
+      "nombre": "Jugo De Limón Minerva X1 Lt",
+      "marca": "MINERVA",
+      "precio": "$2.200",
+      "precioRegular": "Precio regular: $2.200 x lt"
+    },
+    {
+      "nombre": "Ensalada De Atun La Campagnola Aceite Y Agua X1",
+      "marca": "LA CAMPAGNOLA",
+      "precio": "$2.750",
+      "precioRegular": "Precio regular: $15.277,78 x kg"
+    },
+    {
+      "nombre": "Vinagre De Manzana Menoyo 1 L",
+      "marca": "MENOYO",
+      "precio": "$2.750",
+      "precioRegular": "Precio regular: $2.750 x lt"
+    },
+    {
+      "nombre": "Aceto Tipo Reduccion Casalta 500 Ml",
+      "marca": "CASALTA",
+      "precio": "$6.650",
+      "precioRegular": "Precio regular: $13.300 x lt"
+    },
+    {
+      "nombre": "Ghee Manteca Clarificada Cow's Pure 300 Gr",
+      "marca": "COWS PURE",
+      "precio": "$5.900",
+      "precioRegular": "Precio regular: $19.666,67 x kg"
+    },
+    {
+      "nombre": "Vinagre De Alcohol Menoyo 500 Ml",
+      "marca": "MENOYO",
+      "precio": "$850",
+      "precioRegular": "Precio regular: $1.700 x lt"
+    },
+    {
+      "nombre": "Vinagre De Vino Menoyo 500 Ml",
+      "marca": "MENOYO",
+      "precio": "$1.250",
+      "precioRegular": "Precio regular: $2.500 x lt"
+    },
+    {
+      "nombre": "Vinagre De Vino Jumbo 1 L",
+      "marca": "JUMBO MP",
+      "precio": "$1.050",
+      "precioRegular": "Precio regular: $1.050 x lt"
+    },
+    {
+      "nombre": "Aceto Balsámico Cocinero",
+      "marca": "COCINERO",
+      "precio": "$2.300",
+      "precioRegular": "Precio regular: $9.200 x lt"
+    },
+    {
+      "nombre": "Aceto Balsamico Espeso Favinco 500 Ml",
+      "marca": "FAVINCO",
+      "precio": "$4.400",
+      "precioRegular": "Precio regular: $8.800 x lt"
+    },
+    {
+      "nombre": "Aceto Clasico Casalta 500 Ml",
+      "marca": "CASALTA",
+      "precio": "$4.700",
+      "precioRegular": "Precio regular: $9.400 x lt"
+    },
+    {
+      "nombre": "Jugo Menoyo De Limón   Pet 500 Cc.",
+      "marca": "MENOYO",
+      "precio": "$1.350",
+      "precioRegular": "Precio regular: $2.700 x lt"
+    },
+    {
+      "nombre": "Ghee Cow Pure 150 Gr",
+      "marca": "COWS PURE",
+      "precio": "$3.000",
+      "precioRegular": "Precio regular: $19.480,52 x kg"
+    },
+    {
+      "nombre": "Aceto Balsámico Angelo 500 Ml",
+      "marca": "MAZZETTI",
+      "precio": "$4.246",
+      "precioRegular": "Precio regular: $8.492 x lt"
+    },
+    {
+      "nombre": "Aceto Balsamico Espeso Ahumado Favinco 500 Ml",
+      "marca": "FAVINCO",
+      "precio": "$4.400",
+      "precioRegular": "Precio regular: $8.800 x lt"
+    },
+    {
+      "nombre": "Caballa En Aceite La Campagnola 300 Gr",
+      "marca": "LA CAMPAGNOLA",
+      "precio": "$2.650",
+      "precioRegular": "Precio regular: $8.833,33 x kg"
+    },
+    {
+      "nombre": "Vinagre De Manzana Menoyo 500 Ml",
+      "marca": "MENOYO",
+      "precio": "$1.750",
+      "precioRegular": "Precio regular: $3.500 x lt"
+    },
+    {
+      "nombre": "Vinagre De Manzana Dos Anclas 1 L",
+      "marca": "DOS ANCLAS",
+      "precio": "$2.850",
+      "precioRegular": "Precio regular: $2.850 x lt"
+    },
+    {
+      "nombre": "Aceto Balsámico Cocinero 500 Ml",
+      "marca": "DI MODENA",
+      "precio": "$4.300",
+      "precioRegular": "Precio regular: $8.600 x lt"
+    },
+    {
+      "nombre": "Ghee  Cow Pure X 520g",
+      "marca": "COWS PURE",
+      "precio": "$7.900",
+      "precioRegular": "Precio regular: $15.192,31 x kg"
+    },
+    {
+      "nombre": "Vinagre Manzana Favinco 1300ml",
+      "marca": "FAVINCO",
+      "precio": "$2.650",
+      "precioRegular": "Precio regular: $2.038,46 x lt"
+    },
+    {
+      "nombre": "Jugo De Limon Menoyo 250 Ml.",
+      "marca": "MENOYO",
+      "precio": "$900",
+      "precioRegular": "Precio regular: $3.600 x lt"
+    },
+    {
+      "nombre": "Aerosol Lira Clásico X 120gr",
+      "marca": "LIRA",
+      "precio": "$3.000",
+      "precioRegular": "Precio regular: $25.000 x lt"
+    },
+    {
+      "nombre": "Aceto Balsamico Glaze Ahumado Casalta 250 Ml",
+      "marca": "CASALTA",
+      "precio": "$3.600",
+      "precioRegular": "Precio regular: $14.400 x lt"
+    },
+    {
+      "nombre": "Aderezo Cocinero Sabor Aceto/oliva X500ml",
+      "marca": "COCINERO",
+      "precio": "$2.250",
+      "precioRegular": "Precio regular: $4.500 x lt"
+    },
+    {
+      "nombre": "Vinagre De Vino Cuisine And Co 500 Ml",
+      "marca": "CUISINE & CO NBE MP",
+      "precio": "$900",
+      "precioRegular": "Precio regular: $1.800 x lt"
+    },
+    {
+      "nombre": "Ghee Con Sal Himalaya Cows Pure 300 Gr",
+      "marca": "COWS PURE",
+      "precio": "$5.900",
+      "precioRegular": "Precio regular: $19.666,67 x kg"
+    },
+    {
+      "nombre": "Aceto Balsamico Espeso Favinco 250 Ml",
+      "marca": "FAVINCO",
+      "precio": "$2.900",
+      "precioRegular": "Precio regular: $11.600 x lt"
+    },
+    {
+      "nombre": "Aceto Lira Pet X250ml",
+      "marca": "LIRA",
+      "precio": "$2.500",
+      "precioRegular": "Precio regular: $10.000 x lt"
+    },
+    {
+      "nombre": "Vinagre Castello De Arroz 750 Ml",
+      "marca": "CASTELLO DE ARROZ",
+      "precio": "$7.750",
+      "precioRegular": "Precio regular: $10.333,33 x lt"
+    },
+    {
+      "nombre": "Vinagre De Vino Casalta 1300 Ml",
+      "marca": "CASALTA",
+      "precio": "$2.050",
+      "precioRegular": "Precio regular: $1.576,92 x lt"
+    },
+    {
+      "nombre": "Vinagre De Vino Menoyo 1 L",
+      "marca": "MENOYO",
+      "precio": "$2.300",
+      "precioRegular": "Precio regular: $2.300 x lt"
+    },
+    {
+      "nombre": "Vinagre De Vino Casalta 500 Ml",
+      "marca": "CASALTA",
+      "precio": "$1.150",
+      "precioRegular": "Precio regular: $2.300 x lt"
+    },
+    {
+      "nombre": "Vinagre De Sidra San Giorgio 70 Ml",
+      "marca": "SAN GIORGIO",
+      "precio": "$2.938,9",
+      "precioRegular": "Precio regular: $41.984,29 x lt"
+    },
+    {
+      "nombre": "Vinagre De Vino Favinco Sin Tacc X 1l",
+      "marca": "FAVINCO",
+      "precio": "$1.800",
+      "precioRegular": "Precio regular: $1.800 x lt"
+    },
+    {
+      "nombre": "Aceto Balsamico Lira Reducción X500ml",
+      "marca": "LIRA",
+      "precio": "$5.900",
+      "precioRegular": "Precio regular: $11.800 x lt"
+    },
+    {
+      "nombre": "Aceto Reduccion Limon Menoyo 250 Ml",
+      "marca": "MENOYO",
+      "precio": "$3.200",
+      "precioRegular": "Precio regular: $12.800 x lt"
+    },
+    {
+      "nombre": "Mct God Bless You 200 Ml",
+      "marca": "GOD BLESS YOU",
+      "precio": "$18.450",
+      "precioRegular": "Precio regular: $92.250 x lt"
+    },
+    {
+      "nombre": "Maille Vinagre De Vino Blanco Botella 500ml",
+      "marca": "MAILLE",
+      "precio": "$13.000",
+      "precioRegular": "Precio regular: $26.000 x lt"
+    },
+    {
+      "nombre": "Aceto Balsamico Lira Reducción X250ml",
+      "marca": "LIRA",
+      "precio": "$3.100",
+      "precioRegular": "Precio regular: $12.400 x lt"
+    },
+    {
+      "nombre": "Vinagre De Arroz San Giorgio 70 Ml",
+      "marca": "SAN GIORGIO",
+      "precio": "$2.938,9",
+      "precioRegular": "Precio regular: $41.984,29 x lt"
+    },
+    {
+      "nombre": "Aceto Balsámico Colavita 250 Ml",
+      "marca": "COLAVITA",
+      "precio": "$8.500",
+      "precioRegular": "Precio regular: $34.000 x lt"
+    },
+    {
+      "nombre": "Ghee Ahumada Cows Pure 300 Gr",
+      "marca": "COWS PURE",
+      "precio": "$5.900",
+      "precioRegular": "Precio regular: $19.666,67 x kg"
+    },
+    {
+      "nombre": "Aceto Reducción Frutos Del Bosque Menoyo 250 Ml",
+      "marca": "MENOYO",
+      "precio": "$3.200",
+      "precioRegular": "Precio regular: $12.800 x lt"
+    },
+    {
+      "nombre": "Aceto Balsámico Extra Añejo Glaze Domenico Renieri 250 Ml",
+      "marca": "DOMENICO RENIERI",
+      "precio": "$11.750",
+      "precioRegular": "Precio regular: $47.000 x lt"
+    },
+    {
+      "nombre": "Aceto Balsamico Ahumado Menoyo 250 Ml",
+      "marca": "MENOYO",
+      "precio": "$4.000",
+      "precioRegular": "Precio regular: $16.000 x lt"
+    },
+    {
+      "nombre": "Maille Aceto Balsámico Di Modena Botella 500ml",
+      "marca": "MAILLE",
+      "precio": "$19.000",
+      "precioRegular": "Precio regular: $38.000 x lt"
+    },
+    {
+      "nombre": "Aceto Balsámico San Giorgio 250 Ml",
+      "marca": "SAN GIORGIO",
+      "precio": "$3.484,33",
+      "precioRegular": "Precio regular: $13.937,32 x lt"
+    },
+    {
+      "nombre": "Kenko Vinagre De Arroz X 750ml",
+      "marca": "KENKO",
+      "precio": "$9.866,97",
+      "precioRegular": "Precio regular: $13.155,96 x lt"
+    },
+    {
+      "nombre": "Vinagre De Vino Sin Tacc Favinco 500 Ml",
+      "marca": "FAVINCO",
+      "precio": "$1.150",
+      "precioRegular": "Precio regular: $2.300 x lt"
+    },
+    {
+      "nombre": "Aceto Balsámico Modena Fini 500 Ml",
+      "marca": "FINI",
+      "precio": "$19.600",
+      "precioRegular": "Precio regular: $39.200 x lt"
+    },
+    {
+      "nombre": "Vinagre De Champagne San Giorgio 70 Ml",
+      "marca": "SAN GIORGIO",
+      "precio": "$3.638,64",
+      "precioRegular": "Precio regular: $51.980,57 x lt"
+    },
+    {
+      "nombre": "Vinagre De Vino Casalta 1 L",
+      "marca": "CASALTA",
+      "precio": "$1.900",
+      "precioRegular": "Precio regular: $1.900 x lt"
+    },
+    {
+      "nombre": "Mct Premium Spray God Bless You 125 Ml",
+      "marca": "GOD BLESS YOU",
+      "precio": "$17.050",
+      "precioRegular": "Precio regular: $136.400 x lt"
+    },
+    {
+      "nombre": "Aceto Con Humo Líquido San Giorgio 250 Ml",
+      "marca": "SAN GIORGIO",
+      "precio": "$4.961,4",
+      "precioRegular": "Precio regular: $19.845,6 x lt"
+    },
+    {
+      "nombre": "Glace Balsamico Colavita 250 Ml",
+      "marca": "COLAVITA",
+      "precio": "$7.838,88",
+      "precioRegular": "Precio regular: $31.355,52 x lt"
+    },
+    {
+      "nombre": "Vinagre De Vino Favinco 1300 Ml",
+      "marca": "FAVINCO",
+      "precio": "$2.050",
+      "precioRegular": "Precio regular: $1.576,92 x lt"
+    },
+    {
+      "nombre": "Aceto Balsámico Doménico Rainieri 250 Ml",
+      "marca": "DOMENICO RENIERI",
+      "precio": "$8.650",
+      "precioRegular": "Precio regular: $34.600 x lt"
+    },
+    {
+      "nombre": "Aceto Balsámico Di Modena San Giorgio 250 Ml",
+      "marca": "SAN GIORGIO",
+      "precio": "$7.250",
+      "precioRegular": "Precio regular: $29.000 x lt"
+    },
+    {
+      "nombre": "Vinagre De Vino Tinto San Giorgio 70 Ml",
+      "marca": "SAN GIORGIO",
+      "precio": "$2.938,9",
+      "precioRegular": "Precio regular: $41.984,29 x lt"
+    }
+  ]
+}
