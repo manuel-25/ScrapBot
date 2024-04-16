@@ -1,0 +1,176 @@
+{
+  "time_spent": "0 minutos y 22 segundos",
+  "date": "2024-04-15T20:13:13.057Z",
+  "url": "https://www.jumbo.com.ar/dulce%20de%20leche?_q=dulce%20de%20leche&map=ft",
+  "totalProducts": 28,
+  "data": [
+    {
+      "nombre": "Dulce De Leche Cuisine And Co 400g",
+      "marca": "CUISINE & CO NBE MP",
+      "precio": "$1.100",
+      "precioRegular": "Precio regular: $2.750 x kg"
+    },
+    {
+      "nombre": "Dulce De Leche Not Dulce De Leche  250 Gr",
+      "marca": "NOT DULCE DE LECHE",
+      "precio": "$2.300",
+      "precioRegular": "Precio regular: $9.200 x kg"
+    },
+    {
+      "nombre": "Dulce De Leche La Serenisima Clasico 400g",
+      "marca": "LA SERENISIMA",
+      "precio": "$2.226,44",
+      "precioRegular": "Precio regular: $5.566,1 x kg"
+    },
+    {
+      "nombre": "Dulce De Leche La Serenisima Colonial 400 G",
+      "marca": "LA SERENISIMA",
+      "precio": "$2.661,12",
+      "precioRegular": "Precio regular: $6.652,8 x kg"
+    },
+    {
+      "nombre": "Dulce De Leche La Serenísima Repostero 400g",
+      "marca": "LA SERENISIMA",
+      "precio": "$2.408,09",
+      "precioRegular": "Precio regular: $6.020,23 x kg"
+    },
+    {
+      "nombre": "Dulce De Leche La Serenisima Colonial 1kg",
+      "marca": "LA SERENISIMA",
+      "precio": "$5.807,52",
+      "precioRegular": "Precio regular: $5.807,52 x kg"
+    },
+    {
+      "nombre": "Dulce De Leche Milkaut 1 Kg",
+      "marca": "MILKAUT",
+      "precio": "$4.650",
+      "precioRegular": "Precio regular: $4.650 x kg"
+    },
+    {
+      "nombre": "Dulce De Leche San Ignacio Tradición 400g",
+      "marca": "SAN IGNACIO",
+      "precio": "$2.000",
+      "precioRegular": "Precio regular: $5.000 x kg"
+    },
+    {
+      "nombre": "Dulce De Leche San Ignacio Repostero X 410g",
+      "marca": "SAN IGNACIO",
+      "precio": "$2.050",
+      "precioRegular": "Precio regular: $5.000 x kg"
+    },
+    {
+      "nombre": "Dulce De Leche Franz 400g",
+      "marca": "FRANZ",
+      "precio": "$1.500",
+      "precioRegular": "Precio regular: $3.750 x kg"
+    },
+    {
+      "nombre": "Dulce De Leche La Serenisima Colonial 250g",
+      "marca": "LA SERENISIMA",
+      "precio": "$1.746,49",
+      "precioRegular": "Precio regular: $6.985,96 x kg"
+    },
+    {
+      "nombre": "Dulce De Leche Ser 300g",
+      "marca": "SER",
+      "precio": "$1.881,65",
+      "precioRegular": "Precio regular: $6.272,17 x kg"
+    },
+    {
+      "nombre": "Dulce De Leche Milkaut Repostero 400g",
+      "marca": "MILKAUT",
+      "precio": "$2.800",
+      "precioRegular": "Precio regular: $7.000 x kg"
+    },
+    {
+      "nombre": "Dulce De Leche La Cremeria Milkaut Con Crema 320g",
+      "marca": "LA CREMERIA MILKAUT",
+      "precio": "$2.300",
+      "precioRegular": "Precio regular: $7.187,5 x kg"
+    },
+    {
+      "nombre": "Dulce De Leche Milkaut Familiar Pote 400g",
+      "marca": "MILKAUT",
+      "precio": "$2.700",
+      "precioRegular": "Precio regular: $6.750 x kg"
+    },
+    {
+      "nombre": "Dulce De Leche La Serenisima Red Lactosa Pote 300g",
+      "marca": "LA SERENISIMA",
+      "precio": "$2.275,77",
+      "precioRegular": "Precio regular: $7.585,9 x kg"
+    },
+    {
+      "nombre": "Dulce De Leche S.ignacio Frasco 450g",
+      "marca": "SAN IGNACIO",
+      "precio": "$3.950",
+      "precioRegular": "Precio regular: $8.777,78 x kg"
+    },
+    {
+      "nombre": "Dulce De Leche San Ignacio Grasas Reducidas X 410g",
+      "marca": "SAN IGNACIO",
+      "precio": "$2.050",
+      "precioRegular": "Precio regular: $5.000 x kg"
+    },
+    {
+      "nombre": "Dulce De Leche Milkaut De Campo Familiar X 395 G",
+      "marca": "MILKAUT",
+      "precio": "$2.250",
+      "precioRegular": "Precio regular: $5.696,2 x kg"
+    },
+    {
+      "nombre": "Dulce De Leche Milkaut Clasico X 245 Gr",
+      "marca": "MILKAUT",
+      "precio": "$1.600",
+      "precioRegular": "Precio regular: $6.530,61 x kg"
+    },
+    {
+      "nombre": "Dulce De Leche Poncho Negro 450 Gr",
+      "marca": "PONCHO NEGRO",
+      "precio": "$3.650",
+      "precioRegular": "Precio regular: $8.021,98 x kg"
+    },
+    {
+      "nombre": "Dulce De Leche Felices Las Vacas A Base De Almendras 200g",
+      "marca": "FELICES LAS VACAS",
+      "precio": "$2.100",
+      "precioRegular": "Precio regular: $10.500 x kg"
+    },
+    {
+      "nombre": "Dulce De Leche Franz 1kg",
+      "marca": "FRANZ",
+      "precio": "$3.500",
+      "precioRegular": "Precio regular: $3.500 x kg"
+    },
+    {
+      "nombre": "Dulce De Leche La Delfina De Bufala 380g",
+      "marca": "LA DELFINA",
+      "precio": "$8.200",
+      "precioRegular": "Precio regular: $21.298,7 x kg"
+    },
+    {
+      "nombre": "Postre Shimy Dulce De Leche 120g",
+      "marca": "SHIMY",
+      "precio": "$1.600",
+      "precioRegular": "Precio regular: $13.333,33 x kg"
+    },
+    {
+      "nombre": "Alim Base Alm Ddl Felices Las Vacas 200g",
+      "marca": "FELICES LAS VACAS",
+      "precio": "$1.048,65",
+      "precioRegular": "Precio regular: $5.243,25 x kg"
+    },
+    {
+      "nombre": "Postre Danette Copa Dulce De Leche 100g.",
+      "marca": "DANETTE",
+      "precio": "$1.161",
+      "precioRegular": "Precio regular: $11.610 x kg"
+    },
+    {
+      "nombre": "Postre Mousse Danette Dulce De Leche 80g",
+      "marca": "DANETTE",
+      "precio": "$1.239",
+      "precioRegular": "Precio regular: $15.487,5 x kg"
+    }
+  ]
+}

@@ -1,0 +1,884 @@
+{
+  "time_spent": "1 minutos y 30 segundos",
+  "date": "2024-04-15T20:22:33.604Z",
+  "url": "https://www.jumbo.com.ar/yogur?_q=yogur&map=ft",
+  "totalProducts": 146,
+  "data": [
+    {
+      "nombre": "Yogur Yogurisimo Natural 300g",
+      "marca": "YOGURISIMO",
+      "precio": "$2.364",
+      "precioRegular": "Precio regular: $7.880 x kg"
+    },
+    {
+      "nombre": "Yogur Entero La Serenísima Clásico Frutilla 900g",
+      "marca": "LA SERENISIMA",
+      "precio": "$2.374",
+      "precioRegular": "Precio regular: $2.637,78 x kg"
+    },
+    {
+      "nombre": "Yogur Ser Natural Sin Endulzar 175g",
+      "marca": "SER",
+      "precio": "$1.395",
+      "precioRegular": "Precio regular: $7.971,43 x kg"
+    },
+    {
+      "nombre": "Yogur Griego Yogurísimo Vainilla Caramel 125g",
+      "marca": "YOGURISIMO",
+      "precio": "$1.525",
+      "precioRegular": "Precio regular: $12.708,33 x kg"
+    },
+    {
+      "nombre": "Yogur Griego Yogurisimo Frutillas A La Crema 125g",
+      "marca": "YOGURISIMO",
+      "precio": "$1.525",
+      "precioRegular": "Precio regular: $12.708,33 x kg"
+    },
+    {
+      "nombre": "Yogur Yogurísimo Con Cereales 166g",
+      "marca": "YOGURISIMO",
+      "precio": "$1.981",
+      "precioRegular": "Precio regular: $11.933,73 x kg"
+    },
+    {
+      "nombre": "Yogur Descremado Batido La Serenísima Clásico Vainilla 120g",
+      "marca": "LA SERENISIMA",
+      "precio": "$646",
+      "precioRegular": "Precio regular: $5.383,33 x kg"
+    },
+    {
+      "nombre": "Yogur Ls Firme Sabor Vainilla X120g",
+      "marca": "LS",
+      "precio": "$646",
+      "precioRegular": "Precio regular: $5.383,33 x kg"
+    },
+    {
+      "nombre": "Yogur Yogurísimo Bebible Frutilla 900g",
+      "marca": "YOGURISIMO",
+      "precio": "$3.602",
+      "precioRegular": "Precio regular: $4.002,22 x kg"
+    },
+    {
+      "nombre": "Yogur Ser Natural 300g",
+      "marca": "SER",
+      "precio": "$2.280",
+      "precioRegular": "Precio regular: $7.600 x kg"
+    },
+    {
+      "nombre": "Yogur La Serenisima Firme  Sabor Frutilla X120g",
+      "marca": "LS",
+      "precio": "$646",
+      "precioRegular": "Precio regular: $5.383,33 x kg"
+    },
+    {
+      "nombre": "Yogur Firme La Serenísima Clásico Vainilla 190g",
+      "marca": "LSCLASICO",
+      "precio": "$1.002",
+      "precioRegular": "Precio regular: $5.273,68 x kg"
+    },
+    {
+      "nombre": "Yogur Yogurísimo Bebible Vainilla 900g",
+      "marca": "YOGURISIMO",
+      "precio": "$3.602",
+      "precioRegular": "Precio regular: $4.002,22 x kg"
+    },
+    {
+      "nombre": "Yogur Entero Lsclasico Vainilla 900g",
+      "marca": "LSCLASICO",
+      "precio": "$2.374",
+      "precioRegular": "Precio regular: $2.637,78 x kg"
+    },
+    {
+      "nombre": "Yogur Griego Yogurisimo Arándanos A La Crema 125g",
+      "marca": "YOGURISIMO",
+      "precio": "$1.525",
+      "precioRegular": "Precio regular: $12.708,33 x kg"
+    },
+    {
+      "nombre": "Yogur Entero Milkaut Frutilla Fort.vitdyzinc Sachet 905g",
+      "marca": "MILKAUT",
+      "precio": "$1.950",
+      "precioRegular": "Precio regular: $2.154,7 x kg"
+    },
+    {
+      "nombre": "Yogur La Serenisima Firme Clasico Vainilla 190g",
+      "marca": "LA SERENISIMA",
+      "precio": "$976",
+      "precioRegular": "Precio regular: $5.136,84 x kg"
+    },
+    {
+      "nombre": "Yogur Firme Ser Colágeno Vainilla 190g",
+      "marca": "SER",
+      "precio": "$1.479",
+      "precioRegular": "Precio regular: $7.784,21 x kg"
+    },
+    {
+      "nombre": "Yogur Ser Cereales Con Miel 166g",
+      "marca": "SER",
+      "precio": "$1.886",
+      "precioRegular": "Precio regular: $11.361,45 x kg"
+    },
+    {
+      "nombre": "Yogur Milkaut Entero Vainilla  905g",
+      "marca": "MILKAUT",
+      "precio": "$1.950",
+      "precioRegular": "Precio regular: $2.154,7 x kg"
+    },
+    {
+      "nombre": "Yogur Yogurisimo Firme Vainilla 190g",
+      "marca": "YOGURISIMO",
+      "precio": "$1.578",
+      "precioRegular": "Precio regular: $8.305,26 x kg"
+    },
+    {
+      "nombre": "Yogur Natural Yogurisimo Endulzado 300g",
+      "marca": "YOGURISIMO",
+      "precio": "$2.364",
+      "precioRegular": "Precio regular: $7.880 x kg"
+    },
+    {
+      "nombre": "Postre Danette Ddl 95 G",
+      "marca": "DANETTE",
+      "precio": "$1.284",
+      "precioRegular": "Precio regular: $1.351,58 x kg"
+    },
+    {
+      "nombre": "Yogur Descremado La Serenisima Clásico Frutilla 120g",
+      "marca": "LA SERENISIMA",
+      "precio": "$419,9",
+      "precioRegular": "Precio regular: $5.383,33 x kg"
+    },
+    {
+      "nombre": "Yogur Descremado La Serenísima Clásico Vainilla 900g",
+      "marca": "LA SERENISIMA",
+      "precio": "$2.374",
+      "precioRegular": "Precio regular: $2.637,78 x kg"
+    },
+    {
+      "nombre": "Yogur Ser Multifrua Botella 190g",
+      "marca": "SER",
+      "precio": "$1.644",
+      "precioRegular": "Precio regular: $8.652,63 x kg"
+    },
+    {
+      "nombre": "Yogur Batido Descremado La Serenísima Con Cereales 157g",
+      "marca": "LA SERENISIMA",
+      "precio": "$962,65",
+      "precioRegular": "Precio regular: $9.433,12 x kg"
+    },
+    {
+      "nombre": "Yogur Ser Calci  Vain 120g",
+      "marca": "SER",
+      "precio": "$1.178",
+      "precioRegular": "Precio regular: $9.816,67 x kg"
+    },
+    {
+      "nombre": "Yogur Des Lsclasico Frutilla 900g",
+      "marca": "LSCLASICO",
+      "precio": "$2.374",
+      "precioRegular": "Precio regular: $2.637,78 x kg"
+    },
+    {
+      "nombre": "Postre Danette Americana 95g",
+      "marca": "DANETTE",
+      "precio": "$1.284",
+      "precioRegular": "Precio regular: $1.351,58 x kg"
+    },
+    {
+      "nombre": "Yogur Milkaut Balance Vainilla 900g",
+      "marca": "MILKAUT",
+      "precio": "$1.800",
+      "precioRegular": "Precio regular: $2.000 x kg"
+    },
+    {
+      "nombre": "Yogur Firme Entero Lsclasico Frutilla 190g",
+      "marca": "LSCLASICO",
+      "precio": "$651,3",
+      "precioRegular": "Precio regular: $5.273,68 x kg"
+    },
+    {
+      "nombre": "Yogur Milkaut Cremoso Sabor Frutilla 120g",
+      "marca": "MILKAUT",
+      "precio": "$600",
+      "precioRegular": "Precio regular: $5.000 x kg"
+    },
+    {
+      "nombre": "Yogur Yogurisimo Cremix Frutilla Pack X4 120g",
+      "marca": "YOGURISIMO",
+      "precio": "$3.563",
+      "precioRegular": "Precio regular: $7.422,92 x kg"
+    },
+    {
+      "nombre": "Yogur Ser Calci F.rojos 120g",
+      "marca": "SER",
+      "precio": "$1.178",
+      "precioRegular": "Precio regular: $9.816,67 x kg"
+    },
+    {
+      "nombre": "Yogur Milkaut Balance Frutilla 900g",
+      "marca": "MILKAUT",
+      "precio": "$1.800",
+      "precioRegular": "Precio regular: $2.000 x kg"
+    },
+    {
+      "nombre": "Yogur Ser Natural 175g",
+      "marca": "SER",
+      "precio": "$1.395",
+      "precioRegular": "Precio regular: $7.971,43 x kg"
+    },
+    {
+      "nombre": "Yogur Natural Milkaut Cremoso 180g",
+      "marca": "MILKAUT",
+      "precio": "$950",
+      "precioRegular": "Precio regular: $5.277,78 x kg"
+    },
+    {
+      "nombre": "Yogur Batido La Serenísima Clásico Vainilla 120g",
+      "marca": "LSCLASICO",
+      "precio": "$419,9",
+      "precioRegular": "Precio regular: $5.383,33 x kg"
+    },
+    {
+      "nombre": "Yogur Yogurisimo Cremix Vainilla X 120g",
+      "marca": "YOGURISIMO",
+      "precio": "$1.029",
+      "precioRegular": "Precio regular: $8.575 x kg"
+    },
+    {
+      "nombre": "Yogur Decremado Ser Frutilla Botella 190g",
+      "marca": "SER",
+      "precio": "$1.644",
+      "precioRegular": "Precio regular: $8.652,63 x kg"
+    },
+    {
+      "nombre": "Yogur Batido La Serenísima Clásico Frutilla 120g",
+      "marca": "LS",
+      "precio": "$419,9",
+      "precioRegular": "Precio regular: $5.383,33 x kg"
+    },
+    {
+      "nombre": "Yogur La Serenísima Clásico Con Rocklets 164g",
+      "marca": "LS",
+      "precio": "$962,65",
+      "precioRegular": "Precio regular: $9.030,49 x kg"
+    },
+    {
+      "nombre": "Yogur Yogurisimo Firme Vanilla 480g",
+      "marca": "YOGURISIMO",
+      "precio": "$3.563",
+      "precioRegular": "Precio regular: $7.422,92 x kg"
+    },
+    {
+      "nombre": "Yogur Milkaut Cremoso Vainilla 120g",
+      "marca": "MILKAUT",
+      "precio": "$600",
+      "precioRegular": "Precio regular: $5.000 x kg"
+    },
+    {
+      "nombre": "Yogur La Serenisima Descremado Firme Frutilla 190 G",
+      "marca": "LSCLASICO",
+      "precio": "$634,4",
+      "precioRegular": "Precio regular: $5.136,84 x kg"
+    },
+    {
+      "nombre": "Yogur Batido La Serenisima Clásico Con Cereales 159g",
+      "marca": "LS",
+      "precio": "$962,65",
+      "precioRegular": "Precio regular: $9.314,47 x kg"
+    },
+    {
+      "nombre": "Yogur Entero Lsclasico Frutilla 1100g",
+      "marca": "LSCLASICO",
+      "precio": "$1.697,15",
+      "precioRegular": "Precio regular: $2.373,64 x kg"
+    },
+    {
+      "nombre": "Yogur Estilo Griego Con Toppings Desayuno Yogurisimo 140gr",
+      "marca": "YOGURISIMO",
+      "precio": "$1.627",
+      "precioRegular": "Precio regular: $11.621,43 x kg"
+    },
+    {
+      "nombre": "Yogur Firme Ser Colágeno Frutilla 190g",
+      "marca": "SER",
+      "precio": "$1.479",
+      "precioRegular": "Precio regular: $7.784,21 x kg"
+    },
+    {
+      "nombre": "Yogur Yogurisimo Vainilla Botellita 190g",
+      "marca": "YOGURISIMO",
+      "precio": "$1.762",
+      "precioRegular": "Precio regular: $9.273,68 x kg"
+    },
+    {
+      "nombre": "Yogur Cremix Yogurisimo Vainilla 120g X 4un.",
+      "marca": "YOGURISIMO",
+      "precio": "$3.563",
+      "precioRegular": "Precio regular: $7.422,92 x kg"
+    },
+    {
+      "nombre": "Yogur Bebible Activia Ciruela Deslactosado 1kg",
+      "marca": "ACTIVIA",
+      "precio": "$3.657",
+      "precioRegular": "Precio regular: $3.657 x kg"
+    },
+    {
+      "nombre": "Yogur Yogurisimo  Frutilla 190g",
+      "marca": "YOGURISIMO",
+      "precio": "$1.762",
+      "precioRegular": "Precio regular: $9.273,68 x kg"
+    },
+    {
+      "nombre": "Yogur Ser Bebible Sabor Frutilla 900g",
+      "marca": "SER",
+      "precio": "$3.603",
+      "precioRegular": "Precio regular: $4.003,33 x kg"
+    },
+    {
+      "nombre": "Yogur Descremado Dahí Con Frutos Del Bosque 190g",
+      "marca": "DAHÍ",
+      "precio": "$1.800",
+      "precioRegular": "Precio regular: $9.473,68 x kg"
+    },
+    {
+      "nombre": "Yogur Activia Manzana Y Frutilla Deslactosado 1kg",
+      "marca": "ACTIVIA",
+      "precio": "$3.657",
+      "precioRegular": "Precio regular: $3.657 x kg"
+    },
+    {
+      "nombre": "Yogur Milkaut Bebible Sabor Frutilla X 1,2 Kg",
+      "marca": "MILKAUT",
+      "precio": "$2.700",
+      "precioRegular": "Precio regular: $2.250 x kg"
+    },
+    {
+      "nombre": "Yogur Bebible Ser Sachet Vainilla 900g",
+      "marca": "SER",
+      "precio": "$3.603",
+      "precioRegular": "Precio regular: $4.003,33 x kg"
+    },
+    {
+      "nombre": "Yogur La Cremería Milkaut Con Frutilla 120g",
+      "marca": "LA CREMERIA MILKAUT",
+      "precio": "$1.000",
+      "precioRegular": "Precio regular: $8.333,33 x kg"
+    },
+    {
+      "nombre": "Yogur Light Milkaut Cremoso Colchon De Frutillas 150 Gr",
+      "marca": "MILKAUT",
+      "precio": "$850",
+      "precioRegular": "Precio regular: $5.666,67 x kg"
+    },
+    {
+      "nombre": "Yogur Ser Natural Con Colchón Frutilla 140g",
+      "marca": "SER",
+      "precio": "$1.650",
+      "precioRegular": "Precio regular: $11.785,71 x kg"
+    },
+    {
+      "nombre": "Yogur Milkaut 0lactosa Vainilla 120g",
+      "marca": "MILKAUT",
+      "precio": "$700",
+      "precioRegular": "Precio regular: $5.833,33 x kg"
+    },
+    {
+      "nombre": "Yogur Light Milkaut Cremoso Frutilla 190g",
+      "marca": "MILKAUT",
+      "precio": "$750",
+      "precioRegular": "Precio regular: $3.947,37 x kg"
+    },
+    {
+      "nombre": "Yogur Light Milkaut Cremoso Colchon De Durazno 150 Gr",
+      "marca": "MILKAUT",
+      "precio": "$850",
+      "precioRegular": "Precio regular: $5.666,67 x kg"
+    },
+    {
+      "nombre": "Yogur Yogurísimo Con Granola 168g",
+      "marca": "YOGURISIMO",
+      "precio": "$1.981",
+      "precioRegular": "Precio regular: $11.791,67 x kg"
+    },
+    {
+      "nombre": "Yogur Entero Lsclasico Vainilla 1100g",
+      "marca": "LSCLASICO",
+      "precio": "$1.697,15",
+      "precioRegular": "Precio regular: $2.373,64 x kg"
+    },
+    {
+      "nombre": "Yogur Batido La Serenísima Clásico Sabor Durazno 120g",
+      "marca": "LS",
+      "precio": "$419,9",
+      "precioRegular": "Precio regular: $5.383,33 x kg"
+    },
+    {
+      "nombre": "Activia Deslactosada Arandano 190 G",
+      "marca": "ACTIVIA",
+      "precio": "$1.644",
+      "precioRegular": "Precio regular: $8.652,63 x kg"
+    },
+    {
+      "nombre": "Yogur Ser Cereales Granola Y Berries 155g",
+      "marca": "SER",
+      "precio": "$1.911",
+      "precioRegular": "Precio regular: $12.329,03 x kg"
+    },
+    {
+      "nombre": "Yogur Milkaut Entero Vainilla X 1,2 Kg",
+      "marca": "MILKAUT",
+      "precio": "$2.700",
+      "precioRegular": "Precio regular: $2.250 x kg"
+    },
+    {
+      "nombre": "Yogur Yogurisimo Firme Frutilla 480g",
+      "marca": "YOGURISIMO",
+      "precio": "$3.563",
+      "precioRegular": "Precio regular: $7.422,92 x kg"
+    },
+    {
+      "nombre": "Yogur Milkaut Cremoso Vainilla 190 G",
+      "marca": "MILKAUT",
+      "precio": "$850",
+      "precioRegular": "Precio regular: $4.473,68 x kg"
+    },
+    {
+      "nombre": "Yog Yogurisimo Firme Frutilla 190g",
+      "marca": "YOGURISIMO",
+      "precio": "$1.578",
+      "precioRegular": "Precio regular: $8.305,26 x kg"
+    },
+    {
+      "nombre": "Yogur La Cremería Milkaut Con Durazno Naranja 120g",
+      "marca": "LA CREMERIA MILKAUT",
+      "precio": "$1.000",
+      "precioRegular": "Precio regular: $8.333,33 x kg"
+    },
+    {
+      "nombre": "Yogur Batido La Serenísima Arándanos Clásico 140g",
+      "marca": "LA SERENISIMA",
+      "precio": "$806,65",
+      "precioRegular": "Precio regular: $8.864,29 x kg"
+    },
+    {
+      "nombre": "Yogur Bebible Yogurisimo Frutilla Tetrapack 1kg",
+      "marca": "YOGURISIMO",
+      "precio": "$4.402",
+      "precioRegular": "Precio regular: $4.402 x kg"
+    },
+    {
+      "nombre": "Yogur Milkaut 0lactosa Sabor A Frutilla 120g",
+      "marca": "MILKAUT",
+      "precio": "$700",
+      "precioRegular": "Precio regular: $5.833,33 x kg"
+    },
+    {
+      "nombre": "Yogur Bebible Yogurisimo Vainilla 1kg",
+      "marca": "YOGURISIMO",
+      "precio": "$4.402",
+      "precioRegular": "Precio regular: $4.402 x kg"
+    },
+    {
+      "nombre": "Yogur Milkaut Cremoso Frutilla 190g",
+      "marca": "MILKAUT",
+      "precio": "$850",
+      "precioRegular": "Precio regular: $4.473,68 x kg"
+    },
+    {
+      "nombre": "Yogur Ser Batido C/frut 175g",
+      "marca": "SER",
+      "precio": "$1.788",
+      "precioRegular": "Precio regular: $10.217,14 x kg"
+    },
+    {
+      "nombre": "Yogur Descremado Dahí Colchon Maracuya 190g",
+      "marca": "DAHÍ",
+      "precio": "$1.800",
+      "precioRegular": "Precio regular: $9.473,68 x kg"
+    },
+    {
+      "nombre": "Yogur Entero La Serenísima Clásico Durazno 900g",
+      "marca": "LA SERENISIMA",
+      "precio": "$2.374",
+      "precioRegular": "Precio regular: $2.637,78 x kg"
+    },
+    {
+      "nombre": "Alimento Lacteo Bebible Danonino Peppa Pig Vainilla 185g",
+      "marca": "DANONINO",
+      "precio": "$1.795",
+      "precioRegular": "Precio regular: $9.702,7 x kg"
+    },
+    {
+      "nombre": "Yogur Batido La Serenísima Clásico Frutillas 140g",
+      "marca": "LA SERENISIMA",
+      "precio": "$806,65",
+      "precioRegular": "Precio regular: $8.864,29 x kg"
+    },
+    {
+      "nombre": "Yogur Deslac Lsclasico Vainilla 900g",
+      "marca": "LSCLASICO",
+      "precio": "$2.730",
+      "precioRegular": "Precio regular: $3.033,33 x kg"
+    },
+    {
+      "nombre": "Yogur Dahí Firme Frutilla 190g",
+      "marca": "DAHÍ",
+      "precio": "$1.450",
+      "precioRegular": "Precio regular: $7.631,58 x kg"
+    },
+    {
+      "nombre": "Yogur Yogurísimo Bebible Durazno 900g",
+      "marca": "YOGURISIMO",
+      "precio": "$3.602",
+      "precioRegular": "Precio regular: $4.002,22 x kg"
+    },
+    {
+      "nombre": "Postre Mousse Danette Chocolate 80g.",
+      "marca": "DANETTE",
+      "precio": "$1.239",
+      "precioRegular": "Precio regular: $15.487,5 x kg"
+    },
+    {
+      "nombre": "Yogur Yogurisimo Firme Vanilla 120g",
+      "marca": "YOGURISIMO",
+      "precio": "$1.029",
+      "precioRegular": "Precio regular: $8.575 x kg"
+    },
+    {
+      "nombre": "Yogur Yogurisimo Sabor Frutilla X120g",
+      "marca": "YOGURISIMO",
+      "precio": "$1.029",
+      "precioRegular": "Precio regular: $8.575 x kg"
+    },
+    {
+      "nombre": "Yogur Ser Batido C/fruta Manz 175g",
+      "marca": "SER",
+      "precio": "$1.788",
+      "precioRegular": "Precio regular: $10.217,14 x kg"
+    },
+    {
+      "nombre": "Yogur Dahí Firme Frutilla  190g",
+      "marca": "DAHÍ",
+      "precio": "$1.450",
+      "precioRegular": "Precio regular: $7.631,58 x kg"
+    },
+    {
+      "nombre": "Yogurísimo Bebible Banana 900g",
+      "marca": "YOGURISIMO",
+      "precio": "$3.602",
+      "precioRegular": "Precio regular: $4.002,22 x kg"
+    },
+    {
+      "nombre": "Yogur Deslac Lsclasico Frutilla 900g",
+      "marca": "LSCLASICO",
+      "precio": "$2.730",
+      "precioRegular": "Precio regular: $3.033,33 x kg"
+    },
+    {
+      "nombre": "Yogur Entero Lsclasico Banana 900g",
+      "marca": "LSCLASICO",
+      "precio": "$2.374",
+      "precioRegular": "Precio regular: $2.637,78 x kg"
+    },
+    {
+      "nombre": "Yogur Batido La Serenísima Clásico Duraznos 140g",
+      "marca": "LA SERENISIMA",
+      "precio": "$806,65",
+      "precioRegular": "Precio regular: $8.864,29 x kg"
+    },
+    {
+      "nombre": "Yogur Firme Frutilla Yogurisimo 120gr",
+      "marca": "YOGURISIMO",
+      "precio": "$1.029",
+      "precioRegular": "Precio regular: $8.575 x kg"
+    },
+    {
+      "nombre": "Yogur Descremado Dahí Colchon Ciruela 190g",
+      "marca": "DAHÍ",
+      "precio": "$1.800",
+      "precioRegular": "Precio regular: $9.473,68 x kg"
+    },
+    {
+      "nombre": "Yog Yogs E Zucaritas Kelloggs 162g",
+      "marca": "YOGS",
+      "precio": "$1.550",
+      "precioRegular": "Precio regular: $9.567,9 x kg"
+    },
+    {
+      "nombre": "Yogurt Bebible Dahí Entero Vainilla 200g",
+      "marca": "DAHÍ",
+      "precio": "$1.250",
+      "precioRegular": "Precio regular: $6.250 x kg"
+    },
+    {
+      "nombre": "Postre Shimy Dulce De Leche 120g",
+      "marca": "SHIMY",
+      "precio": "$1.600",
+      "precioRegular": "Precio regular: $13.333,33 x kg"
+    },
+    {
+      "nombre": "Yogur Dahí Entero Colchon Ciruela 190g",
+      "marca": "DAHÍ",
+      "precio": "$1.800",
+      "precioRegular": "Precio regular: $9.473,68 x kg"
+    },
+    {
+      "nombre": "Yogur Milkaut Vainilla Con Granola 155g",
+      "marca": "MILKAUT",
+      "precio": "$1.350",
+      "precioRegular": "Precio regular: $8.709,68 x kg"
+    },
+    {
+      "nombre": "Yogur Cremoso Milkaut Con Trozos De Durazno 120g",
+      "marca": "MILKAUT",
+      "precio": "$1.100",
+      "precioRegular": "Precio regular: $7.333,33 x kg"
+    },
+    {
+      "nombre": "Yogurt Dahí Bebible Descremado Frutos Del Bosque 200 Gr",
+      "marca": "DAHÍ",
+      "precio": "$1.250",
+      "precioRegular": "Precio regular: $6.250 x kg"
+    },
+    {
+      "nombre": "Yogur Desc Sancor Vida Frut Sachet 900g",
+      "marca": "SANCOR VIDA",
+      "precio": "$2.550",
+      "precioRegular": "Precio regular: $2.833,33 x kg"
+    },
+    {
+      "nombre": "Postre Lsclasico Choc 95g",
+      "marca": "LSCLASICO",
+      "precio": "$903",
+      "precioRegular": "Precio regular: $950,53 x kg"
+    },
+    {
+      "nombre": "Postre Ser Vainilla X 95g",
+      "marca": "SER",
+      "precio": "$1.288",
+      "precioRegular": "Precio regular: $1.355,79 x kg"
+    },
+    {
+      "nombre": "Yogur Milkaut Frutilla Con Cereal 155g",
+      "marca": "MILKAUT",
+      "precio": "$1.250",
+      "precioRegular": "Precio regular: $8.064,52 x kg"
+    },
+    {
+      "nombre": "Postre Lsclasico Vain 95g",
+      "marca": "LSCLASICO",
+      "precio": "$903",
+      "precioRegular": "Precio regular: $950,53 x kg"
+    },
+    {
+      "nombre": "Yog Yogurade C/protei-prebiot Vai 210g",
+      "marca": "YOGURADE",
+      "precio": "$1.150",
+      "precioRegular": "Precio regular: $5.476,19 x kg"
+    },
+    {
+      "nombre": "Yogur Bebible Lechelita Vainilla",
+      "marca": "LECHELITA",
+      "precio": "$2.200",
+      "precioRegular": "Precio regular: $2.444,44 x kg"
+    },
+    {
+      "nombre": "Yogurt Bebible Entero Dahí Frutos Del Bosque 200 Gr",
+      "marca": "DAHÍ",
+      "precio": "$1.250",
+      "precioRegular": "Precio regular: $6.250 x kg"
+    },
+    {
+      "nombre": "Postre Danette Copa Dulce De Leche 100g.",
+      "marca": "DANETTE",
+      "precio": "$1.161",
+      "precioRegular": "Precio regular: $11.610 x kg"
+    },
+    {
+      "nombre": "Flan Ser Vainilla 95g",
+      "marca": "SER",
+      "precio": "$1.288",
+      "precioRegular": "Precio regular: $1.355,79 x kg"
+    },
+    {
+      "nombre": "Postre Serenito Vain C/rocklets 120g",
+      "marca": "SERENITO",
+      "precio": "$2.715",
+      "precioRegular": "Precio regular: $22.625 x kg"
+    },
+    {
+      "nombre": "Yogur Yogurade Entero Frutos Del Bosque 150g",
+      "marca": "YOGURADE",
+      "precio": "$950",
+      "precioRegular": "Precio regular: $6.333,33 x kg"
+    },
+    {
+      "nombre": "Postre Danette Copa Chocolate 100g.",
+      "marca": "DANETTE",
+      "precio": "$1.554",
+      "precioRegular": "Precio regular: $15.540 x kg"
+    },
+    {
+      "nombre": "Yogur Desc Sancor Vida Vain Sachet 900g",
+      "marca": "SANCOR VIDA",
+      "precio": "$2.550",
+      "precioRegular": "Precio regular: $2.833,33 x kg"
+    },
+    {
+      "nombre": "Yogur Milkaut Entero Frambuesa Y Limón S",
+      "marca": "MILKAUT",
+      "precio": "$1.950",
+      "precioRegular": "Precio regular: $2.166,67 x kg"
+    },
+    {
+      "nombre": "Flan Ser Chocolate 95 G",
+      "marca": "SER",
+      "precio": "$1.288",
+      "precioRegular": "Precio regular: $1.355,79 x kg"
+    },
+    {
+      "nombre": "Postre Ser Ddl 95g",
+      "marca": "SER",
+      "precio": "$1.288",
+      "precioRegular": "Precio regular: $1.355,79 x kg"
+    },
+    {
+      "nombre": "Yogur En Sancor Yogs Beb Vai  900gr",
+      "marca": "YOGS",
+      "precio": "$2.550",
+      "precioRegular": "Precio regular: $2.833,33 x kg"
+    },
+    {
+      "nombre": "Yogur Bebible Sancor Lechelita Frutilla",
+      "marca": "LECHELITA",
+      "precio": "$2.200",
+      "precioRegular": "Precio regular: $2.444,44 x kg"
+    },
+    {
+      "nombre": "Postre Serenito Vain 120g",
+      "marca": "SERENITO",
+      "precio": "$1.943",
+      "precioRegular": "Precio regular: $16.191,67 x kg"
+    },
+    {
+      "nombre": "Postre Serenito Dll 100g",
+      "marca": "SERENITO",
+      "precio": "$1.156",
+      "precioRegular": "Precio regular: $11.560 x kg"
+    },
+    {
+      "nombre": "Yog.yogurisimo Batido Natural 190g",
+      "marca": "YOGURISIMO",
+      "precio": "$1.586",
+      "precioRegular": "Precio regular: $8.347,37 x kg"
+    },
+    {
+      "nombre": "Postre Serenito Con Choco Bombas 118g",
+      "marca": "SERENITO",
+      "precio": "$2.715",
+      "precioRegular": "Precio regular: $23.008,47 x kg"
+    },
+    {
+      "nombre": "Postre Mousse Danette Dulce De Leche 80g",
+      "marca": "DANETTE",
+      "precio": "$1.239",
+      "precioRegular": "Precio regular: $15.487,5 x kg"
+    },
+    {
+      "nombre": "Postre Serenito Choc 95g",
+      "marca": "SERENITO",
+      "precio": "$1.156",
+      "precioRegular": "Precio regular: $1.216,84 x kg"
+    },
+    {
+      "nombre": "Yogur Yogurade Semidescremado Sabor Frutilla 210g",
+      "marca": "YOGURADE",
+      "precio": "$1.150",
+      "precioRegular": "Precio regular: $5.476,19 x kg"
+    },
+    {
+      "nombre": "Yogur La Delfina Batido Natural 160g",
+      "marca": "LA DELFINA",
+      "precio": "$2.600",
+      "precioRegular": "Precio regular: $15.757,58 x kg"
+    },
+    {
+      "nombre": "Yogur La Delfina Batido Natural 600g",
+      "marca": "LA DELFINA",
+      "precio": "$7.900",
+      "precioRegular": "Precio regular: $13.166,67 x kg"
+    },
+    {
+      "nombre": "Yogur Cocoiogoa A Base Coco Natural 160g",
+      "marca": "COCOIOGO",
+      "precio": "$2.300",
+      "precioRegular": "Precio regular: $14.375 x kg"
+    },
+    {
+      "nombre": "Yogur Natural Cocoiogo  Natural Sin Azucar 320g",
+      "marca": "COCOIOGO",
+      "precio": "$3.250",
+      "precioRegular": "Precio regular: $10.156,25 x kg"
+    },
+    {
+      "nombre": "Yogur A Base Coco Cocoiogo Sabor Arandano 160g",
+      "marca": "COCOIOGO",
+      "precio": "$2.300",
+      "precioRegular": "Precio regular: $14.375 x kg"
+    },
+    {
+      "nombre": "Yogur Firme Natural La Delfina Deslactosado 160g",
+      "marca": "LA DELFINA",
+      "precio": "$2.600",
+      "precioRegular": "Precio regular: $15.757,58 x kg"
+    },
+    {
+      "nombre": "Yogur Entero La Delfina Durazno 160g",
+      "marca": "LA DELFINA",
+      "precio": "$2.600",
+      "precioRegular": "Precio regular: $16.250 x kg"
+    },
+    {
+      "nombre": "Yogur Cocoiogo A Base Coco Sabor Frutilla 160g",
+      "marca": "COCOIOGO",
+      "precio": "$2.300",
+      "precioRegular": "Precio regular: $14.375 x kg"
+    },
+    {
+      "nombre": "Yogur Cocoiogo A Base Coco Sabor Maracuya 160g",
+      "marca": "COCOIOGO",
+      "precio": "$2.300",
+      "precioRegular": "Precio regular: $14.375 x kg"
+    },
+    {
+      "nombre": "Yogur Batido La Delfina Frutos Del Bosque 160g",
+      "marca": "LA DELFINA",
+      "precio": "$2.900",
+      "precioRegular": "Precio regular: $17.575,76 x kg"
+    },
+    {
+      "nombre": "Yogur La Delfina Batido Con Frutilla 160g.",
+      "marca": "LA DELFINA",
+      "precio": "$2.900",
+      "precioRegular": "Precio regular: $17.575,76 x kg"
+    },
+    {
+      "nombre": "Yogur La Delfina Batido Nat C/azucar 600",
+      "marca": "LA DELFINA",
+      "precio": "$7.900",
+      "precioRegular": "Precio regular: $13.166,67 x kg"
+    },
+    {
+      "nombre": "Barra De Cereal Frutos Del Bosque Con Yogur Flow 162 Gr",
+      "marca": "FLOW",
+      "precio": "$2.900",
+      "precioRegular": "Precio regular: $17.901,23 x kg"
+    },
+    {
+      "nombre": "Barra De Cereal Corny Yogur De Frutilla 6x25g",
+      "marca": "CORNY",
+      "precio": "$3.500",
+      "precioRegular": "Precio regular: $23.333,33 x kg"
+    }
+  ]
+}

@@ -1,0 +1,812 @@
+{
+  "time_spent": "1 minutos y 34 segundos",
+  "date": "2024-04-15T20:17:29.604Z",
+  "url": "https://www.jumbo.com.ar/carnes?_q=carnes&map=ft",
+  "totalProducts": 134,
+  "data": [
+    {
+      "nombre": "Carne Vacuna Picada Enfriada E",
+      "marca": "LA HACIENDA MP",
+      "precio": "$5.655",
+      "precioRegular": "Precio regular: $5.655 x kg"
+    },
+    {
+      "nombre": "Carne Vacuna Picada Enfriada C",
+      "marca": "LA HACIENDA MP",
+      "precio": "$2.999",
+      "precioRegular": "Precio regular: $2.999 x kg"
+    },
+    {
+      "nombre": "Milanesa Nalga",
+      "marca": "LA HACIENDA MP",
+      "precio": "$9.375",
+      "precioRegular": "Precio regular: $9.375 x kg"
+    },
+    {
+      "nombre": "Picada Premium",
+      "marca": "LA HACIENDA MP",
+      "precio": "$8.445",
+      "precioRegular": "Precio regular: $8.445 x kg"
+    },
+    {
+      "nombre": "Lomo Premium",
+      "marca": "LA HACIENDA MP",
+      "precio": "$19.475",
+      "precioRegular": "Precio regular: $19.475 x kg"
+    },
+    {
+      "nombre": "Asado Del Centro",
+      "marca": "LA HACIENDA MP",
+      "precio": "$7.819",
+      "precioRegular": "Precio regular: $7.819 x kg"
+    },
+    {
+      "nombre": "Roast Beef Churrasco",
+      "marca": "LA HACIENDA MP",
+      "precio": "$5.499",
+      "precioRegular": "Precio regular: $5.499 x kg"
+    },
+    {
+      "nombre": "Peceto",
+      "marca": "LA HACIENDA MP",
+      "precio": "$10.905",
+      "precioRegular": "Precio regular: $10.905 x kg"
+    },
+    {
+      "nombre": "Milanesa Bola De Lomo",
+      "marca": "LA HACIENDA MP",
+      "precio": "$8.805",
+      "precioRegular": "Precio regular: $8.805 x kg"
+    },
+    {
+      "nombre": "Peceto Milanesa",
+      "marca": "LA HACIENDA MP",
+      "precio": "$12.075",
+      "precioRegular": "Precio regular: $12.075 x kg"
+    },
+    {
+      "nombre": "Vacio",
+      "marca": "LA HACIENDA MP",
+      "precio": "$9.649",
+      "precioRegular": "Precio regular: $9.649 x kg"
+    },
+    {
+      "nombre": "Milanesa Cuadrada",
+      "marca": "LA HACIENDA MP",
+      "precio": "$8.805",
+      "precioRegular": "Precio regular: $8.805 x kg"
+    },
+    {
+      "nombre": "Bife Angosto",
+      "marca": "LA HACIENDA MP",
+      "precio": "$6.499",
+      "precioRegular": "Precio regular: $6.499 x kg"
+    },
+    {
+      "nombre": "Tapa De Asado",
+      "marca": "LA HACIENDA MP",
+      "precio": "$6.955",
+      "precioRegular": "Precio regular: $6.955 x kg"
+    },
+    {
+      "nombre": "Cuadril Churrasco",
+      "marca": "LA HACIENDA MP",
+      "precio": "$6.999",
+      "precioRegular": "Precio regular: $6.999 x kg"
+    },
+    {
+      "nombre": "Osobuco",
+      "marca": "LA HACIENDA MP",
+      "precio": "$4.385",
+      "precioRegular": "Precio regular: $4.385 x kg"
+    },
+    {
+      "nombre": "Colita De Cuadril Premium",
+      "marca": "LA HACIENDA MP",
+      "precio": "$14.109",
+      "precioRegular": "Precio regular: $14.109 x kg"
+    },
+    {
+      "nombre": "Ojo De Bife Premium",
+      "marca": "LA HACIENDA MP",
+      "precio": "$16.475",
+      "precioRegular": "Precio regular: $16.475 x kg"
+    },
+    {
+      "nombre": "Entraña Premium",
+      "marca": "LA HACIENDA MP",
+      "precio": "$19.475",
+      "precioRegular": "Precio regular: $19.475 x kg"
+    },
+    {
+      "nombre": "Bife De Chorizo Premium",
+      "marca": "LA HACIENDA MP",
+      "precio": "$16.475",
+      "precioRegular": "Precio regular: $16.475 x kg"
+    },
+    {
+      "nombre": "Vacio Premium",
+      "marca": "LA HACIENDA MP",
+      "precio": "$14.479",
+      "precioRegular": "Precio regular: $14.479 x kg"
+    },
+    {
+      "nombre": "Roast Beef Trozo",
+      "marca": "SIN MARCA",
+      "precio": "$5.499",
+      "precioRegular": "Precio regular: $5.499 x kg"
+    },
+    {
+      "nombre": "Tapa De Nalga",
+      "marca": "LA HACIENDA MP",
+      "precio": "$7.559",
+      "precioRegular": "Precio regular: $7.559 x kg"
+    },
+    {
+      "nombre": "Bife Ancho",
+      "marca": "LA HACIENDA MP",
+      "precio": "$6.499",
+      "precioRegular": "Precio regular: $6.499 x kg"
+    },
+    {
+      "nombre": "Bife De Chorizo Churrasco",
+      "marca": "LA HACIENDA MP",
+      "precio": "$10.615",
+      "precioRegular": "Precio regular: $10.615 x kg"
+    },
+    {
+      "nombre": "Falda",
+      "marca": "SIN MARCA",
+      "precio": "$2.499",
+      "precioRegular": "Precio regular: $2.499 x kg"
+    },
+    {
+      "nombre": "Colita De Cuadril De Novillito",
+      "marca": "SIN MARCA",
+      "precio": "$10.905",
+      "precioRegular": "Precio regular: $10.905 x kg"
+    },
+    {
+      "nombre": "Entraña",
+      "marca": "SIN MARCA",
+      "precio": "$11.995",
+      "precioRegular": "Precio regular: $11.995 x kg"
+    },
+    {
+      "nombre": "Paleta Americano",
+      "marca": "LA HACIENDA MP",
+      "precio": "$8.135",
+      "precioRegular": "Precio regular: $8.135 x kg"
+    },
+    {
+      "nombre": "Espinazo",
+      "marca": "SIN MARCA",
+      "precio": "$1.799",
+      "precioRegular": "Precio regular: $1.799 x kg"
+    },
+    {
+      "nombre": "Tapa De Cuadril Premium",
+      "marca": "LA HACIENDA MP",
+      "precio": "$15.479",
+      "precioRegular": "Precio regular: $15.479 x kg"
+    },
+    {
+      "nombre": "Matambre",
+      "marca": "SIN MARCA",
+      "precio": "$8.625",
+      "precioRegular": "Precio regular: $8.625 x kg"
+    },
+    {
+      "nombre": "Ojo De Bife Churrasco",
+      "marca": "LA HACIENDA MP",
+      "precio": "$10.615",
+      "precioRegular": "Precio regular: $10.615 x kg"
+    },
+    {
+      "nombre": "Asado Premium",
+      "marca": "LA HACIENDA MP",
+      "precio": "$12.975",
+      "precioRegular": "Precio regular: $12.975 x kg"
+    },
+    {
+      "nombre": "Carnaza Comun",
+      "marca": "LA HACIENDA MP",
+      "precio": "$4.579",
+      "precioRegular": "Precio regular: $4.579 x kg"
+    },
+    {
+      "nombre": "PALETA CHURRASCO",
+      "marca": "SIN MARCA",
+      "precio": "$8.135",
+      "precioRegular": "Precio regular: $8.135 x kg"
+    },
+    {
+      "nombre": "Ojo De Bife Novillito",
+      "marca": "SIN MARCA",
+      "precio": "$10.615",
+      "precioRegular": "Precio regular: $10.615 x kg"
+    },
+    {
+      "nombre": "Palomita",
+      "marca": "LA HACIENDA MP",
+      "precio": "$6.995",
+      "precioRegular": "Precio regular: $6.995 x kg"
+    },
+    {
+      "nombre": "Manta Parrillera",
+      "marca": "LA HACIENDA MP",
+      "precio": "$5.589",
+      "precioRegular": "Precio regular: $5.589 x kg"
+    },
+    {
+      "nombre": "Bife De Chorizo",
+      "marca": "SIN MARCA",
+      "precio": "$10.615",
+      "precioRegular": "Precio regular: $10.615 x kg"
+    },
+    {
+      "nombre": "Matambre Medio",
+      "marca": "LA HACIENDA MP",
+      "precio": "$8.625",
+      "precioRegular": "Precio regular: $8.625 x kg"
+    },
+    {
+      "nombre": "Asado Minutero Premium",
+      "marca": "LA HACIENDA MP",
+      "precio": "$15.479",
+      "precioRegular": "Precio regular: $15.479 x kg"
+    },
+    {
+      "nombre": "Paleta Trozo",
+      "marca": "SIN MARCA",
+      "precio": "$8.135",
+      "precioRegular": "Precio regular: $8.135 x kg"
+    },
+    {
+      "nombre": "Azotillo",
+      "marca": "SIN MARCA",
+      "precio": "$4.579",
+      "precioRegular": "Precio regular: $4.579 x kg"
+    },
+    {
+      "nombre": "Vacio Medio Envasado Al Vacio",
+      "marca": "LA HACIENDA MP",
+      "precio": "$9.649",
+      "precioRegular": "Precio regular: $9.649 x kg"
+    },
+    {
+      "nombre": "Asado Americano Premium",
+      "marca": "LA HACIENDA MP",
+      "precio": "$13.479",
+      "precioRegular": "Precio regular: $13.479 x kg"
+    },
+    {
+      "nombre": "Paleta Churrasco",
+      "marca": "SIN MARCA",
+      "precio": "$8.379",
+      "precioRegular": "Precio regular: $8.379 x kg"
+    },
+    {
+      "nombre": "Carre De Cerdo Con Hueso Fresco",
+      "marca": "SIN MARCA",
+      "precio": "$3.599",
+      "precioRegular": "Precio regular: $3.599 x kg"
+    },
+    {
+      "nombre": "Pechito De Cerdo Fresco",
+      "marca": "SIN MARCA",
+      "precio": "$3.899",
+      "precioRegular": "Precio regular: $3.899 x kg"
+    },
+    {
+      "nombre": "Bondiola de cerdo fresca",
+      "marca": "SIN MARCA",
+      "precio": "$5.399",
+      "precioRegular": "Precio regular: $5.399 x kg"
+    },
+    {
+      "nombre": "Matambrito de cerdo fresco",
+      "marca": "SIN MARCA",
+      "precio": "$6.999",
+      "precioRegular": "Precio regular: $6.999 x kg"
+    },
+    {
+      "nombre": "Solomillo De Cerdo Fresco",
+      "marca": "SIN MARCA",
+      "precio": "$7.329",
+      "precioRegular": "Precio regular: $7.329 x kg"
+    },
+    {
+      "nombre": "Bife De Paleta De Cerdo Fresco",
+      "marca": "SIN MARCA",
+      "precio": "$3.799",
+      "precioRegular": "Precio regular: $3.799 x kg"
+    },
+    {
+      "nombre": "Bife De Jamon De Cerdo Fresco",
+      "marca": "SIN MARCA",
+      "precio": "$4.199",
+      "precioRegular": "Precio regular: $4.199 x kg"
+    },
+    {
+      "nombre": "Churrasquito De Cerdo Fresco",
+      "marca": "SIN MARCA",
+      "precio": "$5.899",
+      "precioRegular": "Precio regular: $5.899 x kg"
+    },
+    {
+      "nombre": "Panceta Fresca",
+      "marca": "SIN MARCA",
+      "precio": "$7.405",
+      "precioRegular": "Precio regular: $7.405 x kg"
+    },
+    {
+      "nombre": "Patitas De Cerdo Congelada",
+      "marca": "SIN MARCA",
+      "precio": "$1.145",
+      "precioRegular": "Precio regular: $1.145 x kg"
+    },
+    {
+      "nombre": "Matambrito De Cerdo - Doina",
+      "marca": "SIN MARCA",
+      "precio": "$12.749",
+      "precioRegular": "Precio regular: $12.749 x kg"
+    },
+    {
+      "nombre": "Asado De Cordero Pampeano Congelado - 1,8kg Aprox",
+      "marca": "SIN MARCA",
+      "precio": "$5.585",
+      "precioRegular": "Precio regular: $5.585 x kg"
+    },
+    {
+      "nombre": "Pierna De Cordero Pampeano Congelada - 3 Kg Aprox",
+      "marca": "FRIGORIFICO SAN ANTONIO",
+      "precio": "$6.745",
+      "precioRegular": "Precio regular: $6.745 x kg"
+    },
+    {
+      "nombre": "Paleta De Cordero Pampeano Congelada - 2 Kg Aprox",
+      "marca": "SAN ANTONIO",
+      "precio": "$6.679",
+      "precioRegular": "Precio regular: $6.679 x kg"
+    },
+    {
+      "nombre": "Cordero Entero Patagonico Congelado - 11kg Aprox",
+      "marca": "FRIGORIFICO HERMOSO",
+      "precio": "$10.355",
+      "precioRegular": "Precio regular: $10.355 x kg"
+    },
+    {
+      "nombre": "Medio Cordero Patagonico Congelado - 6kg Aprox",
+      "marca": "FRIGORIFICO HERMOSO",
+      "precio": "$10.879",
+      "precioRegular": "Precio regular: $10.879 x kg"
+    },
+    {
+      "nombre": "Pierna De Cordero Congelada",
+      "marca": "FAIMALI",
+      "precio": "$11.395",
+      "precioRegular": "Precio regular: $11.395 x kg"
+    },
+    {
+      "nombre": "Asado De Cordero Congelado",
+      "marca": "FAIMALI",
+      "precio": "$11.395",
+      "precioRegular": "Precio regular: $11.395 x kg"
+    },
+    {
+      "nombre": "Paleta De Cordero Congelada",
+      "marca": "FAIMALI",
+      "precio": "$11.395",
+      "precioRegular": "Precio regular: $11.395 x kg"
+    },
+    {
+      "nombre": "Carne Picada Simil Wanna V Sin Tacc 400g",
+      "marca": "Wanna V",
+      "precio": "$8.900",
+      "precioRegular": "Precio regular: $22.250 x kg"
+    },
+    {
+      "nombre": "Hamburguesas Cuisine And Co. De Carne 996 Gr",
+      "marca": "CUISINE & CO NBE MP",
+      "precio": "$8.100",
+      "precioRegular": "Precio regular: $8.132,53 x kg"
+    },
+    {
+      "nombre": "Hamburguesa Swift De Carne 12 U - 960 Gr",
+      "marca": "SWIFT",
+      "precio": "$10.500",
+      "precioRegular": "Precio regular: $10.937,5 x kg"
+    },
+    {
+      "nombre": "Hamburguesas De Carne Cuisine And Co. 1660 Gr",
+      "marca": "CUISINE & CO NBE MP",
+      "precio": "$13.050",
+      "precioRegular": "Precio regular: $7.861,45 x kg"
+    },
+    {
+      "nombre": "Hamburguesa Swift De Carne 20 U - 1,6 Kg",
+      "marca": "SWIFT",
+      "precio": "$17.050",
+      "precioRegular": "Precio regular: $10.656,25 x kg"
+    },
+    {
+      "nombre": "Hamburguesa Swift De Carne 4 U - 320 Gr",
+      "marca": "SWIFT",
+      "precio": "$3.690",
+      "precioRegular": "Precio regular: $11.531,25 x kg"
+    },
+    {
+      "nombre": "Medallónes Good Mark De Carne Tradicional 320 Gr",
+      "marca": "GOOD MARK",
+      "precio": "$3.500",
+      "precioRegular": "Precio regular: $10.937,5 x kg"
+    },
+    {
+      "nombre": "Chorizo Fresco Bombón Envasado Al Vacio 8 U - 400 Gr Magret",
+      "marca": "MAGRET",
+      "precio": "$4.585",
+      "precioRegular": "Precio regular: $11.462,5 x kg"
+    },
+    {
+      "nombre": "Medallón De Carne Paty De Casa 240 Gr",
+      "marca": "PATY",
+      "precio": "$2.600",
+      "precioRegular": "Precio regular: $10.833,33 x kg"
+    },
+    {
+      "nombre": "Milanesa Paty De Carne 4 U - 400 Gr",
+      "marca": "PATY",
+      "precio": "$4.050",
+      "precioRegular": "Precio regular: $10.125 x kg"
+    },
+    {
+      "nombre": "Hamburguesas Cuisine And Co. De Carne 332 Gr",
+      "marca": "CUISINE & CO NBE MP",
+      "precio": "$2.850",
+      "precioRegular": "Precio regular: $8.584,34 x kg"
+    },
+    {
+      "nombre": "Hamburguesas Good Mark De Carne 320 Gr",
+      "marca": "GOOD MARK",
+      "precio": "$3.650",
+      "precioRegular": "Precio regular: $11.406,25 x kg"
+    },
+    {
+      "nombre": "Hamburguesas Paty De Carne 4 U - 320 Gr",
+      "marca": "PATY",
+      "precio": "$3.800",
+      "precioRegular": "Precio regular: $11.875 x kg"
+    },
+    {
+      "nombre": "Medallón De Carne Express Con Soja 276 Gr",
+      "marca": "EXPRESS",
+      "precio": "$2.550",
+      "precioRegular": "Precio regular: $9.444,44 x kg"
+    },
+    {
+      "nombre": "Chorizo Bombón Parrillero 6 U - 435 Gr Cabaña Argentina",
+      "marca": "CABAÑA ARGENTINA",
+      "precio": "$3.725",
+      "precioRegular": "Precio regular: $8.563,22 x kg"
+    },
+    {
+      "nombre": "Milanesa De Nalga",
+      "marca": "CATTER MEAT",
+      "precio": "$10.625",
+      "precioRegular": "Precio regular: $10.625 x kg"
+    },
+    {
+      "nombre": "Hamburguesas Paty De Carne 12 U- 960 Gr",
+      "marca": "PATY",
+      "precio": "$10.600",
+      "precioRegular": "Precio regular: $11.041,67 x kg"
+    },
+    {
+      "nombre": "Empanadas El Noble Carne Suave 4 U",
+      "marca": "EL NOBLE",
+      "precio": "$2.990",
+      "precioRegular": "Precio regular: $14.375 x kg"
+    },
+    {
+      "nombre": "Empanadas Cuisine Y Co Carne 4 U",
+      "marca": "CUISINE & CO READY MP",
+      "precio": "$3.000",
+      "precioRegular": "Precio regular: $10.714,29 x kg"
+    },
+    {
+      "nombre": "Hamburguesas Paty De Carne Verde 4 U - 320 Gr",
+      "marca": "PATY",
+      "precio": "$4.150",
+      "precioRegular": "Precio regular: $12.968,75 x kg"
+    },
+    {
+      "nombre": "Medallón De Carne Swift 4 U - 276 Gr",
+      "marca": "SWIFT",
+      "precio": "$2.500",
+      "precioRegular": "Precio regular: $9.057,97 x kg"
+    },
+    {
+      "nombre": "Morcilla Criolla Envasado Al Vacio 4 U - 400 Gr Magret",
+      "marca": "MAGRET",
+      "precio": "$3.235",
+      "precioRegular": "Precio regular: $8.087,5 x kg"
+    },
+    {
+      "nombre": "Chorizo Envasado Al Vacio 4 U - 400 Gr Magret",
+      "marca": "MAGRET",
+      "precio": "$4.219",
+      "precioRegular": "Precio regular: $10.547,5 x kg"
+    },
+    {
+      "nombre": "Hamburguesas Paty De Carne 4 U - 480 Gr",
+      "marca": "PATY",
+      "precio": "$5.850",
+      "precioRegular": "Precio regular: $12.187,5 x kg"
+    },
+    {
+      "nombre": "Chinchulin Congelado",
+      "marca": "SIN MARCA",
+      "precio": "$2.965",
+      "precioRegular": "Precio regular: $2.965 x kg"
+    },
+    {
+      "nombre": "Morcilla Criolla Bombón 6 U - 400 Gr Cabaña Argentina",
+      "marca": "CABAÑA ARGENTINA",
+      "precio": "$2.899",
+      "precioRegular": "Precio regular: $7.247,5 x kg"
+    },
+    {
+      "nombre": "Higado Congelado",
+      "marca": "SIN MARCA",
+      "precio": "$3.155",
+      "precioRegular": "Precio regular: $3.155 x kg"
+    },
+    {
+      "nombre": "Hamburguesas Paty De Carne Finitas 2 U - 110 Gr",
+      "marca": "PATY",
+      "precio": "$1.400",
+      "precioRegular": "Precio regular: $12.727,27 x kg"
+    },
+    {
+      "nombre": "Molleja Congelada",
+      "marca": "SIN MARCA",
+      "precio": "$8.675",
+      "precioRegular": "Precio regular: $8.675 x kg"
+    },
+    {
+      "nombre": "Salchicha De Cerdo Envasada Al Vacio 350 Gr Magret",
+      "marca": "MAGRET",
+      "precio": "$4.545",
+      "precioRegular": "Precio regular: $12.985,71 x kg"
+    },
+    {
+      "nombre": "Hamburguesas Cuisine And Co. De Carne 110 Gr",
+      "marca": "CUISINE & CO NBE MP",
+      "precio": "$1.600",
+      "precioRegular": "Precio regular: $14.545,45 x kg"
+    },
+    {
+      "nombre": "Medallón De Carne Doble Swift 2 U - 112 Gr",
+      "marca": "SWIFT",
+      "precio": "$1.050",
+      "precioRegular": "Precio regular: $9.375 x kg"
+    },
+    {
+      "nombre": "Chorizo Bombón Puro Cerdo 6 U - 435 Gr Cabaña Argentina",
+      "marca": "CABAÑA ARGENTINA",
+      "precio": "$4.369",
+      "precioRegular": "Precio regular: $10.043,68 x kg"
+    },
+    {
+      "nombre": "Chorizo Puro Cerdo 4 U - 435 Gr Cabaña Argentina",
+      "marca": "CABAÑA ARGENTINA",
+      "precio": "$4.275",
+      "precioRegular": "Precio regular: $9.827,59 x kg"
+    },
+    {
+      "nombre": "Morcilla Criolla Envasado Vacio 4 U - 445 Gr Cabaña Argentina",
+      "marca": "CABAÑA ARGENTINA",
+      "precio": "$3.009",
+      "precioRegular": "Precio regular: $6.761,8 x kg"
+    },
+    {
+      "nombre": "Hamburguesas Paty De Carne Flow Grandes 2 U - 240 Gr",
+      "marca": "PATY",
+      "precio": "$3.000",
+      "precioRegular": "Precio regular: $12.500 x kg"
+    },
+    {
+      "nombre": "Milanesa Paty De Carne 2 U - 200 Gr",
+      "marca": "PATY",
+      "precio": "$2.150",
+      "precioRegular": "Precio regular: $10.750 x kg"
+    },
+    {
+      "nombre": "Nuggets De Pollo Congelados X 450 Grs",
+      "marca": "GRANJA TRES ARROYOS",
+      "precio": "$3.745,79",
+      "precioRegular": "Precio regular: $8.323,98 x kg"
+    },
+    {
+      "nombre": "Chorizo C/queso Parmesano Env Al Vacio X400 Gr",
+      "marca": "LA DIVISA",
+      "precio": "$4.489",
+      "precioRegular": "Precio regular: $11.222,5 x kg"
+    },
+    {
+      "nombre": "Chorizo Especial X 4 Envasado Al Vacio",
+      "marca": "PALADINI",
+      "precio": "$11.795",
+      "precioRegular": "Precio regular: $11.795 x kg"
+    },
+    {
+      "nombre": "Mondongo Congelao",
+      "marca": "SIN MARCA",
+      "precio": "$5.409",
+      "precioRegular": "Precio regular: $5.409 x kg"
+    },
+    {
+      "nombre": "Chinchulin Fresco",
+      "marca": "SIN MARCA",
+      "precio": "$1.949",
+      "precioRegular": "Precio regular: $1.949 x kg"
+    },
+    {
+      "nombre": "Pechuga Crispy X 420 Grs",
+      "marca": "GRANJA TRES ARROYOS",
+      "precio": "$4.933,49",
+      "precioRegular": "Precio regular: $11.746,4 x kg"
+    },
+    {
+      "nombre": "Chorizo Puro Cerdox 4 Envasado Al Vacio",
+      "marca": "CAMPO AUSTRAL",
+      "precio": "$5.305",
+      "precioRegular": "Precio regular: $5.305 x kg"
+    },
+    {
+      "nombre": "Chorizo Fresco X 4 Envasado Al Vacio",
+      "marca": "PALADINI",
+      "precio": "$10.345",
+      "precioRegular": "Precio regular: $10.345 x kg"
+    },
+    {
+      "nombre": "Molleja Fresca",
+      "marca": "SIN MARCA",
+      "precio": "$7.569",
+      "precioRegular": "Precio regular: $7.569 x kg"
+    },
+    {
+      "nombre": "Chorizo Bombón Puro Cerdo Envasado Al Vacio",
+      "marca": "CAMPO AUSTRAL",
+      "precio": "$5.969",
+      "precioRegular": "Precio regular: $5.969 x kg"
+    },
+    {
+      "nombre": "Hamburguesa Swift De Carne Doble Burger 2 U - 160 Gr",
+      "marca": "SWIFT",
+      "precio": "$1.950",
+      "precioRegular": "Precio regular: $12.187,5 x kg"
+    },
+    {
+      "nombre": "Cuchillo Carne de Cerámica Krea",
+      "marca": "KREA",
+      "precio": "$10.499,3",
+      "precioRegular": "Precio regular: $14.999 x un"
+    },
+    {
+      "nombre": "Morcilla X 4 Envasado Al Vacio",
+      "marca": "CAMPO AUSTRAL",
+      "precio": "$4.065",
+      "precioRegular": "Precio regular: $4.065 x kg"
+    },
+    {
+      "nombre": "Morcilla Parrillera X 3 Envasada Al Vacio",
+      "marca": "PALADINI",
+      "precio": "$8.839",
+      "precioRegular": "Precio regular: $8.839 x kg"
+    },
+    {
+      "nombre": "Hamburguesa Paty De Carne 4u X288g",
+      "marca": "PATY",
+      "precio": "$3.450",
+      "precioRegular": "Precio regular: $11.979,17 x kg"
+    },
+    {
+      "nombre": "Hamburguesas Paty De Carne 2 U - 160 Gr",
+      "marca": "PATY",
+      "precio": "$2.000",
+      "precioRegular": "Precio regular: $12.500 x kg"
+    },
+    {
+      "nombre": "Lengua Congelada",
+      "marca": "SIN MARCA",
+      "precio": "$6.605",
+      "precioRegular": "Precio regular: $6.605 x kg"
+    },
+    {
+      "nombre": "Morcilla Dulce X 3 Envasada Al Vacio",
+      "marca": "PALADINI",
+      "precio": "$9.405",
+      "precioRegular": "Precio regular: $9.405 x kg"
+    },
+    {
+      "nombre": "Hamburguesa Paty De Carne Verde 160 Gr",
+      "marca": "PATY",
+      "precio": "$2.150",
+      "precioRegular": "Precio regular: $13.437,5 x kg"
+    },
+    {
+      "nombre": "Morcilla Bombón X 6 Envasado Al Vacio",
+      "marca": "CAMPO AUSTRAL",
+      "precio": "$4.505",
+      "precioRegular": "Precio regular: $4.505 x kg"
+    },
+    {
+      "nombre": "Bocaditos Rebozado X 440 Grs",
+      "marca": "GRANJA TRES ARROYOS",
+      "precio": "$2.689,65",
+      "precioRegular": "Precio regular: $6.112,84 x kg"
+    },
+    {
+      "nombre": "Chorizo Bombón En Gancho",
+      "marca": "CABAÑA LA CRIOLLA",
+      "precio": "$8.125",
+      "precioRegular": "Precio regular: $8.125 x kg"
+    },
+    {
+      "nombre": "Medallones De Carne Parrilleros Swift 4 U- 320 Gr",
+      "marca": "SWIFT",
+      "precio": "$4.000",
+      "precioRegular": "Precio regular: $12.500 x kg"
+    },
+    {
+      "nombre": "Medallón De Carne Paty Flow Con Morron 2 U - 200 Gr",
+      "marca": "PATY",
+      "precio": "$2.600",
+      "precioRegular": "Precio regular: $13.000 x kg"
+    },
+    {
+      "nombre": "Chorizo Bombón X 6 En Bandeja",
+      "marca": "CABAÑA LA CRIOLLA",
+      "precio": "$NaN",
+      "precioRegular": "Precio regular: $6.529,99 x kg"
+    },
+    {
+      "nombre": "Medallón De Carne Paty Flow Con Queso 2 U - 200 Gr",
+      "marca": "PATY",
+      "precio": "$2.700",
+      "precioRegular": "Precio regular: $13.500 x kg"
+    },
+    {
+      "nombre": "Medallón De Carne Paty Flow Con Cebolla  2 U - 200 Gr",
+      "marca": "PATY",
+      "precio": "$2.600",
+      "precioRegular": "Precio regular: $13.000 x kg"
+    },
+    {
+      "nombre": "Mix Carnes Ahumado X 50 Gr Humos",
+      "marca": "HUMOS",
+      "precio": "$1.990",
+      "precioRegular": "Precio regular: $3.980 x 100 gr."
+    },
+    {
+      "nombre": "Mix Dulce Ahumado Para Carnes X 50 Grs Humos",
+      "marca": "HUMOS",
+      "precio": "$1.990",
+      "precioRegular": "Precio regular: $3.980 x 100 gr."
+    },
+    {
+      "nombre": "Morcilla Bombón X 6 En Bandeja",
+      "marca": "CABAÑA LA CRIOLLA",
+      "precio": "$6.605",
+      "precioRegular": "Precio regular: $6.605 x kg"
+    },
+    {
+      "nombre": "Rabo Congelado",
+      "marca": "SIN MARCA",
+      "precio": "$7.075",
+      "precioRegular": "Precio regular: $7.075 x kg"
+    }
+  ]
+}

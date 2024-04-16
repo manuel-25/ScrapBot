@@ -1,0 +1,104 @@
+{
+  "time_spent": "0 minutos y 15 segundos",
+  "date": "2024-04-15T20:11:41.627Z",
+  "url": "https://www.jumbo.com.ar/papa?_q=papa&map=ft",
+  "totalProducts": 16,
+  "data": [
+    {
+      "nombre": "Papa Malla Fraccionada 1 Kg",
+      "marca": "SIN MARCA",
+      "precio": "$3.299",
+      "precioRegular": "Precio regular: $3.299 x kg"
+    },
+    {
+      "nombre": "Papas Plychaco Noisette 500 Gr",
+      "marca": "POLYCHACO",
+      "precio": "$2.199",
+      "precioRegular": "Precio regular: $4.398 x kg"
+    },
+    {
+      "nombre": "Mini Papa Bolsa Mp",
+      "marca": "POLYCHACO",
+      "precio": "$2.690",
+      "precioRegular": "Precio regular: $2.690 x kg"
+    },
+    {
+      "nombre": "Papa Cuña Santa Maria",
+      "marca": "SANTA MARIA",
+      "precio": "$2.399",
+      "precioRegular": "Precio regular: $4.798 x kg"
+    },
+    {
+      "nombre": "Papas Clasicas Mc Cain Corte Tradicional 1400 Gr",
+      "marca": "MC CAIN",
+      "precio": "$7.800",
+      "precioRegular": "Precio regular: $5.571,43 x kg"
+    },
+    {
+      "nombre": "Papas Clasicas Mc Cain Corte Tradicional 700 Gr",
+      "marca": "MC CAIN",
+      "precio": "$4.150",
+      "precioRegular": "Precio regular: $5.928,57 x kg"
+    },
+    {
+      "nombre": "Papa Negra Por Kg",
+      "marca": "SIN MARCA",
+      "precio": "$799",
+      "precioRegular": "Precio regular: $799 x kg"
+    },
+    {
+      "nombre": "Papa Cepillada (bolsa Fraccionada Por 2 Kg) Precio Por Kilo",
+      "marca": "SIN MARCA",
+      "precio": "$1.199",
+      "precioRegular": "Precio regular: $1.199 x kg"
+    },
+    {
+      "nombre": "Papas Mc Cain Noissete X1,2kg",
+      "marca": "MC CAIN",
+      "precio": "$10.500",
+      "precioRegular": "Precio regular: $8.750 x kg"
+    },
+    {
+      "nombre": "Papas Mc Cain Smiles X700g",
+      "marca": "MC CAIN",
+      "precio": "$6.950",
+      "precioRegular": "Precio regular: $9.928,57 x kg"
+    },
+    {
+      "nombre": "Papas Horneables Mc Cain Corte Tradicional 700 Gr",
+      "marca": "MC CAIN",
+      "precio": "$5.050",
+      "precioRegular": "Precio regular: $7.214,29 x kg"
+    },
+    {
+      "nombre": "Papas Mc Cain Noissete X600g",
+      "marca": "MC CAIN",
+      "precio": "$5.550",
+      "precioRegular": "Precio regular: $9.250 x kg"
+    },
+    {
+      "nombre": "Papas Gourmet Mc Cain  Corte Crinkle 600 Gr",
+      "marca": "MC CAIN",
+      "precio": "$4.200",
+      "precioRegular": "Precio regular: $7.000 x kg"
+    },
+    {
+      "nombre": "Papas Horneables Mc Cain Estilo Artesanal 700 Gr",
+      "marca": "MC CAIN",
+      "precio": "$5.050",
+      "precioRegular": "Precio regular: $7.214,29 x kg"
+    },
+    {
+      "nombre": "Papas Mc Cain Noissete Finas Hierbas X600g",
+      "marca": "MC CAIN",
+      "precio": "$6.300",
+      "precioRegular": "Precio regular: $10.500 x kg"
+    },
+    {
+      "nombre": "Papas Mc Cain Noissete De Jyq X600g",
+      "marca": "MC CAIN",
+      "precio": "$6.300",
+      "precioRegular": "Precio regular: $10.500 x kg"
+    }
+  ]
+}

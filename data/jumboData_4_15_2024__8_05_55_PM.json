@@ -1,0 +1,92 @@
+{
+  "time_spent": "0 minutos y 15 segundos",
+  "date": "2024-04-15T20:05:55.726Z",
+  "url": "https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft",
+  "totalProducts": 14,
+  "data": [
+    {
+      "nombre": "Galletitas De Agua Traviata 303 Gr",
+      "marca": "TRAVIATA",
+      "precio": "$713,05",
+      "precioRegular": "Precio regular: $3.656,67 x kg"
+    },
+    {
+      "nombre": "Galletitas De Agua Criollitas Originales 300 Gr",
+      "marca": "CRIOLLITAS",
+      "precio": "$1.000",
+      "precioRegular": "Precio regular: $3.333,33 x kg"
+    },
+    {
+      "nombre": "Galletitas De Agua Paseo Crackers 300 Gr",
+      "marca": "PASEO",
+      "precio": "$1.250",
+      "precioRegular": "Precio regular: $4.166,67 x kg"
+    },
+    {
+      "nombre": "Galletitas De Agua Granagua 600 Gr",
+      "marca": "GRANAGUA",
+      "precio": "$2.250",
+      "precioRegular": "Precio regular: $37.500 x kg"
+    },
+    {
+      "nombre": "Galletitas De Agua Granix Sin Sal 555 Gr",
+      "marca": "GRANIX",
+      "precio": "$2.350",
+      "precioRegular": "Precio regular: $4.234,23 x kg"
+    },
+    {
+      "nombre": "Galletitas De Agua Criollitas Originales 100 Gr",
+      "marca": "CRIOLLITAS",
+      "precio": "$350",
+      "precioRegular": "Precio regular: $3.500 x kg"
+    },
+    {
+      "nombre": "Galletitas De Agua Sin Sal Paseo 300 Gr",
+      "marca": "PASEO",
+      "precio": "$1.250",
+      "precioRegular": "Precio regular: $4.166,67 x kg"
+    },
+    {
+      "nombre": "Galletitas De Agua Granagua 200 Gr",
+      "marca": "GRANAGUA",
+      "precio": "$800",
+      "precioRegular": "Precio regular: $4.000 x kg"
+    },
+    {
+      "nombre": "Galletitas De Agua Mini Crackers 5 Semillas Paseo 300 Gr",
+      "marca": "PASEO",
+      "precio": "$1.500",
+      "precioRegular": "Precio regular: $5.000 x kg"
+    },
+    {
+      "nombre": "Galletitas De Agua Traviata 101 Gr",
+      "marca": "TRAVIATA",
+      "precio": "$450",
+      "precioRegular": "Precio regular: $4.500 x kg"
+    },
+    {
+      "nombre": "Galletitas Smams Crackers De Agua X 150 Gr",
+      "marca": "SMAMS",
+      "precio": "$1.800",
+      "precioRegular": "Precio regular: $11.612,9 x kg"
+    },
+    {
+      "nombre": "Galletitas De Agua Criollitas Más Grandes 507 Gr",
+      "marca": "CRIOLLITAS",
+      "precio": "$1.650",
+      "precioRegular": "Precio regular: $3.254,44 x kg"
+    },
+    {
+      "nombre": "Galletitas De Agua Mini Crackers Mix De Cereales Paseo 300 Gr",
+      "marca": "PASEO",
+      "precio": "$1.500",
+      "precioRegular": "Precio regular: $5.000 x kg"
+    },
+    {
+      "nombre": "Galletitas De Agua Mini Crackers Paseo 300 Gr",
+      "marca": "PASEO",
+      "precio": "$1.500",
+      "precioRegular": "Precio regular: $5.000 x kg"
+    }
+  ]
+}

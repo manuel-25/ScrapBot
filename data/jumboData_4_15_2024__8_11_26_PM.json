@@ -1,0 +1,1136 @@
+{
+  "time_spent": "1 minutos y 53 segundos",
+  "date": "2024-04-15T20:11:26.624Z",
+  "url": "https://www.jumbo.com.ar/fideos?_q=fideos&map=ft",
+  "totalProducts": 188,
+  "data": [
+    {
+      "nombre": "Fideos Spaguetti C&c 500gr",
+      "marca": "CUISINE & CO NBE MP",
+      "precio": "$1.050",
+      "precioRegular": "Precio regular: $2.100 x kg"
+    },
+    {
+      "nombre": "Fideos Don Vicente Fettuccini X500g",
+      "marca": "DON VICENTE",
+      "precio": "$2.100",
+      "precioRegular": "Precio regular: $4.200 x kg"
+    },
+    {
+      "nombre": "Fideos Tirabuzon C&c 500gr",
+      "marca": "CUISINE & CO NBE MP",
+      "precio": "$1.050",
+      "precioRegular": "Precio regular: $2.100 x kg"
+    },
+    {
+      "nombre": "Fideos Matarazzo Tirabuzón N34 X500g",
+      "marca": "MATARAZZO",
+      "precio": "$1.600",
+      "precioRegular": "Precio regular: $3.200 x kg"
+    },
+    {
+      "nombre": "Fideos Lucchetti Tallarín N5 X500g",
+      "marca": "LUCHETTI",
+      "precio": "$1.100",
+      "precioRegular": "Precio regular: $2.200 x kg"
+    },
+    {
+      "nombre": "Fideos Mostachol C&c 500gr",
+      "marca": "CUISINE & CO NBE MP",
+      "precio": "$1.050",
+      "precioRegular": "Precio regular: $2.100 x kg"
+    },
+    {
+      "nombre": "Fideos Moños C&c 500gr",
+      "marca": "CUISINE & CO NBE MP",
+      "precio": "$1.300",
+      "precioRegular": "Precio regular: $2.600 x kg"
+    },
+    {
+      "nombre": "Fideos Coditos C&c 500gr",
+      "marca": "CUISINE & CO NBE MP",
+      "precio": "$1.050",
+      "precioRegular": "Precio regular: $2.100 x kg"
+    },
+    {
+      "nombre": "Fideos Matarazzo Tallarín N5 X500g",
+      "marca": "MATARAZZO",
+      "precio": "$1.353",
+      "precioRegular": "Precio regular: $2.706 x kg"
+    },
+    {
+      "nombre": "Fideos Don Vicente Tallarín X500g",
+      "marca": "DON VICENTE",
+      "precio": "$1.800",
+      "precioRegular": "Precio regular: $3.600 x kg"
+    },
+    {
+      "nombre": "Fideos Matarazzo Spaghetti N3 X500g",
+      "marca": "MATARAZZO",
+      "precio": "$1.375",
+      "precioRegular": "Precio regular: $2.750 x kg"
+    },
+    {
+      "nombre": "Fideos Matarazzo Tirabuzón N28 X500g",
+      "marca": "MATARAZZO",
+      "precio": "$1.366",
+      "precioRegular": "Precio regular: $2.732 x kg"
+    },
+    {
+      "nombre": "Fideos Codito Matarazzo X500 Gr",
+      "marca": "MATARAZZO",
+      "precio": "$1.400",
+      "precioRegular": "Precio regular: $2.800 x kg"
+    },
+    {
+      "nombre": "Fideos Lucchetti Tirabuzón N34 X500g",
+      "marca": "LUCHETTI",
+      "precio": "$1.100",
+      "precioRegular": "Precio regular: $2.200 x kg"
+    },
+    {
+      "nombre": "Fideos Matarazzo Mostachol N52 X500g",
+      "marca": "MATARAZZO",
+      "precio": "$1.335",
+      "precioRegular": "Precio regular: $2.670 x kg"
+    },
+    {
+      "nombre": "Fideos Matarazzo Penne X500g",
+      "marca": "MATARAZZO",
+      "precio": "$1.336",
+      "precioRegular": "Precio regular: $2.672 x kg"
+    },
+    {
+      "nombre": "Fideos Favorita Spaghetti Hierro X500g",
+      "marca": "FAVORITA",
+      "precio": "$800",
+      "precioRegular": "Precio regular: $1.600 x kg"
+    },
+    {
+      "nombre": "Fideos Rina Matarazzo Spaghetti Ce X500g",
+      "marca": "MATARAZZO",
+      "precio": "$2.300",
+      "precioRegular": "Precio regular: $4.600 x kg"
+    },
+    {
+      "nombre": "Fideos Coditos Lucchetti X500 Gr",
+      "marca": "LUCHETTI",
+      "precio": "$1.200",
+      "precioRegular": "Precio regular: $2.400 x kg"
+    },
+    {
+      "nombre": "Fideos Matarazzo Penne Rigate N45 X500g",
+      "marca": "MATARAZZO",
+      "precio": "$1.640",
+      "precioRegular": "Precio regular: $3.280 x kg"
+    },
+    {
+      "nombre": "Fideos Tirabuzón Terrabusi X500 Gr",
+      "marca": "TERRABUSI",
+      "precio": "$1.000",
+      "precioRegular": "Precio regular: $2.000 x kg"
+    },
+    {
+      "nombre": "Fideos Luchetti Penne Rigate 500gr",
+      "marca": "LUCHETTI",
+      "precio": "$1.175",
+      "precioRegular": "Precio regular: $2.350 x kg"
+    },
+    {
+      "nombre": "Fideos Matarazzo Tirabuzón In N34 X500g",
+      "marca": "MATARAZZO",
+      "precio": "$1.700",
+      "precioRegular": "Precio regular: $3.400 x kg"
+    },
+    {
+      "nombre": "Fideos Favorita Mostachol Hierro X500g",
+      "marca": "FAVORITA",
+      "precio": "$800",
+      "precioRegular": "Precio regular: $1.600 x kg"
+    },
+    {
+      "nombre": "Fideos La Molisana Fettuccine 500 Gr",
+      "marca": "LA MOLISANA",
+      "precio": "$3.300",
+      "precioRegular": "Precio regular: $6.600 x kg"
+    },
+    {
+      "nombre": "Fideos Rina Matarazzo Espin Spagh X500g",
+      "marca": "MATARAZZO",
+      "precio": "$1.725",
+      "precioRegular": "Precio regular: $4.600 x kg"
+    },
+    {
+      "nombre": "Fideos Spaghetti Matarazzo X500 Gr",
+      "marca": "MATARAZZO",
+      "precio": "$1.400",
+      "precioRegular": "Precio regular: $2.800 x kg"
+    },
+    {
+      "nombre": "Fideos Dedalitos C&c 500gr",
+      "marca": "CUISINE & CO NBE MP",
+      "precio": "$1.050",
+      "precioRegular": "Precio regular: $2.100 x kg"
+    },
+    {
+      "nombre": "Fideos Tallarín Favorita X500 Gr",
+      "marca": "FAVORITA",
+      "precio": "$800",
+      "precioRegular": "Precio regular: $1.600 x kg"
+    },
+    {
+      "nombre": "Fideos Rina Matarazzo Rigatti Ce X500g",
+      "marca": "MATARAZZO",
+      "precio": "$1.725",
+      "precioRegular": "Precio regular: $4.600 x kg"
+    },
+    {
+      "nombre": "Fideos Tirabuzón Integral Matarazzo X500 Gr",
+      "marca": "MATARAZZO",
+      "precio": "$1.700",
+      "precioRegular": "Precio regular: $3.400 x kg"
+    },
+    {
+      "nombre": "Fideos Matarazzo Tirabuzón X500g",
+      "marca": "MATARAZZO",
+      "precio": "$2.850",
+      "precioRegular": "Precio regular: $5.700 x kg"
+    },
+    {
+      "nombre": "Fideos Mostachol Terrabusi X500 Gr",
+      "marca": "TERRABUSI",
+      "precio": "$1.014,49",
+      "precioRegular": "Precio regular: $2.028,98 x kg"
+    },
+    {
+      "nombre": "Fideos Spaghetti Bonalma De Semola 500 Gr",
+      "marca": "BONALMA",
+      "precio": "$2.650",
+      "precioRegular": "Precio regular: $5.300 x kg"
+    },
+    {
+      "nombre": "Fideos Penne Rigate Bonalma De Semola 500 Gr",
+      "marca": "BONALMA",
+      "precio": "$2.650",
+      "precioRegular": "Precio regular: $5.300 x kg"
+    },
+    {
+      "nombre": "Fideos Marolio Codo X500g",
+      "marca": "MAROLIO",
+      "precio": "$1.200",
+      "precioRegular": "Precio regular: $2.400 x kg"
+    },
+    {
+      "nombre": "Fideos Dedalitos Lucchetti X500 Gr",
+      "marca": "LUCHETTI",
+      "precio": "$1.200",
+      "precioRegular": "Precio regular: $2.400 x kg"
+    },
+    {
+      "nombre": "Fideos Barilla Largos De Sémola Spaghettini N°3 500 Gr",
+      "marca": "BARILLA",
+      "precio": "$5.650",
+      "precioRegular": "Precio regular: $11.300 x kg"
+    },
+    {
+      "nombre": "Fideos Lucchetti  Penne Rigatex500g",
+      "marca": "LUCHETTI",
+      "precio": "$1.200",
+      "precioRegular": "Precio regular: $2.400 x kg"
+    },
+    {
+      "nombre": "Fideos Rina Matarazzo Fusilli Ce X500g",
+      "marca": "MATARAZZO",
+      "precio": "$1.725",
+      "precioRegular": "Precio regular: $4.600 x kg"
+    },
+    {
+      "nombre": "Fideos Terrabusi Tallarín N7 X500g",
+      "marca": "TERRABUSI",
+      "precio": "$1.000",
+      "precioRegular": "Precio regular: $2.000 x kg"
+    },
+    {
+      "nombre": "Fideos Sin Gluten La Molisana Spaghetti Gluten Free 400 Gr",
+      "marca": "LA MOLISANA",
+      "precio": "$4.300",
+      "precioRegular": "Precio regular: $10.750 x kg"
+    },
+    {
+      "nombre": "Fideos Rina Matarazzo Morron Spagh X500g",
+      "marca": "MATARAZZO",
+      "precio": "$1.725",
+      "precioRegular": "Precio regular: $4.600 x kg"
+    },
+    {
+      "nombre": "Fideos Moño Matarazzo 500 Gr",
+      "marca": "MATARAZZO",
+      "precio": "$2.450",
+      "precioRegular": "Precio regular: $4.900 x kg"
+    },
+    {
+      "nombre": "Fideos Matarazzo Spaghetti X500g",
+      "marca": "MATARAZZO",
+      "precio": "$2.850",
+      "precioRegular": "Precio regular: $5.700 x kg"
+    },
+    {
+      "nombre": "Fideos Spaghetti Terrabusi X500 Gr",
+      "marca": "TERRABUSI",
+      "precio": "$1.000",
+      "precioRegular": "Precio regular: $2.000 x kg"
+    },
+    {
+      "nombre": "Fideos Dedalito Matarazzo X500 Gr",
+      "marca": "MATARAZZO",
+      "precio": "$1.400",
+      "precioRegular": "Precio regular: $2.800 x kg"
+    },
+    {
+      "nombre": "Fideos Favorita Tallarin Hierro X500g",
+      "marca": "FAVORITA",
+      "precio": "$800",
+      "precioRegular": "Precio regular: $1.600 x kg"
+    },
+    {
+      "nombre": "Fideos Fusilli Bonalma De Semola 500 Gr",
+      "marca": "BONALMA",
+      "precio": "$2.650",
+      "precioRegular": "Precio regular: $5.300 x kg"
+    },
+    {
+      "nombre": "Fideos Sin Gluten La Molisana Fusilli Gluten Free 400 Gr",
+      "marca": "LA MOLISANA",
+      "precio": "$4.300",
+      "precioRegular": "Precio regular: $10.750 x kg"
+    },
+    {
+      "nombre": "Fideos Molto Tirabuzon Huevo 500g",
+      "marca": "MOLTO",
+      "precio": "$1.600",
+      "precioRegular": "Precio regular: $3.200 x kg"
+    },
+    {
+      "nombre": "Fideos Spaghettoni Barilla 500 Gr",
+      "marca": "BARILLA",
+      "precio": "$5.650",
+      "precioRegular": "Precio regular: $11.300 x kg"
+    },
+    {
+      "nombre": "Fideos Terrabusi Mostachol Rayado X500g",
+      "marca": "TERRABUSI",
+      "precio": "$1.000",
+      "precioRegular": "Precio regular: $2.000 x kg"
+    },
+    {
+      "nombre": "Fideos Bavette Barilla 500 Gr",
+      "marca": "BARILLA",
+      "precio": "$5.650",
+      "precioRegular": "Precio regular: $11.300 x kg"
+    },
+    {
+      "nombre": "Fideos Lucchetti Foratini X500g",
+      "marca": "LUCHETTI",
+      "precio": "$1.200",
+      "precioRegular": "Precio regular: $2.400 x kg"
+    },
+    {
+      "nombre": "Fideos Don Felipe Tallarín Fort X500g",
+      "marca": "DON FELIPE",
+      "precio": "$1.700",
+      "precioRegular": "Precio regular: $3.400 x kg"
+    },
+    {
+      "nombre": "Fideos Fettuccine Matarazzo X500 Gr",
+      "marca": "MATARAZZO",
+      "precio": "$2.450",
+      "precioRegular": "Precio regular: $4.900 x kg"
+    },
+    {
+      "nombre": "Fideos Al Huevo Caserito Don Vicente X500 Gr",
+      "marca": "DON VICENTE",
+      "precio": "$1.850",
+      "precioRegular": "Precio regular: $3.700 x kg"
+    },
+    {
+      "nombre": "Fideos Moños Lucchetti X500 Gr",
+      "marca": "LUCHETTI",
+      "precio": "$2.050",
+      "precioRegular": "Precio regular: $4.100 x kg"
+    },
+    {
+      "nombre": "Fideos Spaghetti Integral Matarazzo X500 Gr",
+      "marca": "MATARAZZO",
+      "precio": "$1.700",
+      "precioRegular": "Precio regular: $3.400 x kg"
+    },
+    {
+      "nombre": "Fideos Molto Mostachol Huevo 500g",
+      "marca": "MOLTO",
+      "precio": "$1.600",
+      "precioRegular": "Precio regular: $3.200 x kg"
+    },
+    {
+      "nombre": "Fideos Don Vicente Rigatti Ce X500gr",
+      "marca": "DON VICENTE",
+      "precio": "$2.100",
+      "precioRegular": "Precio regular: $4.200 x kg"
+    },
+    {
+      "nombre": "Fideos Municiones Terrabusi X500 Gr",
+      "marca": "TERRABUSI",
+      "precio": "$1.000",
+      "precioRegular": "Precio regular: $2.000 x kg"
+    },
+    {
+      "nombre": "Fideos Terrabusi Coditos X500g",
+      "marca": "TERRABUSI",
+      "precio": "$1.000",
+      "precioRegular": "Precio regular: $2.000 x kg"
+    },
+    {
+      "nombre": "Fideos Dedalito Favorita X500 Gr",
+      "marca": "FAVORITA",
+      "precio": "$800",
+      "precioRegular": "Precio regular: $1.600 x kg"
+    },
+    {
+      "nombre": "Fideos Lucchetti Tirabuz N34 Huev X500g",
+      "marca": "LUCHETTI",
+      "precio": "$1.500",
+      "precioRegular": "Precio regular: $3.000 x kg"
+    },
+    {
+      "nombre": "Fideos Terrabusi Fusilli X500g",
+      "marca": "TERRABUSI",
+      "precio": "$1.000",
+      "precioRegular": "Precio regular: $2.000 x kg"
+    },
+    {
+      "nombre": "Fideos Lucchetti Tirabuzón Veg X500g",
+      "marca": "LUCCHETTI",
+      "precio": "$1.450",
+      "precioRegular": "Precio regular: $2.900 x kg"
+    },
+    {
+      "nombre": "Fideos Matarazzo Spaghettini Int X500g",
+      "marca": "MATARAZZO",
+      "precio": "$1.700",
+      "precioRegular": "Precio regular: $3.400 x kg"
+    },
+    {
+      "nombre": "Fideos Terrabusi Spaghetti N3 X500g",
+      "marca": "TERRABUSI",
+      "precio": "$1.000",
+      "precioRegular": "Precio regular: $2.000 x kg"
+    },
+    {
+      "nombre": "Fideos Spaghetti Integrales Barilla 500 Gr",
+      "marca": "BARILLA",
+      "precio": "$6.500",
+      "precioRegular": "Precio regular: $13.000 x kg"
+    },
+    {
+      "nombre": "Fideos Lucchetti Tallarin Huev N7 X500g",
+      "marca": "LUCHETTI",
+      "precio": "$1.500",
+      "precioRegular": "Precio regular: $3.000 x kg"
+    },
+    {
+      "nombre": "Fideos Mostachol Favorita X500 Gr",
+      "marca": "FAVORITA",
+      "precio": "$800",
+      "precioRegular": "Precio regular: $1.600 x kg"
+    },
+    {
+      "nombre": "Fideos Mostachol Mix De Vegetales Terrabusi X500 Gr",
+      "marca": "TERRABUSI",
+      "precio": "$1.200",
+      "precioRegular": "Precio regular: $2.400 x kg"
+    },
+    {
+      "nombre": "Fideos Mostacholes Luchetti X 500g",
+      "marca": "LUCHETTI",
+      "precio": "$1.300",
+      "precioRegular": "Precio regular: $2.600 x kg"
+    },
+    {
+      "nombre": "Fideos Guiseros Penne Rigate Delverde.",
+      "marca": "DELVERDE",
+      "precio": "$4.050",
+      "precioRegular": "Precio regular: $10.800 x kg"
+    },
+    {
+      "nombre": "Fideos Terrabusi 3 Veget Mostachol X500g",
+      "marca": "TERRABUSI",
+      "precio": "$1.200",
+      "precioRegular": "Precio regular: $2.400 x kg"
+    },
+    {
+      "nombre": "Fideos Integrales Pennette Rigate Barilla 500 Gr",
+      "marca": "BARILLA",
+      "precio": "$7.600",
+      "precioRegular": "Precio regular: $15.200 x kg"
+    },
+    {
+      "nombre": "Fideos Don Felipe  Spaghetti Fortx500g",
+      "marca": "DON FELIPE",
+      "precio": "$1.700",
+      "precioRegular": "Precio regular: $3.400 x kg"
+    },
+    {
+      "nombre": "Fideos Lucchetti Fusilli X500g",
+      "marca": "LUCHETTI",
+      "precio": "$1.200",
+      "precioRegular": "Precio regular: $2.400 x kg"
+    },
+    {
+      "nombre": "Fideos Ave María Matarazzo X500 Gr",
+      "marca": "MATARAZZO",
+      "precio": "$1.400",
+      "precioRegular": "Precio regular: $2.800 x kg"
+    },
+    {
+      "nombre": "Fideo Chifferi Rigati Bonalma De Semola X500gr",
+      "marca": "BONALMA",
+      "precio": "$2.650",
+      "precioRegular": "Precio regular: $5.300 x kg"
+    },
+    {
+      "nombre": "Fideos Lucchetti Spaghet N5huevo X500g",
+      "marca": "LUCHETTI",
+      "precio": "$1.500",
+      "precioRegular": "Precio regular: $3.000 x kg"
+    },
+    {
+      "nombre": "Fideos Don Felipe Tirabuzón Fort X500g",
+      "marca": "DON FELIPE",
+      "precio": "$1.700",
+      "precioRegular": "Precio regular: $3.400 x kg"
+    },
+    {
+      "nombre": "Fideo Casarecce Garofalo 500 Gr",
+      "marca": "GAROFALO",
+      "precio": "$9.050",
+      "precioRegular": "Precio regular: $18.100 x kg"
+    },
+    {
+      "nombre": "Fideos Terrabusi Fusilli Vegetales X500g",
+      "marca": "TERRABUSI",
+      "precio": "$1.200",
+      "precioRegular": "Precio regular: $2.400 x kg"
+    },
+    {
+      "nombre": "Fideos Tortiglioni Delverde X500 Gr",
+      "marca": "DELVERDE",
+      "precio": "$4.050",
+      "precioRegular": "Precio regular: $10.800 x kg"
+    },
+    {
+      "nombre": "Fideos Molto Codos X500g",
+      "marca": "MOLTO",
+      "precio": "$1.600",
+      "precioRegular": "Precio regular: $3.200 x kg"
+    },
+    {
+      "nombre": "Fideos Lucchetti Mostac N51 Huevo X500g",
+      "marca": "LUCHETTI",
+      "precio": "$1.500",
+      "precioRegular": "Precio regular: $3.000 x kg"
+    },
+    {
+      "nombre": "Fideos Largos Spaghetti Delverde",
+      "marca": "DELVERDE",
+      "precio": "$3.675",
+      "precioRegular": "Precio regular: $9.800 x kg"
+    },
+    {
+      "nombre": "Fideos Molto Tallarin Huevo 500g",
+      "marca": "MOLTO",
+      "precio": "$1.600",
+      "precioRegular": "Precio regular: $3.200 x kg"
+    },
+    {
+      "nombre": "Fideos Pureza Rigatoni Al Huevo X500g",
+      "marca": "PUREZA",
+      "precio": "$2.600",
+      "precioRegular": "Precio regular: $5.200 x kg"
+    },
+    {
+      "nombre": "Fideos Munición  La Providencia",
+      "marca": "La Providencia",
+      "precio": "$850",
+      "precioRegular": "Precio regular: $1.700 x kg"
+    },
+    {
+      "nombre": "Fideos Conchiglioni Delverde X500 Gr",
+      "marca": "DELVERDE",
+      "precio": "$6.075",
+      "precioRegular": "Precio regular: $16.200 x kg"
+    },
+    {
+      "nombre": "Fideos Largos Linguine Delverde",
+      "marca": "DELVERDE",
+      "precio": "$3.675",
+      "precioRegular": "Precio regular: $9.800 x kg"
+    },
+    {
+      "nombre": "Fideos Matarazzo Pennerig X500g",
+      "marca": "MATARAZZO",
+      "precio": "$2.850",
+      "precioRegular": "Precio regular: $5.700 x kg"
+    },
+    {
+      "nombre": "Fideos Mostachol Blue Patna 500 Gr",
+      "marca": "BLUE PATNA",
+      "precio": "$3.900",
+      "precioRegular": "Precio regular: $7.800 x kg"
+    },
+    {
+      "nombre": "Fideos Nido Fettuccine Lucchetti X500 Gr",
+      "marca": "LUCHETTI",
+      "precio": "$2.050",
+      "precioRegular": "Precio regular: $4.100 x kg"
+    },
+    {
+      "nombre": "Fideos Matarazzo Tirabuzon Mix Leg X500g",
+      "marca": "MATARAZZO",
+      "precio": "$2.850",
+      "precioRegular": "Precio regular: $5.700 x kg"
+    },
+    {
+      "nombre": "Fideos Pureza Fusilli Al Huevo X500g",
+      "marca": "PUREZA",
+      "precio": "$2.600",
+      "precioRegular": "Precio regular: $5.200 x kg"
+    },
+    {
+      "nombre": "Fideos Pureza Rigatti Al Huevo X500g",
+      "marca": "PUREZA",
+      "precio": "$2.600",
+      "precioRegular": "Precio regular: $5.200 x kg"
+    },
+    {
+      "nombre": "Fideos Aitala Tagliatelle Laminato Integrale",
+      "marca": "SIN MARCA",
+      "precio": "$6.296,77",
+      "precioRegular": "Precio regular: $15.741,93 x kg"
+    },
+    {
+      "nombre": "Fideos Aitala Spaghetti",
+      "marca": "SIN MARCA",
+      "precio": "$4.786,89",
+      "precioRegular": "Precio regular: $9.573,78 x kg"
+    },
+    {
+      "nombre": "Fideos Aitala Fusilli",
+      "marca": "SIN MARCA",
+      "precio": "$4.786,89",
+      "precioRegular": "Precio regular: $9.573,78 x kg"
+    },
+    {
+      "nombre": "Fideos Aitala Tagliatelle Laminato All Uovo",
+      "marca": "SIN MARCA",
+      "precio": "$6.296,77",
+      "precioRegular": "Precio regular: $12.593,54 x kg"
+    },
+    {
+      "nombre": "Fideos Molto Canuto X500g",
+      "marca": "MOLTO",
+      "precio": "$1.600",
+      "precioRegular": "Precio regular: $3.200 x kg"
+    },
+    {
+      "nombre": "Tapas La Salteña Para Tarta Hojaldradas 400g",
+      "marca": "LA SALTEÑA",
+      "precio": "$1.650",
+      "precioRegular": "Precio regular: $4.125 x kg"
+    },
+    {
+      "nombre": "Tapas Pascualina Cuisine Y Co Criolla 2 Un",
+      "marca": "CUISINE & CO NBE MP",
+      "precio": "$1.000",
+      "precioRegular": "Precio regular: $2.500 x kg"
+    },
+    {
+      "nombre": "Tapas Pascualina Cuisine Y Co Hojaldre Paquete 2 Un",
+      "marca": "CUISINE & CO NBE MP",
+      "precio": "$1.000",
+      "precioRegular": "Precio regular: $2.500 x kg"
+    },
+    {
+      "nombre": "Tapas Para Tarta La Salteña Criolla 400g",
+      "marca": "LA SALTEÑA",
+      "precio": "$1.650",
+      "precioRegular": "Precio regular: $4.125 x kg"
+    },
+    {
+      "nombre": "Tapas Empanadas Hojaldre La Salteña X 22u",
+      "marca": "LA SALTEÑA",
+      "precio": "$2.800",
+      "precioRegular": "Precio regular: $4.628,1 x kg"
+    },
+    {
+      "nombre": "Tortillas Rapiditas Bimbo Clásicas 10un.",
+      "marca": "BIMBO",
+      "precio": "$2.400",
+      "precioRegular": "Precio regular: $8.888,89 x kg"
+    },
+    {
+      "nombre": "Tapas Empanadas Criollas La Salteña X 22 U",
+      "marca": "LA SALTEÑA",
+      "precio": "$2.800",
+      "precioRegular": "Precio regular: $4.628,1 x kg"
+    },
+    {
+      "nombre": "Levadura Seca Levex Instantánea 20 Gr",
+      "marca": "LEVEX",
+      "precio": "$500",
+      "precioRegular": "Precio regular: $2.500 x 100 gr."
+    },
+    {
+      "nombre": "Tortillas Rapiditas Light 10un.",
+      "marca": "BIMBO",
+      "precio": "$2.400",
+      "precioRegular": "Precio regular: $8.888,89 x kg"
+    },
+    {
+      "nombre": "Levadura Mi Pan Instantánea 10 Gr",
+      "marca": "MI PAN",
+      "precio": "$300",
+      "precioRegular": "Precio regular: $3.000 x 100 gr."
+    },
+    {
+      "nombre": "Levadura Calsa 100 Gr X 1un",
+      "marca": "CALSA",
+      "precio": "$600",
+      "precioRegular": "Precio regular: $6.000 x kg"
+    },
+    {
+      "nombre": "Tortillas Rapiditas Bimbo Integrales 10un.",
+      "marca": "BIMBO",
+      "precio": "$2.400",
+      "precioRegular": "Precio regular: $8.888,89 x kg"
+    },
+    {
+      "nombre": "Tapa Para Empanadas La Salteña Hojaldradas",
+      "marca": "LA SALTEÑA",
+      "precio": "$1.650",
+      "precioRegular": "Precio regular: $5.000 x kg"
+    },
+    {
+      "nombre": "Levadura Calsa 50 Gr",
+      "marca": "CALSA",
+      "precio": "$300",
+      "precioRegular": "Precio regular: $600 x 100 gr."
+    },
+    {
+      "nombre": "Tapas Para Empanadas La Salteña Criollas Croc",
+      "marca": "LA SALTEÑA",
+      "precio": "$1.650",
+      "precioRegular": "Precio regular: $5.000 x kg"
+    },
+    {
+      "nombre": "Ravioles La Salteña Jamon Y Mozzarella 450g",
+      "marca": "LA SALTEÑA",
+      "precio": "$2.550",
+      "precioRegular": "Precio regular: $5.666,67 x kg"
+    },
+    {
+      "nombre": "Tapa Pascualina Doña Noly Hojaldre 400g",
+      "marca": "DOÑA NOLY",
+      "precio": "$1.800",
+      "precioRegular": "Precio regular: $4.500 x kg"
+    },
+    {
+      "nombre": "Tapas Criollas Cusine Y Co 450 Gr",
+      "marca": "CUISINE & CO NBE MP",
+      "precio": "$1.150",
+      "precioRegular": "Precio regular: $2.527,47 x kg"
+    },
+    {
+      "nombre": "Tapas Para Tarta La Salteña Balance 400g",
+      "marca": "LA SALTEÑA",
+      "precio": "$1.650",
+      "precioRegular": "Precio regular: $4.125 x kg"
+    },
+    {
+      "nombre": "Ravioles La Salteña 4 Quesos 450g",
+      "marca": "LA SALTEÑA",
+      "precio": "$2.550",
+      "precioRegular": "Precio regular: $5.666,67 x kg"
+    },
+    {
+      "nombre": "Levadura Levex Con Masa Madre 13g",
+      "marca": "LEVEX",
+      "precio": "$400",
+      "precioRegular": "Precio regular: $3.076,92 x 100 gr."
+    },
+    {
+      "nombre": "Tapa Pascualina 2u",
+      "marca": "VILLA D'AGRI",
+      "precio": "$1.250",
+      "precioRegular": "Precio regular: $3.125 x kg"
+    },
+    {
+      "nombre": "Tapas Para Empanadas Lib Glut Croc La Salteña",
+      "marca": "LA SALTEÑA",
+      "precio": "$2.300",
+      "precioRegular": "Precio regular: $6.969,7 x kg"
+    },
+    {
+      "nombre": "Ravioles La Salteña Espinaca Mozzarella Y Parmesano 450g",
+      "marca": "LA SALTEÑA",
+      "precio": "$2.550",
+      "precioRegular": "Precio regular: $5.666,67 x kg"
+    },
+    {
+      "nombre": "ñoquis De Papas 1 Kg",
+      "marca": "JUMBO ARTESANAL MP",
+      "precio": "$2.475,79",
+      "precioRegular": "Precio regular: $2.475,79 x kg"
+    },
+    {
+      "nombre": "Tapas Para Empanadas Balance Croc La Salteña 3",
+      "marca": "LA SALTEÑA",
+      "precio": "$1.650",
+      "precioRegular": "Precio regular: $5.000 x kg"
+    },
+    {
+      "nombre": "Tapa Pascualinas Maxima Mp X350gr",
+      "marca": "Maxima MP",
+      "precio": "$850",
+      "precioRegular": "Precio regular: $2.428,57 x kg"
+    },
+    {
+      "nombre": "Ravioles La Salteña Pollo Y Espinaca 450g",
+      "marca": "LA SALTEÑA",
+      "precio": "$2.550",
+      "precioRegular": "Precio regular: $5.666,67 x kg"
+    },
+    {
+      "nombre": "Tortillas Tía Rosa 1un.",
+      "marca": "BIMBO",
+      "precio": "$2.650",
+      "precioRegular": "Precio regular: $9.814,81 x kg"
+    },
+    {
+      "nombre": "Ravioles La Italiana Ricota, Jamon Y Mozarella X1kg",
+      "marca": "LA ITALIANA",
+      "precio": "$2.690",
+      "precioRegular": "Precio regular: $2.690 x kg"
+    },
+    {
+      "nombre": "Tapas Para Empanadas Maxima Mp 270gr",
+      "marca": "Maxima MP",
+      "precio": "$850",
+      "precioRegular": "Precio regular: $3.148,15 x kg"
+    },
+    {
+      "nombre": "Levadura Calsa Con Masa Madre  X50g",
+      "marca": "CALSA",
+      "precio": "$350",
+      "precioRegular": "Precio regular: $700 x 100 gr."
+    },
+    {
+      "nombre": "La Salteña ñoquis De Papa X 300g",
+      "marca": "LA SALTEÑA",
+      "precio": "$1.300",
+      "precioRegular": "Precio regular: $4.333,33 x kg"
+    },
+    {
+      "nombre": "Tapas Para Pascualinas Orali Criolla 2u 380g",
+      "marca": "Oralí",
+      "precio": "$1.550",
+      "precioRegular": "Precio regular: $4.078,95 x kg"
+    },
+    {
+      "nombre": "La Salteña Raviol Ricotta 450g",
+      "marca": "LA SALTEÑA",
+      "precio": "$2.550",
+      "precioRegular": "Precio regular: $5.666,67 x kg"
+    },
+    {
+      "nombre": "Tapas Para Pascualinas Orali Hojaldre 400g 2un.",
+      "marca": "Oralí",
+      "precio": "$1.800",
+      "precioRegular": "Precio regular: $4.500 x kg"
+    },
+    {
+      "nombre": "Ravioles La Salteña Carne Y Verdura 450g",
+      "marca": "LA SALTEÑA",
+      "precio": "$2.550",
+      "precioRegular": "Precio regular: $5.666,67 x kg"
+    },
+    {
+      "nombre": "Tapas Pascualinas Orali Sin Tacc 2u 380g",
+      "marca": "Oralí",
+      "precio": "$3.350",
+      "precioRegular": "Precio regular: $8.815,79 x kg"
+    },
+    {
+      "nombre": "Ravioles Villa Dágri Con Pollo Y Espinaca 1un.",
+      "marca": "VILLA D'AGRI",
+      "precio": "$2.690",
+      "precioRegular": "Precio regular: $2.690 x kg"
+    },
+    {
+      "nombre": "Tapas Para Empanadas Freir Croc La Salteña 330",
+      "marca": "LA SALTEÑA",
+      "precio": "$1.650",
+      "precioRegular": "Precio regular: $5.000 x kg"
+    },
+    {
+      "nombre": "Ravioles Villa Dágri 4 Quesos 1kg",
+      "marca": "VILLA D'AGRI",
+      "precio": "$3.600",
+      "precioRegular": "Precio regular: $3.600 x kg"
+    },
+    {
+      "nombre": "ñoquis La Salteña De Papa 900g",
+      "marca": "LA SALTEÑA",
+      "precio": "$3.500",
+      "precioRegular": "Precio regular: $3.888,89 x kg"
+    },
+    {
+      "nombre": "Tapas Para Empanadas Oralí Rotiseras 12u 460g",
+      "marca": "Oralí",
+      "precio": "$3.600",
+      "precioRegular": "Precio regular: $7.826,09 x kg"
+    },
+    {
+      "nombre": "Fajitas Lucchetti X280g",
+      "marca": "LUCCHETTI",
+      "precio": "$2.000",
+      "precioRegular": "Precio regular: $7.142,86 x kg"
+    },
+    {
+      "nombre": "Levadura Amasa Fácil X 50 Grs",
+      "marca": "CALSA",
+      "precio": "$350",
+      "precioRegular": "Precio regular: $700 x 100 gr."
+    },
+    {
+      "nombre": "Ravioles Villa Dágri 4 Quesos 500g",
+      "marca": "VILLA D'AGRI",
+      "precio": "$2.100",
+      "precioRegular": "Precio regular: $4.200 x kg"
+    },
+    {
+      "nombre": "Sopa De Fideos Maruchan De Camarones 85 Gr",
+      "marca": "MARUCHAN",
+      "precio": "$1.700",
+      "precioRegular": "Precio regular: $20.000 x kg"
+    },
+    {
+      "nombre": "Raviolitos La Salteña 4 Quesos 300g",
+      "marca": "LA SALTEÑA",
+      "precio": "$1.700",
+      "precioRegular": "Precio regular: $5.666,67 x kg"
+    },
+    {
+      "nombre": "ñoquis De Calabaza 1/2 Kg",
+      "marca": "JUMBO ARTESANAL MP",
+      "precio": "$1.862,77",
+      "precioRegular": "Precio regular: $1.862,77 x un"
+    },
+    {
+      "nombre": "ñoquis De Papa",
+      "marca": "JUMBO ARTESANAL MP",
+      "precio": "$2.090,59",
+      "precioRegular": "Precio regular: $2.090,59 x un"
+    },
+    {
+      "nombre": "Raviolones Caseritos Jumbo Muzzarella Jamon Masa Espinaca 1un.",
+      "marca": "JUMBO ARTESANAL MP",
+      "precio": "$3.499",
+      "precioRegular": "Precio regular: $3.499 x un"
+    },
+    {
+      "nombre": "Ravioles Jumbo Verdura Masa Espinaca Light",
+      "marca": "JUMBO ARTESANAL MP",
+      "precio": "$2.999",
+      "precioRegular": "Precio regular: $2.999 x un"
+    },
+    {
+      "nombre": "Tapa Empanadas Horno Villa D´a Gr 450 Gr Blister 18 U",
+      "marca": "VILLA D'AGRI",
+      "precio": "$1.700",
+      "precioRegular": "Precio regular: $3.777,78 x kg"
+    },
+    {
+      "nombre": "Ravioles Villa D'agri Con Ricota Y Espinaca X 500gr",
+      "marca": "VILLA D'AGRI",
+      "precio": "$2.100",
+      "precioRegular": "Precio regular: $4.200 x kg"
+    },
+    {
+      "nombre": "Tapas Emp Criolla Signo De Oro X 18u",
+      "marca": "SIGNO DE ORO",
+      "precio": "$1.600",
+      "precioRegular": "Precio regular: $3.555,56 x kg"
+    },
+    {
+      "nombre": "Tapas Para Pascualina Signo De Oro Light 400 Gr",
+      "marca": "SIGNO DE ORO",
+      "precio": "$1.600",
+      "precioRegular": "Precio regular: $4.000 x kg"
+    },
+    {
+      "nombre": "Raviolones Jumbo Artesanal Calabaza Y Muzzarella  1u",
+      "marca": "JUMBO ARTESANAL MP",
+      "precio": "$3.499",
+      "precioRegular": "Precio regular: $3.499 x un"
+    },
+    {
+      "nombre": "Tapas Para Copetín Orali Criolla 165g 12un.",
+      "marca": "Oralí",
+      "precio": "$850",
+      "precioRegular": "Precio regular: $5.151,52 x kg"
+    },
+    {
+      "nombre": "Ravioles Villa Dágri Con Pollo, Jamón Y Espinaca X 500gr",
+      "marca": "VILLA D'AGRI",
+      "precio": "$2.100",
+      "precioRegular": "Precio regular: $4.200 x kg"
+    },
+    {
+      "nombre": "Ravioles Villa D'agri  Con Carne Y Espinaca Villa Dágr X 500gr",
+      "marca": "VILLA D'AGRI",
+      "precio": "$2.100",
+      "precioRegular": "Precio regular: $4.200 x kg"
+    },
+    {
+      "nombre": "Tapas Para Empanadas Orali Freir 12u 330g",
+      "marca": "Oralí",
+      "precio": "$1.500",
+      "precioRegular": "Precio regular: $4.545,45 x kg"
+    },
+    {
+      "nombre": "Ravioles Orali De Espinaca 500g",
+      "marca": "Oralí",
+      "precio": "$2.150",
+      "precioRegular": "Precio regular: $4.300 x kg"
+    },
+    {
+      "nombre": "Ravioles Orali De Pollo 500g",
+      "marca": "Oralí",
+      "precio": "$2.150",
+      "precioRegular": "Precio regular: $4.300 x kg"
+    },
+    {
+      "nombre": "Sopade Fideos Con Verdura  Alicante 72 Gr",
+      "marca": "ALICANTE",
+      "precio": "$1.200",
+      "precioRegular": "Precio regular: $16.666,67 x kg"
+    },
+    {
+      "nombre": "Ravioles Villa D´agri Espinaca  Cja 500 Gr.",
+      "marca": "VILLA D'AGRI",
+      "precio": "$2.150",
+      "precioRegular": "Precio regular: $4.300 x kg"
+    },
+    {
+      "nombre": "Ravioles Punto&pasta Pollo Y Espinaca 500 Gr",
+      "marca": "PUNTO & PASTA",
+      "precio": "$2.400",
+      "precioRegular": "Precio regular: $4.800 x kg"
+    },
+    {
+      "nombre": "Tortillas Aiken De Quínoa Y Kale 210g",
+      "marca": "Aiken",
+      "precio": "$3.250",
+      "precioRegular": "Precio regular: $15.476,19 x kg"
+    },
+    {
+      "nombre": "Ñoquis De Verdudra Jumbo 1 Kg",
+      "marca": "JUMBO ARTESANAL MP",
+      "precio": "$5.249,38",
+      "precioRegular": "Precio regular: $5.249,38 x kg"
+    },
+    {
+      "nombre": "Cuchara Spaghetti Silicona Cream Con Mango Madera Mika",
+      "marca": "MIKA",
+      "precio": "$3.843",
+      "precioRegular": "Precio regular: $5.490 x un"
+    },
+    {
+      "nombre": "Ravioles Orali De Carne Y Espinaca 500g",
+      "marca": "Oralí",
+      "precio": "$2.150",
+      "precioRegular": "Precio regular: $4.300 x kg"
+    },
+    {
+      "nombre": "Masa Para Strudel Delicias De La Oma 80 Gr",
+      "marca": "DELICIAS DE LA OMA",
+      "precio": "$4.000",
+      "precioRegular": "Precio regular: $50.000 x kg"
+    },
+    {
+      "nombre": "Raviolones Jumbo Caseritos Light Calabaza Y Masa Espinaca 1un.",
+      "marca": "JUMBO ARTESANAL MP",
+      "precio": "$3.499",
+      "precioRegular": "Precio regular: $3.499 x un"
+    },
+    {
+      "nombre": "Sorrentinos Punto&pasta 500 Gr",
+      "marca": "PUNTO & PASTA",
+      "precio": "$2.400",
+      "precioRegular": "Precio regular: $4.800 x kg"
+    },
+    {
+      "nombre": "Tortillas De Quínoa Aiken Blanca 210g",
+      "marca": "Aiken",
+      "precio": "$3.100",
+      "precioRegular": "Precio regular: $14.761,9 x kg"
+    },
+    {
+      "nombre": "Tortillas De Quínoa Real Aiken X240g",
+      "marca": "Aiken",
+      "precio": "$3.250",
+      "precioRegular": "Precio regular: $13.541,67 x kg"
+    },
+    {
+      "nombre": "Ravioles Orali Premium De Calabaza 500g",
+      "marca": "Oralí",
+      "precio": "$2.600",
+      "precioRegular": "Precio regular: $5.200 x kg"
+    },
+    {
+      "nombre": "Ravioles Villa D´agri Sabor Ricota Sin Atributo Sin Atributo",
+      "marca": "VILLA D'AGRI",
+      "precio": "$2.150",
+      "precioRegular": "Precio regular: $4.300 x kg"
+    },
+    {
+      "nombre": "Sopa Natural Fideos Y Vegetales Alicante 59 Gr",
+      "marca": "ALICANTE",
+      "precio": "$1.200",
+      "precioRegular": "Precio regular: $20.338,98 x kg"
+    },
+    {
+      "nombre": "ñoquis Punto&pasta X 500 Gr",
+      "marca": "PUNTO & PASTA",
+      "precio": "$1.850",
+      "precioRegular": "Precio regular: $3.700 x kg"
+    },
+    {
+      "nombre": "Ravioles Punto&pasta Ricota Y Espinaca 500 Gr",
+      "marca": "PUNTO & PASTA",
+      "precio": "$2.400",
+      "precioRegular": "Precio regular: $4.800 x kg"
+    },
+    {
+      "nombre": "Capellettis Orali  De Carne Y Espinaca 500g",
+      "marca": "Oralí",
+      "precio": "$1.850",
+      "precioRegular": "Precio regular: $3.700 x kg"
+    },
+    {
+      "nombre": "ñoquis Con Papa Bandeja X 1 Kg",
+      "marca": "VEA MP",
+      "precio": "$2.792,75",
+      "precioRegular": "Precio regular: $2.792,75 x kg"
+    }
+  ]
+}

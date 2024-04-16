@@ -1,0 +1,362 @@
+{
+  "time_spent": "0 minutos y 36 segundos",
+  "date": "2024-04-15T20:12:44.362Z",
+  "url": "https://www.jumbo.com.ar/azucar?_q=azucar&map=ft",
+  "totalProducts": 59,
+  "data": [
+    {
+      "nombre": "Azúcar Chango 1 Kg.",
+      "marca": "CHANGO",
+      "precio": "$1.337",
+      "precioRegular": "Precio regular: $1.337 x kg"
+    },
+    {
+      "nombre": "Azucar Cuisine And Co. 1 Kg",
+      "marca": "CUISINE & CO NBE MP",
+      "precio": "$700",
+      "precioRegular": "Precio regular: $700 x kg"
+    },
+    {
+      "nombre": "Azúcar Común Tipo A Azucel 1 Kg",
+      "marca": "AZUCEL",
+      "precio": "$1.250",
+      "precioRegular": "Precio regular: $1.250 x kg"
+    },
+    {
+      "nombre": "Azucar Comun Tipo A La Providencia 1 Kg",
+      "marca": "La Providencia",
+      "precio": "$1.200",
+      "precioRegular": "Precio regular: $1.200 x kg"
+    },
+    {
+      "nombre": "Azucar Orgánico Terrasana 500 Gr",
+      "marca": "TERRASANA",
+      "precio": "$4.600",
+      "precioRegular": "Precio regular: $9.200 x kg"
+    },
+    {
+      "nombre": "Azucar Ancaste Paquete 1 Kg",
+      "marca": "ANCASTE",
+      "precio": "$1.350",
+      "precioRegular": "Precio regular: $1.350 x kg"
+    },
+    {
+      "nombre": "Azúcar Molida Ledesma 1 Kg",
+      "marca": "LEDESMA",
+      "precio": "$1.400",
+      "precioRegular": "Precio regular: $1.400 x kg"
+    },
+    {
+      "nombre": "Azúcar Refinado Premium Chango 1 Kg",
+      "marca": "CHANGO",
+      "precio": "$1.500",
+      "precioRegular": "Precio regular: $1.500 x kg"
+    },
+    {
+      "nombre": "Azucar Rubia Ledesma Mascabo 800 Gr.",
+      "marca": "LEDESMA",
+      "precio": "$1.350",
+      "precioRegular": "Precio regular: $1.687,5 x kg"
+    },
+    {
+      "nombre": "Azucar De Caña Mascabo",
+      "marca": "SIN MARCA",
+      "precio": "$4.999",
+      "precioRegular": "Precio regular: $4.999 x kg"
+    },
+    {
+      "nombre": "Edulcorante Liquido Clasico Chuker 400 Ml",
+      "marca": "CHUKER",
+      "precio": "$4.100",
+      "precioRegular": "Precio regular: $10.250 x lt"
+    },
+    {
+      "nombre": "Edulcorante Ledesma Liquido Sucra",
+      "marca": "LEDESMA",
+      "precio": "$1.250",
+      "precioRegular": "Precio regular: $6.250 x lt"
+    },
+    {
+      "nombre": "Edulcorante En Polvo Stevia Equalsweet 160 Gr",
+      "marca": "EQUALSWEET",
+      "precio": "$10.200",
+      "precioRegular": "Precio regular: $63.750 x kg"
+    },
+    {
+      "nombre": "Energizante Monster Ultra Paradise Sin Azúcar 473 Ml",
+      "marca": "MONSTER",
+      "precio": "$2.000",
+      "precioRegular": "Precio regular: $4.228,33 x lt"
+    },
+    {
+      "nombre": "Edulcorante Liquido Con Stevia Chuker 400 Ml",
+      "marca": "CHUKER",
+      "precio": "$5.600",
+      "precioRegular": "Precio regular: $14.000 x lt"
+    },
+    {
+      "nombre": "Edulcorante Ledesma Stevia Polvo X 50un",
+      "marca": "LEDESMA",
+      "precio": "$1.200",
+      "precioRegular": "Precio regular: $3.000 x 100 gr."
+    },
+    {
+      "nombre": "Edulcorante Liquido Chuker 200 Ml",
+      "marca": "CHUKER",
+      "precio": "$2.750",
+      "precioRegular": "Precio regular: $13.750 x lt"
+    },
+    {
+      "nombre": "Edulcorante En Polvo Stevia Equal Sweet 80 Gr",
+      "marca": "EQUALSWEET",
+      "precio": "$6.350",
+      "precioRegular": "Precio regular: $79.375 x kg"
+    },
+    {
+      "nombre": "Edulcorante Con Stevia Liquido Chuker 200 Ml",
+      "marca": "CHUKER",
+      "precio": "$3.650",
+      "precioRegular": "Precio regular: $18.250 x lt"
+    },
+    {
+      "nombre": "Edulcorante Liquido Sucralosa Chuker 400 Ml",
+      "marca": "CHUKER",
+      "precio": "$4.400",
+      "precioRegular": "Precio regular: $11.000 x lt"
+    },
+    {
+      "nombre": "Pochoclo Azúcar Orgánico Bamboo 80 Gr",
+      "marca": "BAMBOO",
+      "precio": "$1.600",
+      "precioRegular": "Precio regular: $2.000 x kg"
+    },
+    {
+      "nombre": "Endulzante En Polvo Stevia Sucaryl 50 Gr",
+      "marca": "SUCARYL",
+      "precio": "$3.300",
+      "precioRegular": "Precio regular: $6.600 x 100 gr."
+    },
+    {
+      "nombre": "Edulcorante Sucralosa Cañuelas 200 Ml",
+      "marca": "CAÑUELAS",
+      "precio": "$2.100",
+      "precioRegular": "Precio regular: $10.500 x lt"
+    },
+    {
+      "nombre": "Edulcorante Sucaryl Polvo 80 Gr",
+      "marca": "SUCARYL",
+      "precio": "$3.600",
+      "precioRegular": "Precio regular: $45.000 x kg"
+    },
+    {
+      "nombre": "Pochoclo Orgánico Azúcar  Bamboo 40g",
+      "marca": "BAMBOO",
+      "precio": "$1.200",
+      "precioRegular": "Precio regular: $3.000 x kg"
+    },
+    {
+      "nombre": "Endulzante Clasico Forte Hileret 250 Ml",
+      "marca": "HILERET",
+      "precio": "$2.200",
+      "precioRegular": "Precio regular: $8.800 x lt"
+    },
+    {
+      "nombre": "Endulzante Stevia Hileret 200 Ml",
+      "marca": "HILERET",
+      "precio": "$3.262,5",
+      "precioRegular": "Precio regular: $21.750 x lt"
+    },
+    {
+      "nombre": "Endulzante Zucra Hileret 400 Ml",
+      "marca": "HILERET",
+      "precio": "$3.787,5",
+      "precioRegular": "Precio regular: $12.625 x lt"
+    },
+    {
+      "nombre": "Endulzante Mate Liquido Hileret 400 Ml",
+      "marca": "HILERET",
+      "precio": "$3.550",
+      "precioRegular": "Precio regular: $8.875 x lt"
+    },
+    {
+      "nombre": "Endulzante Sweet Hileret 400 Ml",
+      "marca": "HILERET",
+      "precio": "$4.250",
+      "precioRegular": "Precio regular: $10.625 x lt"
+    },
+    {
+      "nombre": "Endulzante Mate Liquido Hileret 200 Ml",
+      "marca": "HILERET",
+      "precio": "$2.200",
+      "precioRegular": "Precio regular: $11.000 x lt"
+    },
+    {
+      "nombre": "Endulzante Sweet Hileret 200 Ml",
+      "marca": "HILERET",
+      "precio": "$2.600",
+      "precioRegular": "Precio regular: $13.000 x lt"
+    },
+    {
+      "nombre": "Endulzante Zucra Hileret 200 Ml",
+      "marca": "HILERET",
+      "precio": "$2.250",
+      "precioRegular": "Precio regular: $15.000 x lt"
+    },
+    {
+      "nombre": "Endulzante Hileret Light X 500 Gr",
+      "marca": "HILERET",
+      "precio": "$1.987,5",
+      "precioRegular": "Precio regular: $5.300 x kg"
+    },
+    {
+      "nombre": "Endulzante Clásico Forte Hileret 100 Sobrecitos",
+      "marca": "HILERET",
+      "precio": "$3.300",
+      "precioRegular": "Precio regular: $33 x un"
+    },
+    {
+      "nombre": "Endulzante Stevia Hileret 100 Sobrecitos",
+      "marca": "HILERET",
+      "precio": "$4.087,5",
+      "precioRegular": "Precio regular: $68.125 x kg"
+    },
+    {
+      "nombre": "Endulzante Zucra Hileret 200 Sobres",
+      "marca": "HILERET",
+      "precio": "$5.662,5",
+      "precioRegular": "Precio regular: $47.187,5 x kg"
+    },
+    {
+      "nombre": "Azúcar Endulzante Sucralosa Y Stevia Chango 500 Gr",
+      "marca": "CHANGO",
+      "precio": "$1.050",
+      "precioRegular": "Precio regular: $2.100 x kg"
+    },
+    {
+      "nombre": "Endulzante Equalsweet En Polvo Sobres 160 Gr",
+      "marca": "EQUALSWEET",
+      "precio": "$7.600",
+      "precioRegular": "Precio regular: $47.500 x kg"
+    },
+    {
+      "nombre": "Endulzante Hileret Stevia 50 Sobrecitos",
+      "marca": "HILERET",
+      "precio": "$2.362,5",
+      "precioRegular": "Precio regular: $7.875 x 100 gr."
+    },
+    {
+      "nombre": "Endulzante Hileret Stevia X 200 Sobrecitos",
+      "marca": "HILERET",
+      "precio": "$6.937,5",
+      "precioRegular": "Precio regular: $57.812,5 x kg"
+    },
+    {
+      "nombre": "Endulzante Clasico Forte Hileret 50 Sobrecitos",
+      "marca": "HILERET",
+      "precio": "$1.800",
+      "precioRegular": "Precio regular: $36 x un"
+    },
+    {
+      "nombre": "Endulzante Zucra Hileret 100 Sobrecitos",
+      "marca": "HILERET",
+      "precio": "$3.262,5",
+      "precioRegular": "Precio regular: $54.375 x kg"
+    },
+    {
+      "nombre": "Endulzante Hileret Sweet X 200 Sobrecitos",
+      "marca": "HILERET",
+      "precio": "$6.950",
+      "precioRegular": "Precio regular: $43.437,5 x kg"
+    },
+    {
+      "nombre": "Edulcorante Stevia Equalsweet 40 Gr",
+      "marca": "EQUALSWEET",
+      "precio": "$3.300",
+      "precioRegular": "Precio regular: $8.250 x 100 gr."
+    },
+    {
+      "nombre": "Endulzante Equalsweet En Polvo Sobres 80 Gr",
+      "marca": "EQUALSWEET",
+      "precio": "$4.800",
+      "precioRegular": "Precio regular: $60.000 x kg"
+    },
+    {
+      "nombre": "Endulzante Equalsweet En Polvo Sobres 40 Gr",
+      "marca": "EQUALSWEET",
+      "precio": "$2.900",
+      "precioRegular": "Precio regular: $7.250 x 100 gr."
+    },
+    {
+      "nombre": "Endulzante Zucra Hileret 50 Sobres",
+      "marca": "HILERET",
+      "precio": "$1.875",
+      "precioRegular": "Precio regular: $6.250 x 100 gr."
+    },
+    {
+      "nombre": "Endulzante Hileret Sweet X 100 Sobrecitos",
+      "marca": "HILERET",
+      "precio": "$3.800",
+      "precioRegular": "Precio regular: $47.500 x kg"
+    },
+    {
+      "nombre": "Endulzante En Polvo Stevia Sucaryl 200 Gr",
+      "marca": "SUCARYL",
+      "precio": "$6.050",
+      "precioRegular": "Precio regular: $30.250 x kg"
+    },
+    {
+      "nombre": "Endulzante Hileret Light X 250 Gr",
+      "marca": "HILERET",
+      "precio": "$1.600",
+      "precioRegular": "Precio regular: $6.400 x kg"
+    },
+    {
+      "nombre": "Edulcorante Ledesma Sobres X80gr",
+      "marca": "LEDESMA",
+      "precio": "$1.250",
+      "precioRegular": "Precio regular: $15.625 x kg"
+    },
+    {
+      "nombre": "Edulcorante Tuy Clasico Polvo X160gr",
+      "marca": "TUY",
+      "precio": "$6.200",
+      "precioRegular": "Precio regular: $38.750 x kg"
+    },
+    {
+      "nombre": "Endulzante Hileret Sweet X 50 Sobrecitos",
+      "marca": "HILERET",
+      "precio": "$2.200",
+      "precioRegular": "Precio regular: $5.500 x 100 gr."
+    },
+    {
+      "nombre": "Endulzante En Polvo Stevia Sucaryl 100 Gr",
+      "marca": "SUCARYL",
+      "precio": "$3.750",
+      "precioRegular": "Precio regular: $37.500 x kg"
+    },
+    {
+      "nombre": "Endulzante Sucaryl Sucralosa En Polvo Sobres 100 Gr",
+      "marca": "SUCARYL",
+      "precio": "$3.600",
+      "precioRegular": "Precio regular: $36.000 x kg"
+    },
+    {
+      "nombre": "Endulzante En Polvo Eritritol X 200 Gr",
+      "marca": "NUEVOS ALIMENTOS",
+      "precio": "$15.150",
+      "precioRegular": "Precio regular: $75.750 x kg"
+    },
+    {
+      "nombre": "Edulcorante Tuy Stevia Polvo X160gr",
+      "marca": "TUY",
+      "precio": "$9.200",
+      "precioRegular": "Precio regular: $57.500 x kg"
+    },
+    {
+      "nombre": "Endulzante Light Hileret 100 Sobrecitos",
+      "marca": "HILERET",
+      "precio": "$3.700",
+      "precioRegular": "Precio regular: $37 x un"
+    }
+  ]
+}

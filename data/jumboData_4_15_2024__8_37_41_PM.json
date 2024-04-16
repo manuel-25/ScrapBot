@@ -1,0 +1,638 @@
+{
+  "time_spent": "1 minutos y 10 segundos",
+  "date": "2024-04-15T20:37:41.230Z",
+  "url": "https://www.jumbo.com.ar/yerba?_q=yerba&map=ft",
+  "totalProducts": 105,
+  "data": [
+    {
+      "nombre": "Yerba Mate Playadito Suave 1 Kg",
+      "marca": "PLAYADITO",
+      "precio": "$4.865",
+      "precioRegular": "Precio regular: $4.865 x kg"
+    },
+    {
+      "nombre": "Yerba Mate De Campo La Merced 500 Gr",
+      "marca": "LA MERCED",
+      "precio": "$3.201",
+      "precioRegular": "Precio regular: $6.402 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Suave Playadito 500 Gr",
+      "marca": "PLAYADITO",
+      "precio": "$2.100",
+      "precioRegular": "Precio regular: $4.200 x kg"
+    },
+    {
+      "nombre": "Yerba Mate 4flex Mañanita 1 Kg",
+      "marca": "MAÑANITA",
+      "precio": "$3.825",
+      "precioRegular": "Precio regular: $3.825 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Selección Especial Amanda 1 Kg",
+      "marca": "AMANDA",
+      "precio": "$4.150",
+      "precioRegular": "Precio regular: $4.150 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Campo Y Monte La Merced 500 Gr",
+      "marca": "LA MERCED",
+      "precio": "$3.201",
+      "precioRegular": "Precio regular: $6.402 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Campo Sur La Merced 500 Gr",
+      "marca": "LA MERCED",
+      "precio": "$3.850",
+      "precioRegular": "Precio regular: $7.700 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Hierbas Serranas Cbsé 1 Kg",
+      "marca": "CBSE",
+      "precio": "$4.450",
+      "precioRegular": "Precio regular: $4.450 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Barcbacua La Merced 500 Gr",
+      "marca": "LA MERCED",
+      "precio": "$2.502,5",
+      "precioRegular": "Precio regular: $7.700 x kg"
+    },
+    {
+      "nombre": "Yerba Mate 4flex Mañanita 1/2 Kg",
+      "marca": "MAÑANITA",
+      "precio": "$2.115",
+      "precioRegular": "Precio regular: $4.230 x kg"
+    },
+    {
+      "nombre": "Yerba Mater Canarias 1 Kg",
+      "marca": "CANARIAS",
+      "precio": "$8.200",
+      "precioRegular": "Precio regular: $8.200 x kg"
+    },
+    {
+      "nombre": "Yerba Mate 4flex Unión 1 Kg",
+      "marca": "UNION",
+      "precio": "$4.400",
+      "precioRegular": "Precio regular: $4.400 x kg"
+    },
+    {
+      "nombre": "Yerba Mate 4flex Taragui 1 Kg",
+      "marca": "TARAGUI",
+      "precio": "$3.828",
+      "precioRegular": "Precio regular: $3.828 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Con Palo Suave Rosamonte 500 Gr",
+      "marca": "ROSAMONTE",
+      "precio": "$2.200",
+      "precioRegular": "Precio regular: $4.400 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Naranja Cbse 500 Gr",
+      "marca": "CBSE",
+      "precio": "$1.560",
+      "precioRegular": "Precio regular: $4.800 x kg"
+    },
+    {
+      "nombre": "Yerba Selección Especial La Tranquera 1 Kg",
+      "marca": "LA TRANQUERA",
+      "precio": "$3.950",
+      "precioRegular": "Precio regular: $3.950 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Hierbas Serranas Cbsé 500 Gr",
+      "marca": "CBSE",
+      "precio": "$1.560",
+      "precioRegular": "Precio regular: $4.800 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Verdeflor Con Palo Hierbas 500 Gr",
+      "marca": "VERDEFLOR",
+      "precio": "$1.830",
+      "precioRegular": "Precio regular: $3.660 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Con Palo Amarilla Cachamate 1 Kg",
+      "marca": "CACHAMATE",
+      "precio": "$3.100",
+      "precioRegular": "Precio regular: $3.100 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Monte La Merced 500 Gr",
+      "marca": "LA MERCED",
+      "precio": "$2.502,5",
+      "precioRegular": "Precio regular: $7.700 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Canarias 500 Gr",
+      "marca": "CANARIAS",
+      "precio": "$4.200",
+      "precioRegular": "Precio regular: $8.400 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Suave Con Palo Amanda 500 Gr",
+      "marca": "AMANDA",
+      "precio": "$2.200",
+      "precioRegular": "Precio regular: $4.400 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Hierbas Serranas Amanda 500 Gr",
+      "marca": "AMANDA",
+      "precio": "$2.000",
+      "precioRegular": "Precio regular: $4.000 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Selección Nobleza Gaucha 1 Kg",
+      "marca": "NOBLEZA GAUCHA",
+      "precio": "$2.210",
+      "precioRegular": "Precio regular: $3.400 x kg"
+    },
+    {
+      "nombre": "Yerba Mate 4flex Taragui 1/2kg",
+      "marca": "TARAGUI",
+      "precio": "$2.089",
+      "precioRegular": "Precio regular: $4.178 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Con Palo Suave Rosamonte 1 Kg",
+      "marca": "ROSAMONTE",
+      "precio": "$4.200",
+      "precioRegular": "Precio regular: $4.200 x kg"
+    },
+    {
+      "nombre": "Yerba 55 Edicion Con Palo Rosamonte 1 Kg",
+      "marca": "ROSAMONTE",
+      "precio": "$5.150",
+      "precioRegular": "Precio regular: $5.150 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Suave Sin Tacc Nobleza Gaucha 1 Kg",
+      "marca": "NOBLEZA GAUCHA",
+      "precio": "$3.400",
+      "precioRegular": "Precio regular: $3.400 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Suave Naranja Cachamate 500 Gr",
+      "marca": "CACHAMATE",
+      "precio": "$1.500",
+      "precioRegular": "Precio regular: $3.000 x kg"
+    },
+    {
+      "nombre": "Yerba Salus Natural 1 Kg",
+      "marca": "SALUS NATURAL",
+      "precio": "$2.535",
+      "precioRegular": "Precio regular: $3.900 x kg"
+    },
+    {
+      "nombre": "Yerba Amanda Con Palo Px4",
+      "marca": "AMANDA",
+      "precio": "$4.400",
+      "precioRegular": "Precio regular: $4.400 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Con Hierbas Cuisine And Co 500 Gr",
+      "marca": "CUISINE & CO NBE MP",
+      "precio": "$1.650",
+      "precioRegular": "Precio regular: $3.300 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Cuisine And Co 500 Gr",
+      "marca": "CUISINE & CO NBE MP",
+      "precio": "$1.700",
+      "precioRegular": "Precio regular: $3.400 x kg"
+    },
+    {
+      "nombre": "Yerba Con Palo Amanda 500 Gr",
+      "marca": "AMANDA",
+      "precio": "$2.300",
+      "precioRegular": "Precio regular: $4.600 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Suave Seleccion Especial La Tranquera 1 Kg",
+      "marca": "LA TRANQUERA",
+      "precio": "$4.350",
+      "precioRegular": "Precio regular: $4.350 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Seleccion Especial Cruz De Malta 500 Gr",
+      "marca": "CRUZ DE MALTA",
+      "precio": "$2.150",
+      "precioRegular": "Precio regular: $4.300 x kg"
+    },
+    {
+      "nombre": "Yerba Mate 4flex Sin Palo Taragui 500 Gr",
+      "marca": "TARAGUI",
+      "precio": "$2.491",
+      "precioRegular": "Precio regular: $4.982 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Con Palo Rosa Cachamate 1 Kg",
+      "marca": "CACHAMATE",
+      "precio": "$3.450",
+      "precioRegular": "Precio regular: $3.450 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Jengibre Cbse 500 Gr",
+      "marca": "CBSE",
+      "precio": "$1.560",
+      "precioRegular": "Precio regular: $4.800 x kg"
+    },
+    {
+      "nombre": "Yerba Serena Canarias 1 Kg",
+      "marca": "CANARIAS",
+      "precio": "$10.285",
+      "precioRegular": "Precio regular: $10.285 x kg"
+    },
+    {
+      "nombre": "Yerba Mate 4flex Union 1/2 Kg",
+      "marca": "UNION",
+      "precio": "$2.400",
+      "precioRegular": "Precio regular: $4.800 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Con Palo Rosa Cachamate 500 Gr",
+      "marca": "CACHAMATE",
+      "precio": "$1.850",
+      "precioRegular": "Precio regular: $3.700 x kg"
+    },
+    {
+      "nombre": "Yerba Pipore Con Palo Sublime",
+      "marca": "PIPORÉ",
+      "precio": "$2.500",
+      "precioRegular": "Precio regular: $5.000 x kg"
+    },
+    {
+      "nombre": "Yerba Hierbas Serranas Cachamate 1 Kg",
+      "marca": "CACHAMATE",
+      "precio": "$3.450",
+      "precioRegular": "Precio regular: $3.450 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Guarana Cbse 500 Gr",
+      "marca": "CBSE",
+      "precio": "$1.560",
+      "precioRegular": "Precio regular: $4.800 x kg"
+    },
+    {
+      "nombre": "Yerba Salus Natural 500 Gr",
+      "marca": "SALUS NATURAL",
+      "precio": "$1.332,5",
+      "precioRegular": "Precio regular: $4.100 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Silueta Naranja Cbse 500 Gr",
+      "marca": "CBSE",
+      "precio": "$1.560",
+      "precioRegular": "Precio regular: $4.800 x kg"
+    },
+    {
+      "nombre": "Yerba Piporé Con Palo 500 Gr",
+      "marca": "PIPORÉ",
+      "precio": "$2.150",
+      "precioRegular": "Precio regular: $4.300 x kg"
+    },
+    {
+      "nombre": "Yerba 55 Edicion Con Palo Rosamonte 500 Gr",
+      "marca": "ROSAMONTE",
+      "precio": "$2.800",
+      "precioRegular": "Precio regular: $5.600 x kg"
+    },
+    {
+      "nombre": "Yerba Tradicional Sin Tacc Cruz De Malta 500 Gr",
+      "marca": "CRUZ DE MALTA",
+      "precio": "$2.050",
+      "precioRegular": "Precio regular: $4.100 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Limón Cbsé 500 Gr",
+      "marca": "CBSE",
+      "precio": "$1.560",
+      "precioRegular": "Precio regular: $4.800 x kg"
+    },
+    {
+      "nombre": "Yerba Mate 4flex Sin Palo Taragui 1 Kg",
+      "marca": "TARAGUI",
+      "precio": "$5.400",
+      "precioRegular": "Precio regular: $5.400 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Hierbas Del Litoral Cachamate 500 Gr",
+      "marca": "CACHAMATE",
+      "precio": "$1.950",
+      "precioRegular": "Precio regular: $3.900 x kg"
+    },
+    {
+      "nombre": "Yerba La Tranquera liviana x1kg",
+      "marca": "LA TRANQUERA",
+      "precio": "$2.550",
+      "precioRegular": "Precio regular: $2.550 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Verdeflor Con Palo  Boldo",
+      "marca": "VERDEFLOR",
+      "precio": "$2.000",
+      "precioRegular": "Precio regular: $4.000 x kg"
+    },
+    {
+      "nombre": "Yerba Hierbas Reales Buenas Y Santas 500 Gr",
+      "marca": "Buenas y Santas",
+      "precio": "$2.400",
+      "precioRegular": "Precio regular: $4.800 x kg"
+    },
+    {
+      "nombre": "Yerba Limon Y Menta Salus 500 Gr",
+      "marca": "SALUS",
+      "precio": "$1.332,5",
+      "precioRegular": "Precio regular: $4.100 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Con Palo Amarilla Cachamate 500 Gr",
+      "marca": "CACHAMATE",
+      "precio": "$1.850",
+      "precioRegular": "Precio regular: $3.700 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Con Palo Verdeflor 1 Kg",
+      "marca": "VERDEFLOR",
+      "precio": "$3.800",
+      "precioRegular": "Precio regular: $3.800 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Verdeflor Con Palo Menta  Paq 500 Gr.",
+      "marca": "VERDEFLOR",
+      "precio": "$2.000",
+      "precioRegular": "Precio regular: $4.000 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Boldo Menta Sin Tacc Cruz De Malta 500 Gr",
+      "marca": "CRUZ DE MALTA",
+      "precio": "$1.850",
+      "precioRegular": "Precio regular: $1.850 x un"
+    },
+    {
+      "nombre": "Yerba Cedron Verdeflor 500 Gr",
+      "marca": "VERDEFLOR",
+      "precio": "$1.950",
+      "precioRegular": "Precio regular: $3.900 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Chamigo X500g Sin Tacc",
+      "marca": "CHAMIGO",
+      "precio": "$1.400",
+      "precioRegular": "Precio regular: $2.800 x kg"
+    },
+    {
+      "nombre": "Yerba Mate En Saquitos Cuisine And Co. 100 Saquitos - 300 Gr",
+      "marca": "CUISINE & CO NBE MP",
+      "precio": "$2.450",
+      "precioRegular": "Precio regular: $8.166,67 x kg"
+    },
+    {
+      "nombre": "Yerba Serena Canarias 500 Gr",
+      "marca": "CANARIAS",
+      "precio": "$5.500",
+      "precioRegular": "Precio regular: $11.000 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Compuesta Cachamai 500 Gr",
+      "marca": "CACHAMATE",
+      "precio": "$1.900",
+      "precioRegular": "Precio regular: $3.800 x kg"
+    },
+    {
+      "nombre": "Yerba Selección Especial La Tranquera 500 Gr",
+      "marca": "LA TRANQUERA",
+      "precio": "$2.500",
+      "precioRegular": "Precio regular: $5.000 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Sin Tacc Chamigo 1 Kg",
+      "marca": "CHAMIGO",
+      "precio": "$2.600",
+      "precioRegular": "Precio regular: $2.600 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Romance Con Palo Tradicional 1 Kg",
+      "marca": "ROMANCE",
+      "precio": "$3.450",
+      "precioRegular": "Precio regular: $3.450 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Nobleza Gaucha Suave X500g Sin Tacc",
+      "marca": "NOBLEZA GAUCHA",
+      "precio": "$1.800",
+      "precioRegular": "Precio regular: $3.600 x kg"
+    },
+    {
+      "nombre": "Yerba Suave 55 Edicion Con Palo Rosamonte 1 Kg",
+      "marca": "ROSAMONTE",
+      "precio": "$5.850",
+      "precioRegular": "Precio regular: $5.850 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Con Manzanilla Cruz De Malta 500 Gr",
+      "marca": "CRUZ DE MALTA",
+      "precio": "$1.850",
+      "precioRegular": "Precio regular: $1.850 x un"
+    },
+    {
+      "nombre": "Yerba Mate Serrana Cachamate 500 Gr",
+      "marca": "CACHAMATE",
+      "precio": "$1.900",
+      "precioRegular": "Precio regular: $3.800 x kg"
+    },
+    {
+      "nombre": "Yerba Pipore Con Palo Tradicional Clasica 500",
+      "marca": "PIPORÉ",
+      "precio": "$2.500",
+      "precioRegular": "Precio regular: $5.000 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Verdeflor Con Palo Sabor Naranja",
+      "marca": "VERDEFLOR",
+      "precio": "$2.000",
+      "precioRegular": "Precio regular: $4.000 x kg"
+    },
+    {
+      "nombre": "Yerba Mate En Saquitos Cuisine And Co. 25 Saquitos - 75 Gr",
+      "marca": "CUISINE & CO NBE MP",
+      "precio": "$1.150",
+      "precioRegular": "Precio regular: $15.333,33 x kg"
+    },
+    {
+      "nombre": "Yerba Hierbas Serranas Salus 500 Gr",
+      "marca": "SALUS",
+      "precio": "$1.332,5",
+      "precioRegular": "Precio regular: $4.100 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Elaborada Con Palo Yemaype 500 Gr",
+      "marca": "LIEBIG",
+      "precio": "$1.900",
+      "precioRegular": "Precio regular: $3.800 x kg"
+    },
+    {
+      "nombre": "Yerba Mate En Saquitos Taragui 40 Saquitos",
+      "marca": "TARAGUI",
+      "precio": "$2.600",
+      "precioRegular": "Precio regular: $21.666,67 x kg"
+    },
+    {
+      "nombre": "Yerba Amanda Con Palo 500 Gr",
+      "marca": "AMANDA",
+      "precio": "$2.950",
+      "precioRegular": "Precio regular: $5.900 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Burrito Arroyo Verde 500 Gr",
+      "marca": "ARROYO VERDE",
+      "precio": "$1.600",
+      "precioRegular": "Precio regular: $3.200 x kg"
+    },
+    {
+      "nombre": "Yerba Canarias Edicion Especial 500 G",
+      "marca": "CANARIAS",
+      "precio": "$11.131,9",
+      "precioRegular": "Precio regular: $22.263,8 x kg"
+    },
+    {
+      "nombre": "Yerba Hierbas Serranas Etiqueta Negra Cbsé 500 Gr",
+      "marca": "CBSE",
+      "precio": "$2.437,5",
+      "precioRegular": "Precio regular: $7.500 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Cuisine And Co 50 Saquitos - 150 Gr",
+      "marca": "CUISINE & CO NBE MP",
+      "precio": "$1.650",
+      "precioRegular": "Precio regular: $11.000 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Romance Suave 1 Kg",
+      "marca": "ROMANCE",
+      "precio": "$4.200",
+      "precioRegular": "Precio regular: $4.200 x kg"
+    },
+    {
+      "nombre": "Yerba Canarias Hierbas Te Verde Y Jengi",
+      "marca": "CANARIAS",
+      "precio": "$11.131,9",
+      "precioRegular": "Precio regular: $22.263,8 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Verdeflor Con Palo",
+      "marca": "VERDEFLOR",
+      "precio": "$2.300",
+      "precioRegular": "Precio regular: $4.600 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Con Palo Original Romance 1kg",
+      "marca": "ROMANCE",
+      "precio": "$4.650",
+      "precioRegular": "Precio regular: $4.650 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Romance Con Palo Suave 500 Gr",
+      "marca": "ROMANCE",
+      "precio": "$2.350",
+      "precioRegular": "Precio regular: $4.700 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Verdeflor Con Palo Premium X 500g",
+      "marca": "VERDEFLOR",
+      "precio": "$3.500",
+      "precioRegular": "Precio regular: $7.000 x kg"
+    },
+    {
+      "nombre": "Yerba Mate Yer-vita En Saquitos 25 U",
+      "marca": "YER-VITA",
+      "precio": "$1.000",
+      "precioRegular": "Precio regular: $40 x un"
+    },
+    {
+      "nombre": "Yerba Mate Romance Con Palo Tradicional 500 Gr",
+      "marca": "ROMANCE",
+      "precio": "$2.150",
+      "precioRegular": "Precio regular: $4.300 x kg"
+    },
+    {
+      "nombre": "Mate Cocido Taragui 300 Gr",
+      "marca": "TARAGUI",
+      "precio": "$3.700",
+      "precioRegular": "Precio regular: $12.333,33 x kg"
+    },
+    {
+      "nombre": "Mate Cocido Taragui 150 Gr",
+      "marca": "TARAGUI",
+      "precio": "$1.624",
+      "precioRegular": "Precio regular: $10.826,67 x kg"
+    },
+    {
+      "nombre": "Mate Cocido Sabor Tradicional La Tranquera 62.5 Gr",
+      "marca": "LA TRANQUERA",
+      "precio": "$1.200",
+      "precioRegular": "Precio regular: $1.920 x kg"
+    },
+    {
+      "nombre": "Mate Cocido Nobleza Gaucha En Saquitos 25u",
+      "marca": "NOBLEZA GAUCHA",
+      "precio": "$850",
+      "precioRegular": "Precio regular: $34 x un"
+    },
+    {
+      "nombre": "Mate Cocido Nobleza Gaucha En Saquitos 50u",
+      "marca": "NOBLEZA GAUCHA",
+      "precio": "$1.550",
+      "precioRegular": "Precio regular: $31 x un"
+    },
+    {
+      "nombre": "Mate Cocido Union 25 Saquitos",
+      "marca": "UNION",
+      "precio": "$1.100",
+      "precioRegular": "Precio regular: $14.666,67 x kg"
+    },
+    {
+      "nombre": "Mate Cocido Tradicional La Tranquera 250 Gr",
+      "marca": "LA TRANQUERA",
+      "precio": "$3.950",
+      "precioRegular": "Precio regular: $15.800 x kg"
+    },
+    {
+      "nombre": "Mate Tradicional Sin Tacc Cruz De Malta 1 Kg",
+      "marca": "CRUZ DE MALTA",
+      "precio": "$3.900",
+      "precioRegular": "Precio regular: $3.900 x kg"
+    },
+    {
+      "nombre": "Mate Cocido Union 300 Gr",
+      "marca": "UNION",
+      "precio": "$3.700",
+      "precioRegular": "Precio regular: $12.333,33 x kg"
+    },
+    {
+      "nombre": "Mate Cocido Taragui 75 Gr",
+      "marca": "TARAGUI",
+      "precio": "$1.100",
+      "precioRegular": "Precio regular: $14.666,67 x kg"
+    },
+    {
+      "nombre": "Mate Cocido Nobleza Gaucha En Saquitos 100u",
+      "marca": "NOBLEZA GAUCHA",
+      "precio": "$2.400",
+      "precioRegular": "Precio regular: $24 x un"
+    },
+    {
+      "nombre": "Kombucha Aloja Yerba Mate 354 Ml",
+      "marca": "ALOJA",
+      "precio": "$4.199",
+      "precioRegular": "Precio regular: $11.861,58 x lt"
+    },
+    {
+      "nombre": "Mate Listo Taragui 38 Gr",
+      "marca": "TARAGUI",
+      "precio": "$1.100",
+      "precioRegular": "Precio regular: $2.894,74 x 100 gr."
+    }
+  ]
+}

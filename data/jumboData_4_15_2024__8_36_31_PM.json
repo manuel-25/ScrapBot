@@ -1,0 +1,680 @@
+{
+  "time_spent": "1 minutos y 15 segundos",
+  "date": "2024-04-15T20:36:31.167Z",
+  "url": "https://www.jumbo.com.ar/cafe?_q=cafe&map=ft",
+  "totalProducts": 112,
+  "data": [
+    {
+      "nombre": "Cafe Expresso Molido Tostado La Virginia 500 Gr",
+      "marca": "LA VIRGINIA",
+      "precio": "$10.859",
+      "precioRegular": "Precio regular: $21.718 x kg"
+    },
+    {
+      "nombre": "Cafe Molido La Morenita 500 Gr",
+      "marca": "LA MORENITA",
+      "precio": "$6.442",
+      "precioRegular": "Precio regular: $12.884 x kg"
+    },
+    {
+      "nombre": "Café Molido La Virginia 500 Gr",
+      "marca": "LA VIRGINIA",
+      "precio": "$6.686",
+      "precioRegular": "Precio regular: $13.372 x kg"
+    },
+    {
+      "nombre": "Café La Planta De Café Molido 500 Gr",
+      "marca": "LA PLANTA DE CAFÉ",
+      "precio": "$6.700",
+      "precioRegular": "Precio regular: $13.400 x kg"
+    },
+    {
+      "nombre": "Café Dolca Suave Nescafé® 170 Gr",
+      "marca": "NESCAFE",
+      "precio": "$5.200",
+      "precioRegular": "Precio regular: $30.588,24 x kg"
+    },
+    {
+      "nombre": "Café Dolca Original Nescafe® 170 Gr",
+      "marca": "NESCAFE",
+      "precio": "$9.750",
+      "precioRegular": "Precio regular: $57.352,94 x kg"
+    },
+    {
+      "nombre": "Café La Planta De Café Molido 250 Gr",
+      "marca": "LA PLANTA DE CAFÉ",
+      "precio": "$3.450",
+      "precioRegular": "Precio regular: $13.800 x kg"
+    },
+    {
+      "nombre": "Café Molido La Morenita 250 Gr",
+      "marca": "LA MORENITA",
+      "precio": "$3.350",
+      "precioRegular": "Precio regular: $13.400 x kg"
+    },
+    {
+      "nombre": "Café Suave Mas Aroma Arlistan 170 Gr",
+      "marca": "ARLISTAN",
+      "precio": "$4.650",
+      "precioRegular": "Precio regular: $27.352,94 x kg"
+    },
+    {
+      "nombre": "Café En Capsulas Equilibrio La Virginia 52 Gr",
+      "marca": "LA VIRGINIA",
+      "precio": "$6.250",
+      "precioRegular": "Precio regular: $625 x un"
+    },
+    {
+      "nombre": "Café Molido Clasico La Virginia 250 Gr",
+      "marca": "LA VIRGINIA",
+      "precio": "$3.400",
+      "precioRegular": "Precio regular: $13.600 x kg"
+    },
+    {
+      "nombre": "Café En Saquitos Cabrales 90 Gr",
+      "marca": "CABRALES",
+      "precio": "$3.150",
+      "precioRegular": "Precio regular: $35.000 x kg"
+    },
+    {
+      "nombre": "Cafe En Cápsulas Sutil La Virginia 52 Gr",
+      "marca": "LA VIRGINIA",
+      "precio": "$6.250",
+      "precioRegular": "Precio regular: $625 x un"
+    },
+    {
+      "nombre": "Café Molido La Planta De Café X 1 Kg.",
+      "marca": "LA PLANTA DE CAFÉ",
+      "precio": "$12.950",
+      "precioRegular": "Precio regular: $12.950 x kg"
+    },
+    {
+      "nombre": "Café Intenso Saquito Morenita 110 Gr",
+      "marca": "LA MORENITA",
+      "precio": "$3.390",
+      "precioRegular": "Precio regular: $30.818,18 x kg"
+    },
+    {
+      "nombre": "Cafe La Morenita Capsulas Colombia X52g",
+      "marca": "LA MORENITA",
+      "precio": "$6.600",
+      "precioRegular": "Precio regular: $660 x un"
+    },
+    {
+      "nombre": "Café La Virginia Selección Tostado X100g",
+      "marca": "LA VIRGINIA",
+      "precio": "$5.150",
+      "precioRegular": "Precio regular: $51.500 x kg"
+    },
+    {
+      "nombre": "Café Gimoka En Grano Vallutato 500 Gr",
+      "marca": "GIMOKA",
+      "precio": "$24.000",
+      "precioRegular": "Precio regular: $48.000 x kg"
+    },
+    {
+      "nombre": "Café Bonafide Molido Sensaciones 1 Kg",
+      "marca": "BONAFIDE",
+      "precio": "$11.150",
+      "precioRegular": "Precio regular: $11.150 x kg"
+    },
+    {
+      "nombre": "Café Cabrales Molido 125g",
+      "marca": "CABRALES",
+      "precio": "$2.956",
+      "precioRegular": "Precio regular: $24.633,33 x kg"
+    },
+    {
+      "nombre": "Café Dolca Latte Nescafé® 125 Gr",
+      "marca": "NESCAFE",
+      "precio": "$2.360",
+      "precioRegular": "Precio regular: $23.600 x kg"
+    },
+    {
+      "nombre": "Café Bonafide Molido Sensaciones 500 Gr",
+      "marca": "BONAFIDE",
+      "precio": "$6.200",
+      "precioRegular": "Precio regular: $12.400 x kg"
+    },
+    {
+      "nombre": "Café En Capsulas Italiano La Morenita 52 Gr",
+      "marca": "LA MORENITA",
+      "precio": "$4.712,5",
+      "precioRegular": "Precio regular: $725 x un"
+    },
+    {
+      "nombre": "Café Dolca Nescafé® Original 100 Gr",
+      "marca": "NESCAFE",
+      "precio": "$4.110",
+      "precioRegular": "Precio regular: $68.500 x kg"
+    },
+    {
+      "nombre": "Café Suave Mas Aroma Arlistan 100 Gr",
+      "marca": "ARLISTAN",
+      "precio": "$2.900",
+      "precioRegular": "Precio regular: $29.000 x kg"
+    },
+    {
+      "nombre": "Café La Virginia Selección Tostado X170g",
+      "marca": "LA VIRGINIA",
+      "precio": "$5.460",
+      "precioRegular": "Precio regular: $49.411,76 x kg"
+    },
+    {
+      "nombre": "Cafe Dolca Suave Nescafe® 100 Gr",
+      "marca": "NESCAFE",
+      "precio": "$5.137,5",
+      "precioRegular": "Precio regular: $68.500 x kg"
+    },
+    {
+      "nombre": "Café Molido Prestige Cabrales 500 Gr",
+      "marca": "CABRALES",
+      "precio": "$13.015",
+      "precioRegular": "Precio regular: $26.030 x kg"
+    },
+    {
+      "nombre": "Cafe En Saquito Torrado La Virginia 100 Gr",
+      "marca": "LA VIRGINIA",
+      "precio": "$2.340",
+      "precioRegular": "Precio regular: $36.000 x kg"
+    },
+    {
+      "nombre": "Café Bonafide Molido Sensaciones 250 Gr",
+      "marca": "BONAFIDE",
+      "precio": "$3.250",
+      "precioRegular": "Precio regular: $13.000 x kg"
+    },
+    {
+      "nombre": "Café Cabrales Molido Prestige X250g",
+      "marca": "CABRALES",
+      "precio": "$6.541",
+      "precioRegular": "Precio regular: $26.164 x kg"
+    },
+    {
+      "nombre": "Café Gimoka Armonioso Grano",
+      "marca": "GIMOKA",
+      "precio": "$29.076,69",
+      "precioRegular": "Precio regular: $58.153,38 x kg"
+    },
+    {
+      "nombre": "Café La Morenita Intenso X100g",
+      "marca": "LA MORENITA",
+      "precio": "$1.755",
+      "precioRegular": "Precio regular: $27.000 x kg"
+    },
+    {
+      "nombre": "Café Bonafide Molido Sabor Intenso 250 Gr",
+      "marca": "BONAFIDE",
+      "precio": "$3.250",
+      "precioRegular": "Precio regular: $13.000 x kg"
+    },
+    {
+      "nombre": "Café Dolca Choco Mocha Nescafé® 125 Gr",
+      "marca": "NESCAFE",
+      "precio": "$2.400",
+      "precioRegular": "Precio regular: $24.000 x kg"
+    },
+    {
+      "nombre": "Café Aroma Classico Molido Vacio Gimoka 250 Gr",
+      "marca": "GIMOKA",
+      "precio": "$9.600",
+      "precioRegular": "Precio regular: $38.400 x kg"
+    },
+    {
+      "nombre": "Café La Planta De Café 18 Saquitos X5g",
+      "marca": "CABRALES",
+      "precio": "$3.150",
+      "precioRegular": "Precio regular: $35.000 x kg"
+    },
+    {
+      "nombre": "Cafe La Morenita Capsulas Brasil X52g",
+      "marca": "LA MORENITA",
+      "precio": "$4.290",
+      "precioRegular": "Precio regular: $660 x un"
+    },
+    {
+      "nombre": "Cafe La Virginia Molido 125gr",
+      "marca": "LA VIRGINIA",
+      "precio": "$1.235",
+      "precioRegular": "Precio regular: $15.200 x kg"
+    },
+    {
+      "nombre": "Café La Virginia Clasico Espuma X170g",
+      "marca": "LA VIRGINIA",
+      "precio": "$3.835",
+      "precioRegular": "Precio regular: $34.705,88 x kg"
+    },
+    {
+      "nombre": "Cafe Nescafe® Dolca Suave 50 Gr",
+      "marca": "NESCAFE",
+      "precio": "$2.730",
+      "precioRegular": "Precio regular: $91.000 x kg"
+    },
+    {
+      "nombre": "Café Suave Mas Aroma Arlistan 50 Gr",
+      "marca": "ARLISTAN",
+      "precio": "$1.550",
+      "precioRegular": "Precio regular: $31.000 x kg"
+    },
+    {
+      "nombre": "Café Dolca Nescafé® Original 50 Gr",
+      "marca": "NESCAFE",
+      "precio": "$2.730",
+      "precioRegular": "Precio regular: $91.000 x kg"
+    },
+    {
+      "nombre": "Café Molido Decaffeinato Lavazza 250 Gr",
+      "marca": "LAVAZZA",
+      "precio": "$14.700",
+      "precioRegular": "Precio regular: $58.800 x kg"
+    },
+    {
+      "nombre": "Café Molido Gimoka Vellutato",
+      "marca": "GIMOKA",
+      "precio": "$16.000",
+      "precioRegular": "Precio regular: $64.000 x kg"
+    },
+    {
+      "nombre": "Café Dolca Suave Nescafé® 8 Gr",
+      "marca": "NESCAFE",
+      "precio": "$250",
+      "precioRegular": "Precio regular: $3.125 x 100 gr."
+    },
+    {
+      "nombre": "Café Molido Quealita Rossa Lavazza 250 Gr",
+      "marca": "LAVAZZA",
+      "precio": "$13.900",
+      "precioRegular": "Precio regular: $55.600 x kg"
+    },
+    {
+      "nombre": "Café Dolca Cortado Nescafé® 125 Gr",
+      "marca": "NESCAFE",
+      "precio": "$2.400",
+      "precioRegular": "Precio regular: $24.000 x kg"
+    },
+    {
+      "nombre": "Cafe La Virginia Suave Espuma Dpx100g",
+      "marca": "LA VIRGINIA",
+      "precio": "$2.145",
+      "precioRegular": "Precio regular: $33.000 x kg"
+    },
+    {
+      "nombre": "Café En Capsulas Intenso Gimoka 10 U",
+      "marca": "GIMOKA",
+      "precio": "$8.600",
+      "precioRegular": "Precio regular: $860 x un"
+    },
+    {
+      "nombre": "Café La Virginia Clasico Espuma Dpx100g",
+      "marca": "LA VIRGINIA",
+      "precio": "$2.145",
+      "precioRegular": "Precio regular: $33.000 x kg"
+    },
+    {
+      "nombre": "Café Espresso En Capsula Vainilla Viaggio 55 Gr",
+      "marca": "VIAGGIO",
+      "precio": "$9.350",
+      "precioRegular": "Precio regular: $170.000 x kg"
+    },
+    {
+      "nombre": "Café Cappuccino Morenita X125g",
+      "marca": "LA MORENITA",
+      "precio": "$1.820",
+      "precioRegular": "Precio regular: $22.400 x kg"
+    },
+    {
+      "nombre": "Café Molido Brasil Cabrales 500 Gr",
+      "marca": "CABRALES",
+      "precio": "$21.268",
+      "precioRegular": "Precio regular: $42.536 x kg"
+    },
+    {
+      "nombre": "Café Molido Brasil Cabrales 250 Gr",
+      "marca": "CABRALES",
+      "precio": "$10.634",
+      "precioRegular": "Precio regular: $42.536 x kg"
+    },
+    {
+      "nombre": "Cafe En Capsulas Espresso Descafeinado Viaggio 10 Capsulas",
+      "marca": "VIAGGIO",
+      "precio": "$8.650",
+      "precioRegular": "Precio regular: $163.207,55 x kg"
+    },
+    {
+      "nombre": "Café En Cápsulas Vellutato Gimoka 10 U",
+      "marca": "GIMOKA",
+      "precio": "$8.600",
+      "precioRegular": "Precio regular: $860 x un"
+    },
+    {
+      "nombre": "Café Esperesso En Capsulas Caramelo Viaggio 55 Gr",
+      "marca": "VIAGGIO",
+      "precio": "$9.350",
+      "precioRegular": "Precio regular: $170.000 x kg"
+    },
+    {
+      "nombre": "Café En Cápsulas Espresso Arabica Viaggio 10 Capsulas",
+      "marca": "VIAGGIO",
+      "precio": "$8.650",
+      "precioRegular": "Precio regular: $160.185,19 x kg"
+    },
+    {
+      "nombre": "Café Esperesso En Capsulas Colombia Viaggio 55 Gr",
+      "marca": "VIAGGIO",
+      "precio": "$9.350",
+      "precioRegular": "Precio regular: $170.000 x kg"
+    },
+    {
+      "nombre": "Cafe En Cápsulas Espresso Intenso Viaggio 10 U",
+      "marca": "VIAGGIO",
+      "precio": "$8.650",
+      "precioRegular": "Precio regular: $157.272,73 x kg"
+    },
+    {
+      "nombre": "Cafe Verde En Grano Life 200 Gr",
+      "marca": "MAS LIFE SUPERFOOD",
+      "precio": "$3.600",
+      "precioRegular": "Precio regular: $18.000 x kg"
+    },
+    {
+      "nombre": "Cafe En Capsulas Espresso Cioccolato Viaggio 10 Cápsulas",
+      "marca": "VIAGGIO",
+      "precio": "$9.350",
+      "precioRegular": "Precio regular: $935 x un"
+    },
+    {
+      "nombre": "Cafe En Capsulas Espresso Brasil Viaggio 10 Capsulas",
+      "marca": "VIAGGIO",
+      "precio": "$9.350",
+      "precioRegular": "Precio regular: $935 x un"
+    },
+    {
+      "nombre": "Café En Capsulas Lungo Gimoka 10 U",
+      "marca": "GIMOKA",
+      "precio": "$8.600",
+      "precioRegular": "Precio regular: $860 x un"
+    },
+    {
+      "nombre": "Café La Planta De Café Clasico Dp X160g",
+      "marca": "LA PLANTA DE CAFÉ",
+      "precio": "$5.180",
+      "precioRegular": "Precio regular: $32.375 x kg"
+    },
+    {
+      "nombre": "Café La Planta De Café Suave Dp X160g",
+      "marca": "LA PLANTA DE CAFÉ",
+      "precio": "$5.180",
+      "precioRegular": "Precio regular: $32.375 x kg"
+    },
+    {
+      "nombre": "Café La Planta De Café Suave Frasc X100g",
+      "marca": "LA PLANTA DE CAFÉ",
+      "precio": "$4.114",
+      "precioRegular": "Precio regular: $41.140 x kg"
+    },
+    {
+      "nombre": "Café En Cápsulas Gimoka Soave -10 Cápsulas",
+      "marca": "GIMOKA",
+      "precio": "$8.600",
+      "precioRegular": "Precio regular: $860 x un"
+    },
+    {
+      "nombre": "Café La Planta De Café Suave Dp X110g",
+      "marca": "LA PLANTA DE CAFÉ",
+      "precio": "$4.114",
+      "precioRegular": "Precio regular: $37.400 x kg"
+    },
+    {
+      "nombre": "Capsulas Café Cabrales dg Espresso X84gr",
+      "marca": "CABRALES",
+      "precio": "$10.000",
+      "precioRegular": "Precio regular: $119.047,62 x kg"
+    },
+    {
+      "nombre": "Capsulas De Café Espresso Clasico Gimoka 10 U",
+      "marca": "GIMOKA",
+      "precio": "$9.600",
+      "precioRegular": "Precio regular: $960 x un"
+    },
+    {
+      "nombre": "Galletitas Cacao. Mani Y Cafe Zafran X 150 Grs",
+      "marca": "ZAFRÁN",
+      "precio": "$877,5",
+      "precioRegular": "Precio regular: $9.000 x kg"
+    },
+    {
+      "nombre": "Capsulas Café  Cabrales Dg Lungo X98g",
+      "marca": "CABRALES",
+      "precio": "$10.000",
+      "precioRegular": "Precio regular: $102.040,82 x kg"
+    },
+    {
+      "nombre": "Capuccino La Planta De Café Light X110g",
+      "marca": "CABRALES",
+      "precio": "$3.341,43",
+      "precioRegular": "Precio regular: $29.055,91 x kg"
+    },
+    {
+      "nombre": "Capuccino La Planta De Café Moka X115g",
+      "marca": "CABRALES",
+      "precio": "$3.341,43",
+      "precioRegular": "Precio regular: $29.055,91 x kg"
+    },
+    {
+      "nombre": "Capsulas De Café Espreso Intenso Sin Azúcar Café Martinez 10 U",
+      "marca": "café Martinez",
+      "precio": "$8.900",
+      "precioRegular": "Precio regular: $174.509,8 x kg"
+    },
+    {
+      "nombre": "Café Martinez Lungo Suave S/azúcar 51g",
+      "marca": "café Martinez",
+      "precio": "$8.900",
+      "precioRegular": "Precio regular: $174.509,8 x kg"
+    },
+    {
+      "nombre": "Café Martinez Espre Suave S/azúcar 51g11211201",
+      "marca": "café Martinez",
+      "precio": "$8.900",
+      "precioRegular": "Precio regular: $174.509,8 x kg"
+    },
+    {
+      "nombre": "Nescafé® Dolce Gusto® Americano X 16u.",
+      "marca": "NESCAFE",
+      "precio": "$7.943,25",
+      "precioRegular": "Precio regular: $81.469,23 x kg"
+    },
+    {
+      "nombre": "Cápsulas Cappuccino Dulce De Leche  Nescafé® X 16u",
+      "marca": "NESCAFE",
+      "precio": "$7.943,25",
+      "precioRegular": "Precio regular: $39.225,93 x kg"
+    },
+    {
+      "nombre": "Nescafé® Dolce Gusto® Espresso X 16u.",
+      "marca": "NESCAFE",
+      "precio": "$8.578,5",
+      "precioRegular": "Precio regular: $714,88 x un"
+    },
+    {
+      "nombre": "Capsulas Super Cabrales 55 Gr",
+      "marca": "CABRALES",
+      "precio": "$7.000",
+      "precioRegular": "Precio regular: $127.272,73 x kg"
+    },
+    {
+      "nombre": "Starbucks® Cápsulas Madagascar Vainilla Macchiato X 12u.",
+      "marca": "STARBUCKS",
+      "precio": "$5.965,5",
+      "precioRegular": "Precio regular: $994,25 x un"
+    },
+    {
+      "nombre": "Starbucks® Cápsulas White Mocha X 12u.",
+      "marca": "STARBUCKS",
+      "precio": "$5.995,5",
+      "precioRegular": "Precio regular: $66.616,67 x kg"
+    },
+    {
+      "nombre": "Mix Cappuccino Tradicional La Virginia 125 Gr",
+      "marca": "LA VIRGINIA",
+      "precio": "$1.787,5",
+      "precioRegular": "Precio regular: $22.000 x kg"
+    },
+    {
+      "nombre": "Starbucks® Caffé Verona™ X 250gr",
+      "marca": "STARBUCKS",
+      "precio": "$14.700",
+      "precioRegular": "Precio regular: $78.400 x kg"
+    },
+    {
+      "nombre": "Mix Cappuccino La Virginia  Tradicional Dp275g",
+      "marca": "LA VIRGINIA",
+      "precio": "$3.802,5",
+      "precioRegular": "Precio regular: $21.272,73 x kg"
+    },
+    {
+      "nombre": "Cebada Maltitime Instantanea Cuisine And Co 170 Gr",
+      "marca": "CUISINE & CO NBE MP",
+      "precio": "$1.750",
+      "precioRegular": "Precio regular: $10.294,12 x kg"
+    },
+    {
+      "nombre": "Coffee Mate® Original 170 Gr",
+      "marca": "COFFEE-MATE",
+      "precio": "$2.240",
+      "precioRegular": "Precio regular: $16.470,59 x kg"
+    },
+    {
+      "nombre": "Crema No Lactea En Polvo Coffee Mate® 170 Gr",
+      "marca": "COFFEE-MATE",
+      "precio": "$2.600",
+      "precioRegular": "Precio regular: $19.117,65 x kg"
+    },
+    {
+      "nombre": "Capsulas La Virginia 104 Gr",
+      "marca": "LA VIRGINIA",
+      "precio": "$7.085",
+      "precioRegular": "Precio regular: $104.807,69 x kg"
+    },
+    {
+      "nombre": "Mix Cappuccino La Virginia Tradicional 125g",
+      "marca": "LA VIRGINIA",
+      "precio": "$2.600",
+      "precioRegular": "Precio regular: $32.000 x kg"
+    },
+    {
+      "nombre": "Cápsulas Espresso Fortissimo Viaggio 55 Gr - 10 Cápsulas",
+      "marca": "VIAGGIO",
+      "precio": "$8.000",
+      "precioRegular": "Precio regular: $145.454,55 x kg"
+    },
+    {
+      "nombre": "Mix Cappuccino La Virginia Mousse Dp155g",
+      "marca": "LA VIRGINIA",
+      "precio": "$2.275",
+      "precioRegular": "Precio regular: $22.580,65 x kg"
+    },
+    {
+      "nombre": "Mix Cappuccino La Virginia  Vainilla Dp 155g",
+      "marca": "LA VIRGINIA",
+      "precio": "$2.275",
+      "precioRegular": "Precio regular: $22.580,65 x kg"
+    },
+    {
+      "nombre": "Mix Cappuccino La Virginia  Dulce De Leche  Dp",
+      "marca": "LA VIRGINIA",
+      "precio": "$2.275",
+      "precioRegular": "Precio regular: $22.580,65 x kg"
+    },
+    {
+      "nombre": "Capsulas Macchiato Forte 100g",
+      "marca": "MACCHIATO",
+      "precio": "$7.000",
+      "precioRegular": "Precio regular: $70.000 x kg"
+    },
+    {
+      "nombre": "Capsulas Sublime Gimoka 10 U",
+      "marca": "GIMOKA",
+      "precio": "$9.600",
+      "precioRegular": "Precio regular: $960 x un"
+    },
+    {
+      "nombre": "Capsulas Macchiato Nostro 100g",
+      "marca": "MACCHIATO",
+      "precio": "$7.000",
+      "precioRegular": "Precio regular: $70.000 x kg"
+    },
+    {
+      "nombre": "Capsulas Macchiato Nero 100g",
+      "marca": "MACCHIATO",
+      "precio": "$7.000",
+      "precioRegular": "Precio regular: $70.000 x kg"
+    },
+    {
+      "nombre": "Capsulas Colombia Gimoka 10 U",
+      "marca": "GIMOKA",
+      "precio": "$9.600",
+      "precioRegular": "Precio regular: $960 x un"
+    },
+    {
+      "nombre": "Capsulas  Macchiato Lungo 100g",
+      "marca": "MACCHIATO",
+      "precio": "$7.000",
+      "precioRegular": "Precio regular: $70.000 x kg"
+    },
+    {
+      "nombre": "Mix Cappuccino Light La Virginia 90 Gr",
+      "marca": "LA VIRGINIA",
+      "precio": "$2.762,5",
+      "precioRegular": "Precio regular: $47.222,22 x kg"
+    },
+    {
+      "nombre": "Capsulas Brasil Gimoka 10 U",
+      "marca": "GIMOKA",
+      "precio": "$9.600",
+      "precioRegular": "Precio regular: $960 x un"
+    },
+    {
+      "nombre": "Capsulas Ristretto Gimoka 10 U",
+      "marca": "GIMOKA",
+      "precio": "$9.600",
+      "precioRegular": "Precio regular: $960 x un"
+    },
+    {
+      "nombre": "Capsulas Macchiato Decaf 100g",
+      "marca": "MACCHIATO",
+      "precio": "$7.000",
+      "precioRegular": "Precio regular: $70.000 x kg"
+    },
+    {
+      "nombre": "Mix Cappuccino La Virginia Mousse 155gr",
+      "marca": "LA VIRGINIA",
+      "precio": "$3.315",
+      "precioRegular": "Precio regular: $32.903,23 x kg"
+    },
+    {
+      "nombre": "Capsulas  Macchiato Grosso 100g",
+      "marca": "MACCHIATO",
+      "precio": "$7.000",
+      "precioRegular": "Precio regular: $70.000 x kg"
+    },
+    {
+      "nombre": "Mix Cappuccino La Virginia  Tradicional 210g",
+      "marca": "LA VIRGINIA",
+      "precio": "$3.835",
+      "precioRegular": "Precio regular: $28.095,24 x kg"
+    },
+    {
+      "nombre": "Mix Cortado La Virginia 125gr",
+      "marca": "LA VIRGINIA",
+      "precio": "$1.917,5",
+      "precioRegular": "Precio regular: $23.600 x kg"
+    },
+    {
+      "nombre": "Mix Cortado La Virginia E125g",
+      "marca": "LA VIRGINIA",
+      "precio": "$3.022,5",
+      "precioRegular": "Precio regular: $37.200 x kg"
+    }
+  ]
+}

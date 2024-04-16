@@ -1,0 +1,836 @@
+{
+  "time_spent": "1 minutos y 16 segundos",
+  "date": "2024-04-15T20:15:49.619Z",
+  "url": "https://www.jumbo.com.ar/frutas?_q=frutas&map=ft",
+  "totalProducts": 138,
+  "data": [
+    {
+      "nombre": "Banana Ecuador Por Kg",
+      "marca": "SIN MARCA",
+      "precio": "$1.899",
+      "precioRegular": "Precio regular: $1.899 x kg"
+    },
+    {
+      "nombre": "Palta Hass Elegida Unidad",
+      "marca": "SIN MARCA",
+      "precio": "$899",
+      "precioRegular": "Precio regular: $899 x un"
+    },
+    {
+      "nombre": "Limón X Kg",
+      "marca": "SIN MARCA",
+      "precio": "$999",
+      "precioRegular": "Precio regular: $999 x kg"
+    },
+    {
+      "nombre": "Naranja Jugo Especial Por Kg",
+      "marca": "SIN MARCA",
+      "precio": "$2.699",
+      "precioRegular": "Precio regular: $2.699 x kg"
+    },
+    {
+      "nombre": "Durazno Amarillo Especial Por Kg",
+      "marca": "SIN MARCA",
+      "precio": "$2.999",
+      "precioRegular": "Precio regular: $2.999 x kg"
+    },
+    {
+      "nombre": "Manzana Elegida Por Kg",
+      "marca": "SIN MARCA",
+      "precio": "$2.999",
+      "precioRegular": "Precio regular: $2.999 x kg"
+    },
+    {
+      "nombre": "Kiwi Elegido X Kg",
+      "marca": "SIN MARCA",
+      "precio": "$3.999",
+      "precioRegular": "Precio regular: $3.999 x kg"
+    },
+    {
+      "nombre": "Manzana Gran Smith X Kg",
+      "marca": "SIN MARCA",
+      "precio": "$3.690",
+      "precioRegular": "Precio regular: $3.690 x kg"
+    },
+    {
+      "nombre": "Uva Blanca X Kg",
+      "marca": "SIN MARCA",
+      "precio": "$2.990",
+      "precioRegular": "Precio regular: $2.990 x kg"
+    },
+    {
+      "nombre": "Pomelo Ruby Star X Kg",
+      "marca": "SIN MARCA",
+      "precio": "$2.299",
+      "precioRegular": "Precio regular: $2.299 x kg"
+    },
+    {
+      "nombre": "Manzana Royal Gala Por Kg",
+      "marca": "SIN MARCA",
+      "precio": "$2.999",
+      "precioRegular": "Precio regular: $2.999 x kg"
+    },
+    {
+      "nombre": "Pera Por Kg",
+      "marca": "SIN MARCA",
+      "precio": "$1.690",
+      "precioRegular": "Precio regular: $1.690 x kg"
+    },
+    {
+      "nombre": "Ciruela Larry Anne Por Kg",
+      "marca": "SIN MARCA",
+      "precio": "$1.999",
+      "precioRegular": "Precio regular: $1.999 x kg"
+    },
+    {
+      "nombre": "Naranja Por Kg",
+      "marca": "SIN MARCA",
+      "precio": "$999",
+      "precioRegular": "Precio regular: $999 x kg"
+    },
+    {
+      "nombre": "Piña Gold X Kg",
+      "marca": "SIN MARCA",
+      "precio": "$2.499",
+      "precioRegular": "Precio regular: $2.499 x kg"
+    },
+    {
+      "nombre": "Ciruela Negra Elegida Por Kg",
+      "marca": "SIN MARCA",
+      "precio": "$2.999",
+      "precioRegular": "Precio regular: $2.999 x kg"
+    },
+    {
+      "nombre": "Lima X Kg",
+      "marca": "SIN MARCA",
+      "precio": "$2.999",
+      "precioRegular": "Precio regular: $2.999 x kg"
+    },
+    {
+      "nombre": "Mango X Unidad",
+      "marca": "SIN MARCA",
+      "precio": "$2.699",
+      "precioRegular": "Precio regular: $2.699 x un"
+    },
+    {
+      "nombre": "Pelón Elegido Por Kg",
+      "marca": "SIN MARCA",
+      "precio": "$2.990",
+      "precioRegular": "Precio regular: $2.990 x kg"
+    },
+    {
+      "nombre": "Frutilla Por Kg",
+      "marca": "SIN MARCA",
+      "precio": "$6.990",
+      "precioRegular": "Precio regular: $6.990 x kg"
+    },
+    {
+      "nombre": "Pera Red Battler  1 Kg",
+      "marca": "SIN MARCA",
+      "precio": "$2.290",
+      "precioRegular": "Precio regular: $2.290 x kg"
+    },
+    {
+      "nombre": "Pera Danjou-sin Atributo-s/e-kg-1",
+      "marca": "SIN MARCA",
+      "precio": "$2.290",
+      "precioRegular": "Precio regular: $2.290 x kg"
+    },
+    {
+      "nombre": "Granada Unidad",
+      "marca": "SIN MARCA",
+      "precio": "$2.299",
+      "precioRegular": "Precio regular: $2.299 x un"
+    },
+    {
+      "nombre": "Pomelo Rosado Por Kg",
+      "marca": "SIN MARCA",
+      "precio": "$1.990",
+      "precioRegular": "Precio regular: $1.990 x kg"
+    },
+    {
+      "nombre": "Sandia Baby 1 Kg",
+      "marca": "SIN MARCA",
+      "precio": "$1.699",
+      "precioRegular": "Precio regular: $1.699 x kg"
+    },
+    {
+      "nombre": "Mamón X Kg",
+      "marca": "SIN MARCA",
+      "precio": "$5.299",
+      "precioRegular": "Precio regular: $5.299 x kg"
+    },
+    {
+      "nombre": "Mandarina Criolla 1 Kg",
+      "marca": "SIN MARCA",
+      "precio": "$1.490",
+      "precioRegular": "Precio regular: $1.490 x kg"
+    },
+    {
+      "nombre": "Membrillo",
+      "marca": "SIN MARCA",
+      "precio": "$3.999",
+      "precioRegular": "Precio regular: $3.999 x kg"
+    },
+    {
+      "nombre": "Kaqui X Kg",
+      "marca": "SIN MARCA",
+      "precio": "$3.999",
+      "precioRegular": "Precio regular: $3.999 x kg"
+    },
+    {
+      "nombre": "Almendras Peladas Sueltas X Kg",
+      "marca": "MONTECOMAN",
+      "precio": "$8.999,25",
+      "precioRegular": "Precio regular: $11.999 x kg"
+    },
+    {
+      "nombre": "Nueces Mariposa Sin Cascara Por Kg",
+      "marca": "MONTECOMAN",
+      "precio": "$8.992,5",
+      "precioRegular": "Precio regular: $11.990 x kg"
+    },
+    {
+      "nombre": "Arándano 125 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$3.490",
+      "precioRegular": "Precio regular: $3.490 x un"
+    },
+    {
+      "nombre": "Maní Pelado Salado Por Kg",
+      "marca": "TODO RESUELTO",
+      "precio": "$4.117,5",
+      "precioRegular": "Precio regular: $5.490 x kg"
+    },
+    {
+      "nombre": "Arandanos Green Life 400g",
+      "marca": "GREEN LIFE",
+      "precio": "$3.900",
+      "precioRegular": "Precio regular: $13.000 x kg"
+    },
+    {
+      "nombre": "Castañas De Caju 1 Kg.",
+      "marca": "SIN MARCA",
+      "precio": "$18.675",
+      "precioRegular": "Precio regular: $24.900 x kg"
+    },
+    {
+      "nombre": "Frutilla Tamara Cub 500 Gr.",
+      "marca": "SIN MARCA",
+      "precio": "$3.990",
+      "precioRegular": "Precio regular: $7.980 x kg"
+    },
+    {
+      "nombre": "Pasas De Uva Sultanina Morocha A Granel",
+      "marca": "SIN MARCA",
+      "precio": "$3.749,25",
+      "precioRegular": "Precio regular: $4.999 x kg"
+    },
+    {
+      "nombre": "Manzana Roja Orgánica",
+      "marca": "SIN MARCA",
+      "precio": "$2.990",
+      "precioRegular": "Precio regular: $2.990 x kg"
+    },
+    {
+      "nombre": "Zanahoria Organica Fraccionada",
+      "marca": "SIN MARCA",
+      "precio": "$3.000",
+      "precioRegular": "Precio regular: $3.000 x kg"
+    },
+    {
+      "nombre": "Frambuesas X400g Green Life",
+      "marca": "GREEN LIFE",
+      "precio": "$8.200",
+      "precioRegular": "Precio regular: $20.500 x kg"
+    },
+    {
+      "nombre": "Castañas De Caju 150 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$3.749,25",
+      "precioRegular": "Precio regular: $33.326,67 x kg"
+    },
+    {
+      "nombre": "Granola Berries X 400gr",
+      "marca": "SIN MARCA",
+      "precio": "$2.617,5",
+      "precioRegular": "Precio regular: $8.725 x kg"
+    },
+    {
+      "nombre": "Ajo Organico X 3",
+      "marca": "SIN MARCA",
+      "precio": "$999",
+      "precioRegular": "Precio regular: $333 x un"
+    },
+    {
+      "nombre": "Frambuesa Por U",
+      "marca": "SIN MARCA",
+      "precio": "$2.490",
+      "precioRegular": "Precio regular: $2.490 x un"
+    },
+    {
+      "nombre": "Arándanos Karinat X300g",
+      "marca": "KARINAT",
+      "precio": "$4.650",
+      "precioRegular": "Precio regular: $15.500 x kg"
+    },
+    {
+      "nombre": "Pistacho Salado Por Kg",
+      "marca": "SIN MARCA",
+      "precio": "$14.999,25",
+      "precioRegular": "Precio regular: $19.999 x kg"
+    },
+    {
+      "nombre": "Frutillas Green Life 400g",
+      "marca": "GREEN LIFE",
+      "precio": "$4.900",
+      "precioRegular": "Precio regular: $12.250 x kg"
+    },
+    {
+      "nombre": "Mix 3 Berries Karinat 300 Gr",
+      "marca": "KARINAT",
+      "precio": "$5.000",
+      "precioRegular": "Precio regular: $16.666,67 x kg"
+    },
+    {
+      "nombre": "Chips De Banana Pote 100 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$1.492,5",
+      "precioRegular": "Precio regular: $19.900 x kg"
+    },
+    {
+      "nombre": "Frutillas Karinat X300g",
+      "marca": "KARINAT",
+      "precio": "$3.950",
+      "precioRegular": "Precio regular: $13.166,67 x kg"
+    },
+    {
+      "nombre": "Mix Energetico Bolsa 500 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$7.492,5",
+      "precioRegular": "Precio regular: $19.980 x kg"
+    },
+    {
+      "nombre": "Ciruela Sin Carozo D'agen 150 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$1.042,5",
+      "precioRegular": "Precio regular: $1.390 x un"
+    },
+    {
+      "nombre": "Maní Tostado Sin Sal X 350 Grs",
+      "marca": "SIN MARCA",
+      "precio": "$1.492,5",
+      "precioRegular": "Precio regular: $5.685,71 x kg"
+    },
+    {
+      "nombre": "Azucar De Caña Mascabo",
+      "marca": "SIN MARCA",
+      "precio": "$3.749,25",
+      "precioRegular": "Precio regular: $4.999 x kg"
+    },
+    {
+      "nombre": "Pera Orgánica",
+      "marca": "SIN MARCA",
+      "precio": "$1.999",
+      "precioRegular": "Precio regular: $1.999 x kg"
+    },
+    {
+      "nombre": "Granola Energética X 400gr",
+      "marca": "SIN MARCA",
+      "precio": "$2.617,5",
+      "precioRegular": "Precio regular: $8.725 x kg"
+    },
+    {
+      "nombre": "Mix Enegertico - Sin Tacc",
+      "marca": "SIN MARCA",
+      "precio": "$967,5",
+      "precioRegular": "Precio regular: $2.580 x 100 gr."
+    },
+    {
+      "nombre": "Nuez Pecan Pelada X 250 Gramos",
+      "marca": "SIN MARCA",
+      "precio": "$6.293,09",
+      "precioRegular": "Precio regular: $33.563,16 x kg"
+    },
+    {
+      "nombre": "Castañas De Caju Tostadas Y Saladas - Sin Tacc",
+      "marca": "SIN MARCA",
+      "precio": "$1.267,5",
+      "precioRegular": "Precio regular: $3.380 x 100 gr."
+    },
+    {
+      "nombre": "Granola Tropical X 400gr",
+      "marca": "SIN MARCA",
+      "precio": "$2.617,5",
+      "precioRegular": "Precio regular: $8.725 x kg"
+    },
+    {
+      "nombre": "Mani Todo Resuelto Color Crudo",
+      "marca": "TODO RESUELTO",
+      "precio": "$4.117,5",
+      "precioRegular": "Precio regular: $5.490 x kg"
+    },
+    {
+      "nombre": "Pasas Sult Rubias X 150 Grs-pot-un.-1",
+      "marca": "SIN MARCA",
+      "precio": "$1.124,25",
+      "precioRegular": "Precio regular: $1.499 x un"
+    },
+    {
+      "nombre": "Pasas De Uva Con Chocolate 150 Gr",
+      "marca": "MONTECOMAN",
+      "precio": "$2.467,5",
+      "precioRegular": "Precio regular: $21.933,33 x kg"
+    },
+    {
+      "nombre": "Frutilla En Cubeta 500 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$3.990",
+      "precioRegular": "Precio regular: $7.980 x kg"
+    },
+    {
+      "nombre": "Maní Con Chocolate 150 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$2.467,5",
+      "precioRegular": "Precio regular: $21.933,33 x kg"
+    },
+    {
+      "nombre": "Ciruela D'agen Con Carozo 150 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$749,25",
+      "precioRegular": "Precio regular: $999 x un"
+    },
+    {
+      "nombre": "Maní Tostado Con Cáscara X 400 Grs",
+      "marca": "MONTECOMAN",
+      "precio": "$1.975,91",
+      "precioRegular": "Precio regular: $6.586,38 x kg"
+    },
+    {
+      "nombre": "Moras 550g Green Life",
+      "marca": "GREEN LIFE",
+      "precio": "$9.450",
+      "precioRegular": "Precio regular: $17.181,82 x kg"
+    },
+    {
+      "nombre": "Papas Fritas Nikitos Pay 100 Gr",
+      "marca": "NIKITOS",
+      "precio": "$974,25",
+      "precioRegular": "Precio regular: $12.990 x kg"
+    },
+    {
+      "nombre": "Palitos Salados Nikitos 400 Gr",
+      "marca": "NIKITOS",
+      "precio": "$1.949,25",
+      "precioRegular": "Precio regular: $6.497,5 x kg"
+    },
+    {
+      "nombre": "Pimentón Dulce X 1 Kg",
+      "marca": "MONTECOMAN",
+      "precio": "$21.749,25",
+      "precioRegular": "Precio regular: $28.999 x kg"
+    },
+    {
+      "nombre": "Granola Live X 400gr",
+      "marca": "SIN MARCA",
+      "precio": "$2.617,5",
+      "precioRegular": "Precio regular: $8.725 x kg"
+    },
+    {
+      "nombre": "Mani Repelado Tostado Y Salado  X 500g",
+      "marca": "SIN MARCA",
+      "precio": "$2.242,5",
+      "precioRegular": "Precio regular: $5.980 x kg"
+    },
+    {
+      "nombre": "Pochoclos Acaramelados Nikitos 80 Gr",
+      "marca": "NIKITOS",
+      "precio": "$674,25",
+      "precioRegular": "Precio regular: $11.237,5 x kg"
+    },
+    {
+      "nombre": "Mix Supremo 150 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$3.892,5",
+      "precioRegular": "Precio regular: $34.600 x kg"
+    },
+    {
+      "nombre": "Mix Desayuno 150 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$2.242,5",
+      "precioRegular": "Precio regular: $19.933,33 x kg"
+    },
+    {
+      "nombre": "Nuez Pecan Con Chocolate Amargo 70sin Gluten S",
+      "marca": "SIN MARCA",
+      "precio": "$4.128,43",
+      "precioRegular": "Precio regular: $44.036,56 x kg"
+    },
+    {
+      "nombre": "Higos Desec X 150 Grs",
+      "marca": "SIN MARCA",
+      "precio": "$1.267,5",
+      "precioRegular": "Precio regular: $1.690 x un"
+    },
+    {
+      "nombre": "Avellanas Con Chocolate 150 Gr",
+      "marca": "GANSO AZUL",
+      "precio": "$4.117,5",
+      "precioRegular": "Precio regular: $36.600 x kg"
+    },
+    {
+      "nombre": "Avellanas 100 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$3.702,6",
+      "precioRegular": "Precio regular: $49.368 x kg"
+    },
+    {
+      "nombre": "Mix Europa 40 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$667,5",
+      "precioRegular": "Precio regular: $2.225 x 100 gr."
+    },
+    {
+      "nombre": "Almendras Peladas - Sin Tacc",
+      "marca": "SIN MARCA",
+      "precio": "$1.267,5",
+      "precioRegular": "Precio regular: $3.380 x 100 gr."
+    },
+    {
+      "nombre": "Palitos Salados Nikitos 80 Gr",
+      "marca": "NIKITOS",
+      "precio": "$674,25",
+      "precioRegular": "Precio regular: $11.237,5 x kg"
+    },
+    {
+      "nombre": "Maní Japones X 400 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$3.367,5",
+      "precioRegular": "Precio regular: $11.225 x kg"
+    },
+    {
+      "nombre": "Ciruela Dágen Sin Carozo Pote 150 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$967,5",
+      "precioRegular": "Precio regular: $8.600 x kg"
+    },
+    {
+      "nombre": "Mix Puerro Y Verde",
+      "marca": "BUY & EAT",
+      "precio": "$2.499",
+      "precioRegular": "Precio regular: $8.330 x kg"
+    },
+    {
+      "nombre": "Semillas De Zapallo",
+      "marca": "MONTECOMAN",
+      "precio": "$19.499,25",
+      "precioRegular": "Precio regular: $25.999 x kg"
+    },
+    {
+      "nombre": "Papas Fritas Nikitos Clasicas 100 Gr",
+      "marca": "NIKITOS",
+      "precio": "$974,25",
+      "precioRegular": "Precio regular: $12.990 x kg"
+    },
+    {
+      "nombre": "Curry",
+      "marca": "SIN MARCA",
+      "precio": "$10.499,25",
+      "precioRegular": "Precio regular: $13.999 x kg"
+    },
+    {
+      "nombre": "Chocolate Con Leche Confitado",
+      "marca": "SIN MARCA",
+      "precio": "$2.467,5",
+      "precioRegular": "Precio regular: $21.933,33 x kg"
+    },
+    {
+      "nombre": "Peras En Mitades Pote 150 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$1.717,5",
+      "precioRegular": "Precio regular: $15.266,67 x kg"
+    },
+    {
+      "nombre": "Mix Frutas Secas 40 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$592,5",
+      "precioRegular": "Precio regular: $1.975 x 100 gr."
+    },
+    {
+      "nombre": "Mix Energético 135 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$2.467,5",
+      "precioRegular": "Precio regular: $24.370,37 x kg"
+    },
+    {
+      "nombre": "Pizzitos De Jamón Y Queso Nikitos 80 Gr",
+      "marca": "NIKITOS",
+      "precio": "$449,25",
+      "precioRegular": "Precio regular: $7.487,5 x kg"
+    },
+    {
+      "nombre": "Mix Europeo Bolsa 500 Gramos",
+      "marca": "SIN MARCA",
+      "precio": "$6.718,49",
+      "precioRegular": "Precio regular: $17.915,98 x kg"
+    },
+    {
+      "nombre": "Nature Sweet Mix Pote 150 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$1.492,5",
+      "precioRegular": "Precio regular: $13.266,67 x kg"
+    },
+    {
+      "nombre": "Mix Crocante X 100 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$1.867,5",
+      "precioRegular": "Precio regular: $24.900 x kg"
+    },
+    {
+      "nombre": "Mix Fitness 100 Gr",
+      "marca": "POSTREFINO",
+      "precio": "$1.867,5",
+      "precioRegular": "Precio regular: $24.900 x kg"
+    },
+    {
+      "nombre": "Semilla Girasol Pelada",
+      "marca": "SIN MARCA",
+      "precio": "$3.749,25",
+      "precioRegular": "Precio regular: $4.999 x kg"
+    },
+    {
+      "nombre": "Durazno En Medallones Pote 150 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$1.867,5",
+      "precioRegular": "Precio regular: $16.600 x kg"
+    },
+    {
+      "nombre": "Bolitas Dulces Nikitos 80 Gr",
+      "marca": "NIKITOS",
+      "precio": "$449,25",
+      "precioRegular": "Precio regular: $7.487,5 x kg"
+    },
+    {
+      "nombre": "Mix Saludable X 100gr",
+      "marca": "SIN MARCA",
+      "precio": "$1.267,5",
+      "precioRegular": "Precio regular: $16.900 x kg"
+    },
+    {
+      "nombre": "Mango En Rodajas Pote 100 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$517,5",
+      "precioRegular": "Precio regular: $9.200 x kg"
+    },
+    {
+      "nombre": "Tomate Glaceado X Kg.",
+      "marca": "SIN MARCA",
+      "precio": "$14.249,25",
+      "precioRegular": "Precio regular: $18.999 x kg"
+    },
+    {
+      "nombre": "Bolitas Dulces Nikitos 400 Gr",
+      "marca": "NIKITOS",
+      "precio": "$1.949,25",
+      "precioRegular": "Precio regular: $6.497,5 x kg"
+    },
+    {
+      "nombre": "Maní Cervecero 150 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$1.492,5",
+      "precioRegular": "Precio regular: $13.266,67 x kg"
+    },
+    {
+      "nombre": "Monkey Mix Pote 150 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$1.492,5",
+      "precioRegular": "Precio regular: $13.266,67 x kg"
+    },
+    {
+      "nombre": "Mix Pimientas",
+      "marca": "MONTECOMAN",
+      "precio": "$22.499,25",
+      "precioRegular": "Precio regular: $29.999 x kg"
+    },
+    {
+      "nombre": "Mix Fitness 40 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$592,5",
+      "precioRegular": "Precio regular: $1.975 x 100 gr."
+    },
+    {
+      "nombre": "Coco En Escamas X 50 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$1.375",
+      "precioRegular": "Precio regular: $3.666,66 x 100 gr."
+    },
+    {
+      "nombre": "Island Mix Pote 150 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$1.499,25",
+      "precioRegular": "Precio regular: $13.326,67 x kg"
+    },
+    {
+      "nombre": "Mix Saladito 150 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$1.717,5",
+      "precioRegular": "Precio regular: $15.266,67 x kg"
+    },
+    {
+      "nombre": "Granberries  Pote 100 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$1.867,5",
+      "precioRegular": "Precio regular: $24.900 x kg"
+    },
+    {
+      "nombre": "Mix Tropical",
+      "marca": "SIN MARCA",
+      "precio": "$11.999,25",
+      "precioRegular": "Precio regular: $15.999 x kg"
+    },
+    {
+      "nombre": "Mix Patagonico 150 Grs",
+      "marca": "SIN MARCA",
+      "precio": "$2.242,5",
+      "precioRegular": "Precio regular: $19.933,33 x kg"
+    },
+    {
+      "nombre": "Mix Tropical Bolsa 500 Gramos",
+      "marca": "SIN MARCA",
+      "precio": "$5.989,49",
+      "precioRegular": "Precio regular: $15.971,98 x kg"
+    },
+    {
+      "nombre": "Ananá En Rodajas Pote 100 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$517,5",
+      "precioRegular": "Precio regular: $6.900 x kg"
+    },
+    {
+      "nombre": "Pulpa Mango Maracuyá Congelada Karinat 250 Gr",
+      "marca": "KARINAT",
+      "precio": "$4.500",
+      "precioRegular": "Precio regular: $18.000 x kg"
+    },
+    {
+      "nombre": "Mix Deportivo X 200gr",
+      "marca": "SIN MARCA",
+      "precio": "$1.867,5",
+      "precioRegular": "Precio regular: $12.450 x kg"
+    },
+    {
+      "nombre": "Cebolla Cobriza Organica Fraccionada",
+      "marca": "SIN MARCA",
+      "precio": "$3.690",
+      "precioRegular": "Precio regular: $3.690 x kg"
+    },
+    {
+      "nombre": "Mix Nórdico X 100gr",
+      "marca": "SIN MARCA",
+      "precio": "$2.467,5",
+      "precioRegular": "Precio regular: $32.900 x kg"
+    },
+    {
+      "nombre": "Mix Europeo 150 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$2.392,5",
+      "precioRegular": "Precio regular: $21.266,67 x kg"
+    },
+    {
+      "nombre": "Mix Frutal X 200gr",
+      "marca": "SIN MARCA",
+      "precio": "$1.867,5",
+      "precioRegular": "Precio regular: $12.450 x kg"
+    },
+    {
+      "nombre": "Mix Cervezero Por 200 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$2.467,5",
+      "precioRegular": "Precio regular: $16.450 x kg"
+    },
+    {
+      "nombre": "Maní 150 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$1.492,5",
+      "precioRegular": "Precio regular: $13.266,67 x kg"
+    },
+    {
+      "nombre": "Almendras Tostadas Y Saladas 150 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$2.242,5",
+      "precioRegular": "Precio regular: $19.933,33 x kg"
+    },
+    {
+      "nombre": "Mix De Frutas Secas Y Desecadas Por U",
+      "marca": "SIN MARCA",
+      "precio": "$1.267,5",
+      "precioRegular": "Precio regular: $1.690 x un"
+    },
+    {
+      "nombre": "Kiwi Verde Organico Cubeta 500 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$4.181,99",
+      "precioRegular": "Precio regular: $8.363,98 x kg"
+    },
+    {
+      "nombre": "Pera Abate Organica",
+      "marca": "SIN MARCA",
+      "precio": "$2.373,29",
+      "precioRegular": "Precio regular: $2.373,29 x kg"
+    },
+    {
+      "nombre": "Mix Tropical X 150 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$2.242,5",
+      "precioRegular": "Precio regular: $19.933,33 x kg"
+    },
+    {
+      "nombre": "Mix Fitness 150 Grs",
+      "marca": "SIN MARCA",
+      "precio": "$1.942,5",
+      "precioRegular": "Precio regular: $17.266,67 x kg"
+    },
+    {
+      "nombre": "Pote De Masas Duo Frutas Chikimasa",
+      "marca": "CHIKIMASA",
+      "precio": "$1.540",
+      "precioRegular": "Precio regular: $2.200 x un"
+    },
+    {
+      "nombre": "Mix Power X 300 Gr Sin Marca",
+      "marca": "SIN MARCA",
+      "precio": "$4.212,29",
+      "precioRegular": "Precio regular: $18.721,3 x kg"
+    },
+    {
+      "nombre": "Tomate En Mitades Deshidratados Paquete 70 Gr",
+      "marca": "SIN MARCA",
+      "precio": "$1.492,5",
+      "precioRegular": "Precio regular: $28.428,57 x kg"
+    },
+    {
+      "nombre": "Mix Saludable X 300g Kosfood",
+      "marca": "SIN MARCA",
+      "precio": "$3.367,5",
+      "precioRegular": "Precio regular: $14.966,67 x kg"
+    },
+    {
+      "nombre": "Mix Vital X 300 Gr Sin Marca",
+      "marca": "SIN MARCA",
+      "precio": "$4.718,99",
+      "precioRegular": "Precio regular: $20.973,3 x kg"
+    },
+    {
+      "nombre": "Mix Nordico X 300g Kosfood",
+      "marca": "SIN MARCA",
+      "precio": "$5.242,5",
+      "precioRegular": "Precio regular: $23.300 x kg"
+    },
+    {
+      "nombre": "Mix Patagonico X 300g Kosfood",
+      "marca": "SIN MARCA",
+      "precio": "$5.242,5",
+      "precioRegular": "Precio regular: $23.300 x kg"
+    }
+  ]
+}

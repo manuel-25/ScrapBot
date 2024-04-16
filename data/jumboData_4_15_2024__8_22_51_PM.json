@@ -1,0 +1,92 @@
+{
+  "time_spent": "0 minutos y 11 segundos",
+  "date": "2024-04-15T20:22:51.758Z",
+  "url": "https://www.jumbo.com.ar/manteca?_q=manteca&map=ft",
+  "totalProducts": 14,
+  "data": [
+    {
+      "nombre": "Manteca Ls Bienestar Animal 200 G",
+      "marca": "LA SERENISIMA",
+      "precio": "$2.680,89",
+      "precioRegular": "Precio regular: $13.404,45 x kg"
+    },
+    {
+      "nombre": "Manteca La Serenisima 100 Gr",
+      "marca": "LA SERENISIMA",
+      "precio": "$1.518,99",
+      "precioRegular": "Precio regular: $15.189,9 x kg"
+    },
+    {
+      "nombre": "Margarina Margadan Vegetal 200g",
+      "marca": "MARGADAN",
+      "precio": "$1.200",
+      "precioRegular": "Precio regular: $6.000 x kg"
+    },
+    {
+      "nombre": "Margarina Vegetal Margadan 500g",
+      "marca": "MARGADAN",
+      "precio": "$2.550",
+      "precioRegular": "Precio regular: $5.100 x kg"
+    },
+    {
+      "nombre": "Margarina Delicia Vegetal 200g",
+      "marca": "DELICIA",
+      "precio": "$1.450",
+      "precioRegular": "Precio regular: $7.250 x kg"
+    },
+    {
+      "nombre": "Manteca De Maní Mani King X350gr",
+      "marca": "MANI KING",
+      "precio": "$3.600",
+      "precioRegular": "Precio regular: $10.285,71 x kg"
+    },
+    {
+      "nombre": "Palmeritas De Manteca Fresh Mp 200 Gr",
+      "marca": "FRESH MP",
+      "precio": "$3.699",
+      "precioRegular": "Precio regular: $18.495 x kg"
+    },
+    {
+      "nombre": "Aceite De Girasol Manteca Mazola 120 Ml",
+      "marca": "MAZOLA",
+      "precio": "$2.650",
+      "precioRegular": "Precio regular: $21.200 x lt"
+    },
+    {
+      "nombre": "Ghee Manteca Clarificada Cow's Pure 300 Gr",
+      "marca": "COWS PURE",
+      "precio": "$5.900",
+      "precioRegular": "Precio regular: $19.666,67 x kg"
+    },
+    {
+      "nombre": "Aceite Fritolim Manteca X126cc",
+      "marca": "FRITOLIM",
+      "precio": "$2.750",
+      "precioRegular": "Precio regular: $21.825,4 x lt"
+    },
+    {
+      "nombre": "Popcorn Manteca Marloms 300 Gr",
+      "marca": "MARLOM´S",
+      "precio": "$4.950",
+      "precioRegular": "Precio regular: $16.500 x kg"
+    },
+    {
+      "nombre": "Aceite De Coco Manteca Sin Tacc Chia Graal 180 Ml",
+      "marca": "CHIA GRAAL",
+      "precio": "$6.900",
+      "precioRegular": "Precio regular: $38.333,33 x kg"
+    },
+    {
+      "nombre": "Galletitas Mini Manteca Pamela 180 Gr",
+      "marca": "PAMELA",
+      "precio": "$1.150",
+      "precioRegular": "Precio regular: $6.388,89 x kg"
+    },
+    {
+      "nombre": "Popcorn Manteca Marloms 100 Gr",
+      "marca": "MARLOM´S",
+      "precio": "$1.750",
+      "precioRegular": "Precio regular: $17.500 x kg"
+    }
+  ]
+}
