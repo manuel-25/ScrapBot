@@ -1,0 +1,22 @@
+[2024-04-18T21:21:08.408Z] [INFO] - Iniciando proceso...
+[2024-04-18T21:22:09.011Z] [INFO] - Se tardo 1 minutos, 0 segundos y 516 milisegundos en scrappear https://www.jumbo.com.ar/pan?_q=pan&map=ft
+[2024-04-18T21:22:09.011Z] [INFO] - 1/9 Jumbo URLs scrapped.
+[2024-04-18T21:22:21.163Z] [INFO] - Se tardo 0 minutos, 12 segundos y 93 milisegundos en scrappear https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft
+[2024-04-18T21:22:21.163Z] [INFO] - 2/9 Jumbo URLs scrapped.
+[2024-04-18T21:24:45.868Z] [INFO] - Se tardo 2 minutos, 24 segundos y 563 milisegundos en scrappear https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft
+[2024-04-18T21:24:45.869Z] [INFO] - 3/9 Jumbo URLs scrapped.
+[2024-04-18T21:25:38.847Z] [INFO] - Se tardo 0 minutos, 52 segundos y 889 milisegundos en scrappear https://www.jumbo.com.ar/arroz?_q=arroz&map=ft
+[2024-04-18T21:25:38.847Z] [INFO] - 4/9 Jumbo URLs scrapped.
+[2024-04-18T21:26:07.044Z] [INFO] - Se tardo 0 minutos, 28 segundos y 127 milisegundos en scrappear https://www.jumbo.com.ar/harinas?_q=harinas&map=ft
+[2024-04-18T21:26:07.045Z] [INFO] - 5/9 Jumbo URLs scrapped.
+[2024-04-18T21:28:30.346Z] [INFO] - Se tardo 2 minutos, 23 segundos y 185 milisegundos en scrappear https://www.jumbo.com.ar/fideos?_q=fideos&map=ft
+[2024-04-18T21:28:30.346Z] [INFO] - 6/9 Jumbo URLs scrapped.
+[2024-04-18T21:28:48.028Z] [INFO] - Se tardo 0 minutos, 17 segundos y 619 milisegundos en scrappear https://www.jumbo.com.ar/papa?_q=papa&map=ft
+[2024-04-18T21:28:48.028Z] [INFO] - 7/9 Jumbo URLs scrapped.
+[2024-04-18T21:29:05.955Z] [INFO] - Se tardo 0 minutos, 17 segundos y 828 milisegundos en scrappear https://www.jumbo.com.ar/batata?_q=batata&layout=grid&map=ft
+[2024-04-18T21:29:05.955Z] [INFO] - 8/9 Jumbo URLs scrapped.
+[2024-04-18T21:29:51.162Z] [INFO] - Se tardo 0 minutos, 45 segundos y 131 milisegundos en scrappear https://www.jumbo.com.ar/azucar?_q=azucar&map=ft
+[2024-04-18T21:29:51.162Z] [INFO] - 9/9 Jumbo URLs scrapped.
+[2024-04-18T21:29:51.163Z] [INFO] - Extracción de 9/9 URLs completada.
+[2024-04-18T21:29:51.163Z] [SUCCESS] - Finished scraping Jumbo successfully.
+[2024-04-18T21:29:51.163Z] [INFO] - Tiempo total del proceso fue 8 minutos, 43 segundos y 639 milisegundos
