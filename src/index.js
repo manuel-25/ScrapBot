@@ -1,5 +1,7 @@
 import puppeteer from "puppeteer"
 import { writeFile } from 'fs/promises'
+import connectDB from './config/mongoose-config.js';
+import RecordManager from "./Mongo/recordManager.js";
 
 const staticURL = 'https://www.jumbo.com.ar/'
 //CANASTA BASICA https://chequeado.com/el-explicador/que-es-la-canasta-basica-alimentaria-del-indec-y-como-se-compone/
@@ -12,19 +14,19 @@ const jumboURLs = ['https://www.jumbo.com.ar/pan?_q=pan&map=ft', 'https://www.ju
 'https://www.jumbo.com.ar/leche?_q=leche&map=ft', 'https://www.jumbo.com.ar/yogur?_q=yogur&map=ft', 'https://www.jumbo.com.ar/manteca?_q=manteca&map=ft', 
 'https://www.jumbo.com.ar/aceite?_q=aceite&map=ft', 'https://www.jumbo.com.ar/cerveza?_q=cerveza&map=ft', 'https://www.jumbo.com.ar/vino?_q=vino&map=ft',
 'https://www.jumbo.com.ar/cafe?_q=cafe&map=ft', 'https://www.jumbo.com.ar/yerba?_q=yerba&map=ft']
+let logsData  = []
 
-
+await connectDB()
 main(jumboURLs)
 
 //MAIN FUNCTION LOOP
 async function main(urls) {
     const failedURLs = []
-    let counter = 0
+    let counter = 1
 
     console.log('Iniciando loop')
     for (const url of urls) {
         let retryCount = 0
-
         while (retryCount < 3) {
             try {
                 await scrapeURL(url)
@@ -32,7 +34,7 @@ async function main(urls) {
                 console.log(`${counter}/${urls.length} urls scrapped.`)
                 break
             } catch (error) {
-                console.error(`Error al extraer datos de ${url}. Intentando nuevamente...`)
+                console.error(`Error al extraer datos de ${url}. Intentando nuevamente...`, error)
                 retryCount++
                 await delay(1000)
             }
@@ -47,6 +49,7 @@ async function main(urls) {
     console.log(`Extracción de ${counter}/${urls.length} URLs completada.`)
     if (failedURLs.length > 0) {
         console.log("Las siguientes URLs no se pudieron extraer:", failedURLs)
+
     }
 }
 
@@ -71,6 +74,7 @@ async function scrapeURL(dinamicUrl) {
             throw new Error("No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.");
         }
 
+
         currentProducts.forEach(product => {
             if (!dataScrapped.some(existingProduct => existingProduct.nombre === product.nombre)) {
                 dataScrapped.push(product)
@@ -90,7 +94,7 @@ async function scrapeURL(dinamicUrl) {
             console.log(`Current page: ${pageNumber}/${totalPages}`)
             pageNumber++
             await goToPage(page, pageNumber, dinamicUrl)
-            await delay(2000)
+            await delay(1500)
         }
     }
     await browser.close()
@@ -103,28 +107,25 @@ async function scrapeURL(dinamicUrl) {
     const currentDate = new Date(new Date().getTime() - (3 * 60 * 60 * 1000)).toISOString();
 
     //Data extraida
-    //console.log('Data scrapped successfully')
     const dataToSave = {
-        time_spent: formattedTime,
-        date: currentDate ,
-        url: dinamicUrl,
+        category: getCategoryNameFromUrl(dinamicUrl),
+        date: currentDate,
         totalProducts: dataScrapped.length,
+        time_spent: formattedTime,
+        url: dinamicUrl,
         data: dataScrapped
     }
 
-    const formattedDate = new Date().toLocaleString().replace(/[^\w]/g, '_')
-    const fileName = `jumboData_${formattedDate}.json`
-    saveDataToFile(dataToSave, fileName)
+    await saveDataToMongo(dataToSave)
 }
 
 async function scrapeProduct(page) {
-    await new Promise(resolve => setTimeout(resolve, 1000))
+    await new Promise(resolve => setTimeout(resolve, 1500))
 
     const containerSelector = '.vtex-search-result-3-x-gallery'
     const containerExists = await page.$(containerSelector)
     if (!containerExists) {
-        console.log('El contenedor principal no se encontró en la página.')
-        return null
+        throw new Error('El contenedor principal no se encontró en la página.')
     }
 
     //console.log('Scrapping...')
@@ -145,15 +146,21 @@ async function scrapeProduct(page) {
             if (nombreElement && marcaElement && precioElement && precioRegularElement) {
                 const nombre = nombreElement.textContent.trim()
                 const marca = marcaElement.textContent.trim()
-                const precio = precioElement.textContent.trim()
+                let precio = precioElement.textContent.trim()
                 const precioRegular = precioRegularElement.textContent.trim()
+
+                //String to number
+                let number = precio.replace(/\$/g, '')
+                number = number.replace(/\./g, '')
+                number = number.replace(/,/g, '.')
+                precio = Number(number)
 
                 productsData.push({
                     nombre,
                     marca,
                     precio,
                     precioRegular
-                });
+                })
             }
         }
 
@@ -204,7 +211,7 @@ async function goToPage(page, pageNumber, dinamicUrl) {
     await page.goto(newUrl)
 }
 
-//Data  to JSON
+//Format Time
 function formatTime(milliseconds) {
     const totalSeconds = milliseconds / 1000;
     const minutes = Math.floor(totalSeconds / 60)
@@ -219,4 +226,27 @@ async function saveDataToFile(data, fileName) {
     } catch (error) {
         console.error('Error al guardar los datos:', error)
     }
+}
+
+async function saveDataToMongo(data) {
+    try {
+        const newRecord = await RecordManager.create(data)
+        if (!newRecord._id) throw new Error("No se ha podido crear el registro en MongoDB")
+        return newRecord
+    } catch(err) {
+        console.error('Error al guardar datos en MongoDB', err)
+    }
+}
+
+function getCategoryNameFromUrl(url) {
+    const startIndex = staticURL.length
+    const endIndex = url.indexOf("?_q=")
+    const categoryPart = url.substring(startIndex, endIndex)
+    const categoryName = decodeURIComponent(categoryPart.replace(/%20/g, ' '))
+    const categoryNameCapitalized = capitalizeFirstLetter(categoryName)
+    return categoryNameCapitalized
+}
+
+function capitalizeFirstLetter(string) {
+    return string.replace(/^\w/, (c) => c.toUpperCase());
 }
