@@ -46,7 +46,7 @@ async function main(urls) {
 
     logger.info('Iniciando proceso...')
     for (const url of urls) {
-        let retryCount = 0
+        let retryCount = 1
         while (retryCount < maxRetry) {
             try {
                 await scrapeURL(url)

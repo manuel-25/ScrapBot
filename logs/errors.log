@@ -1,0 +1,31 @@
+[2024-04-19T21:25:25.731Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente(0/6)... El contenedor principal no se encontró en la página.
+[2024-04-19T21:32:20.229Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/azucar?_q=azucar&map=ft. Intentando nuevamente(0/6)... El contenedor principal no se encontró en la página.
+[2024-04-19T21:34:27.178Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/frutas?_q=frutas&map=ft. Intentando nuevamente(0/6)... El contenedor principal no se encontró en la página.
+[2024-04-19T21:38:01.762Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
+[2024-04-19T21:41:55.773Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
+[2024-04-19T21:42:07.365Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yogur?_q=yogur&map=ft. Intentando nuevamente(0/6)... El contenedor principal no se encontró en la página.
+[2024-04-19T21:42:11.997Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yogur?_q=yogur&map=ft. Intentando nuevamente(1/6)... El contenedor principal no se encontró en la página.
+[2024-04-19T21:54:53.310Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
+[2024-04-20T15:31:31.383Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente(0/6)... El contenedor principal no se encontró en la página.
+[2024-04-20T15:38:15.641Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/batata?_q=batata&layout=grid&map=ft. Intentando nuevamente(0/6)... El contenedor principal no se encontró en la página.
+[2024-04-20T15:39:40.522Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/dulce%20de%20leche?_q=dulce%20de%20leche&map=ft. Intentando nuevamente(0/6)... El contenedor principal no se encontró en la página.
+[2024-04-20T15:39:54.606Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/dulce%20de%20leche?_q=dulce%20de%20leche&map=ft. Intentando nuevamente(1/6)... El contenedor principal no se encontró en la página.
+[2024-04-20T15:40:08.621Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/dulce%20de%20leche?_q=dulce%20de%20leche&map=ft. Intentando nuevamente(2/6)... El contenedor principal no se encontró en la página.
+[2024-04-20T15:40:39.920Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/legumbres%20secas?_q=legumbres%20secas&map=ft. Intentando nuevamente(0/6)... El contenedor principal no se encontró en la página.
+[2024-04-20T15:40:43.904Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/legumbres%20secas?_q=legumbres%20secas&map=ft. Intentando nuevamente(1/6)... El contenedor principal no se encontró en la página.
+[2024-04-20T15:45:14.413Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
+[2024-04-20T15:49:18.225Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
+[2024-04-20T15:51:30.527Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/manteca?_q=manteca&map=ft. Intentando nuevamente(0/6)... El contenedor principal no se encontró en la página.
+[2024-04-20T16:02:33.077Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
+[2024-04-22T17:52:17.337Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/azucar?_q=azucar&map=ft. Intentando nuevamente(0/6)... El contenedor principal no se encontró en la página.
+[2024-04-22T17:53:13.429Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/dulce%20de%20leche?_q=dulce%20de%20leche&map=ft. Intentando nuevamente(0/6)... El contenedor principal no se encontró en la página.
+[2024-04-22T17:53:17.394Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/dulce%20de%20leche?_q=dulce%20de%20leche&map=ft. Intentando nuevamente(1/6)... El contenedor principal no se encontró en la página.
+[2024-04-22T17:53:21.530Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/dulce%20de%20leche?_q=dulce%20de%20leche&map=ft. Intentando nuevamente(2/6)... El contenedor principal no se encontró en la página.
+[2024-04-22T17:54:38.485Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/frutas?_q=frutas&map=ft. Intentando nuevamente(0/6)... El contenedor principal no se encontró en la página.
+[2024-04-22T17:57:57.659Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
+[2024-04-22T18:01:59.067Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
+[2024-04-22T18:02:10.496Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yogur?_q=yogur&map=ft. Intentando nuevamente(0/6)... El contenedor principal no se encontró en la página.
+[2024-04-22T18:03:08.092Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yogur?_q=yogur&map=ft. Intentando nuevamente(1/6)... El contenedor principal no se encontró en la página.
+[2024-04-22T18:15:55.923Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
+[2024-04-22T18:16:09.181Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cafe?_q=cafe&map=ft. Intentando nuevamente(0/6)... El contenedor principal no se encontró en la página.
+[2024-04-22T18:18:01.315Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yerba?_q=yerba&map=ft. Intentando nuevamente(0/6)... El contenedor principal no se encontró en la página.

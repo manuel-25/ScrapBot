@@ -1,7 +1,7 @@
 import { Schema, model} from 'mongoose'
 
 const productSchema = new Schema({
-    nombre: { type: String },
+    nombre: { type: String, index: true },
     marca: { type: String },
     precio: { type: Number },
     precioRegular: { type: String }
@@ -10,8 +10,8 @@ const productSchema = new Schema({
 const collection = 'registro_precios'
 const recordSchema = new Schema({
     category: {type: String },
-    date: {type: Date, default:  Date.now()},
-    total_products: { type: Number, index: true},
+    date: {type: Date, default:  Date.now(), index: true},
+    total_products: { type: Number},
     time_spent: { type: String},
     url: { type: String },  
     data: [productSchema]
