@@ -29,3 +29,12 @@
 [2024-04-22T18:15:55.923Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
 [2024-04-22T18:16:09.181Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cafe?_q=cafe&map=ft. Intentando nuevamente(0/6)... El contenedor principal no se encontró en la página.
 [2024-04-22T18:18:01.315Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yerba?_q=yerba&map=ft. Intentando nuevamente(0/6)... El contenedor principal no se encontró en la página.
+[2024-04-24T17:18:10.161Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente(1/6)... El contenedor principal no se encontró en la página.
+[2024-04-24T17:18:34.393Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente(1/6)... El contenedor principal no se encontró en la página.
+[2024-04-24T17:22:51.689Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/fideos?_q=fideos&map=ft. Intentando nuevamente(1/6)... El contenedor principal no se encontró en la página.
+[2024-04-24T17:32:14.500Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/fiambres?_q=fiambres&map=ft. Intentando nuevamente(1/6)... El contenedor principal no se encontró en la página.
+[2024-04-24T17:33:11.697Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/fiambres?_q=fiambres&map=ft. Intentando nuevamente(2/6)... El contenedor principal no se encontró en la página.
+[2024-04-24T17:35:17.938Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/leche?_q=leche&map=ft. Intentando nuevamente(1/6)... El contenedor principal no se encontró en la página.
+[2024-04-24T17:37:08.098Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
+[2024-04-24T17:39:47.668Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/aceite?_q=aceite&map=ft. Intentando nuevamente(1/6)... El contenedor principal no se encontró en la página.
+[2024-04-24T17:50:58.674Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded

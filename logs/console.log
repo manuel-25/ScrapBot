@@ -207,3 +207,64 @@
 [2024-04-22T18:19:19.376Z] [INFO] - Extracción de 24/24 URLs completada.
 [2024-04-22T18:19:19.376Z] [SUCCESS] - Finished scraping Jumbo successfully.
 [2024-04-22T18:19:19.376Z] [INFO] - Tiempo total del proceso fue 35 minutos, 41 segundos y 479 milisegundos
+[2024-04-24T17:16:46.679Z] [INFO] - Iniciando proceso...
+[2024-04-24T17:18:04.605Z] [INFO] - Se tardo 1 minutos, 17 segundos y 800 milisegundos en scrappear https://www.jumbo.com.ar/pan?_q=pan&map=ft
+[2024-04-24T17:18:04.605Z] [INFO] - 1/24 Jumbo URLs scrapped.
+[2024-04-24T17:18:10.161Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente(1/6)... El contenedor principal no se encontró en la página.
+[2024-04-24T17:18:27.943Z] [INFO] - Se tardo 0 minutos, 16 segundos y 682 milisegundos en scrappear https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft
+[2024-04-24T17:18:27.943Z] [INFO] - 2/24 Jumbo URLs scrapped.
+[2024-04-24T17:18:34.393Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente(1/6)... El contenedor principal no se encontró en la página.
+[2024-04-24T17:21:11.395Z] [INFO] - Se tardo 2 minutos, 35 segundos y 794 milisegundos en scrappear https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft
+[2024-04-24T17:21:11.396Z] [INFO] - 3/24 Jumbo URLs scrapped.
+[2024-04-24T17:22:15.139Z] [INFO] - Se tardo 1 minutos, 3 segundos y 667 milisegundos en scrappear https://www.jumbo.com.ar/arroz?_q=arroz&map=ft
+[2024-04-24T17:22:15.139Z] [INFO] - 4/24 Jumbo URLs scrapped.
+[2024-04-24T17:22:46.360Z] [INFO] - Se tardo 0 minutos, 31 segundos y 155 milisegundos en scrappear https://www.jumbo.com.ar/harinas?_q=harinas&map=ft
+[2024-04-24T17:22:46.361Z] [INFO] - 5/24 Jumbo URLs scrapped.
+[2024-04-24T17:22:51.689Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/fideos?_q=fideos&map=ft. Intentando nuevamente(1/6)... El contenedor principal no se encontró en la página.
+[2024-04-24T17:25:32.366Z] [INFO] - Se tardo 2 minutos, 39 segundos y 567 milisegundos en scrappear https://www.jumbo.com.ar/fideos?_q=fideos&map=ft
+[2024-04-24T17:25:32.366Z] [INFO] - 6/24 Jumbo URLs scrapped.
+[2024-04-24T17:25:56.481Z] [INFO] - Se tardo 0 minutos, 24 segundos y 55 milisegundos en scrappear https://www.jumbo.com.ar/papa?_q=papa&map=ft
+[2024-04-24T17:25:56.481Z] [INFO] - 7/24 Jumbo URLs scrapped.
+[2024-04-24T17:26:15.066Z] [INFO] - Se tardo 0 minutos, 18 segundos y 525 milisegundos en scrappear https://www.jumbo.com.ar/batata?_q=batata&layout=grid&map=ft
+[2024-04-24T17:26:15.067Z] [INFO] - 8/24 Jumbo URLs scrapped.
+[2024-04-24T17:27:07.058Z] [INFO] - Se tardo 0 minutos, 51 segundos y 912 milisegundos en scrappear https://www.jumbo.com.ar/azucar?_q=azucar&map=ft
+[2024-04-24T17:27:07.059Z] [INFO] - 9/24 Jumbo URLs scrapped.
+[2024-04-24T17:27:32.323Z] [INFO] - Se tardo 0 minutos, 25 segundos y 191 milisegundos en scrappear https://www.jumbo.com.ar/dulce%20de%20leche?_q=dulce%20de%20leche&map=ft
+[2024-04-24T17:27:32.323Z] [INFO] - 10/24 Jumbo URLs scrapped.
+[2024-04-24T17:27:58.464Z] [INFO] - Se tardo 0 minutos, 26 segundos y 48 milisegundos en scrappear https://www.jumbo.com.ar/legumbres%20secas?_q=legumbres%20secas&map=ft
+[2024-04-24T17:27:58.465Z] [INFO] - 11/24 Jumbo URLs scrapped.
+[2024-04-24T17:28:24.199Z] [INFO] - Se tardo 0 minutos, 25 segundos y 677 milisegundos en scrappear https://www.jumbo.com.ar/hortalizas?_q=hortalizas&map=ft
+[2024-04-24T17:28:24.199Z] [INFO] - 12/24 Jumbo URLs scrapped.
+[2024-04-24T17:30:11.147Z] [INFO] - Se tardo 1 minutos, 46 segundos y 859 milisegundos en scrappear https://www.jumbo.com.ar/frutas?_q=frutas&map=ft
+[2024-04-24T17:30:11.147Z] [INFO] - 13/24 Jumbo URLs scrapped.
+[2024-04-24T17:31:55.322Z] [INFO] - Se tardo 1 minutos, 44 segundos y 87 milisegundos en scrappear https://www.jumbo.com.ar/carnes?_q=carnes&map=ft
+[2024-04-24T17:31:55.322Z] [INFO] - 14/24 Jumbo URLs scrapped.
+[2024-04-24T17:32:14.500Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/fiambres?_q=fiambres&map=ft. Intentando nuevamente(1/6)... El contenedor principal no se encontró en la página.
+[2024-04-24T17:33:11.697Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/fiambres?_q=fiambres&map=ft. Intentando nuevamente(2/6)... El contenedor principal no se encontró en la página.
+[2024-04-24T17:34:41.409Z] [INFO] - Se tardo 1 minutos, 28 segundos y 618 milisegundos en scrappear https://www.jumbo.com.ar/fiambres?_q=fiambres&map=ft
+[2024-04-24T17:34:41.409Z] [INFO] - 15/24 Jumbo URLs scrapped.
+[2024-04-24T17:35:11.765Z] [INFO] - Se tardo 0 minutos, 30 segundos y 293 milisegundos en scrappear https://www.jumbo.com.ar/huevos?_q=huevos&map=ft
+[2024-04-24T17:35:11.765Z] [INFO] - 16/24 Jumbo URLs scrapped.
+[2024-04-24T17:35:17.938Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/leche?_q=leche&map=ft. Intentando nuevamente(1/6)... El contenedor principal no se encontró en la página.
+[2024-04-24T17:37:08.099Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
+[2024-04-24T17:37:14.362Z] [INFO] - Se tardo 1 minutos, 55 segundos y 328 milisegundos en scrappear https://www.jumbo.com.ar/leche?_q=leche&map=ft
+[2024-04-24T17:37:14.362Z] [INFO] - 17/24 Jumbo URLs scrapped.
+[2024-04-24T17:39:26.751Z] [INFO] - Se tardo 2 minutos, 12 segundos y 284 milisegundos en scrappear https://www.jumbo.com.ar/yogur?_q=yogur&map=ft
+[2024-04-24T17:39:26.751Z] [INFO] - 18/24 Jumbo URLs scrapped.
+[2024-04-24T17:39:42.593Z] [INFO] - Se tardo 0 minutos, 15 segundos y 780 milisegundos en scrappear https://www.jumbo.com.ar/manteca?_q=manteca&map=ft
+[2024-04-24T17:39:42.594Z] [INFO] - 19/24 Jumbo URLs scrapped.
+[2024-04-24T17:39:47.668Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/aceite?_q=aceite&map=ft. Intentando nuevamente(1/6)... El contenedor principal no se encontró en la página.
+[2024-04-24T17:41:50.339Z] [INFO] - Se tardo 2 minutos, 1 segundos y 563 milisegundos en scrappear https://www.jumbo.com.ar/aceite?_q=aceite&map=ft
+[2024-04-24T17:41:50.339Z] [INFO] - 20/24 Jumbo URLs scrapped.
+[2024-04-24T17:43:52.152Z] [INFO] - Se tardo 2 minutos, 1 segundos y 720 milisegundos en scrappear https://www.jumbo.com.ar/cerveza?_q=cerveza&map=ft
+[2024-04-24T17:43:52.152Z] [INFO] - 21/24 Jumbo URLs scrapped.
+[2024-04-24T17:50:58.674Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
+[2024-04-24T17:51:05.536Z] [INFO] - Se tardo 7 minutos, 13 segundos y 198 milisegundos en scrappear https://www.jumbo.com.ar/vino?_q=vino&map=ft
+[2024-04-24T17:51:05.536Z] [INFO] - 22/24 Jumbo URLs scrapped.
+[2024-04-24T17:52:33.528Z] [INFO] - Se tardo 1 minutos, 27 segundos y 919 milisegundos en scrappear https://www.jumbo.com.ar/cafe?_q=cafe&map=ft
+[2024-04-24T17:52:33.528Z] [INFO] - 23/24 Jumbo URLs scrapped.
+[2024-04-24T17:53:55.138Z] [INFO] - Se tardo 1 minutos, 21 segundos y 525 milisegundos en scrappear https://www.jumbo.com.ar/yerba?_q=yerba&map=ft
+[2024-04-24T17:53:55.138Z] [INFO] - 24/24 Jumbo URLs scrapped.
+[2024-04-24T17:53:55.138Z] [INFO] - Extracción de 24/24 URLs completada.
+[2024-04-24T17:53:55.138Z] [SUCCESS] - Finished scraping Jumbo successfully.
+[2024-04-24T17:53:55.139Z] [INFO] - Tiempo total del proceso fue 37 minutos, 9 segundos y 76 milisegundos
