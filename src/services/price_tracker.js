@@ -1,7 +1,7 @@
-import connectDB from './config/mongoose-config.js'
-import RecordManager from "./Mongo/recordManager.js"
-import VariationManager from './Mongo/variationManager.js'
-import logger from "./config/winston.js"
+import connectDB from '../config/mongoose-config.js'
+import RecordManager from "../Mongo/recordManager.js"
+import VariationManager from '../Mongo/variationManager.js'
+import logger from "../config/winston.js"
 
 async function main() {
     try {

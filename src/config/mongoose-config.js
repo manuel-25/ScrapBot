@@ -1,8 +1,7 @@
 import mongoose from 'mongoose'
-import { config } from 'dotenv'
+import config from './config.js'
 
-config({ path: '../.env' })
-const MONGO_URI = process.env.MONGO_URI
+const MONGO_URI = config.MONGO_URI
 
 // Conexión a MongoDB
 async function connectDB() {
