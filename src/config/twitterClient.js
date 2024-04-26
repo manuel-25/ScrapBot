@@ -1,8 +1,6 @@
 import { TwitterApi } from "twitter-api-v2"
 import config from "./config.js"
 
-console.log(config.TWITTER_API_KEY)
-
 const client = new TwitterApi({
   appKey: config.TWITTER_API_KEY,
   appSecret: config.TWITTER_API_SECRET_KEY,
@@ -10,4 +8,9 @@ const client = new TwitterApi({
   accessSecret: config.TWITTER_ACCESS_TOKEN_SECRET,
 })
 
-export default client
+const bearer = new TwitterApi(config.TWITTER_BEARER_TOKEN)
+
+const twitterClient = client.readWrite
+const twitterBearer = bearer.readOnly
+ 
+export { twitterClient, twitterBearer }

@@ -144,4 +144,4 @@ async function analizeCategory(date, category, topCount) {
 
 //main()
 await connectDB()
-analizeCategory(today, 'Leche', 5)
+analizeCategory(today, 'Cafe', 2)

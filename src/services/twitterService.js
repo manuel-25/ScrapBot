@@ -1,4 +1,12 @@
-import client from "../config/twitter.js";
+import { twitterClient } from "../config/twitterClient.js"
+import config from "../config/config.js"
 
-const searchResults = await client.v2.search('nodejs') // Buscar tuits con la palabra 'nodejs'
-console.log('Resultados de búsqueda:', searchResults.data)
+const tweet = async () => {
+    try {
+        await twitterClient.v2.tweet('Buenas tuiter')
+    } catch(err) {
+        console.error(err)
+    }
+}
+
+tweet()
