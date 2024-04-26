@@ -5,6 +5,7 @@ import RecordManager from "./Mongo/recordManager.js"
 import logger from "./config/winston.js"
 
 //CANASTA BASICA https://chequeado.com/el-explicador/que-es-la-canasta-basica-alimentaria-del-indec-y-como-se-compone/
+const staticURL = 'https://www.jumbo.com.ar/'           // No borrar
 const jumboURLs = ['https://www.jumbo.com.ar/pan?_q=pan&map=ft', 'https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft',
  'https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft', 'https://www.jumbo.com.ar/arroz?_q=arroz&map=ft',
  'https://www.jumbo.com.ar/harinas?_q=harinas&map=ft', 'https://www.jumbo.com.ar/fideos?_q=fideos&map=ft', 'https://www.jumbo.com.ar/papa?_q=papa&map=ft',
@@ -15,7 +16,7 @@ const jumboURLs = ['https://www.jumbo.com.ar/pan?_q=pan&map=ft', 'https://www.ju
 'https://www.jumbo.com.ar/aceite?_q=aceite&map=ft', 'https://www.jumbo.com.ar/cerveza?_q=cerveza&map=ft', 'https://www.jumbo.com.ar/vino?_q=vino&map=ft',
 'https://www.jumbo.com.ar/cafe?_q=cafe&map=ft', 'https://www.jumbo.com.ar/yerba?_q=yerba&map=ft']
 
-const maxRetry = 6
+const MAX_RETRY = 6
 
  function elapsedTime(startTime) {
     const endTime = new Date()
@@ -38,7 +39,7 @@ async function startBrowser(page) {
         return page
     } catch (error) {
         logger.error('Error al iniciar el navegador:', error)
-        throw error // Re-lanzar el error para ser manejado por el llamador
+        throw error
     }
 }
 
@@ -48,7 +49,7 @@ async function startScraping(urls) {
     let browser
 
     try {
-        await connectDB() // Asegúrate de que `connectDB()` está definido y funciona correctamente
+        await connectDB()
 
         const page = await startBrowser()
         logger.info('Navegador iniciado.')
@@ -67,7 +68,7 @@ async function startScraping(urls) {
         logger.fatal('Se produjo un error fatal:', error)
     } finally {
         if (browser) {
-            await browser.close() // Asegúrate de cerrar el navegador
+            await browser.close()
         }
     }
 }
@@ -81,7 +82,7 @@ async function main(urls, page) {
     for (const url of urls) {
         let retryCount = 0
 
-        while (retryCount < maxRetry) {
+        while (retryCount < MAX_RETRY) {
             try {
                 await scrapeURL(url, page)
                 counter++
@@ -89,11 +90,11 @@ async function main(urls, page) {
                 break
             } catch (error) {
                 retryCount++
-                logger.warning(`Error al extraer datos de ${url}. Intentando nuevamente (${retryCount}/${maxRetry})...`, error)
+                logger.warning(`Error al extraer datos de ${url}. Intentando nuevamente (${retryCount}/${MAX_RETRY})...`, error)
                 await delay(1500)
             }
         }
-        if (retryCount === maxRetry) failedURLs.push(url)
+        if (retryCount === MAX_RETRY) failedURLs.push(url)
     }
     return failedURLs
 }
@@ -138,7 +139,7 @@ async function scrapeURL(dinamicUrl, page) {
     }
 
     const formattedTime = elapsedTime(startTime)
-    const currentDate = new Date(new Date().getTime() - (3 * 60 * 60 * 1000)).toISOString()
+    const currentDate = new Date(new Date().getTime() - (3 * 60 * 60 * 1000)).toISOString()         //Hora Argentina GTM-3
 
     //Data extraida
     const dataToSave = {
@@ -212,7 +213,7 @@ async function scrollDown(page) {
         await delay(500)
         return true
     } catch (error) {
-        logger.error('Error al hacer scroll:', error)
+        logger.warning('Error al hacer scroll:', error)
         return false
     }
 }

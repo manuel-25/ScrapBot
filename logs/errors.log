@@ -137,3 +137,25 @@ new Function (<anonymous>)
 [2024-04-25T20:16:12.841Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/arroz?_q=arroz&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
 [2024-04-25T20:17:20.213Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/arroz?_q=arroz&map=ft. Intentando nuevamente (2/6)... staticURL is not defined
 [2024-04-26T01:09:40.969Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (1/6)... staticURL is not defined
+[2024-04-26T01:10:36.723Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (2/6)... staticURL is not defined
+[2024-04-26T01:11:28.821Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (3/6)... staticURL is not defined
+[2024-04-26T01:13:47.802Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
+[2024-04-26T01:13:51.159Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
+[2024-04-26T01:13:54.592Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (3/6)... El contenedor principal no se encontró en la página.
+[2024-04-26T01:13:58.012Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (4/6)... El contenedor principal no se encontró en la página.
+[2024-04-26T01:16:23.543Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
+[2024-04-26T01:17:51.274Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
+[2024-04-26T01:18:06.354Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/fideos?_q=fideos&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
+[2024-04-26T01:20:45.240Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/papa?_q=papa&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
+[2024-04-26T01:21:12.491Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
+[2024-04-26T01:21:28.686Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/azucar?_q=azucar&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
+[2024-04-26T01:23:30.164Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
+[2024-04-26T01:25:13.680Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carnes?_q=carnes&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
+[2024-04-26T01:27:15.888Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/fiambres?_q=fiambres&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
+[2024-04-26T01:28:50.373Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/huevos?_q=huevos&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
+[2024-04-26T01:31:09.543Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yogur?_q=yogur&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
+[2024-04-26T01:35:11.362Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
+[2024-04-26T01:35:22.684Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cerveza?_q=cerveza&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
+[2024-04-26T01:44:42.701Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cafe?_q=cafe&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
+[2024-04-26T01:45:53.481Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cafe?_q=cafe&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
+[2024-04-26T01:48:17.358Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
