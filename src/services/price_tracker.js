@@ -3,11 +3,11 @@ import RecordManager from "../Mongo/recordManager.js"
 import VariationManager from '../Mongo/variationManager.js'
 import logger from "../config/winston.js"
 
+const today = new Date(new Date().getTime() - (3 * 60 * 60 * 1000)) // Ajustar a la hora de Argentina (GTM - 3)
+
 async function main() {
     try {
-        await connectDB();
-        const today = new Date(new Date().getTime() - (3 * 60 * 60 * 1000)) // Ajustar a la hora de Argentina (GTM - 3)
-        const currentDateISO = today.toISOString()
+        await connectDB()
 
         //TESTING ONLY
         /*const yesterday = new Date(today)
@@ -19,9 +19,7 @@ async function main() {
         if(!firstDateOfMonth) throw new Error(`No se encontró el primer día del mes ${month + 1} en el año ${year}.`)
         
         const historicData = await RecordManager.getByDateRecord(firstDateOfMonth)
-        //console.log('historicData: ', historicData.length)
         const currentData = await RecordManager.getByDateRecord(today)
-        //console.log('currentData: ', currentData.length)
 
         const historicMap = createHistoricMap(historicData)
         const comparedPrices = compareCategoryPrices(currentData, historicMap, today)
@@ -56,12 +54,15 @@ function compareCategoryPrices(currentData, historicMap, date) {
     let totalHistoricPrice = 0
     let totalCurrentPrice = 0
     let totalProducts = 0
+    let products = 0
 
     currentData.forEach(category => {
+        //Categories data
         const categoryResults = {
             category: category.category,
             categoryPriceDifference: 0,
             categoryPercentDifference: 0,
+            products,
             data: []
         }
 
@@ -88,6 +89,8 @@ function compareCategoryPrices(currentData, historicMap, date) {
 
                 // Sumar al total para la categoría y el global
                 categoryResults.categoryPriceDifference += priceDifference
+                categoryResults.categoryPriceDifference =  parseFloat(categoryResults.categoryPriceDifference.toFixed(3))
+                categoryResults.products = categoryResults.data.length
                 categoryHistoricPrice += historicPrice
                 categoryCurrentPrice += currentPrice
 
@@ -116,4 +119,29 @@ function compareCategoryPrices(currentData, historicMap, date) {
     return comparedResults
 }
 
-main()
+async function analizeCategory(date, category, topCount) {
+    try {
+        if(!category) throw new Error('No se ha especificado una categoría')
+
+        const variations = await VariationManager.getByDate(date)
+        if(!variations) throw new Error('No se encontraron variaciones de la fecha: ', date)
+
+        let result = variations.results
+        result = result.find(product => product.category === category)
+        if(result == null) throw new Error(`La categoría "${category}" no existe en las variaciones`)
+        const sortByPercent = result.data.sort((a, b) => b.percentDifference - a.percentDifference)
+
+        const topIncreases = sortByPercent.slice(0, topCount)
+        console.log(topIncreases)
+        const topDecreases = sortByPercent.slice(-topCount)
+        console.log(topDecreases)
+        
+        return { topIncreases, topDecreases }
+    } catch(err) {
+        console.error('Unexpected error: ', err)
+    }
+}
+
+//main()
+await connectDB()
+analizeCategory(today, 'Leche', 5)

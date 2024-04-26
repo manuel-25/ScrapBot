@@ -39,11 +39,11 @@ class VariationManagerDao {
         endOfDay.setDate(endOfDay.getDate() + 1)
         endOfDay.setHours(0, 0, 0, 0) 
 
-        return await this.priceVariationModel.find({
+        return await this.priceVariationModel.findOne({
             date: {
                 $gte: startOfDay,
                 $lt: endOfDay,
-            },
+            }
         })
     }
 }

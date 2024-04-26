@@ -25,11 +25,6 @@ class RecordManagerDao {
         return await recordModel.findByIdAndDelete(recordId)
     }
 
-    //DEPRECATED
-    async getHistoricDate(date) {
-        return await this.recordModel.findOne({ date: { $gte: new Date(date) } })
-    }
-
     // Obtiene el primer registro del mes específico
     async getFirstDayOfMonth(month, year) {
         const startOfMonth = new Date(year, month, 1)
@@ -61,6 +56,21 @@ class RecordManagerDao {
         })
     }
     
+    async deleteRecordsOfToday() {
+        const today = new Date()
+        today.setHours(0, 0, 0, 0)
+
+        const tomorrow = new Date(today)
+        tomorrow.setDate(tomorrow.getDate() + 1)
+
+        return await this.recordModel.deleteMany({
+            date: {
+                $gte: today,
+                $lt: tomorrow,
+            },
+        })
+    }
+
 }
 
 const RecordManager = new RecordManagerDao()

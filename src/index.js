@@ -17,6 +17,7 @@ const jumboURLs = ['https://www.jumbo.com.ar/pan?_q=pan&map=ft', 'https://www.ju
 'https://www.jumbo.com.ar/cafe?_q=cafe&map=ft', 'https://www.jumbo.com.ar/yerba?_q=yerba&map=ft']
 
 const MAX_RETRY = 6
+const MAX_PAGES = 20
 
  function elapsedTime(startTime) {
     const endTime = new Date()
@@ -30,13 +31,14 @@ startScraping(jumboURLs)
 // Configuración para iniciar el navegador y la página
 async function startBrowser(page) {
     try {
+        await connectDB()      //Connect to DB
         const browser = await puppeteer.launch({
             headless: true,
             args: ['--no-sandbox', '--disable-setuid-sandbox'] // Ayuda a evitar problemas de permisos
         })
         page = await browser.newPage()
         await page.setViewport({ width: 1280, height: 3600 })
-        return page
+        return { page, browser }
     } catch (error) {
         logger.error('Error al iniciar el navegador:', error)
         throw error
@@ -49,17 +51,20 @@ async function startScraping(urls) {
     let browser
 
     try {
-        await connectDB()
-
-        const page = await startBrowser()
+        const result = await startBrowser()
         logger.info('Navegador iniciado.')
+        browser = result.browser
+        const page = result.page
 
         const failedURLs = await main(urls, page)
 
         if (failedURLs.length === 0) {
             logger.success('Proceso de scraping completado con éxito.')
         } else {
-            logger.warning('Algunas URLs no se pudieron scrapear:', failedURLs)
+            await browser.close()
+            logger.warning('Algunas URLs no se pudieron scrapear:', failedURLs.length)
+            logger.info('Reiniciando...')
+            startScraping(failedURLs)
         }
 
         const elapsedTimer = elapsedTime(startTime)
@@ -91,7 +96,7 @@ async function main(urls, page) {
             } catch (error) {
                 retryCount++
                 logger.warning(`Error al extraer datos de ${url}. Intentando nuevamente (${retryCount}/${MAX_RETRY})...`, error)
-                await delay(1500)
+                await delay(3000)
             }
         }
         if (retryCount === MAX_RETRY) failedURLs.push(url)
@@ -105,13 +110,14 @@ async function scrapeURL(dinamicUrl, page) {
     const startTime = new Date()
     await page.goto(dinamicUrl)
 
-    let dataScrapped = [];
+    let dataScrapped = []
     let previousProductCount = 0
     let pageNumber = 1
     let totalPages = 1
     let containerSelector = '.vtex-search-result-3-x-gallery'
 
-    while (pageNumber <= totalPages) {
+    await delay(1000)
+    while (pageNumber <= totalPages && pageNumber <= MAX_PAGES) {
         let currentProducts = await scrapeProduct(page, containerSelector)
         if (!currentProducts || currentProducts.length === previousProductCount && pageNumber === totalPages) {
             throw new Error("No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.")
@@ -134,7 +140,7 @@ async function scrapeURL(dinamicUrl, page) {
             logger.debug(`Current page: ${pageNumber}/${totalPages}`)
             pageNumber++
             await goToPage(page, pageNumber, dinamicUrl)
-            await delay(1500)
+            await delay(1000)
         }
     }
 
@@ -209,11 +215,11 @@ async function scrollDown(page) {
         await page.evaluate(() => {
             window.scrollBy(0, window.innerHeight)
         })
-        await page.waitForFunction(`document.body.scrollHeight >= ${initialHeight}`, { timeout: 1500 })
+        await page.waitForFunction(`document.body.scrollHeight >= ${initialHeight}`, { timeout: 2000 })
         await delay(500)
         return true
     } catch (error) {
-        logger.warning('Error al hacer scroll:', error)
+        logger.warning('Scroll error:', error)
         return false
     }
 }
@@ -238,10 +244,7 @@ function delay(time) {
     })
 }
 
-async function goToPage(page, pageNumber, dinamicUrl) {
-    const newUrl = `${dinamicUrl}&page=${pageNumber}`
-    await page.goto(newUrl)
-}
+async function goToPage(page, pageNumber, dinamicUrl) { await page.goto(`${dinamicUrl}&page=${pageNumber}`) }
 
 function formatTime(milliseconds) {
     const totalSeconds = milliseconds / 1000;
@@ -285,3 +288,9 @@ function getCategoryNameFromUrl(url) {
 function capitalizeFirstLetter(string) {
     return string.replace(/^\w/, (c) => c.toUpperCase());
 }
+
+async function deleteTodayRecords() {
+    await connectDB()
+    const deletes = await RecordManager.deleteRecordsOfToday()
+    logger.info(deletes)
+} 
