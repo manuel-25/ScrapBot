@@ -271,3 +271,151 @@
 [2024-04-24T19:32:09.752Z] [INFO] - Iniciando proceso...
 [2024-04-24T19:44:08.230Z] [INFO] - Iniciando proceso...
 [2024-04-24T19:46:50.330Z] [INFO] - Iniciando proceso...
+[2024-04-25T16:14:13.206Z] [INFO] - Iniciando proceso...
+[2024-04-25T16:14:20.241Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente(1/6)... Cannot read properties of undefined (reading 'startsWith')
+[2024-04-25T16:14:23.974Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente(2/6)... Cannot read properties of undefined (reading 'startsWith')
+[2024-04-25T16:14:28.345Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente(3/6)... Cannot read properties of undefined (reading 'startsWith')
+[2024-04-25T16:14:32.787Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente(4/6)... Cannot read properties of undefined (reading 'startsWith')
+[2024-04-25T16:14:37.305Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente(5/6)... Cannot read properties of undefined (reading 'startsWith')
+[2024-04-25T16:19:18.006Z] [INFO] - Iniciando proceso...
+[2024-04-25T16:19:45.910Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
+[2024-04-25T16:19:50.378Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
+[2024-04-25T16:19:54.841Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
+[2024-04-25T16:19:59.315Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
+[2024-04-25T16:20:03.776Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
+[2024-04-25T16:20:08.258Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
+[2024-04-25T16:20:12.738Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
+[2024-04-25T16:20:17.215Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
+[2024-04-25T16:21:54.571Z] [INFO] - Iniciando proceso...
+[2024-04-25T16:22:19.680Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
+[2024-04-25T16:22:24.651Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
+[2024-04-25T16:22:29.619Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
+[2024-04-25T16:22:34.598Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
+[2024-04-25T16:22:39.561Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
+[2024-04-25T16:22:44.524Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
+[2024-04-25T16:22:49.487Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
+[2024-04-25T16:22:54.451Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
+[2024-04-25T16:22:59.419Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
+[2024-04-25T16:23:04.376Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
+[2024-04-25T16:24:05.709Z] [INFO] - Iniciando proceso...
+[2024-04-25T16:24:33.250Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
+[2024-04-25T16:24:37.723Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
+[2024-04-25T16:24:42.198Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
+[2024-04-25T16:25:46.842Z] [INFO] - Iniciando proceso...
+[2024-04-25T16:27:42.411Z] [INFO] - Iniciando proceso...
+[2024-04-25T16:28:11.416Z] [ERROR] - Error al hacer scroll: Waiting failed: 3000ms exceeded
+[2024-04-25T16:28:17.888Z] [ERROR] - Error al hacer scroll: Waiting failed: 3000ms exceeded
+[2024-04-25T16:30:22.319Z] [INFO] - Iniciando proceso...
+[2024-04-25T16:30:50.794Z] [ERROR] - Error during scroll down: Waiting failed: 3000ms exceeded
+[2024-04-25T16:30:57.274Z] [ERROR] - Error during scroll down: Waiting failed: 3000ms exceeded
+[2024-04-25T16:34:05.667Z] [INFO] - Iniciando proceso...
+[2024-04-25T16:43:59.617Z] [FATAL] - Exit due to fatal error:  dinamicUrl is not defined
+[2024-04-25T16:45:50.600Z] [INFO] - Iniciando proceso...
+[2024-04-25T16:47:01.009Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente(1/6)... browser is not defined
+[2024-04-25T16:47:55.426Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente(2/6)... browser is not defined
+[2024-04-25T16:48:46.602Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente(3/6)... browser is not defined
+[2024-04-25T16:49:37.755Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente(4/6)... browser is not defined
+[2024-04-25T16:56:16.803Z] [FATAL] - Exit due to fatal error: connectDB(...) is not a function
+[2024-04-25T16:58:34.000Z] [FATAL] - Exit due to fatal error: connectDB(...) is not a function
+[2024-04-25T16:58:34.441Z] [INFO] - Connected to MongoDB
+[2024-04-25T17:03:39.000Z] [INFO] - Connected to MongoDB
+[2024-04-25T17:03:39.001Z] [INFO] - Conexión a MongoDB establecida.
+[2024-04-25T17:03:39.235Z] [INFO] - Navegador iniciado.
+[2024-04-25T17:03:39.236Z] [INFO] - Iniciando proceso...
+[2024-04-25T17:03:50.036Z] [ERROR] - Error during scroll down: Waiting failed: 1500ms exceeded
+[2024-04-25T17:04:04.499Z] [ERROR] - Error during scroll down: Waiting failed: 1500ms exceeded
+[2024-04-25T17:04:18.062Z] [ERROR] - Error during scroll down: Waiting failed: 1500ms exceeded
+[2024-04-25T19:42:52.766Z] [INFO] - Connected to MongoDB
+[2024-04-25T19:42:52.766Z] [INFO] - Conexión a MongoDB establecida.
+[2024-04-25T19:42:53.134Z] [FATAL] - Se produjo un error fatal: logger.info(...) is not a function
+[2024-04-25T19:43:43.881Z] [INFO] - Connected to MongoDB
+[2024-04-25T19:43:43.882Z] [INFO] - Conexión a MongoDB establecida.
+[2024-04-25T19:43:44.109Z] [FATAL] - Se produjo un error fatal: logger.info(...) is not a function
+[2024-04-25T19:48:24.864Z] [INFO] - Connected to MongoDB
+[2024-04-25T19:48:24.865Z] [INFO] - Conexión a MongoDB establecida.
+[2024-04-25T19:48:25.099Z] [INFO] - Navegador iniciado.
+[2024-04-25T19:48:25.099Z] [INFO] - Iniciando proceso...
+[2024-04-25T19:48:35.616Z] [ERROR] - Error during scroll down: Waiting failed: 1500ms exceeded
+[2024-04-25T19:48:50.078Z] [ERROR] - Error during scroll down: Waiting failed: 1500ms exceeded
+[2024-04-25T19:49:04.605Z] [ERROR] - Error during scroll down: Waiting failed: 1500ms exceeded
+[2024-04-25T19:49:19.853Z] [ERROR] - Error during scroll down: Waiting failed: 1500ms exceeded
+[2024-04-25T19:49:33.626Z] [ERROR] - Error during scroll down: Waiting failed: 1500ms exceeded
+[2024-04-25T19:49:43.540Z] [ERROR] - Error during scroll down: Waiting failed: 1500ms exceeded
+[2024-04-25T19:49:48.899Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (1/6)... browser is not defined
+[2024-04-25T19:49:52.248Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
+[2024-04-25T19:50:01.273Z] [ERROR] - Error during scroll down: Waiting failed: 1500ms exceeded
+[2024-04-25T19:50:16.762Z] [ERROR] - Error during scroll down: Waiting failed: 1500ms exceeded
+[2024-04-25T19:50:27.382Z] [ERROR] - Error during scroll down: Waiting failed: 1500ms exceeded
+[2024-04-25T19:50:37.989Z] [ERROR] - Error during scroll down: Waiting failed: 1500ms exceeded
+[2024-04-25T19:50:48.594Z] [ERROR] - Error during scroll down: Waiting failed: 1500ms exceeded
+[2024-04-25T19:50:55.490Z] [ERROR] - Error during scroll down: Waiting failed: 1500ms exceeded
+[2024-04-25T19:50:58.865Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (3/6)... browser is not defined
+[2024-04-25T19:51:07.069Z] [INFO] - Connected to MongoDB
+[2024-04-25T19:51:07.069Z] [INFO] - Conexión a MongoDB establecida.
+[2024-04-25T19:51:07.320Z] [INFO] - Navegador iniciado.
+[2024-04-25T19:51:07.321Z] [INFO] - Iniciando proceso...
+[2024-04-25T19:51:16.662Z] [ERROR] - Error during scroll down: Waiting failed: 1500ms exceeded
+[2024-04-25T19:51:27.737Z] [ERROR] - Error during scroll down: Waiting failed: 1500ms exceeded
+[2024-04-25T19:51:55.294Z] [INFO] - Connected to MongoDB
+[2024-04-25T19:51:55.295Z] [INFO] - Conexión a MongoDB establecida.
+[2024-04-25T19:51:55.539Z] [INFO] - Navegador iniciado.
+[2024-04-25T19:51:55.539Z] [INFO] - Iniciando proceso...
+[2024-04-25T19:52:04.008Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
+[2024-04-25T19:52:14.872Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
+[2024-04-25T19:52:28.622Z] [INFO] - Connected to MongoDB
+[2024-04-25T19:52:28.622Z] [INFO] - Conexión a MongoDB establecida.
+[2024-04-25T19:52:28.847Z] [INFO] - Navegador iniciado.
+[2024-04-25T19:52:28.848Z] [INFO] - Iniciando proceso...
+[2024-04-25T19:52:40.177Z] [ERROR] - Error al hacer scroll: Waiting failed: 3000ms exceeded
+[2024-04-25T19:52:52.744Z] [ERROR] - Error al hacer scroll: Waiting failed: 3000ms exceeded
+[2024-04-25T19:53:05.275Z] [ERROR] - Error al hacer scroll: Waiting failed: 3000ms exceeded
+[2024-04-25T20:00:21.836Z] [INFO] - Connected to MongoDB
+[2024-04-25T20:00:22.075Z] [INFO] - Navegador iniciado.
+[2024-04-25T20:00:22.076Z] [INFO] - Iniciando proceso...
+[2024-04-25T20:01:15.637Z] [INFO] - Connected to MongoDB
+[2024-04-25T20:01:15.873Z] [INFO] - Navegador iniciado.
+[2024-04-25T20:01:15.874Z] [INFO] - Iniciando proceso...
+[2024-04-25T20:01:18.905Z] [ERROR] - Error al hacer scroll: Malformed arrow function parameter list
+new Function (<anonymous>)
+[2024-04-25T20:01:55.588Z] [INFO] - Connected to MongoDB
+[2024-04-25T20:01:55.814Z] [INFO] - Navegador iniciado.
+[2024-04-25T20:01:55.815Z] [INFO] - Iniciando proceso...
+[2024-04-25T20:02:55.819Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (1/6)... browser is not defined
+[2024-04-25T20:02:59.143Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
+[2024-04-25T20:03:54.089Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
+[2024-04-25T20:03:57.476Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (3/6)... browser is not defined
+[2024-04-25T20:04:52.125Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
+[2024-04-25T20:04:55.773Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (4/6)... browser is not defined
+[2024-04-25T20:05:50.107Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
+[2024-04-25T20:05:53.539Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (5/6)... browser is not defined
+[2024-04-25T20:06:36.630Z] [INFO] - Connected to MongoDB
+[2024-04-25T20:06:36.861Z] [INFO] - Navegador iniciado.
+[2024-04-25T20:06:36.861Z] [INFO] - Iniciando proceso...
+[2024-04-25T20:07:35.626Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
+[2024-04-25T20:07:39.109Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (1/6)... staticURL is not defined
+[2024-04-25T20:08:42.992Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (2/6)... staticURL is not defined
+[2024-04-25T20:09:40.557Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
+[2024-04-25T20:09:43.966Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (3/6)... staticURL is not defined
+[2024-04-25T20:10:38.761Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
+[2024-04-25T20:10:42.119Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (4/6)... staticURL is not defined
+[2024-04-25T20:11:40.267Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (5/6)... staticURL is not defined
+[2024-04-25T20:12:34.820Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
+[2024-04-25T20:12:38.177Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (6/6)... staticURL is not defined
+[2024-04-25T20:12:56.583Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (1/6)... staticURL is not defined
+[2024-04-25T20:12:59.910Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
+[2024-04-25T20:13:03.248Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (3/6)... El contenedor principal no se encontró en la página.
+[2024-04-25T20:13:06.594Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (4/6)... El contenedor principal no se encontró en la página.
+[2024-04-25T20:13:09.917Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (5/6)... El contenedor principal no se encontró en la página.
+[2024-04-25T20:13:13.268Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (6/6)... El contenedor principal no se encontró en la página.
+[2024-04-25T20:15:49.912Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (1/6)... staticURL is not defined
+[2024-04-25T20:15:53.295Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
+[2024-04-25T20:15:56.699Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (3/6)... El contenedor principal no se encontró en la página.
+[2024-04-25T20:16:00.078Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (4/6)... El contenedor principal no se encontró en la página.
+[2024-04-25T20:16:03.398Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (5/6)... El contenedor principal no se encontró en la página.
+[2024-04-25T20:16:06.719Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (6/6)... El contenedor principal no se encontró en la página.
+[2024-04-25T20:16:12.841Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/arroz?_q=arroz&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
+[2024-04-25T20:17:20.213Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/arroz?_q=arroz&map=ft. Intentando nuevamente (2/6)... staticURL is not defined
+[2024-04-26T01:08:31.243Z] [INFO] - Connected to MongoDB
+[2024-04-26T01:08:31.514Z] [INFO] - Navegador iniciado.
+[2024-04-26T01:08:31.514Z] [INFO] - Iniciando proceso...
+[2024-04-26T01:09:40.969Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (1/6)... staticURL is not defined

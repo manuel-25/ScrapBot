@@ -4,7 +4,6 @@ import connectDB from './config/mongoose-config.js'
 import RecordManager from "./Mongo/recordManager.js"
 import logger from "./config/winston.js"
 
-const staticURL = 'https://www.jumbo.com.ar/'
 //CANASTA BASICA https://chequeado.com/el-explicador/que-es-la-canasta-basica-alimentaria-del-indec-y-como-se-compone/
 const jumboURLs = ['https://www.jumbo.com.ar/pan?_q=pan&map=ft', 'https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft',
  'https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft', 'https://www.jumbo.com.ar/arroz?_q=arroz&map=ft',
@@ -25,103 +24,108 @@ const maxRetry = 6
 }
 
 //Code Starts here! 
-try {
-    const startTime = new Date()
-    await connectDB()
-    const failedFailedURLs = await main(jumboURLs)
-    if(!failedFailedURLs) {
-        logger.success('Finished scraping Jumbo successfully.')
+startScraping(jumboURLs)
+
+// Configuración para iniciar el navegador y la página
+async function startBrowser(page) {
+    try {
+        const browser = await puppeteer.launch({
+            headless: true,
+            args: ['--no-sandbox', '--disable-setuid-sandbox'] // Ayuda a evitar problemas de permisos
+        })
+        page = await browser.newPage()
+        await page.setViewport({ width: 1280, height: 3600 })
+        return page
+    } catch (error) {
+        logger.error('Error al iniciar el navegador:', error)
+        throw error // Re-lanzar el error para ser manejado por el llamador
     }
-    const elapsedTimer = elapsedTime(startTime)
-    logger.info(`Tiempo total del proceso fue ${elapsedTimer}`)
-} catch(err) {
-    logger.fatal('Exit due to fatal error: ', err)
 }
 
-//MAIN FUNCTION LOOP
-async function main(urls) {
+// Función principal para iniciar el scraping
+async function startScraping(urls) {
+    const startTime = new Date()
+    let browser
+
+    try {
+        await connectDB() // Asegúrate de que `connectDB()` está definido y funciona correctamente
+
+        const page = await startBrowser()
+        logger.info('Navegador iniciado.')
+
+        const failedURLs = await main(urls, page)
+
+        if (failedURLs.length === 0) {
+            logger.success('Proceso de scraping completado con éxito.')
+        } else {
+            logger.warning('Algunas URLs no se pudieron scrapear:', failedURLs)
+        }
+
+        const elapsedTimer = elapsedTime(startTime)
+        logger.info(`Tiempo total del proceso fue ${elapsedTimer}`)
+    } catch (error) {
+        logger.fatal('Se produjo un error fatal:', error)
+    } finally {
+        if (browser) {
+            await browser.close() // Asegúrate de cerrar el navegador
+        }
+    }
+}
+
+// Función principal de scraping
+async function main(urls, page) {
     let failedURLs = []
-    let failedFailedURLs = [] 
-    let counter = 1
+    let counter = 0
 
     logger.info('Iniciando proceso...')
     for (const url of urls) {
-        let retryCount = 1
+        let retryCount = 0
+
         while (retryCount < maxRetry) {
             try {
-                await scrapeURL(url)
+                await scrapeURL(url, page)
                 counter++
-                logger.info(`${counter - 1}/${urls.length} Jumbo URLs scrapped.`)
+                logger.info(`${counter}/${urls.length} URLs scraped.`)
                 break
             } catch (error) {
-                logger.warning(`Error al extraer datos de ${url}. Intentando nuevamente(${retryCount}/${maxRetry})...`, error)
                 retryCount++
-                await delay(1000)
+                logger.warning(`Error al extraer datos de ${url}. Intentando nuevamente (${retryCount}/${maxRetry})...`, error)
+                await delay(1500)
             }
         }
         if (retryCount === maxRetry) failedURLs.push(url)
     }
-    counter--
-    logger.info(`Extracción de ${counter}/${urls.length} URLs completada.`)
-
-    //Si quedaron URLS sin scrappear se volvera a intentar sino se retornan.
-    if (failedURLs.length > 0) {
-        logger.warning("Las siguientes URLs no se pudieron extraer:", failedURLs)
-        logger.info('Reiniciando proceso para las URL fallidas...')
-        for (const url of failedURLs) {
-            let retryCount = 0
-            while (retryCount < maxRetry) {
-                try {
-                    await scrapeURL(url)
-                    counter++
-                    logger.info(`${counter}/${urls.length} failed URLs scrapped.`)
-                    break
-                } catch (error) {
-                    logger.error(`Error al extraer datos de ${url}. Intentando nuevamente...`, error)
-                    retryCount++
-                    await delay(1000)
-                }
-            }
-            if (retryCount === maxRetry) failedFailedURLs.push(url)
-        }
-        if(failedFailedURLs > 0) logger.warning("No se lograron agregar las URLS a 'failedURLs': ", failedFailedURLs)
-        return failedFailedURLs
-    }
+    return failedURLs
 }
 
-
 // Receives a url and it creates a .json with  the data scraped from that page 
-async function scrapeURL(dinamicUrl) {
+async function scrapeURL(dinamicUrl, page) {
     //Set website parameters
     const startTime = new Date()
-    const browser = await puppeteer.launch({ headless: true })
-    const page = await browser.newPage()
-    await page.setViewport({ width: 1280, height: 1000 })
     await page.goto(dinamicUrl)
 
     let dataScrapped = [];
     let previousProductCount = 0
     let pageNumber = 1
     let totalPages = 1
+    let containerSelector = '.vtex-search-result-3-x-gallery'
 
     while (pageNumber <= totalPages) {
-        let currentProducts = await scrapeProduct(page)
+        let currentProducts = await scrapeProduct(page, containerSelector)
         if (!currentProducts || currentProducts.length === previousProductCount && pageNumber === totalPages) {
-            throw new Error("No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.");
+            throw new Error("No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.")
         }
-
 
         currentProducts.forEach(product => {
             if (!dataScrapped.some(existingProduct => existingProduct.nombre === product.nombre)) {
                 dataScrapped.push(product)
             }
         })
-
-        previousProductCount = currentProducts.length;
+        previousProductCount = currentProducts.length
 
         // Scroll down
         await scrollDown(page)
-        currentProducts = await scrapeProduct(page);
+        currentProducts = await scrapeProduct(page, containerSelector)
 
         //Next page
         if(currentProducts.length === previousProductCount) {
@@ -132,7 +136,6 @@ async function scrapeURL(dinamicUrl) {
             await delay(1500)
         }
     }
-    await browser.close()
 
     const formattedTime = elapsedTime(startTime)
     const currentDate = new Date(new Date().getTime() - (3 * 60 * 60 * 1000)).toISOString()
@@ -151,23 +154,23 @@ async function scrapeURL(dinamicUrl) {
     logger.info(`Se tardo ${formattedTime} en scrappear ${dinamicUrl}`)
 }
 
-async function scrapeProduct(page) {
-    await new Promise(resolve => setTimeout(resolve, 1500))
+//Receives the page & container selector (unique to the website may change values)  and returns an array of products
+async function scrapeProduct(page, containerSelector) {
+    await new Promise(resolve => setTimeout(resolve, 1500))             //TIMEOUTE 1500 OR ERRORS
 
-    const containerSelector = '.vtex-search-result-3-x-gallery'
     const containerExists = await page.$(containerSelector)
     if (!containerExists) throw new Error('El contenedor principal no se encontró en la página.')
 
     const articlesData = await page.evaluate(async (containerSelector) => {
         const container = document.querySelector(containerSelector)
-        if (!container) return null // Se puede sacar?
+        if (!container) return null
 
         const productsData = []
-        const productNodes = container.children;
+        const productNodes = container.children
         for (const product of productNodes) {
             const nombreElement = product.querySelector('.vtex-product-summary-2-x-productNameContainer')
             const marcaElement = product.querySelector('.vtex-product-summary-2-x-productBrandName')
-            await new Promise(resolve => setTimeout(resolve, 10))
+            await new Promise(resolve => setTimeout(resolve, 10))       //ASSURES THE PRICE LOADS CORRECTLY
             const precioElement = product.querySelector('.jumboargentinaio-store-theme-1dCOMij_MzTzZOCohX1K7w')
             const precioRegularElement = product.querySelector('.jumboargentinaio-store-theme-1QiyQadHj-1_x9js9EXUYK')
 
@@ -178,7 +181,7 @@ async function scrapeProduct(page) {
                 let precio = precioElement.textContent.trim()
                 const precioRegular = precioRegularElement.textContent.trim()
 
-                //String to number
+                //Cleans price string
                 let number = precio.replace(/\$/g, '')
                 number = number.replace(/\./g, '')
                 number = number.replace(/,/g, '.')
@@ -199,14 +202,13 @@ async function scrapeProduct(page) {
     return articlesData
 }
 
-
 async function scrollDown(page) {
     try {
         const initialHeight = await page.evaluate(() => document.body.scrollHeight)
         await page.evaluate(() => {
             window.scrollBy(0, window.innerHeight)
         })
-        await page.waitForFunction(`document.body.scrollHeight > ${initialHeight}`, { timeout: 1000 })
+        await page.waitForFunction(`document.body.scrollHeight >= ${initialHeight}`, { timeout: 1500 })
         await delay(500)
         return true
     } catch (error) {
@@ -235,13 +237,11 @@ function delay(time) {
     })
 }
 
-//Jumps to next page
 async function goToPage(page, pageNumber, dinamicUrl) {
     const newUrl = `${dinamicUrl}&page=${pageNumber}`
     await page.goto(newUrl)
 }
 
-//Format Time
 function formatTime(milliseconds) {
     const totalSeconds = milliseconds / 1000;
     const minutes = Math.floor(totalSeconds / 60);
@@ -270,7 +270,7 @@ async function saveDataToMongo(data) {
     }
 }
 
-//Receives "$4,250.5 and return 4250.5 in Number format"
+//Receives example: "$4,250.5" and return 4250.5 in Number format
 function getCategoryNameFromUrl(url) {
     const startIndex = staticURL.length
     const endIndex = url.indexOf("?_q=")
