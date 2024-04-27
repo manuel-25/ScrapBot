@@ -702,3 +702,107 @@ new Function (<anonymous>)
 [2024-04-26T19:48:30.847Z] [INFO] - Connected to MongoDB
 [2024-04-26T19:49:09.620Z] [INFO] - Connected to MongoDB
 [2024-04-26T19:49:39.431Z] [INFO] - Connected to MongoDB
+[2024-04-26T22:15:14.880Z] [INFO] - Connected to MongoDB
+[2024-04-26T22:24:02.967Z] [INFO] - Connected to MongoDB
+[2024-04-26T22:24:14.842Z] [INFO] - Connected to MongoDB
+[2024-04-26T22:45:22.520Z] [INFO] - Connected to MongoDB
+[2024-04-26T22:45:36.086Z] [INFO] - Connected to MongoDB
+[2024-04-26T22:45:53.530Z] [INFO] - Connected to MongoDB
+[2024-04-26T22:47:08.863Z] [INFO] - Connected to MongoDB
+[2024-04-26T22:47:37.970Z] [INFO] - Connected to MongoDB
+[2024-04-26T22:49:52.444Z] [INFO] - Connected to MongoDB
+[2024-04-26T22:51:10.302Z] [INFO] - Connected to MongoDB
+[2024-04-26T22:53:40.794Z] [INFO] - Connected to MongoDB
+[2024-04-26T23:06:02.637Z] [INFO] - Connected to MongoDB
+[2024-04-26T23:16:25.577Z] [INFO] - Connected to MongoDB
+[2024-04-27T17:34:49.037Z] [INFO] - Connected to MongoDB
+[2024-04-27T17:34:49.307Z] [INFO] - Navegador iniciado.
+[2024-04-27T17:34:49.308Z] [INFO] - Iniciando proceso...
+[2024-04-27T17:35:44.562Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
+[2024-04-27T17:36:47.691Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
+[2024-04-27T17:36:52.865Z] [INFO] - Se tardo 1 minutos, 5 segundos y 183 milisegundos en scrappear https://www.jumbo.com.ar/pan?_q=pan&map=ft
+[2024-04-27T17:36:52.866Z] [INFO] - 1/24 URLs scraped.
+[2024-04-27T17:37:09.169Z] [INFO] - Se tardo 0 minutos, 16 segundos y 245 milisegundos en scrappear https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft
+[2024-04-27T17:37:09.170Z] [INFO] - 2/24 URLs scraped.
+[2024-04-27T17:37:29.223Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
+[2024-04-27T17:37:35.100Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
+[2024-04-27T17:37:50.396Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (3/6)... El contenedor principal no se encontró en la página.
+[2024-04-27T17:40:34.319Z] [INFO] - Se tardo 2 minutos, 40 segundos y 769 milisegundos en scrappear https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft
+[2024-04-27T17:40:34.320Z] [INFO] - 3/24 URLs scraped.
+[2024-04-27T17:41:32.422Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
+[2024-04-27T17:41:37.610Z] [INFO] - Se tardo 1 minutos, 3 segundos y 217 milisegundos en scrappear https://www.jumbo.com.ar/arroz?_q=arroz&map=ft
+[2024-04-27T17:41:37.610Z] [INFO] - 4/24 URLs scraped.
+[2024-04-27T17:41:43.052Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/harinas?_q=harinas&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
+[2024-04-27T17:42:12.116Z] [INFO] - Se tardo 0 minutos, 25 segundos y 986 milisegundos en scrappear https://www.jumbo.com.ar/harinas?_q=harinas&map=ft
+[2024-04-27T17:42:12.117Z] [INFO] - 5/24 URLs scraped.
+[2024-04-27T17:44:55.608Z] [INFO] - Se tardo 2 minutos, 43 segundos y 331 milisegundos en scrappear https://www.jumbo.com.ar/fideos?_q=fideos&map=ft
+[2024-04-27T17:44:55.609Z] [INFO] - 6/24 URLs scraped.
+[2024-04-27T17:45:14.984Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
+[2024-04-27T17:45:20.682Z] [INFO] - Se tardo 0 minutos, 25 segundos y 8 milisegundos en scrappear https://www.jumbo.com.ar/papa?_q=papa&map=ft
+[2024-04-27T17:45:20.682Z] [INFO] - 7/24 URLs scraped.
+[2024-04-27T17:45:36.818Z] [INFO] - Se tardo 0 minutos, 16 segundos y 69 milisegundos en scrappear https://www.jumbo.com.ar/batata?_q=batata&layout=grid&map=ft
+[2024-04-27T17:45:36.818Z] [INFO] - 8/24 URLs scraped.
+[2024-04-27T17:46:23.661Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
+[2024-04-27T17:46:28.659Z] [INFO] - Se tardo 0 minutos, 51 segundos y 771 milisegundos en scrappear https://www.jumbo.com.ar/azucar?_q=azucar&map=ft
+[2024-04-27T17:46:28.659Z] [INFO] - 9/24 URLs scraped.
+[2024-04-27T17:46:53.709Z] [INFO] - Se tardo 0 minutos, 24 segundos y 987 milisegundos en scrappear https://www.jumbo.com.ar/dulce%20de%20leche?_q=dulce%20de%20leche&map=ft
+[2024-04-27T17:46:53.709Z] [INFO] - 10/24 URLs scraped.
+[2024-04-27T17:47:17.420Z] [INFO] - Se tardo 0 minutos, 23 segundos y 634 milisegundos en scrappear https://www.jumbo.com.ar/legumbres%20secas?_q=legumbres%20secas&map=ft
+[2024-04-27T17:47:17.421Z] [INFO] - 11/24 URLs scraped.
+[2024-04-27T17:47:42.356Z] [INFO] - Se tardo 0 minutos, 24 segundos y 874 milisegundos en scrappear https://www.jumbo.com.ar/hortalizas?_q=hortalizas&map=ft
+[2024-04-27T17:47:42.356Z] [INFO] - 12/24 URLs scraped.
+[2024-04-27T17:49:14.154Z] [INFO] - Se tardo 1 minutos, 31 segundos y 715 milisegundos en scrappear https://www.jumbo.com.ar/frutas?_q=frutas&map=ft
+[2024-04-27T17:49:14.155Z] [INFO] - 13/24 URLs scraped.
+[2024-04-27T17:51:08.877Z] [INFO] - Se tardo 1 minutos, 54 segundos y 619 milisegundos en scrappear https://www.jumbo.com.ar/carnes?_q=carnes&map=ft
+[2024-04-27T17:51:08.878Z] [INFO] - 14/24 URLs scraped.
+[2024-04-27T17:52:39.943Z] [INFO] - Se tardo 1 minutos, 30 segundos y 931 milisegundos en scrappear https://www.jumbo.com.ar/fiambres?_q=fiambres&map=ft
+[2024-04-27T17:52:39.944Z] [INFO] - 15/24 URLs scraped.
+[2024-04-27T17:53:00.169Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
+[2024-04-27T17:53:09.700Z] [INFO] - Se tardo 0 minutos, 29 segundos y 684 milisegundos en scrappear https://www.jumbo.com.ar/huevos?_q=huevos&map=ft
+[2024-04-27T17:53:09.700Z] [INFO] - 16/24 URLs scraped.
+[2024-04-27T17:54:58.279Z] [INFO] - Se tardo 1 minutos, 48 segundos y 493 milisegundos en scrappear https://www.jumbo.com.ar/leche?_q=leche&map=ft
+[2024-04-27T17:54:58.280Z] [INFO] - 17/24 URLs scraped.
+[2024-04-27T17:56:24.977Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yogur?_q=yogur&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
+[2024-04-27T17:58:08.003Z] [INFO] - Se tardo 1 minutos, 39 segundos y 909 milisegundos en scrappear https://www.jumbo.com.ar/yogur?_q=yogur&map=ft
+[2024-04-27T17:58:08.003Z] [INFO] - 18/24 URLs scraped.
+[2024-04-27T17:58:28.200Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
+[2024-04-27T17:58:33.540Z] [INFO] - Se tardo 0 minutos, 25 segundos y 478 milisegundos en scrappear https://www.jumbo.com.ar/manteca?_q=manteca&map=ft
+[2024-04-27T17:58:33.541Z] [INFO] - 19/24 URLs scraped.
+[2024-04-27T18:00:19.296Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
+[2024-04-27T18:00:29.236Z] [INFO] - Se tardo 1 minutos, 55 segundos y 577 milisegundos en scrappear https://www.jumbo.com.ar/aceite?_q=aceite&map=ft
+[2024-04-27T18:00:29.236Z] [INFO] - 20/24 URLs scraped.
+[2024-04-27T18:02:27.426Z] [INFO] - Se tardo 1 minutos, 58 segundos y 103 milisegundos en scrappear https://www.jumbo.com.ar/cerveza?_q=cerveza&map=ft
+[2024-04-27T18:02:27.427Z] [INFO] - 21/24 URLs scraped.
+[2024-04-27T18:03:36.061Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/vino?_q=vino&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
+[2024-04-27T18:07:44.995Z] [INFO] - Se tardo 4 minutos, 5 segundos y 774 milisegundos en scrappear https://www.jumbo.com.ar/vino?_q=vino&map=ft
+[2024-04-27T18:07:44.996Z] [INFO] - 22/24 URLs scraped.
+[2024-04-27T18:09:11.431Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
+[2024-04-27T18:09:16.683Z] [INFO] - Se tardo 1 minutos, 31 segundos y 601 milisegundos en scrappear https://www.jumbo.com.ar/cafe?_q=cafe&map=ft
+[2024-04-27T18:09:16.683Z] [INFO] - 23/24 URLs scraped.
+[2024-04-27T18:10:25.365Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
+[2024-04-27T18:10:35.189Z] [INFO] - Se tardo 1 minutos, 18 segundos y 417 milisegundos en scrappear https://www.jumbo.com.ar/yerba?_q=yerba&map=ft
+[2024-04-27T18:10:35.189Z] [INFO] - 24/24 URLs scraped.
+[2024-04-27T18:10:35.190Z] [SUCCESS] - Proceso de scraping completado con éxito.
+[2024-04-27T18:10:35.190Z] [INFO] - Tiempo total del proceso fue 35 minutos, 46 segundos y 779 milisegundos
+[2024-04-27T18:12:42.064Z] [INFO] - Connected to MongoDB
+[2024-04-27T18:12:57.199Z] [INFO] - Connected to MongoDB
+[2024-04-27T18:13:10.934Z] [INFO] - Connected to MongoDB
+[2024-04-27T18:16:30.979Z] [INFO] - Connected to MongoDB
+[2024-04-27T18:18:59.195Z] [INFO] - Connected to MongoDB
+[2024-04-27T18:20:14.002Z] [INFO] - Connected to MongoDB
+[2024-04-27T18:32:38.521Z] [INFO] - Connected to MongoDB
+[2024-04-27T18:53:24.705Z] [INFO] - Connected to MongoDB
+[2024-04-27T19:10:47.335Z] [INFO] - Connected to MongoDB
+[2024-04-27T19:11:33.248Z] [INFO] - Connected to MongoDB
+[2024-04-27T19:11:49.782Z] [INFO] - Connected to MongoDB
+[2024-04-27T19:39:20.075Z] [INFO] - Connected to MongoDB
+[2024-04-27T19:45:48.310Z] [INFO] - Connected to MongoDB
+[2024-04-27T19:46:36.162Z] [INFO] - Connected to MongoDB
+[2024-04-27T19:47:23.545Z] [INFO] - Connected to MongoDB
+[2024-04-27T19:49:57.107Z] [INFO] - Connected to MongoDB
+[2024-04-27T19:50:21.244Z] [INFO] - Connected to MongoDB
+[2024-04-27T19:51:52.523Z] [INFO] - Connected to MongoDB
+[2024-04-27T19:52:55.017Z] [INFO] - Connected to MongoDB
+[2024-04-27T19:54:43.640Z] [INFO] - Connected to MongoDB
+[2024-04-27T20:00:46.751Z] [INFO] - Connected to MongoDB
+[2024-04-27T20:01:15.362Z] [INFO] - Connected to MongoDB

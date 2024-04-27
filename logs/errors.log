@@ -221,3 +221,19 @@ new Function (<anonymous>)
 [2024-04-26T14:44:34.329Z] [WARNING] - Error al hacer scroll: Waiting failed: 1500ms exceeded
 [2024-04-26T14:54:57.347Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/aceite?_q=aceite&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
 [2024-04-26T15:05:36.913Z] [WARNING] - Error al hacer scroll: Waiting failed: 1500ms exceeded
+[2024-04-27T17:35:44.562Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
+[2024-04-27T17:36:47.690Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
+[2024-04-27T17:37:29.222Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
+[2024-04-27T17:37:35.100Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
+[2024-04-27T17:37:50.395Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (3/6)... El contenedor principal no se encontró en la página.
+[2024-04-27T17:41:32.421Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
+[2024-04-27T17:41:43.052Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/harinas?_q=harinas&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
+[2024-04-27T17:45:14.984Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
+[2024-04-27T17:46:23.661Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
+[2024-04-27T17:53:00.169Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
+[2024-04-27T17:56:24.976Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yogur?_q=yogur&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
+[2024-04-27T17:58:28.200Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
+[2024-04-27T18:00:19.296Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
+[2024-04-27T18:03:36.061Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/vino?_q=vino&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
+[2024-04-27T18:09:11.430Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
+[2024-04-27T18:10:25.364Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded

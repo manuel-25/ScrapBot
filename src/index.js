@@ -291,6 +291,7 @@ function capitalizeFirstLetter(string) {
 
 async function deleteTodayRecords() {
     await connectDB()
+    logger.info('Deleting all records from today...')
     const deletes = await RecordManager.deleteRecordsOfToday()
     logger.info(deletes)
 } 

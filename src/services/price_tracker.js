@@ -2,22 +2,15 @@ import connectDB from '../config/mongoose-config.js'
 import RecordManager from "../Mongo/recordManager.js"
 import VariationManager from '../Mongo/variationManager.js'
 import logger from "../config/winston.js"
+import { tweetVariations } from './twitterService.js'
 
 const today = new Date(new Date().getTime() - (3 * 60 * 60 * 1000)) // Ajustar a la hora de Argentina (GTM - 3)
 
-async function main() {
+async function recordVariation() {
     try {
-        await connectDB()
+        //await connectDB()
 
-        //TESTING ONLY
-        /*const yesterday = new Date(today)
-        yesterday.setDate(yesterday.getDate() - 2)*/
-
-        const month = today.getMonth()
-        const year = today.getFullYear()
-        const firstDateOfMonth = await  RecordManager.getFirstDayOfMonth(month, year)
-        if(!firstDateOfMonth) throw new Error(`No se encontró el primer día del mes ${month + 1} en el año ${year}.`)
-        
+        const firstDateOfMonth = await getFirstDateOfMonth(today)
         const historicData = await RecordManager.getByDateRecord(firstDateOfMonth)
         const currentData = await RecordManager.getByDateRecord(today)
 
@@ -29,6 +22,18 @@ async function main() {
         }
     } catch (err) {
         console.error("Unexpected error:", err)
+    }
+}
+
+async function getFirstDateOfMonth(today) {
+    try {
+        const month = today.getMonth()
+        const year = today.getFullYear()
+        const firstDateOfMonth = await  RecordManager.getFirstDayOfMonth(month, year)
+        if(!firstDateOfMonth) throw new Error(`No se encontró el primer día del mes ${month + 1} en el año ${year}.`)
+        return firstDateOfMonth
+    } catch(err) {
+        console.error(err)
     }
 }
 
@@ -119,22 +124,25 @@ function compareCategoryPrices(currentData, historicMap, date) {
     return comparedResults
 }
 
-async function analizeCategory(date, category, topCount) {
+function sortVariations(variations, category) {
+    let results = variations.results
+    results = results.find(product => product.category === category)
+    if(results == null) throw new Error(`La categoría "${category}" no existe en las variaciones`)
+    const sortByPercent = results.data.sort((a, b) => b.percentDifference - a.percentDifference)
+    return sortByPercent
+}
+
+async function getIncreaseAndDecrease(date, category, topCount) {
     try {
         if(!category) throw new Error('No se ha especificado una categoría')
 
         const variations = await VariationManager.getByDate(date)
         if(!variations) throw new Error('No se encontraron variaciones de la fecha: ', date)
 
-        let result = variations.results
-        result = result.find(product => product.category === category)
-        if(result == null) throw new Error(`La categoría "${category}" no existe en las variaciones`)
-        const sortByPercent = result.data.sort((a, b) => b.percentDifference - a.percentDifference)
+        const sortByPercent = sortVariations(variations, category)
 
         const topIncreases = sortByPercent.slice(0, topCount)
-        console.log(topIncreases)
         const topDecreases = sortByPercent.slice(-topCount)
-        console.log(topDecreases)
         
         return { topIncreases, topDecreases }
     } catch(err) {
@@ -142,6 +150,40 @@ async function analizeCategory(date, category, topCount) {
     }
 }
 
-//main()
+async function getCategoryVariations(date, topCount) {
+    try {
+        const variations = await VariationManager.getByDate(date)
+        if (!variations) throw new Error("No se encontraron variaciones para la fecha:", date)
+
+        const categoriesSortedByPercent = variations.results.sort((a, b) => b.categoryPercentDifference - a.categoryPercentDifference)
+
+        const topIncreases = categoriesSortedByPercent.slice(0, topCount)
+        const topDecreases = categoriesSortedByPercent.slice(-topCount)
+        return { topIncreases, topDecreases }
+    } catch(err) {
+        console.error(err)
+    }
+}
+
+async function tweetDateVariation(date) {
+    const firstDateOfMonth = await getFirstDateOfMonth(date)
+    if(!firstDateOfMonth) throw new Error('No se ah encontrado el primer registro del mes')
+
+    const variations = await VariationManager.getByDate(date)
+    if (!variations) throw new Error("No se encontraron variaciones para la fecha:", date)
+
+    const tweet = await tweetVariations(variations, date, firstDateOfMonth)
+    console.log('tweet: ', tweet)
+}
+
+
+
 await connectDB()
-analizeCategory(today, 'Cafe', 2)
+//await recordVariation()
+const tweet = await tweetDateVariation(today)
+console.log(tweet)
+
+//const { topIncreases, topDecreases } = await getIncreaseAndDecrease(today, 'Vino', 20)
+//const { topIncreases, topDecreases } = await getCategoryVariations(today, 10)
+//console.log('topIncreases: ', topIncreases)
+//console.log('topDecreases: ', topDecreases)
