@@ -1,21 +1,12 @@
 import { twitterClient } from "../config/twitterClient.js"
+import { formatter, getEmojiForCategory, getDaysAndMonth } from "../config/utils.js"
 
 
 // Función para tuitear información sobre variaciones de precios
-const tweetVariations = async (variations, date, firstDateOfMonth) => {
-    //Mover a otro lado
-    const formatter = new Intl.NumberFormat('es-ES', {
-        style: 'decimal', // Estilo decimal
-        minimumFractionDigits: 2, // Mínimo de dígitos decimales
-        maximumFractionDigits: 2, // Máximo de dígitos decimales
-    })
+export const tweetVariations = async (variations, date, firstDateOfMonth) => {
     try {
         //Dates
-        const monthNames = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
-        const firstDay = firstDateOfMonth.getDate()
-        const month = firstDateOfMonth.getMonth()
-        const monthName = monthNames[month]
-        const lastDay = date.getDate()
+        const { firstDay, lastDay, monthName } = getDaysAndMonth(date, firstDateOfMonth)
 
         let tweetText = `📊 Variación de precios de la canasta básica entre el ${firstDay} y el ${lastDay} de ${monthName}:\n\n`
         const percentEmoticon = variations.totalPercentDifference >= 0 ? "📈" : "📉"
@@ -30,8 +21,41 @@ const tweetVariations = async (variations, date, firstDateOfMonth) => {
         const tweet = await twitterClient.v2.tweet(tweetText)
         return tweet
     } catch (err) {
-        console.error("Error al enviar el tweetVariations:", err)
+        console.error("Error al enviar tweetVariations:", err)
     }
 }
 
-export { tweetVariations }
+export const tweetCategoryDecrease = async(variations, date, firstDateOfMonth) => {
+    try {
+        const { firstDay, lastDay, monthName } = getDaysAndMonth(date, firstDateOfMonth)
+
+        let tweetText = `📉 Las categorías con mayor caída de precios entre el ${firstDay} y el ${lastDay} de ${monthName}:\n\n`
+        
+        variations.forEach(category => {
+            tweetText += `• ${getEmojiForCategory(category.category)} ${category.category}: ${category.categoryPercentDifference}%\n`
+        })
+        const tweet = await twitterClient.v2.tweet(tweetText)
+        return tweet
+    } catch(err) {
+        console.error("Error al enviar tweetCategoryDecrease:", err)
+    }
+}
+
+export const tweetCategoryIncrease = async(variations, date, firstDateOfMonth) => {
+    try {
+        const { firstDay, lastDay, monthName } = getDaysAndMonth(date, firstDateOfMonth)
+
+        let tweetText = `📈 Las categorías con mayor aumento de precios entre el ${firstDay} y el ${lastDay} de ${monthName}:\n\n`
+        
+        console.log(variations)
+        variations.forEach(category => {
+            tweetText += `• ${getEmojiForCategory(category.category)} ${category.category}: +${category.categoryPercentDifference}%\n`
+        })
+
+        const tweet = await twitterClient.v2.tweet(tweetText)
+        return tweet
+    } catch(err) {
+        console.error("Error al enviar tweetCategoryIncrease:", err)
+    }
+}
+
