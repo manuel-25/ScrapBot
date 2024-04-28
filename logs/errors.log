@@ -237,3 +237,46 @@ new Function (<anonymous>)
 [2024-04-27T18:03:36.061Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/vino?_q=vino&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
 [2024-04-27T18:09:11.430Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
 [2024-04-27T18:10:25.364Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
+[2024-04-28T16:48:42.421Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
+[2024-04-28T16:48:48.302Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
+[2024-04-28T16:48:54.188Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (3/6)... El contenedor principal no se encontró en la página.
+[2024-04-28T16:49:00.137Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (4/6)... El contenedor principal no se encontró en la página.
+[2024-04-28T16:49:06.019Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (5/6)... El contenedor principal no se encontró en la página.
+[2024-04-28T16:49:14.738Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
+[2024-04-28T16:58:09.209Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
+[2024-04-28T17:01:35.960Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carnes?_q=carnes&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
+[2024-04-28T17:06:39.117Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
+[2024-04-28T17:17:46.259Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cafe?_q=cafe&map=ft. Intentando nuevamente (1/6)... Protocol error (Runtime.evaluate): Session closed. Most likely the page has been closed.
+[2024-04-28T17:33:54.023Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cafe?_q=cafe&map=ft. Intentando nuevamente (2/6)... Requesting main frame too early!
+[2024-04-28T17:33:57.033Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cafe?_q=cafe&map=ft. Intentando nuevamente (3/6)... Requesting main frame too early!
+[2024-04-28T17:34:00.044Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cafe?_q=cafe&map=ft. Intentando nuevamente (4/6)... Requesting main frame too early!
+[2024-04-28T17:34:03.059Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cafe?_q=cafe&map=ft. Intentando nuevamente (5/6)... Requesting main frame too early!
+[2024-04-28T17:34:06.065Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cafe?_q=cafe&map=ft. Intentando nuevamente (6/6)... Requesting main frame too early!
+[2024-04-28T17:34:09.076Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yerba?_q=yerba&map=ft. Intentando nuevamente (1/6)... Requesting main frame too early!
+[2024-04-28T17:34:12.086Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yerba?_q=yerba&map=ft. Intentando nuevamente (2/6)... Requesting main frame too early!
+[2024-04-28T17:34:15.099Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yerba?_q=yerba&map=ft. Intentando nuevamente (3/6)... Requesting main frame too early!
+[2024-04-28T17:34:18.112Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yerba?_q=yerba&map=ft. Intentando nuevamente (4/6)... Requesting main frame too early!
+[2024-04-28T17:34:21.128Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yerba?_q=yerba&map=ft. Intentando nuevamente (5/6)... Requesting main frame too early!
+[2024-04-28T17:34:24.130Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yerba?_q=yerba&map=ft. Intentando nuevamente (6/6)... Requesting main frame too early!
+[2024-04-28T17:40:16.030Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
+[2024-04-28T17:40:50.345Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
+[2024-04-28T17:41:14.708Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (3/6)... El contenedor principal no se encontró en la página.
+[2024-04-28T17:54:42.063Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
+[2024-04-28T17:56:58.399Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
+[2024-04-28T17:57:13.801Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yogur?_q=yogur&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
+[2024-04-28T17:58:25.011Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yogur?_q=yogur&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
+[2024-04-28T18:04:06.224Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
+[2024-04-28T18:07:10.561Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/vino?_q=vino&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
+[2024-04-28T18:07:16.511Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/vino?_q=vino&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
+[2024-04-28T18:07:22.354Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/vino?_q=vino&map=ft. Intentando nuevamente (3/6)... Requesting main frame too early!
+[2024-04-28T19:22:01.746Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/vino?_q=vino&map=ft. Intentando nuevamente (4/6)... Requesting main frame too early!
+[2024-04-28T19:22:04.751Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/vino?_q=vino&map=ft. Intentando nuevamente (5/6)... Requesting main frame too early!
+[2024-04-28T19:22:07.762Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/vino?_q=vino&map=ft. Intentando nuevamente (6/6)... Requesting main frame too early!
+[2024-04-28T19:22:10.773Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cafe?_q=cafe&map=ft. Intentando nuevamente (1/6)... Requesting main frame too early!
+[2024-04-28T19:22:13.779Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cafe?_q=cafe&map=ft. Intentando nuevamente (2/6)... Requesting main frame too early!
+[2024-04-28T19:31:04.156Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/fideos?_q=fideos&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
+[2024-04-28T19:33:12.908Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
+[2024-04-28T19:35:06.866Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
+[2024-04-28T19:41:27.595Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/leche?_q=leche&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
+[2024-04-28T19:48:57.102Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cerveza?_q=cerveza&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
+[2024-04-28T19:50:21.350Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded

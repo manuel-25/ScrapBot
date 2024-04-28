@@ -10,6 +10,8 @@ import { jumboURLs, staticURL } from "./config/utils.js"
 const MAX_RETRY = 6
 const MAX_PAGES = 20
 
+//await deleteTodayRecords()
+
  function elapsedTime(startTime) {
     const endTime = new Date()
     const elapsedTime = endTime - startTime
@@ -18,6 +20,7 @@ const MAX_PAGES = 20
 
 //Code Starts here! 
 startScraping(jumboURLs)
+
 
 // Configuración para iniciar el navegador y la página
 async function startBrowser(page) {

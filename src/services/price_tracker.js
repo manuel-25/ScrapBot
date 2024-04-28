@@ -4,7 +4,7 @@ import VariationManager from '../Mongo/variationManager.js'
 import logger from "../config/winston.js"
 import { tweetVariations, tweetCategoryDecrease, tweetCategoryIncrease } from './twitterService.js'
 
-const today = new Date(new Date().getTime() - (3 * 60 * 60 * 1000)) // Ajustar a la hora de Argentina (GTM - 3)
+const today = new Date(new Date().getTime() - (3 * 60 * 60 * 1000)) // Ajusta a la hora de Argentina (GTM - 3)
 
 async function recordVariation() {
     try {
@@ -215,13 +215,17 @@ async function categoryIncreases(date) {
 }
 
 await connectDB()
-//await recordVariation()
-//const tweet = await tweetDateVariation(today)
-const tweet = await categoryIncreases(today)
-const tweet2 = await categoryDecreases(today)
-console.log('tweet: ', tweet)
+/*await recordVariation()
+await tweetDateVariation(today)
+await categoryIncreases(today)
+await categoryDecreases(today)*/
 
-//const { topIncreases, topDecreases } = await getIncreaseAndDecrease(today, 'Vino', 20)
+
+const { topIncreases, topDecreases } = await getIncreaseAndDecrease(today, 'Vino', 20)
+
+
+
+
 //const { topIncreases, topDecreases } = await getCategoryVariations(today, 10)
-//console.log('topIncreases: ', topIncreases)
+console.log('topIncreases: ', topIncreases)
 //console.log('topDecreases: ', topDecreases)
