@@ -32,7 +32,7 @@ export const tweetCategoryDecrease = async(variations, date, firstDateOfMonth) =
         let tweetText = `📉 Las categorías con mayor caída de precios entre el ${firstDay} y el ${lastDay} de ${monthName}:\n\n`
         
         variations.forEach(category => {
-            tweetText += `• ${getEmojiForCategory(category.category)} ${category.category}: ${category.categoryPercentDifference}%\n`
+            tweetText += ` ${getEmojiForCategory(category.category)} ${category.category}: ${category.categoryPercentDifference.toFixed(2)}%\n`
         })
         const tweet = await twitterClient.v2.tweet(tweetText)
         return tweet
@@ -49,7 +49,7 @@ export const tweetCategoryIncrease = async(variations, date, firstDateOfMonth) =
         
         console.log(variations)
         variations.forEach(category => {
-            tweetText += `• ${getEmojiForCategory(category.category)} ${category.category}: +${category.categoryPercentDifference}%\n`
+            tweetText += ` ${getEmojiForCategory(category.category)} ${category.category}: +${category.categoryPercentDifference.toFixed(2)}%\n`
         })
 
         const tweet = await twitterClient.v2.tweet(tweetText)

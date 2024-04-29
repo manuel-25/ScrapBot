@@ -6,22 +6,18 @@ import { tweetVariations, tweetCategoryDecrease, tweetCategoryIncrease } from '.
 
 const today = new Date(new Date().getTime() - (3 * 60 * 60 * 1000)) // Ajusta a la hora de Argentina (GTM - 3)
 
-async function recordVariation() {
+//Record daily variation (only 1 time per day after scrapping is done)
+export async function recordVariation() {
     try {
-        //await connectDB()
-
         const firstDateOfMonth = await getFirstDateOfMonth(today)
         const historicData = await RecordManager.getByDateRecord(firstDateOfMonth)
         const currentData = await RecordManager.getByDateRecord(today)
 
         const historicMap = createHistoricMap(historicData)
         const comparedPrices = compareCategoryPrices(currentData, historicMap, today)
-        if(comparedPrices) {
-            const recordedVariation = await VariationManager.create(comparedPrices)
-            console.log('recordedVariation: ', recordedVariation)
-        }
+        if(comparedPrices) { await VariationManager.create(comparedPrices) }
     } catch (err) {
-        console.error("Unexpected error:", err)
+        logger.error("recordVariation error:", err)
     }
 }
 
@@ -165,7 +161,7 @@ async function getCategoryVariations(date, topCount) {
     }
 }
 
-async function tweetDateVariation(date) {
+export async function tweetDateVariation(date) {
     try {
         const firstDateOfMonth = await getFirstDateOfMonth(date)
         if(!firstDateOfMonth) throw new Error('No se ah encontrado el primer registro del mes')
@@ -180,7 +176,7 @@ async function tweetDateVariation(date) {
     }
 }
 
-async function categoryDecreases(date) {
+export async function categoryDecreases(date) {
     try {
         const firstDateOfMonth = await getFirstDateOfMonth(date)
         if(!firstDateOfMonth) throw new Error('No se ah encontrado el primer registro del mes')
@@ -197,7 +193,7 @@ async function categoryDecreases(date) {
     }
 }
 
-async function categoryIncreases(date) {
+export async function categoryIncreases(date) {
     try {
         const firstDateOfMonth = await getFirstDateOfMonth(date)
         if(!firstDateOfMonth) throw new Error('No se ah encontrado el primer registro del mes')
@@ -215,17 +211,17 @@ async function categoryIncreases(date) {
 }
 
 await connectDB()
-/*await recordVariation()
+await recordVariation()
 await tweetDateVariation(today)
 await categoryIncreases(today)
-await categoryDecreases(today)*/
+await categoryDecreases(today)
 
 
-const { topIncreases, topDecreases } = await getIncreaseAndDecrease(today, 'Vino', 20)
+//const { topIncreases, topDecreases } = await getIncreaseAndDecrease(today, 'Vino', 20)
 
 
 
 
 //const { topIncreases, topDecreases } = await getCategoryVariations(today, 10)
-console.log('topIncreases: ', topIncreases)
+//console.log('topIncreases: ', topIncreases)
 //console.log('topDecreases: ', topDecreases)

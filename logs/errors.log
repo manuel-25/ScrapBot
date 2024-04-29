@@ -280,3 +280,8 @@ new Function (<anonymous>)
 [2024-04-28T19:41:27.595Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/leche?_q=leche&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
 [2024-04-28T19:48:57.102Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cerveza?_q=cerveza&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
 [2024-04-28T19:50:21.350Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
+[2024-04-29T13:45:34.867Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
+[2024-04-29T13:46:00.801Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
+[2024-04-29T13:49:34.583Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
+[2024-04-29T13:53:11.687Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
+[2024-04-29T14:06:15.150Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
