@@ -4,13 +4,14 @@ import connectDB from './config/mongoose-config.js'
 import RecordManager from "./Mongo/recordManager.js"
 import logger from "./config/winston.js"
 import { jumboURLs, staticURL } from "./config/utils.js"
+import { recordVariation, tweetDateVariation, categoryIncreases, categoryDecreases } from "./services/price_tracker.js"
 
 //CANASTA BASICA https://chequeado.com/el-explicador/que-es-la-canasta-basica-alimentaria-del-indec-y-como-se-compone/
 
 const MAX_RETRY = 6
+let BOT_RETRY = 3
 const MAX_PAGES = 20
-
-//await deleteTodayRecords()
+let maxRetries = 3
 
  function elapsedTime(startTime) {
     const endTime = new Date()
@@ -19,13 +20,43 @@ const MAX_PAGES = 20
 }
 
 //Code Starts here! 
-startScraping(jumboURLs)
+bot()
+
+async function bot() {
+    BOT_RETRY = 2
+    let attempt = 0
+  
+    while (attempt < BOT_RETRY) {
+      try {
+        await connectDB()
+        await startScraping(jumboURLs)
+        break
+      } catch (err) {
+        await deleteTodayRecords()
+        attempt++
+        logger.error(`Bot Error en intento ${attempt}:`, err)
+      }
+    }
+  
+    if (attempt === BOT_RETRY) {
+      logger.fatal('Proceso falló después de varios intentos.')
+    } else {
+        //Ejecutar analisis y tuitear
+        try {
+            await recordVariation()
+            await tweetDateVariation(today)
+            await categoryIncreases(today)
+            await categoryDecreases(today)
+        } catch(err) {
+            logger.error(err)
+        }
+    }
+  }
 
 
 // Configuración para iniciar el navegador y la página
 async function startBrowser(page) {
     try {
-        await connectDB()      //Connect to DB
         const browser = await puppeteer.launch({
             headless: true,
             args: ['--no-sandbox', '--disable-setuid-sandbox'] // Ayuda a evitar problemas de permisos
@@ -43,33 +74,44 @@ async function startBrowser(page) {
 async function startScraping(urls) {
     const startTime = new Date()
     let browser
+    let attempt = 0
+    let failedURLs = []
 
-    try {
-        const result = await startBrowser()
-        logger.info('Navegador iniciado.')
-        browser = result.browser
-        const page = result.page
+    while (attempt <= maxRetries) {
+        try {
+            if (attempt > 0) {
+                logger.info(`Reintentando... (Intento ${attempt}/${maxRetries})`)
+            }
 
-        const failedURLs = await main(urls, page)
+            const result = await startBrowser()
+            logger.info('Navegador iniciado.')
+            browser = result.browser
+            const page = result.page
 
-        if (failedURLs.length === 0) {
-            logger.success('Proceso de scraping completado con éxito.')
-        } else {
-            await browser.close()
-            logger.warning('Algunas URLs no se pudieron scrapear:', failedURLs.length)
-            logger.info('Reiniciando...')
-            startScraping(failedURLs)
-        }
+            failedURLs = await main(urls, page)
 
-        const elapsedTimer = elapsedTime(startTime)
-        logger.info(`Tiempo total del proceso fue ${elapsedTimer}`)
-    } catch (error) {
-        logger.fatal('Se produjo un error fatal:', error)
-    } finally {
-        if (browser) {
-            await browser.close()
+            if (failedURLs.length === 0) {
+                logger.success('Proceso de scraping completado con éxito.')
+                break
+            } else {
+                logger.warning('Algunas URLs no se pudieron scrapear:', failedURLs.length)
+                attempt++
+                startScraping(failedURLs)
+            }
+        } catch (error) {
+            logger.fatal('Error fatal:', error)
+            break
+        } finally {
+            if (browser) {
+                await browser.close()
+            }
         }
     }
+
+    const elapsedTimer = elapsedTime(startTime)
+    logger.info(`Tiempo total: ${elapsedTimer}`)
+
+    return failedURLs // Devolver URLs fallidas si hay algún error
 }
 
 // Función principal de scraping

@@ -1088,3 +1088,10 @@ new Function (<anonymous>)
 [2024-04-29T14:06:23.895Z] [SUCCESS] - Proceso de scraping completado con éxito.
 [2024-04-29T14:06:23.895Z] [INFO] - Tiempo total del proceso fue 30 minutos, 45 segundos y 898 milisegundos
 [2024-04-29T15:45:36.878Z] [INFO] - Connected to MongoDB
+[2024-04-29T21:24:07.279Z] [INFO] - Connected to MongoDB
+[2024-04-29T21:24:07.875Z] [INFO] - Navegador iniciado.
+[2024-04-29T21:24:07.875Z] [INFO] - Iniciando proceso...
+[2024-04-29T21:25:17.578Z] [INFO] - Se tardo 1 minutos, 9 segundos y 608 milisegundos en scrappear https://www.jumbo.com.ar/pan?_q=pan&map=ft
+[2024-04-29T21:25:17.579Z] [INFO] - 1/24 URLs scraped.
+[2024-04-29T21:25:33.295Z] [INFO] - Se tardo 0 minutos, 15 segundos y 658 milisegundos en scrappear https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft
+[2024-04-29T21:25:33.296Z] [INFO] - 2/24 URLs scraped.
