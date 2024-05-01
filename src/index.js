@@ -3,104 +3,147 @@ import { writeFile } from 'fs/promises'
 import connectDB from './config/mongoose-config.js'
 import RecordManager from "./Mongo/recordManager.js"
 import logger from "./config/winston.js"
+import cron from  "node-cron";
 import { jumboURLs, staticURL } from "./config/utils.js"
 import { recordVariation, tweetDateVariation, categoryIncreases, categoryDecreases } from "./services/price_tracker.js"
 
 //CANASTA BASICA https://chequeado.com/el-explicador/que-es-la-canasta-basica-alimentaria-del-indec-y-como-se-compone/
+const today = new Date(new Date().getTime() - (3 * 60 * 60 * 1000)) // Ajusta a la hora de Argentina (GTM - 3)
+const MAX_BOT_RETRIES = 3
+const MAX_SCRAPING_PAGES = 30
+const MAX_SCRAPING_RETRIES = 6
+const SCRAP_RETRY = 3
 
-const MAX_RETRY = 6
-let BOT_RETRY = 3
-const MAX_PAGES = 20
-let maxRetries = 3
-
- function elapsedTime(startTime) {
+function elapsedTime(startTime) {
     const endTime = new Date()
     const elapsedTime = endTime - startTime
     return formatTime(elapsedTime)
 }
 
-//Code Starts here! 
-bot()
+cron.schedule('30 8 * * *', () => {
+    logger.info('Se ejecutó la tarea a las 8:30 a.m.')
+})
 
-async function bot() {
-    BOT_RETRY = 2
+//Code Starts here! 
+//runScrapingBot()
+//deleteTodayRecords()      //Borrar todos los registros de hoy 
+
+
+async function runScrapingBot() {
+    await connectDB()
     let attempt = 0
-  
-    while (attempt < BOT_RETRY) {
+
+    while (attempt < MAX_BOT_RETRIES) {
       try {
-        await connectDB()
-        await startScraping(jumboURLs)
-        break
+        const { storedData, storedfailedURLs } = await scrapeDataFromURLs(jumboURLs)
+        console.log('storedfailedURLs: ', storedfailedURLs)
+
+        if(!storedData) { 
+            logger.warning(`Scrapping data not recovered, trying... ${attempt}/${MAX_BOT_RETRIES}`)
+            attempt++
+        }
+
+        //Scrap failed urls
+        if(storedData && storedfailedURLs.length > 0) {
+            logger.warning(`Scrapping successfull ${storedfailedURLs.length} URLs failed. Retrying...`)
+            const failed = retryFailedURLs(storedfailedURLs)
+            logger.warning(`URLS failed again: ${failed}`)
+            attempt++
+        }
+
+        //Store data
+        if(storedData.length === jumboURLs.length && storedfailedURLs.length < 1) {
+            const result = await validateAndSaveData(storedData)
+            logger.info('Data stored. fium')
+            break
+        }
+
       } catch (err) {
-        await deleteTodayRecords()
         attempt++
-        logger.error(`Bot Error en intento ${attempt}:`, err)
+        logger.error(`Error en intento ${attempt}/${MAX_BOT_RETRIES}:`, err)
+
+        if (attempt === MAX_BOT_RETRIES) {
+            logger.fatal('El scraping falló después de varios intentos.')
+        }
       }
     }
-  
-    if (attempt === BOT_RETRY) {
-      logger.fatal('Proceso falló después de varios intentos.')
-    } else {
-        //Ejecutar analisis y tuitear
-        try {
-            await recordVariation()
-            await tweetDateVariation(today)
-            await categoryIncreases(today)
-            await categoryDecreases(today)
-        } catch(err) {
-            logger.error(err)
-        }
-    }
-  }
+}
 
+async function retryFailedURLs(failedURLs) {
+    if (failedURLs.length === 0) return
+
+    const { storedData, storedFailedURLs } = await scrapeDataFromURLs(failedURLs)
+    if (storedData.length > 0) {
+        await validateAndSaveData(storedData)
+    }
+
+    if (storedFailedURLs.length > 0) {
+        logger.warning('Algunas URLs fallaron incluso después de reintentar.', storedFailedURLs)
+        return storedFailedURLs
+    }
+    return storedFailedURLs
+}
+
+async function analyzeDataAndTweet(today) {
+    const variation = await recordVariation()
+    if(variation) {
+        await tweetDateVariation(today)
+        await categoryIncreases(today)
+        await categoryDecreases(today)
+    }
+}
 
 // Configuración para iniciar el navegador y la página
-async function startBrowser(page) {
+async function startBrowser() {
     try {
         const browser = await puppeteer.launch({
             headless: true,
             args: ['--no-sandbox', '--disable-setuid-sandbox'] // Ayuda a evitar problemas de permisos
         })
-        page = await browser.newPage()
-        await page.setViewport({ width: 1280, height: 3600 })
+        const page = await browser.newPage()
+        await page.setViewport({ width: 1400, height: 4800 })
+        logger.info('Navegador iniciado.')
         return { page, browser }
     } catch (error) {
-        logger.error('Error al iniciar el navegador:', error)
+        logger.error('Error initializing browser:', error)
         throw error
     }
 }
 
 // Función principal para iniciar el scraping
-async function startScraping(urls) {
+async function scrapeDataFromURLs(urls) {
     const startTime = new Date()
-    let browser
     let attempt = 0
-    let failedURLs = []
+    let storedfailedURLs = []
+    let storedData = []
 
-    while (attempt <= maxRetries) {
+    const { page, browser } = await startBrowser()          //Starts browser
+
+    while (attempt <= SCRAP_RETRY) {
         try {
-            if (attempt > 0) {
-                logger.info(`Reintentando... (Intento ${attempt}/${maxRetries})`)
+            if (attempt > 0) { 
+                logger.info(`Reintentando... (Intento ${attempt}/${SCRAP_RETRY})`) 
+                delay(10000)
             }
 
-            const result = await startBrowser()
-            logger.info('Navegador iniciado.')
-            browser = result.browser
-            const page = result.page
-
-            failedURLs = await main(urls, page)
+            const { dataToSave, failedURLs } = await scrapeAllURLs(urls, page)
+            if (dataToSave) {
+                for (const data of dataToSave) {
+                    storedData.push(data)
+                }
+            }
+            storedfailedURLs.push(...failedURLs)
 
             if (failedURLs.length === 0) {
                 logger.success('Proceso de scraping completado con éxito.')
                 break
             } else {
-                logger.warning('Algunas URLs no se pudieron scrapear:', failedURLs.length)
+                logger.warning(`${failedURLs.length} URLs no se pudieron scrapear.`)
                 attempt++
-                startScraping(failedURLs)
             }
         } catch (error) {
-            logger.fatal('Error fatal:', error)
-            break
+            logger.fatal('Fatal error:', error)
+            return false
         } finally {
             if (browser) {
                 await browser.close()
@@ -110,41 +153,41 @@ async function startScraping(urls) {
 
     const elapsedTimer = elapsedTime(startTime)
     logger.info(`Tiempo total: ${elapsedTimer}`)
-
-    return failedURLs // Devolver URLs fallidas si hay algún error
+    //console.log('return storedData: ', storedData)
+    return { storedData, storedfailedURLs }
 }
 
 // Función principal de scraping
-async function main(urls, page) {
+async function scrapeAllURLs(urls, page) {
     let failedURLs = []
-    let counter = 0
+    let dataToSave = []
 
     logger.info('Iniciando proceso...')
     for (const url of urls) {
         let retryCount = 0
 
-        while (retryCount < MAX_RETRY) {
+        while (retryCount < MAX_SCRAPING_RETRIES) {
             try {
-                await scrapeURL(url, page)
-                counter++
-                logger.info(`${counter}/${urls.length} URLs scraped.`)
+                const data = await scrapeURL(url, page)
+                dataToSave.push(data)
+                logger.info(`${dataToSave.length}/${urls.length} URLs scraped.`)
                 break
             } catch (error) {
                 retryCount++
-                logger.warning(`Error al extraer datos de ${url}. Intentando nuevamente (${retryCount}/${MAX_RETRY})...`, error)
+                logger.warning(`Error al extraer datos de ${url}. Intentando nuevamente (${retryCount}/${MAX_SCRAPING_RETRIES})...`, error)
                 await delay(3000)
             }
         }
-        if (retryCount === MAX_RETRY) failedURLs.push(url)
+        if (retryCount === MAX_SCRAPING_RETRIES) failedURLs.push(url)
     }
-    return failedURLs
+    return { dataToSave, failedURLs }
 }
 
 // Receives a url and it creates a .json with  the data scraped from that page 
 async function scrapeURL(dinamicUrl, page) {
     //Set website parameters
     const startTime = new Date()
-    await page.goto(dinamicUrl)
+    await page.goto(dinamicUrl, { waitUntil: 'domcontentloaded' })
 
     let dataScrapped = []
     let previousProductCount = 0
@@ -153,9 +196,9 @@ async function scrapeURL(dinamicUrl, page) {
     let containerSelector = '.vtex-search-result-3-x-gallery'
 
     await delay(1000)
-    while (pageNumber <= totalPages && pageNumber <= MAX_PAGES) {
+    while (pageNumber <= totalPages && pageNumber <= MAX_SCRAPING_PAGES) {
         let currentProducts = await scrapeProduct(page, containerSelector)
-        if (!currentProducts || currentProducts.length === previousProductCount && pageNumber === totalPages) {
+        if (!currentProducts || currentProducts.length === previousProductCount && pageNumber === totalPages) {                 //hace falta? o mejor borrar?
             throw new Error("No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.")
         }
 
@@ -179,12 +222,11 @@ async function scrapeURL(dinamicUrl, page) {
             await delay(1000)
         }
     }
-
     const formattedTime = elapsedTime(startTime)
-    const currentDate = new Date(new Date().getTime() - (3 * 60 * 60 * 1000)).toISOString()         //Hora Argentina GTM-3
+    const currentDate = new Date(new Date().getTime() - (3 * 60 * 60 * 1000)).toISOString()         //Hora Argentina GTM-3  reemplazar por TODAY
 
     //Data extraida
-    const dataToSave = {
+    const urlData = {
         category: getCategoryNameFromUrl(dinamicUrl),
         date: currentDate,
         totalProducts: dataScrapped.length,
@@ -192,9 +234,10 @@ async function scrapeURL(dinamicUrl, page) {
         url: dinamicUrl,
         data: dataScrapped
     }
-
-    await saveDataToMongo(dataToSave)
     logger.info(`Se tardo ${formattedTime} en scrappear ${dinamicUrl}`)
+    return urlData
+    //await saveDataToMongo(dataToSave)                                                                                                                     SAVEDATATOMONGO
+    
 }
 
 //Receives the page & container selector (unique to the website may change values)  and returns an array of products
@@ -202,7 +245,7 @@ async function scrapeProduct(page, containerSelector) {
     await new Promise(resolve => setTimeout(resolve, 1500))             //TIMEOUTE 1500 OR ERRORS
 
     const containerExists = await page.$(containerSelector)
-    if (!containerExists) throw new Error('El contenedor principal no se encontró en la página.')
+    if (!containerExists) throw new Error('El contenedor principal no se encontró en la página.')                           //se puede mejorar ?
 
     const articlesData = await page.evaluate(async (containerSelector) => {
         const container = document.querySelector(containerSelector)
@@ -238,10 +281,8 @@ async function scrapeProduct(page, containerSelector) {
                 })
             }
         }
-
         return productsData
     }, containerSelector)
-
     return articlesData
 }
 
@@ -251,7 +292,7 @@ async function scrollDown(page) {
         await page.evaluate(() => {
             window.scrollBy(0, window.innerHeight)
         })
-        await page.waitForFunction(`document.body.scrollHeight >= ${initialHeight}`, { timeout: 2000 })
+        await page.waitForFunction(`document.body.scrollHeight >= ${initialHeight}`, { timeout: 2500 })
         await delay(500)
         return true
     } catch (error) {
@@ -290,12 +331,19 @@ function formatTime(milliseconds) {
     return `${minutes} minutos, ${seconds} segundos y ${millisecondsRemaining} milisegundos`
 }
 
-//Store json file DEPRECATED
-async function saveDataToFile(data, fileName) {
-    try {
-        await writeFile(`../data/${fileName}`, JSON.stringify(data, null, 2))
-    } catch (error) {
-        logger.error('Error al guardar los datos:', error)
+//Agregar validacion si el archivo existe (evitar duplicados)
+async function validateAndSaveData(storedData) {        
+    for (const data of storedData) {
+        if (!data.category || !Array.isArray(data.data)) {
+            throw new Error('Datos no válidos para guardar en MongoDB')
+        }
+
+        try {
+            await saveDataToMongo(data)
+        } catch (err) {
+            logger.error('Error al guardar datos en MongoDB:', err)
+            throw err
+        }
     }
 }
 

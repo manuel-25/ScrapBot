@@ -18,8 +18,9 @@ export const tweetVariations = async (variations, date, firstDateOfMonth) => {
         tweetText += `• Cambió un ${totalPercent.toFixed(2)}% ${percentEmoticon}\n`
         tweetText += `• De un total de ${totalProducts} productos, la caída fue de ${totalDrop} pesos ${dolarEmoticon}`
 
-        const tweet = await twitterClient.v2.tweet(tweetText)
-        return tweet
+        console.log('tweet:', tweetText)
+        //const tweet = await twitterClient.v2.tweet(tweetText)
+        //return tweet
     } catch (err) {
         console.error("Error al enviar tweetVariations:", err)
     }
@@ -34,8 +35,10 @@ export const tweetCategoryDecrease = async(variations, date, firstDateOfMonth) =
         variations.forEach(category => {
             tweetText += ` ${getEmojiForCategory(category.category)} ${category.category}: ${category.categoryPercentDifference.toFixed(2)}%\n`
         })
-        const tweet = await twitterClient.v2.tweet(tweetText)
-        return tweet
+
+        console.log('tweet:', tweetText)
+        //const tweet = await twitterClient.v2.tweet(tweetText)
+        //return tweet
     } catch(err) {
         console.error("Error al enviar tweetCategoryDecrease:", err)
     }
@@ -52,7 +55,8 @@ export const tweetCategoryIncrease = async(variations, date, firstDateOfMonth) =
             tweetText += ` ${getEmojiForCategory(category.category)} ${category.category}: +${category.categoryPercentDifference.toFixed(2)}%\n`
         })
 
-        const tweet = await twitterClient.v2.tweet(tweetText)
+        console.log('tweet:', tweetText)
+        //const tweet = await twitterClient.v2.tweet(tweetText)
         return tweet
     } catch(err) {
         console.error("Error al enviar tweetCategoryIncrease:", err)

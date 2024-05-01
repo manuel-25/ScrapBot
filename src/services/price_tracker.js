@@ -15,9 +15,14 @@ export async function recordVariation() {
 
         const historicMap = createHistoricMap(historicData)
         const comparedPrices = compareCategoryPrices(currentData, historicMap, today)
-        if(comparedPrices) { await VariationManager.create(comparedPrices) }
+        if(comparedPrices) { 
+            await VariationManager.create(comparedPrices) 
+            logger.info('Variation recorded succesfully')
+            return true
+        }
     } catch (err) {
         logger.error("recordVariation error:", err)
+        return false
     }
 }
 
@@ -210,11 +215,11 @@ export async function categoryIncreases(date) {
     }
 }
 
-await connectDB()
-await recordVariation()
+/*await connectDB()
+//await recordVariation()
 await tweetDateVariation(today)
 await categoryIncreases(today)
-await categoryDecreases(today)
+await categoryDecreases(today)*/
 
 
 //const { topIncreases, topDecreases } = await getIncreaseAndDecrease(today, 'Vino', 20)
