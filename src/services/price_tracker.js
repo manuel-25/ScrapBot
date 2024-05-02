@@ -6,9 +6,11 @@ import { tweetVariations, tweetCategoryDecrease, tweetCategoryIncrease, tweetSta
 import { today } from '../config/utils.js'
 
 //Record daily variation (only 1 time per day after scrapping is done)
-export async function recordVariation() {
+export async function recordVariation(today) {
     try {
         const firstDateOfMonth = await getFirstDateOfMonth(today)
+        if(!firstDateOfMonth) throw new Error('recordVariation error: No se encontro el primer registro del mes')
+
         const historicData = await RecordManager.getByDateRecord(firstDateOfMonth)
         const currentData = await RecordManager.getByDateRecord(today)
 
@@ -19,21 +21,25 @@ export async function recordVariation() {
             logger.info('Variation recorded succesfully')
             return true
         }
+        return false
     } catch (err) {
         logger.error("recordVariation error:", err)
         return false
     }
 }
 
+//Return the date of the first price records of the actual month.
 async function getFirstDateOfMonth(today) {
     try {
+        if(!today) throw new Error('No se ingreso la fecha actual')
+
         const month = today.getMonth()
         const year = today.getFullYear()
         const firstDateOfMonth = await  RecordManager.getFirstDayOfMonth(month, year)
         if(!firstDateOfMonth) throw new Error(`No se encontró el primer día del mes ${month + 1} en el año ${year}.`)
         return firstDateOfMonth
     } catch(err) {
-        console.error(err)
+        logger.error('getFirstDateOfMonth error', err)
     }
 }
 
@@ -248,11 +254,17 @@ export async function categoryIncreases(date) {
     }
 }
 
+//let yesterday = new Date(today)
+//yesterday.setDate(yesterday.getDate() - 1);
 
 
-await recordVariation()
+//await connectDB()
+//await recordVariation(today)
+//await tweetDateVariation(today)
+
+
+
 //const { topIncreases, topDecreases } = await getIncreaseAndDecrease(today, 'Vino', 20)
-
-//const { topIncreases, topDecreases } = await getCategoryVariations(today, 10)
+//const { topIncreases, topDecreases } = await getCategoryVariations(yesterday, 10)
 //console.log('topIncreases: ', topIncreases)
 //console.log('topDecreases: ', topDecreases)

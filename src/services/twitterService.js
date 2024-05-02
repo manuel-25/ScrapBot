@@ -8,7 +8,7 @@ export const tweetVariations = async (variations, date, firstDateOfMonth) => {
         //Dates
         const { firstDay, lastDay, monthName } = getDaysAndMonth(date, firstDateOfMonth)
 
-        let tweetText = `📊 Variación de precios de la canasta básica entre el ${firstDay} y el ${lastDay} de ${monthName}:\n\n`
+        let tweetText = `📊 Variación de precios de la canasta básica de ${monthName} al dia ${lastDay}:\n\n`
         const percentEmoticon = variations.totalPercentDifference >= 0 ? "📈" : "📉"
 
         const totalPercent = variations.totalPercentDifference
@@ -29,7 +29,7 @@ export const tweetCategoryDecrease = async(variations, date, firstDateOfMonth) =
     try {
         const { firstDay, lastDay, monthName } = getDaysAndMonth(date, firstDateOfMonth)
 
-        let tweetText = `📉 Las categorías con mayor caída de precios entre el ${firstDay} y el ${lastDay} de ${monthName}:\n\n`
+        let tweetText = `📉 Las categorías con mayor caída de precios de ${monthName} al dia ${lastDay}:\n\n`
         
         variations.forEach(category => {
             tweetText += ` ${getEmojiForCategory(category.category)} ${category.category}: ${category.categoryPercentDifference.toFixed(2)}%\n`
@@ -46,7 +46,7 @@ export const tweetCategoryIncrease = async(variations, date, firstDateOfMonth) =
     try {
         const { firstDay, lastDay, monthName } = getDaysAndMonth(date, firstDateOfMonth)
 
-        let tweetText = `📈 Las categorías con mayor aumento de precios entre el ${firstDay} y el ${lastDay} de ${monthName}:\n\n`
+        let tweetText = `📈 Las categorías con mayor aumento de precios de ${monthName} al dia ${lastDay}:\n\n`
         
         variations.forEach(category => {
             tweetText += ` ${getEmojiForCategory(category.category)} ${category.category}: +${category.categoryPercentDifference.toFixed(2)}%\n`

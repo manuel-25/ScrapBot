@@ -20,7 +20,7 @@ function elapsedTime(startTime) {
 
 //Code Starts here! 
 cron.schedule('01 8 * * *', () => {
-    logger.info(`Scrapbot se ejecuto a: ${today}`)
+    logger.info(`Scrapbot se ejecuto a: ${new Date()}`)
     runFullTask()
 })
 
@@ -30,16 +30,13 @@ const runFullTask = async () => {
       const scrap = await runScrapingBot()
       if(scrap) {
         logger.info("Iniciando proceso de analisis.")
-        //await analyzeDataAndTweet(today)
+        await analyzeDataAndTweet(today)
         return
       }
     } catch (err) {
       logger.error("runFullTask error:", err)
     }
 }
-
-runFullTask()
-//deleteTodayRecords()
 
 async function runScrapingBot() {
     try {
@@ -108,10 +105,12 @@ async function analyzeDataAndTweet(today) {
         const variation = await recordVariation()
         if(!variation)  {
             logger.error('No se pudo obtener la variación de la fecha: ', today)
-            return false
+            return
         }
+
         const tweetVariation = await tweetDateVariation(today)
-        if(!tweetVariation) return false
+        if(!tweetVariation) return
+
         const tweetcategoryIncreases = await categoryIncreases(today)
         const tweetcategoryDecreases = await categoryDecreases(today)
 
@@ -120,8 +119,7 @@ async function analyzeDataAndTweet(today) {
         if(!tweetcategoryDecreases) logger.error('No se ah tuiteado la categoryDecrease')
 
         if(tweetVariation && tweetcategoryIncreases && tweetcategoryDecreases) {
-            logger.success('Todos los tweets publicados con exito.')
-            return true
+            logger.success('Todos los tweets publicados con éxito.')
         }
         return false
     } catch (err) {
