@@ -39,68 +39,64 @@ const runFullTask = async () => {
 }
 
 runFullTask()
-//deleteTodayRecords()
 
 async function runScrapingBot() {
-    try {
-        await connectDB()
-        const { page, browser } = await startBrowser()
-        if (!page || !browser) {
-            throw new Error("El navegador no se inició correctamente.")
-        }
+    await connectDB()
+    let storedfailedURLs = []
 
+    try {
         // Scraping inicial
-        const returnedData = await scrapeDataFromURLs(jumboURLs, page)
-        const { storedData, storedfailedURLs } = returnedData
-        console.log('returnedData: ', returnedData)
-        console.log('storedData: ', storedData)
-        console.log('failedURLs: ', storedfailedURLs)
+        const { storedData, storedfailedURLs: newFailedURLs } = await scrapeDataFromURLs(jumboURLs)
+        storedfailedURLs = Array.from(new Set([...storedfailedURLs, ...newFailedURLs]))
+
         // Guardar los datos que se han scrapeado
         if (storedData) {
             const result = await validateAndSaveData(storedData)
-            if (result) { logger.info('Datos almacenados exitosamente.') }      //agregar else si no se guardan los datos
+            if (result) {
+                logger.info('Datos almacenados exitosamente.')
+            }
         }
-
-        if (!storedfailedURLs) throw new Error('failedURLs error ', storedfailedURLs)
 
         let attempt = 0
         while (storedfailedURLs.length > 0 && attempt < MAX_BOT_RETRIES) {
             attempt++
             logger.info(`Reintentando URLs fallidas. Intento: ${attempt}/${MAX_BOT_RETRIES}`)
 
-            const failed = await retryFailedURLs(storedfailedURLs, page)
-            if (failed.length === 0) {
+            const failed = await retryFailedURLs(storedfailedURLs)
+            storedfailedURLs = Array.from(new Set(failed)) // Actualizar la lista de fallidas
+
+            if (storedfailedURLs.length === 0) {
                 logger.info('Todas las URLs fueron scrapeadas con éxito después de reintentar.')
                 break
             }
         }
 
         // Si alcanzaste el límite de reintentos y todavía hay URLs fallidas
-        if (attempt === MAX_BOT_RETRIES && failed.length > 0) {
-            logger.error('No se pudieron scrappear las siguientes urls ',  failed)
+        if (attempt === MAX_BOT_RETRIES && storedfailedURLs.length > 0) {
+            logger.error('No se pudieron scrappear las siguientes urls: ', storedfailedURLs)
             return false
         }
 
-        browser.close()
     } catch (err) {
         logger.error("Error general en runScrapingBot:", err)
         return false
     }
+    return true
 }
 
-async function retryFailedURLs(failedURLs, page) {
-    if (!failedURLs || failedURLs.length === 0) return
+async function retryFailedURLs(failedURLs) {
+    if (failedURLs.length === 0) return
 
-    const returnedData = await scrapeDataFromURLs(failedURLs, page)
-    const { storedData, storedfailedURLs } = returnedData
-    if (storedData) { await validateAndSaveData(storedData) }
-
-    console.log('failed', storedfailedURLs)
-    if (storedfailedURLs.length > 0) {
-        logger.warning('Algunas URLs fallaron incluso después de reintentar.', storedfailedURLs)
-        return storedfailedURLs
+    const { storedData, storedFailedURLs } = await scrapeDataFromURLs(failedURLs)
+    if (storedData.length > 0) {
+        await validateAndSaveData(storedData)
     }
-    return storedfailedURLs
+
+    if (storedFailedURLs.length > 0) {
+        logger.warning('Algunas URLs fallaron incluso después de reintentar.', storedFailedURLs)
+        return storedFailedURLs
+    }
+    return storedFailedURLs
 }
 
 async function analyzeDataAndTweet(today) {
@@ -138,6 +134,8 @@ async function startBrowser() {
         })
         const page = await browser.newPage()
         await page.setViewport({ width: 1400, height: 4800 })
+        const userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+        await page.setUserAgent(userAgent)
         logger.info('Navegador iniciado.')
         return { page, browser }
     } catch (error) {
@@ -147,26 +145,46 @@ async function startBrowser() {
 }
 
 // Función principal para iniciar el scraping
-async function scrapeDataFromURLs(urls, page) {
-    try {
-        const startTime = new Date()
-        let storedfailedURLs = []
-        let storedData = []
-    
-        const { dataToSave, failedURLs } = await scrapeAllURLs(urls, page)
-        if (dataToSave) {
-            for (const data of dataToSave) {
-                storedData.push(data)
+async function scrapeDataFromURLs(urls) {
+    const startTime = new Date()
+    let attempt = 0
+    let storedfailedURLs = []
+    let storedData = []
+
+    const { page, browser } = await startBrowser()
+
+    while (attempt <= SCRAP_RETRY) {
+        try {
+            if (attempt > 0) { 
+                logger.info(`Reintentando... (Intento ${attempt}/${SCRAP_RETRY})`) 
+                delay(10000)
             }
+
+            const { dataToSave, failedURLs } = await scrapeAllURLs(urls, page)
+            if (dataToSave) {
+                for (const data of dataToSave) {
+                    storedData.push(data)
+                }
+            }
+            storedfailedURLs.push(...failedURLs)
+
+            if (failedURLs.length === 0) {
+                logger.success('Proceso de scraping completado con éxito.')
+                break
+            } else {
+                logger.warning(`${failedURLs.length} URLs no se pudieron scrapear.`)
+                attempt++
+            }
+        } catch (error) {
+            logger.fatal('Fatal error:', error)
+            return false
         }
-        storedfailedURLs.push(...failedURLs)
-    
-        const elapsedTimer = elapsedTime(startTime)
-        logger.info(`Tiempo total: ${elapsedTimer}`)
-        return { storedData, storedfailedURLs }
-    } catch(err) {
-        logger.error('scrapeDataFromURLs error', err)
     }
+    await browser.close()
+
+    const elapsedTimer = elapsedTime(startTime)
+    logger.info(`Tiempo total: ${elapsedTimer}`)
+    return { storedData, storedfailedURLs }
 }
 
 // Función principal de scraping
@@ -186,7 +204,7 @@ async function scrapeAllURLs(urls, page) {
             } catch (error) {
                 retryCount++
                 logger.warning(`Error al extraer datos de ${url}. Intentando nuevamente (${retryCount}/${MAX_SCRAPING_RETRIES})...`, error)
-                await delay(6000)
+                await delay(3000)
             }
         }
         if (retryCount === MAX_SCRAPING_RETRIES) failedURLs.push(url)
@@ -196,10 +214,9 @@ async function scrapeAllURLs(urls, page) {
 
 // Receives a url and it creates a .json with  the data scraped from that page 
 async function scrapeURL(dinamicUrl, page) {
-    await delay(1000)
     //Set website parameters
     const startTime = new Date()
-    await page.goto(dinamicUrl, { waitUntil: 'domcontentloaded', timeout: 10000 })
+    await page.goto(dinamicUrl)
 
     let dataScrapped = []
     let previousProductCount = 0
@@ -210,8 +227,8 @@ async function scrapeURL(dinamicUrl, page) {
     await delay(1000)
     while (pageNumber <= totalPages && pageNumber <= MAX_SCRAPING_PAGES) {
         let currentProducts = await scrapeProduct(page, containerSelector)
-        if (!currentProducts || currentProducts.length === previousProductCount && pageNumber === totalPages) {                 //hace falta
-            logger.warning("No se encontraron nuevos productos o se alcanzó el final de la página.")
+        if (!currentProducts || currentProducts.length === previousProductCount && pageNumber === totalPages) {
+            throw new Error("No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.")
         }
 
         currentProducts.forEach(product => {
@@ -234,11 +251,12 @@ async function scrapeURL(dinamicUrl, page) {
             await delay(1000)
         }
     }
+
     const formattedTime = elapsedTime(startTime)
-    const currentDate = new Date(new Date().getTime() - (3 * 60 * 60 * 1000)).toISOString()         //Hora Argentina GTM-3  reemplazar por TODAY
+    const currentDate = new Date(new Date().getTime() - (3 * 60 * 60 * 1000)).toISOString()         //Hora Argentina GTM-3
 
     //Data extraida
-    const urlData = {
+    const dataToSave = {
         category: getCategoryNameFromUrl(dinamicUrl),
         date: currentDate,
         totalProducts: dataScrapped.length,
@@ -246,56 +264,63 @@ async function scrapeURL(dinamicUrl, page) {
         url: dinamicUrl,
         data: dataScrapped
     }
+
+    await saveDataToMongo(dataToSave)
     logger.info(`Se tardo ${formattedTime} en scrappear ${dinamicUrl}`)
-    return urlData    
 }
 
 //Receives the page & container selector (unique to the website may change values)  and returns an array of products
 async function scrapeProduct(page, containerSelector) {
-    await new Promise(resolve => setTimeout(resolve, 2000))             //TIMEOUTE 1500 OR ERRORS
+    try {
+        await new Promise(resolve => setTimeout(resolve, 1500))             //TIMEOUTE 1500 OR ERRORS
 
-    const containerExists = await page.$(containerSelector)
-    if (!containerExists) logger.warning('El contenedor principal no se encontró en la página.')
-
-    const articlesData = await page.evaluate(async (containerSelector) => {
-        const container = document.querySelector(containerSelector)
-        if (!container) return null
-
-        const productsData = []
-        const productNodes = container.children
-        for (const product of productNodes) {
-            const nombreElement = product.querySelector('.vtex-product-summary-2-x-productNameContainer')
-            const marcaElement = product.querySelector('.vtex-product-summary-2-x-productBrandName')
-            await new Promise(resolve => setTimeout(resolve, 10))       //ASSURES THE PRICE LOADS CORRECTLY
-            const precioElement = product.querySelector('.jumboargentinaio-store-theme-1dCOMij_MzTzZOCohX1K7w')
-            const precioRegularElement = product.querySelector('.jumboargentinaio-store-theme-1QiyQadHj-1_x9js9EXUYK')
-
-            // Verificar que todos los elementos necesarios estén presentes
-            if (nombreElement && marcaElement && precioElement && precioRegularElement) {
-                const nombre = nombreElement.textContent.trim()
-                const marca = marcaElement.textContent.trim()
-                let precio = precioElement.textContent.trim()
-                const precioRegular = precioRegularElement.textContent.trim()
-
-                //Cleans price string
-                let number = precio.replace(/\$/g, '')
-                number = number.replace(/\./g, '')
-                number = number.replace(/,/g, '.')
-                precio = Number(number)
-
-                productsData.push({
-                    nombre,
-                    marca,
-                    precio,
-                    precioRegular
-                })
+        const selector = await page.$(containerSelector)
+        const containerExists = await page.waitForSelector(selector, { timeout: 5000 })
+        console.log('containerExists: ', containerExists)
+        if (!containerExists) logger.warning('El contenedor principal no se encontró en la página.')
+    
+        const articlesData = await page.evaluate(async (containerSelector) => {
+            const container = document.querySelector(containerSelector)
+            if (!container) throw new Error('El contenedor principal no se encontró en la página.')
+    
+            const productsData = []
+            const productNodes = container.children
+            for (const product of productNodes) {
+                const nombreElement = product.querySelector('.vtex-product-summary-2-x-productNameContainer')
+                const marcaElement = product.querySelector('.vtex-product-summary-2-x-productBrandName')
+                await new Promise(resolve => setTimeout(resolve, 10))       //ASSURES THE PRICE LOADS CORRECTLY
+                const precioElement = product.querySelector('.jumboargentinaio-store-theme-1dCOMij_MzTzZOCohX1K7w')
+                const precioRegularElement = product.querySelector('.jumboargentinaio-store-theme-1QiyQadHj-1_x9js9EXUYK')
+    
+                // Verificar que todos los elementos necesarios estén presentes
+                if (nombreElement && marcaElement && precioElement && precioRegularElement) {
+                    const nombre = nombreElement.textContent.trim()
+                    const marca = marcaElement.textContent.trim()
+                    let precio = precioElement.textContent.trim()
+                    const precioRegular = precioRegularElement.textContent.trim()
+    
+                    //Cleans price string
+                    let number = precio.replace(/\$/g, '')
+                    number = number.replace(/\./g, '')
+                    number = number.replace(/,/g, '.')
+                    precio = Number(number)
+    
+                    productsData.push({
+                        nombre,
+                        marca,
+                        precio,
+                        precioRegular
+                    })
+                }
             }
-        }
-
-        return productsData
-    }, containerSelector)
-
-    return articlesData
+    
+            return productsData
+        }, containerSelector)
+    
+        return articlesData
+    } catch (err) {
+        logger.error('scrapeProduct error')
+    }
 }
 
 async function scrollDown(page) {
@@ -382,43 +407,22 @@ async function saveDataToMongo(data) {
       logger.error('Error al guardar datos en MongoDB:', err)
       throw err
     }
-}
+  }
 
+//Receives example: "$4,250.5" and return 4250.5 in Number format
 function getCategoryNameFromUrl(url) {
-    // Extraer la parte del dominio en adelante
-    const startIndex = url.indexOf("/", url.indexOf("//") + 2)
-    const urlSegment = url.substring(startIndex + 1)
-
-    // Dividir por '/' y obtener el último segmento
-    const segments = urlSegment.split("/")
-    let lastSegment = segments.pop()
-
-    // Limpiar cualquier parte después de caracteres especiales como '?' o '&'
-    if (lastSegment.includes("&")) {
-        lastSegment = lastSegment.split("&")[0]
-    }
-    if (lastSegment.includes("?")) {
-        lastSegment = lastSegment.split("?")[0]
-    }
-
-    // Reemplazar '%20' por espacios y '-' por espacios
-    lastSegment = lastSegment.replace(/%20/g, " ").replace(/-/g, " ")
-
-    // Capitalizar la primera letra de cada palabra
-    const categoryNameCapitalized = lastSegment
-        .split(" ")
-        .map(word => capitalizeFirstLetter(word))
-        .join(" ")
-
-    console.log(categoryNameCapitalized)
+    const startIndex = staticURL.length
+    const endIndex = url.indexOf("?_q=")
+    const categoryPart = url.substring(startIndex, endIndex)
+    const categoryName = decodeURIComponent(categoryPart.replace(/%20/g, ' '))
+    const categoryNameCapitalized = capitalizeFirstLetter(categoryName)
     return categoryNameCapitalized
 }
 
-// Función para capitalizar la primera letra de cada palabra
+//Just capitalizes First Letter
 function capitalizeFirstLetter(string) {
-    return string.charAt(0).toUpperCase() + string.slice(1)
+    return string.replace(/^\w/, (c) => c.toUpperCase())
 }
-
 
 async function deleteTodayRecords() {
     await connectDB()

@@ -1,508 +1,752 @@
-[2024-04-19T21:25:25.731Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente(0/6)... El contenedor principal no se encontró en la página.
-[2024-04-19T21:32:20.229Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/azucar?_q=azucar&map=ft. Intentando nuevamente(0/6)... El contenedor principal no se encontró en la página.
-[2024-04-19T21:34:27.178Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/frutas?_q=frutas&map=ft. Intentando nuevamente(0/6)... El contenedor principal no se encontró en la página.
-[2024-04-19T21:38:01.762Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
-[2024-04-19T21:41:55.773Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
-[2024-04-19T21:42:07.365Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yogur?_q=yogur&map=ft. Intentando nuevamente(0/6)... El contenedor principal no se encontró en la página.
-[2024-04-19T21:42:11.997Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yogur?_q=yogur&map=ft. Intentando nuevamente(1/6)... El contenedor principal no se encontró en la página.
-[2024-04-19T21:54:53.310Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
-[2024-04-20T15:31:31.383Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente(0/6)... El contenedor principal no se encontró en la página.
-[2024-04-20T15:38:15.641Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/batata?_q=batata&layout=grid&map=ft. Intentando nuevamente(0/6)... El contenedor principal no se encontró en la página.
-[2024-04-20T15:39:40.522Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/dulce%20de%20leche?_q=dulce%20de%20leche&map=ft. Intentando nuevamente(0/6)... El contenedor principal no se encontró en la página.
-[2024-04-20T15:39:54.606Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/dulce%20de%20leche?_q=dulce%20de%20leche&map=ft. Intentando nuevamente(1/6)... El contenedor principal no se encontró en la página.
-[2024-04-20T15:40:08.621Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/dulce%20de%20leche?_q=dulce%20de%20leche&map=ft. Intentando nuevamente(2/6)... El contenedor principal no se encontró en la página.
-[2024-04-20T15:40:39.920Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/legumbres%20secas?_q=legumbres%20secas&map=ft. Intentando nuevamente(0/6)... El contenedor principal no se encontró en la página.
-[2024-04-20T15:40:43.904Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/legumbres%20secas?_q=legumbres%20secas&map=ft. Intentando nuevamente(1/6)... El contenedor principal no se encontró en la página.
-[2024-04-20T15:45:14.413Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
-[2024-04-20T15:49:18.225Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
-[2024-04-20T15:51:30.527Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/manteca?_q=manteca&map=ft. Intentando nuevamente(0/6)... El contenedor principal no se encontró en la página.
-[2024-04-20T16:02:33.077Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
-[2024-04-22T17:52:17.337Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/azucar?_q=azucar&map=ft. Intentando nuevamente(0/6)... El contenedor principal no se encontró en la página.
-[2024-04-22T17:53:13.429Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/dulce%20de%20leche?_q=dulce%20de%20leche&map=ft. Intentando nuevamente(0/6)... El contenedor principal no se encontró en la página.
-[2024-04-22T17:53:17.394Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/dulce%20de%20leche?_q=dulce%20de%20leche&map=ft. Intentando nuevamente(1/6)... El contenedor principal no se encontró en la página.
-[2024-04-22T17:53:21.530Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/dulce%20de%20leche?_q=dulce%20de%20leche&map=ft. Intentando nuevamente(2/6)... El contenedor principal no se encontró en la página.
-[2024-04-22T17:54:38.485Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/frutas?_q=frutas&map=ft. Intentando nuevamente(0/6)... El contenedor principal no se encontró en la página.
-[2024-04-22T17:57:57.659Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
-[2024-04-22T18:01:59.067Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
-[2024-04-22T18:02:10.496Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yogur?_q=yogur&map=ft. Intentando nuevamente(0/6)... El contenedor principal no se encontró en la página.
-[2024-04-22T18:03:08.092Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yogur?_q=yogur&map=ft. Intentando nuevamente(1/6)... El contenedor principal no se encontró en la página.
-[2024-04-22T18:15:55.923Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
-[2024-04-22T18:16:09.181Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cafe?_q=cafe&map=ft. Intentando nuevamente(0/6)... El contenedor principal no se encontró en la página.
-[2024-04-22T18:18:01.315Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yerba?_q=yerba&map=ft. Intentando nuevamente(0/6)... El contenedor principal no se encontró en la página.
-[2024-04-24T17:18:10.161Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente(1/6)... El contenedor principal no se encontró en la página.
-[2024-04-24T17:18:34.393Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente(1/6)... El contenedor principal no se encontró en la página.
-[2024-04-24T17:22:51.689Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/fideos?_q=fideos&map=ft. Intentando nuevamente(1/6)... El contenedor principal no se encontró en la página.
-[2024-04-24T17:32:14.500Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/fiambres?_q=fiambres&map=ft. Intentando nuevamente(1/6)... El contenedor principal no se encontró en la página.
-[2024-04-24T17:33:11.697Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/fiambres?_q=fiambres&map=ft. Intentando nuevamente(2/6)... El contenedor principal no se encontró en la página.
-[2024-04-24T17:35:17.938Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/leche?_q=leche&map=ft. Intentando nuevamente(1/6)... El contenedor principal no se encontró en la página.
-[2024-04-24T17:37:08.098Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
-[2024-04-24T17:39:47.668Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/aceite?_q=aceite&map=ft. Intentando nuevamente(1/6)... El contenedor principal no se encontró en la página.
-[2024-04-24T17:50:58.674Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
-[2024-04-25T16:14:20.241Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente(1/6)... Cannot read properties of undefined (reading 'startsWith')
-[2024-04-25T16:14:23.974Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente(2/6)... Cannot read properties of undefined (reading 'startsWith')
-[2024-04-25T16:14:28.345Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente(3/6)... Cannot read properties of undefined (reading 'startsWith')
-[2024-04-25T16:14:32.787Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente(4/6)... Cannot read properties of undefined (reading 'startsWith')
-[2024-04-25T16:14:37.305Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente(5/6)... Cannot read properties of undefined (reading 'startsWith')
-[2024-04-25T16:19:45.910Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
-[2024-04-25T16:19:50.378Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
-[2024-04-25T16:19:54.840Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
-[2024-04-25T16:19:59.315Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
-[2024-04-25T16:20:03.776Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
-[2024-04-25T16:20:08.257Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
-[2024-04-25T16:20:12.738Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
-[2024-04-25T16:20:17.215Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
-[2024-04-25T16:22:19.680Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
-[2024-04-25T16:22:24.651Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
-[2024-04-25T16:22:29.618Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
-[2024-04-25T16:22:34.598Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
-[2024-04-25T16:22:39.560Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
-[2024-04-25T16:22:44.524Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
-[2024-04-25T16:22:49.487Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
-[2024-04-25T16:22:54.451Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
-[2024-04-25T16:22:59.418Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
-[2024-04-25T16:23:04.376Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
-[2024-04-25T16:24:33.250Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
-[2024-04-25T16:24:37.723Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
-[2024-04-25T16:24:42.198Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
-[2024-04-25T16:28:11.416Z] [ERROR] - Error al hacer scroll: Waiting failed: 3000ms exceeded
-[2024-04-25T16:28:17.888Z] [ERROR] - Error al hacer scroll: Waiting failed: 3000ms exceeded
-[2024-04-25T16:30:50.794Z] [ERROR] - Error during scroll down: Waiting failed: 3000ms exceeded
-[2024-04-25T16:30:57.274Z] [ERROR] - Error during scroll down: Waiting failed: 3000ms exceeded
-[2024-04-25T16:43:59.617Z] [FATAL] - Exit due to fatal error:  dinamicUrl is not defined
-[2024-04-25T16:47:01.009Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente(1/6)... browser is not defined
-[2024-04-25T16:47:55.426Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente(2/6)... browser is not defined
-[2024-04-25T16:48:46.602Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente(3/6)... browser is not defined
-[2024-04-25T16:49:37.755Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente(4/6)... browser is not defined
-[2024-04-25T16:56:16.803Z] [FATAL] - Exit due to fatal error: connectDB(...) is not a function
-[2024-04-25T16:58:34.000Z] [FATAL] - Exit due to fatal error: connectDB(...) is not a function
-[2024-04-25T17:03:50.035Z] [ERROR] - Error during scroll down: Waiting failed: 1500ms exceeded
-[2024-04-25T17:04:04.499Z] [ERROR] - Error during scroll down: Waiting failed: 1500ms exceeded
-[2024-04-25T17:04:18.062Z] [ERROR] - Error during scroll down: Waiting failed: 1500ms exceeded
-[2024-04-25T19:42:53.134Z] [FATAL] - Se produjo un error fatal: logger.info(...) is not a function
-[2024-04-25T19:43:44.109Z] [FATAL] - Se produjo un error fatal: logger.info(...) is not a function
-[2024-04-25T19:48:35.616Z] [ERROR] - Error during scroll down: Waiting failed: 1500ms exceeded
-[2024-04-25T19:48:50.077Z] [ERROR] - Error during scroll down: Waiting failed: 1500ms exceeded
-[2024-04-25T19:49:04.605Z] [ERROR] - Error during scroll down: Waiting failed: 1500ms exceeded
-[2024-04-25T19:49:19.853Z] [ERROR] - Error during scroll down: Waiting failed: 1500ms exceeded
-[2024-04-25T19:49:33.626Z] [ERROR] - Error during scroll down: Waiting failed: 1500ms exceeded
-[2024-04-25T19:49:43.540Z] [ERROR] - Error during scroll down: Waiting failed: 1500ms exceeded
-[2024-04-25T19:49:48.899Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (1/6)... browser is not defined
-[2024-04-25T19:49:52.248Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
-[2024-04-25T19:50:01.273Z] [ERROR] - Error during scroll down: Waiting failed: 1500ms exceeded
-[2024-04-25T19:50:16.762Z] [ERROR] - Error during scroll down: Waiting failed: 1500ms exceeded
-[2024-04-25T19:50:27.382Z] [ERROR] - Error during scroll down: Waiting failed: 1500ms exceeded
-[2024-04-25T19:50:37.989Z] [ERROR] - Error during scroll down: Waiting failed: 1500ms exceeded
-[2024-04-25T19:50:48.594Z] [ERROR] - Error during scroll down: Waiting failed: 1500ms exceeded
-[2024-04-25T19:50:55.489Z] [ERROR] - Error during scroll down: Waiting failed: 1500ms exceeded
-[2024-04-25T19:50:58.865Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (3/6)... browser is not defined
-[2024-04-25T19:51:16.662Z] [ERROR] - Error during scroll down: Waiting failed: 1500ms exceeded
-[2024-04-25T19:51:27.737Z] [ERROR] - Error during scroll down: Waiting failed: 1500ms exceeded
-[2024-04-25T19:52:04.008Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
-[2024-04-25T19:52:14.872Z] [ERROR] - Error al hacer scroll: Waiting failed: 1000ms exceeded
-[2024-04-25T19:52:40.177Z] [ERROR] - Error al hacer scroll: Waiting failed: 3000ms exceeded
-[2024-04-25T19:52:52.744Z] [ERROR] - Error al hacer scroll: Waiting failed: 3000ms exceeded
-[2024-04-25T19:53:05.275Z] [ERROR] - Error al hacer scroll: Waiting failed: 3000ms exceeded
-[2024-04-25T20:01:18.905Z] [ERROR] - Error al hacer scroll: Malformed arrow function parameter list
-new Function (<anonymous>)
-[2024-04-25T20:02:55.818Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (1/6)... browser is not defined
-[2024-04-25T20:02:59.143Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
-[2024-04-25T20:03:54.089Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
-[2024-04-25T20:03:57.476Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (3/6)... browser is not defined
-[2024-04-25T20:04:52.124Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
-[2024-04-25T20:04:55.773Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (4/6)... browser is not defined
-[2024-04-25T20:05:50.107Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
-[2024-04-25T20:05:53.539Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (5/6)... browser is not defined
-[2024-04-25T20:07:35.625Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
-[2024-04-25T20:07:39.109Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (1/6)... staticURL is not defined
-[2024-04-25T20:08:42.991Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (2/6)... staticURL is not defined
-[2024-04-25T20:09:40.557Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
-[2024-04-25T20:09:43.966Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (3/6)... staticURL is not defined
-[2024-04-25T20:10:38.761Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
-[2024-04-25T20:10:42.119Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (4/6)... staticURL is not defined
-[2024-04-25T20:11:40.267Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (5/6)... staticURL is not defined
-[2024-04-25T20:12:34.820Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
-[2024-04-25T20:12:38.177Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (6/6)... staticURL is not defined
-[2024-04-25T20:12:56.583Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (1/6)... staticURL is not defined
-[2024-04-25T20:12:59.910Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
-[2024-04-25T20:13:03.248Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (3/6)... El contenedor principal no se encontró en la página.
-[2024-04-25T20:13:06.594Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (4/6)... El contenedor principal no se encontró en la página.
-[2024-04-25T20:13:09.917Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (5/6)... El contenedor principal no se encontró en la página.
-[2024-04-25T20:13:13.268Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (6/6)... El contenedor principal no se encontró en la página.
-[2024-04-25T20:15:49.912Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (1/6)... staticURL is not defined
-[2024-04-25T20:15:53.295Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
-[2024-04-25T20:15:56.699Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (3/6)... El contenedor principal no se encontró en la página.
-[2024-04-25T20:16:00.078Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (4/6)... El contenedor principal no se encontró en la página.
-[2024-04-25T20:16:03.397Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (5/6)... El contenedor principal no se encontró en la página.
-[2024-04-25T20:16:06.719Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (6/6)... El contenedor principal no se encontró en la página.
-[2024-04-25T20:16:12.841Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/arroz?_q=arroz&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-25T20:17:20.213Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/arroz?_q=arroz&map=ft. Intentando nuevamente (2/6)... staticURL is not defined
-[2024-04-26T01:09:40.969Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (1/6)... staticURL is not defined
-[2024-04-26T01:10:36.723Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (2/6)... staticURL is not defined
-[2024-04-26T01:11:28.821Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (3/6)... staticURL is not defined
-[2024-04-26T01:13:47.802Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T01:13:51.159Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T01:13:54.592Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (3/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T01:13:58.012Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (4/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T01:16:23.543Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
-[2024-04-26T01:17:51.274Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
-[2024-04-26T01:18:06.354Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/fideos?_q=fideos&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T01:20:45.240Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/papa?_q=papa&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T01:21:12.491Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
-[2024-04-26T01:21:28.686Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/azucar?_q=azucar&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T01:23:30.164Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
-[2024-04-26T01:25:13.680Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carnes?_q=carnes&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T01:27:15.888Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/fiambres?_q=fiambres&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T01:28:50.373Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/huevos?_q=huevos&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T01:31:09.543Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yogur?_q=yogur&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T01:35:11.362Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
-[2024-04-26T01:35:22.684Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cerveza?_q=cerveza&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T01:44:42.701Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cafe?_q=cafe&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T01:45:53.481Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cafe?_q=cafe&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T01:48:17.358Z] [ERROR] - Error al hacer scroll: Waiting failed: 1500ms exceeded
-[2024-04-26T12:53:19.276Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T12:54:16.959Z] [WARNING] - Error al hacer scroll: Waiting failed: 1500ms exceeded
-[2024-04-26T12:54:31.902Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T12:54:35.201Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T12:54:38.808Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (3/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T12:54:42.989Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (4/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T12:54:46.578Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (5/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T12:55:06.972Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T12:55:10.286Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T12:55:13.897Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (3/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T12:59:13.391Z] [WARNING] - Error al hacer scroll: Waiting failed: 1500ms exceeded
-[2024-04-26T12:59:42.307Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/fideos?_q=fideos&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T13:02:24.290Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/papa?_q=papa&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T13:02:53.238Z] [WARNING] - Error al hacer scroll: Waiting failed: 1500ms exceeded
-[2024-04-26T13:03:07.969Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/azucar?_q=azucar&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T13:04:15.319Z] [WARNING] - Error al hacer scroll: Waiting failed: 1500ms exceeded
-[2024-04-26T13:04:26.274Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/legumbres%20secas?_q=legumbres%20secas&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T13:04:29.637Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/legumbres%20secas?_q=legumbres%20secas&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T13:04:32.934Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/legumbres%20secas?_q=legumbres%20secas&map=ft. Intentando nuevamente (3/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T13:04:36.284Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/legumbres%20secas?_q=legumbres%20secas&map=ft. Intentando nuevamente (4/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T13:04:39.629Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/legumbres%20secas?_q=legumbres%20secas&map=ft. Intentando nuevamente (5/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T13:05:06.475Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/hortalizas?_q=hortalizas&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T13:07:08.179Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carnes?_q=carnes&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T13:10:46.114Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/huevos?_q=huevos&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T13:11:16.609Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/leche?_q=leche&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T13:13:05.689Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yogur?_q=yogur&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T13:14:17.094Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yogur?_q=yogur&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T13:16:27.788Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/aceite?_q=aceite&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T13:18:29.526Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cerveza?_q=cerveza&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T13:20:20.079Z] [WARNING] - Error al hacer scroll: Waiting failed: 1500ms exceeded
-[2024-04-26T13:26:31.502Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/vino?_q=vino&map=ft. Intentando nuevamente (1/6)... Requesting main frame too early!
-[2024-04-26T13:26:33.011Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/vino?_q=vino&map=ft. Intentando nuevamente (2/6)... Requesting main frame too early!
-[2024-04-26T13:53:59.359Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/vino?_q=vino&map=ft. Intentando nuevamente (3/6)... Requesting main frame too early!
-[2024-04-26T13:54:00.866Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/vino?_q=vino&map=ft. Intentando nuevamente (4/6)... Requesting main frame too early!
-[2024-04-26T13:54:02.372Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/vino?_q=vino&map=ft. Intentando nuevamente (5/6)... Requesting main frame too early!
-[2024-04-26T13:54:03.886Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/vino?_q=vino&map=ft. Intentando nuevamente (6/6)... Requesting main frame too early!
-[2024-04-26T13:54:05.387Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cafe?_q=cafe&map=ft. Intentando nuevamente (1/6)... Requesting main frame too early!
-[2024-04-26T13:54:06.896Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cafe?_q=cafe&map=ft. Intentando nuevamente (2/6)... Requesting main frame too early!
-[2024-04-26T13:54:08.407Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cafe?_q=cafe&map=ft. Intentando nuevamente (3/6)... Requesting main frame too early!
-[2024-04-26T13:54:09.916Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cafe?_q=cafe&map=ft. Intentando nuevamente (4/6)... Requesting main frame too early!
-[2024-04-26T13:54:11.421Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cafe?_q=cafe&map=ft. Intentando nuevamente (5/6)... Requesting main frame too early!
-[2024-04-26T13:54:12.926Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cafe?_q=cafe&map=ft. Intentando nuevamente (6/6)... Requesting main frame too early!
-[2024-04-26T13:54:14.428Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yerba?_q=yerba&map=ft. Intentando nuevamente (1/6)... Requesting main frame too early!
-[2024-04-26T13:54:15.936Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yerba?_q=yerba&map=ft. Intentando nuevamente (2/6)... Requesting main frame too early!
-[2024-04-26T13:54:17.447Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yerba?_q=yerba&map=ft. Intentando nuevamente (3/6)... Requesting main frame too early!
-[2024-04-26T13:54:18.958Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yerba?_q=yerba&map=ft. Intentando nuevamente (4/6)... Requesting main frame too early!
-[2024-04-26T13:54:20.463Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yerba?_q=yerba&map=ft. Intentando nuevamente (5/6)... Requesting main frame too early!
-[2024-04-26T13:54:21.968Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yerba?_q=yerba&map=ft. Intentando nuevamente (6/6)... Requesting main frame too early!
-[2024-04-26T13:54:23.473Z] [WARNING] - Algunas URLs no se pudieron scrapear:
-[2024-04-26T14:27:22.273Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T14:27:25.607Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T14:27:29.227Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (3/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T14:27:32.963Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (4/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T14:33:42.438Z] [WARNING] - Error al hacer scroll: Waiting failed: 1500ms exceeded
-[2024-04-26T14:36:22.623Z] [WARNING] - Error al hacer scroll: Waiting failed: 1500ms exceeded
-[2024-04-26T14:37:51.912Z] [WARNING] - Error al hacer scroll: Waiting failed: 1500ms exceeded
-[2024-04-26T14:40:15.776Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/fideos?_q=fideos&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T14:42:50.960Z] [WARNING] - Error al hacer scroll: Waiting failed: 1500ms exceeded
-[2024-04-26T14:43:44.193Z] [WARNING] - Error al hacer scroll: Waiting failed: 1500ms exceeded
-[2024-04-26T14:44:34.329Z] [WARNING] - Error al hacer scroll: Waiting failed: 1500ms exceeded
-[2024-04-26T14:54:57.347Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/aceite?_q=aceite&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-26T15:05:36.913Z] [WARNING] - Error al hacer scroll: Waiting failed: 1500ms exceeded
-[2024-04-27T17:35:44.562Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-27T17:36:47.690Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-27T17:37:29.222Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-27T17:37:35.100Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
-[2024-04-27T17:37:50.395Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (3/6)... El contenedor principal no se encontró en la página.
-[2024-04-27T17:41:32.421Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-27T17:41:43.052Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/harinas?_q=harinas&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-27T17:45:14.984Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-27T17:46:23.661Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-27T17:53:00.169Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-27T17:56:24.976Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yogur?_q=yogur&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-27T17:58:28.200Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-27T18:00:19.296Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-27T18:03:36.061Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/vino?_q=vino&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-27T18:09:11.430Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-27T18:10:25.364Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-28T16:48:42.421Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-28T16:48:48.302Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
-[2024-04-28T16:48:54.188Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (3/6)... El contenedor principal no se encontró en la página.
-[2024-04-28T16:49:00.137Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (4/6)... El contenedor principal no se encontró en la página.
-[2024-04-28T16:49:06.019Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (5/6)... El contenedor principal no se encontró en la página.
-[2024-04-28T16:49:14.738Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-28T16:58:09.209Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-28T17:01:35.960Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carnes?_q=carnes&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-28T17:06:39.117Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-28T17:17:46.259Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cafe?_q=cafe&map=ft. Intentando nuevamente (1/6)... Protocol error (Runtime.evaluate): Session closed. Most likely the page has been closed.
-[2024-04-28T17:33:54.023Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cafe?_q=cafe&map=ft. Intentando nuevamente (2/6)... Requesting main frame too early!
-[2024-04-28T17:33:57.033Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cafe?_q=cafe&map=ft. Intentando nuevamente (3/6)... Requesting main frame too early!
-[2024-04-28T17:34:00.044Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cafe?_q=cafe&map=ft. Intentando nuevamente (4/6)... Requesting main frame too early!
-[2024-04-28T17:34:03.059Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cafe?_q=cafe&map=ft. Intentando nuevamente (5/6)... Requesting main frame too early!
-[2024-04-28T17:34:06.065Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cafe?_q=cafe&map=ft. Intentando nuevamente (6/6)... Requesting main frame too early!
-[2024-04-28T17:34:09.076Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yerba?_q=yerba&map=ft. Intentando nuevamente (1/6)... Requesting main frame too early!
-[2024-04-28T17:34:12.086Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yerba?_q=yerba&map=ft. Intentando nuevamente (2/6)... Requesting main frame too early!
-[2024-04-28T17:34:15.099Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yerba?_q=yerba&map=ft. Intentando nuevamente (3/6)... Requesting main frame too early!
-[2024-04-28T17:34:18.112Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yerba?_q=yerba&map=ft. Intentando nuevamente (4/6)... Requesting main frame too early!
-[2024-04-28T17:34:21.128Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yerba?_q=yerba&map=ft. Intentando nuevamente (5/6)... Requesting main frame too early!
-[2024-04-28T17:34:24.130Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yerba?_q=yerba&map=ft. Intentando nuevamente (6/6)... Requesting main frame too early!
-[2024-04-28T17:40:16.030Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-28T17:40:50.345Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
-[2024-04-28T17:41:14.708Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (3/6)... El contenedor principal no se encontró en la página.
-[2024-04-28T17:54:42.063Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-28T17:56:58.399Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-28T17:57:13.801Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yogur?_q=yogur&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-28T17:58:25.011Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yogur?_q=yogur&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
-[2024-04-28T18:04:06.224Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-28T18:07:10.561Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/vino?_q=vino&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-28T18:07:16.511Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/vino?_q=vino&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
-[2024-04-28T18:07:22.354Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/vino?_q=vino&map=ft. Intentando nuevamente (3/6)... Requesting main frame too early!
-[2024-04-28T19:22:01.746Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/vino?_q=vino&map=ft. Intentando nuevamente (4/6)... Requesting main frame too early!
-[2024-04-28T19:22:04.751Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/vino?_q=vino&map=ft. Intentando nuevamente (5/6)... Requesting main frame too early!
-[2024-04-28T19:22:07.762Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/vino?_q=vino&map=ft. Intentando nuevamente (6/6)... Requesting main frame too early!
-[2024-04-28T19:22:10.773Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cafe?_q=cafe&map=ft. Intentando nuevamente (1/6)... Requesting main frame too early!
-[2024-04-28T19:22:13.779Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cafe?_q=cafe&map=ft. Intentando nuevamente (2/6)... Requesting main frame too early!
-[2024-04-28T19:31:04.156Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/fideos?_q=fideos&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-28T19:33:12.908Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-28T19:35:06.866Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-28T19:41:27.595Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/leche?_q=leche&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-28T19:48:57.102Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cerveza?_q=cerveza&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-28T19:50:21.350Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-29T13:45:34.867Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-29T13:46:00.801Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-29T13:49:34.583Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-29T13:53:11.687Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-29T14:06:15.150Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T13:14:24.711Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T13:15:17.022Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T13:15:22.910Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (3/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T13:15:28.741Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (4/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T13:15:34.700Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (5/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T13:15:40.559Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (6/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T13:31:15.934Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T13:40:32.003Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T13:51:37.328Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T13:55:27.222Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cerveza?_q=cerveza&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T13:57:26.138Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/vino?_q=vino&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T14:02:25.258Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cafe?_q=cafe&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T14:10:05.032Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T14:14:57.462Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/dulce%20de%20leche?_q=dulce%20de%20leche&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T14:15:03.315Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/dulce%20de%20leche?_q=dulce%20de%20leche&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T14:15:09.205Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/dulce%20de%20leche?_q=dulce%20de%20leche&map=ft. Intentando nuevamente (3/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T14:15:15.059Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/dulce%20de%20leche?_q=dulce%20de%20leche&map=ft. Intentando nuevamente (4/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T14:15:20.941Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/dulce%20de%20leche?_q=dulce%20de%20leche&map=ft. Intentando nuevamente (5/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T14:16:04.887Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T14:17:16.729Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/frutas?_q=frutas&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T14:24:36.295Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yogur?_q=yogur&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T14:29:52.704Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cerveza?_q=cerveza&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T14:31:52.073Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/vino?_q=vino&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T14:38:51.144Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T14:40:19.992Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T14:41:14.699Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T14:41:21.039Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T14:41:46.252Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (3/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T14:41:52.663Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (4/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T14:41:58.536Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (5/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T14:42:04.535Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (6/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T14:43:06.902Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T14:48:37.486Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T16:28:53.840Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T16:29:29.904Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T16:29:43.402Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T16:29:57.703Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T16:30:03.811Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T16:30:09.829Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (3/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T16:30:15.666Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (4/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T16:30:21.486Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (5/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T16:30:27.311Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (6/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T16:30:51.282Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T16:32:08.716Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T16:32:23.951Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T16:32:31.984Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T16:32:52.289Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T16:33:02.969Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T16:33:20.796Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (3/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T16:34:44.591Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (4/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T16:34:50.414Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (5/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T16:34:56.225Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (6/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T16:34:59.226Z] [WARNING] - 2 URLs no se pudieron scrapear.
-[2024-04-30T16:34:59.475Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (1/6)... Requesting main frame too early!
-[2024-04-30T16:35:02.480Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (2/6)... Requesting main frame too early!
-[2024-04-30T16:35:05.495Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (3/6)... Requesting main frame too early!
-[2024-04-30T16:35:08.500Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (4/6)... Requesting main frame too early!
-[2024-04-30T16:35:11.511Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (5/6)... Requesting main frame too early!
-[2024-04-30T16:35:14.520Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (6/6)... Requesting main frame too early!
-[2024-04-30T16:35:17.528Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (1/6)... Requesting main frame too early!
-[2024-04-30T16:35:20.529Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (2/6)... Requesting main frame too early!
-[2024-04-30T16:35:23.534Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (3/6)... Requesting main frame too early!
-[2024-04-30T16:35:26.547Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (4/6)... Requesting main frame too early!
-[2024-04-30T16:35:29.557Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (5/6)... Requesting main frame too early!
-[2024-04-30T16:35:32.569Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (6/6)... Requesting main frame too early!
-[2024-04-30T16:35:35.574Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (1/6)... Requesting main frame too early!
-[2024-04-30T16:35:38.586Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (2/6)... Requesting main frame too early!
-[2024-04-30T16:35:41.601Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (3/6)... Requesting main frame too early!
-[2024-04-30T16:38:14.886Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T16:38:54.950Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T16:39:10.279Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T16:39:15.914Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T16:39:39.094Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T16:40:29.217Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T16:40:34.948Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T16:40:40.630Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (3/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T16:40:46.309Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (4/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T16:40:51.961Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (5/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T16:40:57.610Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (6/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T16:41:00.619Z] [WARNING] - 1 URLs no se pudieron scrapear.
-[2024-04-30T16:41:00.835Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (1/6)... Requesting main frame too early!
-[2024-04-30T16:41:03.848Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (2/6)... Requesting main frame too early!
-[2024-04-30T16:41:06.858Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (3/6)... Requesting main frame too early!
-[2024-04-30T16:41:09.868Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (4/6)... Requesting main frame too early!
-[2024-04-30T17:31:39.748Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T17:32:05.362Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T17:36:47.163Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T17:39:54.360Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T17:40:43.742Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T17:43:57.280Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T17:44:51.922Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T17:46:33.341Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T17:50:25.966Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T17:53:10.954Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/vino?_q=vino&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T17:59:37.582Z] [ERROR] - Error en intento 1/3: storedData debe ser un arreglo
-[2024-04-30T17:59:45.913Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T18:03:10.862Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T18:03:47.907Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T18:07:00.084Z] [ERROR] - Error en intento 1/3: storedData is not iterable
-[2024-04-30T18:07:06.337Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T18:07:38.205Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T18:08:37.415Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T18:09:15.365Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T18:09:37.647Z] [ERROR] - Error en intento 1/3: storedData is not iterable
-[2024-04-30T18:09:53.855Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T18:10:05.121Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T18:11:11.839Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T18:11:35.074Z] [ERROR] - Error en intento 1/3: storedData is not iterable
-[2024-04-30T18:16:48.386Z] [FATAL] - Fatal error: data is not defined
-[2024-04-30T18:16:48.614Z] [WARNING] - Scrapping data not recovered, trying... 0/3
-[2024-04-30T18:16:48.615Z] [ERROR] - Error en intento 2/3: Cannot read properties of undefined (reading 'length')
-[2024-04-30T18:17:04.539Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T18:17:24.961Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T18:17:35.707Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T18:17:52.862Z] [FATAL] - Fatal error: data is not defined
-[2024-04-30T18:17:53.102Z] [WARNING] - Scrapping data not recovered, trying... 2/3
-[2024-04-30T18:17:53.102Z] [ERROR] - Error en intento 4/3: Cannot read properties of undefined (reading 'length')
-[2024-04-30T19:25:02.766Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T19:25:19.022Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T19:25:24.689Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T19:25:32.497Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T19:25:41.267Z] [FATAL] - Fatal error: data is not defined
-[2024-04-30T19:25:41.569Z] [WARNING] - Scrapping data not recovered, trying... 0/3
-[2024-04-30T19:25:41.569Z] [ERROR] - Error en intento 2/3: Cannot read properties of undefined (reading 'length')
-[2024-04-30T19:26:50.592Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T19:26:56.299Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T19:27:02.037Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (3/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T19:27:07.748Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (4/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T19:27:13.495Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (5/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T19:27:28.867Z] [FATAL] - Fatal error: data is not defined
-[2024-04-30T19:27:29.180Z] [WARNING] - Scrapping data not recovered, trying... 2/3
-[2024-04-30T19:27:29.180Z] [ERROR] - Error en intento 4/3: Cannot read properties of undefined (reading 'length')
-[2024-04-30T19:54:24.588Z] [ERROR] - Error en intento 1/3: storedData is not iterable
-[2024-04-30T19:55:44.075Z] [ERROR] - Error en intento 2/3: storedData is not iterable
-[2024-04-30T19:56:43.478Z] [ERROR] - Error en intento 3/3: storedData is not iterable
-[2024-04-30T19:56:43.478Z] [FATAL] - El scraping falló después de varios intentos.
-[2024-04-30T21:01:07.305Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:01:33.313Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:02:11.461Z] [ERROR] - Error en intento 1/3: storedData is not iterable
-[2024-04-30T21:07:07.977Z] [ERROR] - Error en intento 1/3: storedData is not iterable
-[2024-04-30T21:13:00.207Z] [ERROR] - Error en intento 1/3: storedData is not iterable
-[2024-04-30T21:16:01.796Z] [ERROR] - Error en intento 1/3: storedData is not iterable
-[2024-04-30T21:16:19.263Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:20:51.188Z] [ERROR] - Error en intento 1/3: storedData is not iterable
-[2024-04-30T21:20:57.369Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:21:08.911Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:23:12.470Z] [ERROR] - Error en intento 1/3: data is not defined
-[2024-04-30T21:24:13.435Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:24:24.261Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:24:35.314Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:24:55.262Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:25:04.843Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T21:26:13.857Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:27:27.853Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:27:40.443Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:27:51.135Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:28:01.844Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:28:12.513Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:30:46.716Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:30:59.633Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:31:16.048Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:31:55.637Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:32:11.046Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:32:52.929Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:33:18.623Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:33:43.436Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/fideos?_q=fideos&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T21:33:52.961Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:34:14.480Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:35:24.994Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:36:28.358Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:36:42.673Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:38:01.164Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:38:25.592Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/legumbres%20secas?_q=legumbres%20secas&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T21:38:31.256Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/legumbres%20secas?_q=legumbres%20secas&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T21:38:36.983Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/legumbres%20secas?_q=legumbres%20secas&map=ft. Intentando nuevamente (3/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T21:38:42.655Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/legumbres%20secas?_q=legumbres%20secas&map=ft. Intentando nuevamente (4/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T21:38:48.489Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/legumbres%20secas?_q=legumbres%20secas&map=ft. Intentando nuevamente (5/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T21:38:54.175Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/legumbres%20secas?_q=legumbres%20secas&map=ft. Intentando nuevamente (6/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T21:40:03.894Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:41:10.252Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:41:24.326Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:46:43.077Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:46:57.058Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:47:10.953Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:47:45.146Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:48:06.066Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:51:26.601Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:53:11.401Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:53:49.497Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:54:43.411Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:55:35.316Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:56:00.349Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:57:34.312Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:58:27.085Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yogur?_q=yogur&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T21:58:34.912Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:58:45.748Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T21:59:09.450Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T22:02:08.463Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T22:03:23.770Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cerveza?_q=cerveza&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-04-30T22:03:40.958Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T22:04:01.400Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T22:06:00.376Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T22:13:15.258Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T22:14:07.781Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-04-30T22:14:22.577Z] [WARNING] - Scroll error: Waiting failed: 2000ms exceeded
-[2024-05-01T20:34:53.638Z] [ERROR] - recordVariation error: Cast to date failed for value "Invalid Date" (type Date) at path "date" for model "registro_precios"
-[2024-05-01T20:52:43.193Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-05-01T20:52:48.884Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
-[2024-05-01T20:52:54.614Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (3/6)... El contenedor principal no se encontró en la página.
-[2024-05-01T21:01:28.848Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/dulce%20de%20leche?_q=dulce%20de%20leche&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-05-01T21:02:12.123Z] [WARNING] - Scroll error: Waiting failed: 2500ms exceeded
-[2024-05-01T21:03:56.179Z] [WARNING] - Scroll error: Waiting failed: 2500ms exceeded
-[2024-05-01T21:07:35.958Z] [WARNING] - Scroll error: Waiting failed: 2500ms exceeded
-[2024-05-01T21:07:51.735Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/leche?_q=leche&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-05-01T21:11:20.484Z] [WARNING] - Scroll error: Waiting failed: 2500ms exceeded
-[2024-05-01T21:13:41.497Z] [WARNING] - Scroll error: Waiting failed: 2500ms exceeded
-[2024-05-01T21:20:31.123Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/vino?_q=vino&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-05-01T21:21:15.766Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/vino?_q=vino&map=ft. Intentando nuevamente (2/6)... El contenedor principal no se encontró en la página.
-[2024-05-01T21:22:13.689Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/vino?_q=vino&map=ft. Intentando nuevamente (3/6)... El contenedor principal no se encontró en la página.
-[2024-05-01T21:28:45.087Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cafe?_q=cafe&map=ft. Intentando nuevamente (1/6)... El contenedor principal no se encontró en la página.
-[2024-05-01T21:29:59.000Z] [WARNING] - Scroll error: Waiting failed: 2500ms exceeded
+[2024-05-02T04:12:22.508Z] [WARNING] - Scroll error
+[2024-05-02T04:15:12.071Z] [WARNING] - Scroll error
+[2024-05-02T04:15:37.714Z] [WARNING] - Scroll error
+[2024-05-02T04:16:08.518Z] [WARNING] - Scroll error
+[2024-05-02T04:16:58.904Z] [WARNING] - Scroll error
+[2024-05-02T04:17:30.092Z] [WARNING] - Scroll error
+[2024-05-02T04:17:59.886Z] [WARNING] - Scroll error
+[2024-05-02T04:18:14.141Z] [WARNING] - Scroll error
+[2024-05-02T04:19:43.682Z] [WARNING] - Scroll error
+[2024-05-02T04:20:27.086Z] [WARNING] - Scroll error
+[2024-05-02T04:21:09.714Z] [WARNING] - Scroll error
+[2024-05-02T04:22:01.995Z] [WARNING] - Scroll error
+[2024-05-02T04:22:14.224Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T04:22:14.225Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T04:22:14.226Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/legumbres%20secas?_q=legumbres%20secas&map=ft. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T04:22:20.906Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T04:22:20.907Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T04:22:20.908Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/legumbres%20secas?_q=legumbres%20secas&map=ft. Intentando nuevamente (2/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T04:22:27.609Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T04:22:27.610Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T04:22:27.610Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/legumbres%20secas?_q=legumbres%20secas&map=ft. Intentando nuevamente (3/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T04:22:34.287Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T04:22:34.287Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T04:22:34.288Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/legumbres%20secas?_q=legumbres%20secas&map=ft. Intentando nuevamente (4/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T04:22:40.989Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T04:22:40.990Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T04:22:40.991Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/legumbres%20secas?_q=legumbres%20secas&map=ft. Intentando nuevamente (5/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T04:22:47.733Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T04:22:47.734Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T04:22:47.735Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/legumbres%20secas?_q=legumbres%20secas&map=ft. Intentando nuevamente (6/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T04:23:45.014Z] [WARNING] - Scroll error
+[2024-05-02T04:24:56.329Z] [WARNING] - Scroll error
+[2024-05-02T04:27:42.917Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T04:27:42.917Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T04:27:42.918Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T04:27:49.620Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T04:27:49.620Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T04:27:49.621Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (2/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T04:27:56.319Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T04:27:56.319Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T04:27:56.320Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (3/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T04:28:03.030Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T04:28:03.031Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T04:28:03.032Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (4/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T04:28:09.707Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T04:28:09.707Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T04:28:09.708Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (5/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T04:28:16.402Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T04:28:16.403Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T04:28:16.403Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (6/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T04:29:21.206Z] [WARNING] - Scroll error
+[2024-05-02T04:31:47.053Z] [WARNING] - Scroll error
+[2024-05-02T04:35:36.086Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T04:35:36.086Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T04:35:36.087Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yogur?_q=yogur&map=ft. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T04:35:45.505Z] [WARNING] - Scroll error
+[2024-05-02T04:35:57.217Z] [WARNING] - Scroll error
+[2024-05-02T04:36:08.481Z] [WARNING] - Scroll error
+[2024-05-02T04:36:19.689Z] [WARNING] - Scroll error
+[2024-05-02T04:36:49.507Z] [WARNING] - Scroll error
+[2024-05-02T04:37:00.754Z] [WARNING] - Scroll error
+[2024-05-02T04:38:35.931Z] [WARNING] - Scroll error
+[2024-05-02T04:39:39.522Z] [WARNING] - Scroll error
+[2024-05-02T04:43:15.852Z] [WARNING] - Scroll error
+[2024-05-02T04:46:41.468Z] [WARNING] - Scroll error
+[2024-05-02T04:49:10.732Z] [WARNING] - Scroll error
+[2024-05-02T04:50:16.032Z] [WARNING] - 2 URLs no se pudieron scrapear.
+[2024-05-02T04:58:47.023Z] [WARNING] - Scroll error
+[2024-05-02T04:59:41.769Z] [WARNING] - Scroll error
+[2024-05-02T05:00:46.224Z] [WARNING] - Scroll error
+[2024-05-02T05:01:05.836Z] [WARNING] - Scroll error
+[2024-05-02T05:02:34.397Z] [WARNING] - Scroll error
+[2024-05-02T05:03:27.653Z] [WARNING] - Scroll error
+[2024-05-02T05:05:29.868Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T05:05:29.869Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T05:05:29.870Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T05:05:39.228Z] [WARNING] - Scroll error
+[2024-05-02T05:05:47.810Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T05:05:47.811Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T05:05:47.811Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (2/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T05:05:54.526Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T05:05:54.526Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T05:05:54.527Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (3/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T05:06:01.209Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T05:06:01.210Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T05:06:01.211Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (4/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T05:06:07.932Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T05:06:07.933Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T05:06:07.933Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (5/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T05:06:14.620Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T05:06:14.620Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T05:06:14.621Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (6/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T05:08:39.018Z] [WARNING] - Scroll error
+[2024-05-02T05:14:14.003Z] [WARNING] - Scroll error
+[2024-05-02T05:14:25.459Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/aceite?_q=aceite&map=ft. Intentando nuevamente (1/6)... Requesting main frame too early!
+[2024-05-02T13:03:11.356Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/aceite?_q=aceite&map=ft. Intentando nuevamente (2/6)... Requesting main frame too early!
+[2024-05-02T13:03:15.369Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/aceite?_q=aceite&map=ft. Intentando nuevamente (3/6)... Requesting main frame too early!
+[2024-05-02T13:03:19.390Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/aceite?_q=aceite&map=ft. Intentando nuevamente (4/6)... Requesting main frame too early!
+[2024-05-02T13:03:23.420Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/aceite?_q=aceite&map=ft. Intentando nuevamente (5/6)... Requesting main frame too early!
+[2024-05-02T13:03:27.440Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/aceite?_q=aceite&map=ft. Intentando nuevamente (6/6)... Requesting main frame too early!
+[2024-05-02T13:04:49.020Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T13:04:49.021Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T13:04:49.021Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T13:04:55.741Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T13:04:55.742Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T13:04:55.742Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (2/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T13:05:02.442Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T13:05:02.443Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T13:05:02.444Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (3/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T13:05:09.108Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T13:05:09.108Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T13:05:09.109Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (4/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T13:15:22.783Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (1/6)... selector.startsWith is not a function
+[2024-05-02T13:17:43.856Z] [WARNING] - Error no se encontro el contenedor luego de 2 intentos
+[2024-05-02T13:17:43.888Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (1/6)...
+[2024-05-02T13:21:01.968Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T13:21:04.595Z] [WARNING] - Scroll error
+[2024-05-02T13:21:16.942Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T13:21:34.859Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T13:30:37.713Z] [WARNING] - scrapeProduct error El selector no es válido.
+[2024-05-02T13:30:37.714Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (1/6)... Cannot read properties of undefined (reading 'forEach')
+[2024-05-02T13:30:45.673Z] [WARNING] - scrapeProduct error El selector no es válido.
+[2024-05-02T13:30:45.674Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (2/6)... Cannot read properties of undefined (reading 'forEach')
+[2024-05-02T13:30:52.311Z] [WARNING] - scrapeProduct error El selector no es válido.
+[2024-05-02T13:30:52.312Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (3/6)... Cannot read properties of undefined (reading 'forEach')
+[2024-05-02T13:32:54.868Z] [WARNING] - scrapeProduct error
+[2024-05-02T13:32:54.869Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (1/6)... Cannot read properties of undefined (reading 'forEach')
+[2024-05-02T13:33:01.580Z] [WARNING] - scrapeProduct error
+[2024-05-02T13:33:01.581Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (2/6)... Cannot read properties of undefined (reading 'forEach')
+[2024-05-02T13:33:08.219Z] [WARNING] - scrapeProduct error
+[2024-05-02T13:33:08.219Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (3/6)... Cannot read properties of undefined (reading 'forEach')
+[2024-05-02T13:33:14.886Z] [WARNING] - scrapeProduct error
+[2024-05-02T13:33:14.887Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (4/6)... Cannot read properties of undefined (reading 'forEach')
+[2024-05-02T13:33:21.543Z] [WARNING] - scrapeProduct error
+[2024-05-02T13:33:21.543Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (5/6)... Cannot read properties of undefined (reading 'forEach')
+[2024-05-02T13:33:28.208Z] [WARNING] - scrapeProduct error
+[2024-05-02T13:33:28.209Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (6/6)... Cannot read properties of undefined (reading 'forEach')
+[2024-05-02T13:33:37.538Z] [WARNING] - scrapeProduct error
+[2024-05-02T13:33:37.539Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (1/6)... Cannot read properties of undefined (reading 'forEach')
+[2024-05-02T13:33:44.161Z] [WARNING] - scrapeProduct error
+[2024-05-02T13:33:44.162Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (2/6)... Cannot read properties of undefined (reading 'forEach')
+[2024-05-02T13:33:50.816Z] [WARNING] - scrapeProduct error
+[2024-05-02T13:33:50.817Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (3/6)... Cannot read properties of undefined (reading 'forEach')
+[2024-05-02T13:33:57.437Z] [WARNING] - scrapeProduct error
+[2024-05-02T13:33:57.438Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (4/6)... Cannot read properties of undefined (reading 'forEach')
+[2024-05-02T13:34:04.087Z] [WARNING] - scrapeProduct error
+[2024-05-02T13:34:04.088Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (5/6)... Cannot read properties of undefined (reading 'forEach')
+[2024-05-02T13:34:10.710Z] [WARNING] - scrapeProduct error
+[2024-05-02T13:34:10.711Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (6/6)... Cannot read properties of undefined (reading 'forEach')
+[2024-05-02T13:34:20.286Z] [WARNING] - scrapeProduct error
+[2024-05-02T13:34:20.287Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (1/6)... Cannot read properties of undefined (reading 'forEach')
+[2024-05-02T13:34:26.931Z] [WARNING] - scrapeProduct error
+[2024-05-02T13:34:26.931Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (2/6)... Cannot read properties of undefined (reading 'forEach')
+[2024-05-02T13:34:33.592Z] [WARNING] - scrapeProduct error
+[2024-05-02T13:34:33.593Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (3/6)... Cannot read properties of undefined (reading 'forEach')
+[2024-05-02T13:34:40.240Z] [WARNING] - scrapeProduct error
+[2024-05-02T13:34:40.241Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (4/6)... Cannot read properties of undefined (reading 'forEach')
+[2024-05-02T13:34:46.918Z] [WARNING] - scrapeProduct error
+[2024-05-02T13:34:46.918Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (5/6)... Cannot read properties of undefined (reading 'forEach')
+[2024-05-02T13:34:53.560Z] [WARNING] - scrapeProduct error
+[2024-05-02T13:34:53.561Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (6/6)... Cannot read properties of undefined (reading 'forEach')
+[2024-05-02T13:35:03.375Z] [WARNING] - scrapeProduct error
+[2024-05-02T13:35:03.376Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/arroz?_q=arroz&map=ft. Intentando nuevamente (1/6)... Cannot read properties of undefined (reading 'forEach')
+[2024-05-02T13:35:10.051Z] [WARNING] - scrapeProduct error
+[2024-05-02T13:35:10.052Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/arroz?_q=arroz&map=ft. Intentando nuevamente (2/6)... Cannot read properties of undefined (reading 'forEach')
+[2024-05-02T13:35:16.733Z] [WARNING] - scrapeProduct error
+[2024-05-02T13:35:16.734Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/arroz?_q=arroz&map=ft. Intentando nuevamente (3/6)... Cannot read properties of undefined (reading 'forEach')
+[2024-05-02T13:40:14.278Z] [ERROR] - scrapeURL error
+[2024-05-02T13:40:16.127Z] [ERROR] - scrapeURL error
+[2024-05-02T13:40:18.168Z] [ERROR] - scrapeURL error
+[2024-05-02T13:40:22.604Z] [ERROR] - scrapeURL error
+[2024-05-02T13:40:27.182Z] [ERROR] - scrapeURL error
+[2024-05-02T13:40:31.567Z] [ERROR] - scrapeURL error
+[2024-05-02T13:40:35.626Z] [ERROR] - scrapeURL error
+[2024-05-02T13:40:39.332Z] [ERROR] - scrapeURL error
+[2024-05-02T13:40:44.104Z] [ERROR] - scrapeURL error
+[2024-05-02T13:40:48.152Z] [ERROR] - scrapeURL error
+[2024-05-02T13:40:52.402Z] [ERROR] - scrapeURL error
+[2024-05-02T13:40:57.468Z] [ERROR] - scrapeURL error
+[2024-05-02T13:41:01.451Z] [ERROR] - scrapeURL error
+[2024-05-02T13:42:05.919Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (1/6)... MAX_PAGES is not defined
+[2024-05-02T13:42:10.292Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (2/6)... MAX_PAGES is not defined
+[2024-05-02T13:42:46.945Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:42:46.946Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (1/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:42:52.828Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:42:52.829Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (2/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:42:58.779Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:42:58.780Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (3/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:43:04.780Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:43:04.781Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (4/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:43:10.739Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:43:10.740Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (5/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:43:16.695Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:43:16.696Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (6/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:43:25.103Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:43:25.104Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (1/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:43:31.020Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:43:31.021Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (2/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:43:36.971Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:43:36.972Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (3/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:43:42.929Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:43:42.930Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (4/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:43:48.928Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:43:48.928Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (5/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:43:55.048Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:43:55.048Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (6/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:44:03.231Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:44:03.232Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (1/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:44:09.045Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:44:09.045Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (2/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:44:14.884Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:44:14.885Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (3/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:44:20.718Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:44:20.719Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (4/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:51:48.878Z] [ERROR] - Error initializing browser: Cannot access 'page' before initialization
+[2024-05-02T13:51:48.878Z] [ERROR] - Error general en runScrapingBot: Cannot access 'page' before initialization
+[2024-05-02T13:52:20.141Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:52:20.142Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (1/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:52:26.040Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:52:26.040Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (2/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:52:31.887Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:52:31.888Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (3/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:52:37.704Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:52:37.705Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (4/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:52:43.666Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:52:43.666Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (5/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:52:49.487Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:52:49.487Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (6/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:53:47.706Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:53:47.707Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (1/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:53:53.593Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:53:53.594Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (2/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:53:59.394Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:53:59.395Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (3/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:54:05.212Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:54:05.213Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (4/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:54:11.289Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:54:11.290Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (5/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:54:17.283Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:54:17.284Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (6/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:54:23.281Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:54:23.281Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (1/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:54:29.448Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:54:29.449Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (2/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:54:35.425Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:54:35.426Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (3/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:54:41.377Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:54:41.378Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (4/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:54:47.371Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:54:47.371Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (5/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:54:53.514Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:54:53.515Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (6/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:54:59.953Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:54:59.953Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (1/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:55:05.876Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:55:05.877Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (2/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:55:11.861Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:55:11.862Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (3/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:55:17.687Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:55:17.688Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (4/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:55:23.533Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:55:23.533Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (5/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:55:29.371Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:55:29.371Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (6/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:55:38.178Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:55:38.179Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/arroz?_q=arroz&map=ft. Intentando nuevamente (1/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:55:44.106Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:55:44.106Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/arroz?_q=arroz&map=ft. Intentando nuevamente (2/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:55:50.031Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:55:50.031Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/arroz?_q=arroz&map=ft. Intentando nuevamente (3/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:55:55.858Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:55:55.859Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/arroz?_q=arroz&map=ft. Intentando nuevamente (4/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:56:01.992Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:56:01.992Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/arroz?_q=arroz&map=ft. Intentando nuevamente (5/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:56:07.815Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:56:07.815Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/arroz?_q=arroz&map=ft. Intentando nuevamente (6/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T13:56:18.544Z] [ERROR] - scrapeProduct error
+[2024-05-02T13:56:18.545Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/harinas?_q=harinas&map=ft. Intentando nuevamente (1/6)... No se encontraron nuevos productos o se alcanzó el final de la página. Deteniendo la extracción.
+[2024-05-02T14:01:41.895Z] [WARNING] - Scroll error
+[2024-05-02T14:02:38.070Z] [WARNING] - Scroll error
+[2024-05-02T14:03:06.650Z] [WARNING] - Scroll error
+[2024-05-02T14:04:08.858Z] [WARNING] - Scroll error
+[2024-05-02T14:05:02.997Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T14:05:02.998Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T14:05:02.998Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/fideos?_q=fideos&map=ft. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T14:05:12.358Z] [WARNING] - Scroll error
+[2024-05-02T14:05:33.207Z] [WARNING] - Scroll error
+[2024-05-02T14:06:23.342Z] [WARNING] - Scroll error
+[2024-05-02T14:07:55.963Z] [WARNING] - Scroll error
+[2024-05-02T14:08:52.296Z] [WARNING] - Scroll error
+[2024-05-02T14:09:10.965Z] [WARNING] - Scroll error
+[2024-05-02T14:10:33.940Z] [WARNING] - Scroll error
+[2024-05-02T14:11:03.977Z] [WARNING] - Scroll error
+[2024-05-02T14:11:41.283Z] [WARNING] - Scroll error
+[2024-05-02T14:11:52.590Z] [WARNING] - Scroll error
+[2024-05-02T14:13:49.188Z] [WARNING] - Scroll error
+[2024-05-02T14:14:15.577Z] [WARNING] - Scroll error
+[2024-05-02T14:15:18.853Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T14:15:18.854Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T14:15:18.855Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T14:15:25.583Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T14:15:25.584Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T14:15:25.585Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (2/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T14:15:32.297Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T14:15:32.298Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T14:15:32.298Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (3/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T14:15:39.012Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T14:15:39.013Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T14:15:39.014Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (4/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T14:15:45.773Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T14:15:45.773Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T14:15:45.774Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (5/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T14:15:52.472Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T14:15:52.473Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T14:15:52.474Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (6/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T14:16:30.126Z] [WARNING] - Scroll error
+[2024-05-02T14:18:02.876Z] [WARNING] - Scroll error
+[2024-05-02T14:18:29.733Z] [WARNING] - Scroll error
+[2024-05-02T14:19:01.584Z] [WARNING] - Scroll error
+[2024-05-02T14:21:59.785Z] [WARNING] - Scroll error
+[2024-05-02T14:22:26.241Z] [WARNING] - Scroll error
+[2024-05-02T14:22:40.902Z] [WARNING] - Scroll error
+[2024-05-02T14:23:06.542Z] [WARNING] - Scroll error
+[2024-05-02T14:25:28.903Z] [WARNING] - Scroll error
+[2024-05-02T14:26:08.311Z] [WARNING] - Scroll error
+[2024-05-02T14:27:03.235Z] [WARNING] - Scroll error
+[2024-05-02T14:27:19.415Z] [WARNING] - Scroll error
+[2024-05-02T14:28:09.876Z] [WARNING] - Scroll error
+[2024-05-02T14:29:32.815Z] [WARNING] - Scroll error
+[2024-05-02T14:37:08.943Z] [WARNING] - 1 URLs no se pudieron scrapear.
+[2024-05-02T14:37:43.211Z] [WARNING] - Scroll error
+[2024-05-02T14:43:58.844Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T14:43:58.844Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T14:43:58.845Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T14:44:06.048Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T14:44:06.049Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T14:44:06.050Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (2/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T14:44:13.323Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T14:44:13.324Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T14:44:13.324Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (3/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T14:44:53.231Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T14:44:53.232Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T14:44:53.232Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T14:45:00.488Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T14:45:00.488Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T14:45:00.489Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (2/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T14:45:07.738Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T14:45:07.738Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T14:45:07.739Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (3/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T14:45:14.913Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T14:45:14.914Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T14:45:14.914Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (4/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T14:45:22.114Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T14:45:22.115Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T14:45:22.116Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (5/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T14:45:30.743Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T14:45:30.744Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T14:45:30.745Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (6/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T14:45:33.746Z] [WARNING] - 1 URLs no se pudieron scrapear.
+[2024-05-02T14:45:52.077Z] [WARNING] - Scroll error
+[2024-05-02T14:47:02.771Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T14:47:02.771Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T14:47:02.772Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T14:47:10.039Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T14:47:10.039Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T14:47:10.040Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (2/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T14:53:54.880Z] [WARNING] - Scroll error
+[2024-05-02T14:54:07.693Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T14:54:07.694Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T14:54:07.695Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T14:54:14.879Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T14:54:14.879Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T14:54:14.880Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (2/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T14:54:24.687Z] [WARNING] - Scroll error
+[2024-05-02T14:54:35.251Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T14:54:35.253Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T14:54:35.253Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (3/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T14:54:42.436Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T14:54:42.437Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T14:54:42.438Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (4/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T14:54:49.571Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T14:54:49.572Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T14:54:49.573Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (5/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T14:54:56.734Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T14:54:56.735Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T14:54:56.735Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (6/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T14:55:07.000Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T14:55:07.001Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T14:55:07.001Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T14:55:14.193Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T14:55:14.193Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T14:55:14.194Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (2/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T14:55:21.342Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T14:55:21.342Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T14:55:21.343Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (3/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T14:55:28.505Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T14:55:28.506Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T14:55:28.506Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (4/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T14:55:35.645Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T14:55:35.646Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T14:55:35.647Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (5/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T14:55:42.805Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T14:55:42.805Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T14:55:42.806Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (6/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T14:55:45.819Z] [ERROR] - Error general en runScrapingBot: Cannot read properties of undefined (reading 'length')
+[2024-05-02T14:57:26.304Z] [WARNING] - Scroll error
+[2024-05-02T14:59:31.626Z] [ERROR] - Error general en runScrapingBot: page is not defined
+[2024-05-02T14:59:31.626Z] [ERROR] - runFullTask error: browser is not defined
+[2024-05-02T15:02:30.302Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:02:30.302Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:02:30.303Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:02:37.496Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:02:37.497Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:02:37.498Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (2/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:02:44.631Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:02:44.632Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:02:44.633Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (3/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:02:54.439Z] [WARNING] - Scroll error
+[2024-05-02T15:03:04.999Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:03:05.000Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:03:05.001Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (4/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:03:12.177Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:03:12.178Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:03:12.178Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (5/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:03:19.330Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:03:19.331Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:03:19.331Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (6/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:03:23.617Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (1/6)... Cannot read properties of undefined (reading 'goto')
+[2024-05-02T15:03:27.627Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (2/6)... Cannot read properties of undefined (reading 'goto')
+[2024-05-02T15:03:31.642Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (3/6)... Cannot read properties of undefined (reading 'goto')
+[2024-05-02T15:03:35.653Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (4/6)... Cannot read properties of undefined (reading 'goto')
+[2024-05-02T15:03:39.665Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (5/6)... Cannot read properties of undefined (reading 'goto')
+[2024-05-02T15:03:43.672Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (6/6)... Cannot read properties of undefined (reading 'goto')
+[2024-05-02T15:03:46.679Z] [ERROR] - Error general en runScrapingBot: Cannot read properties of undefined (reading 'length')
+[2024-05-02T15:03:46.679Z] [ERROR] - runFullTask error: browser is not defined
+[2024-05-02T15:15:01.809Z] [WARNING] - Scroll error
+[2024-05-02T15:15:32.855Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:15:32.856Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:15:32.857Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:15:40.297Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:15:40.298Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:15:40.299Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (2/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:15:47.475Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:15:47.476Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:15:47.476Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (3/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:15:54.666Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:15:54.668Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:15:54.668Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (4/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:16:01.906Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:16:01.907Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:16:01.907Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (5/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:16:09.075Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:16:09.076Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:16:09.077Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (6/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:16:13.356Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (1/6)... Cannot read properties of undefined (reading 'goto')
+[2024-05-02T15:16:17.374Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (2/6)... Cannot read properties of undefined (reading 'goto')
+[2024-05-02T15:16:21.379Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (3/6)... Cannot read properties of undefined (reading 'goto')
+[2024-05-02T15:23:35.473Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:23:35.474Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:23:35.475Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:23:45.669Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:23:45.670Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:23:45.670Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (2/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:23:55.839Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:23:55.840Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:23:55.841Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (3/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:24:06.032Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:24:06.033Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:24:06.034Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (4/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:24:16.203Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:24:16.204Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:24:16.204Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (5/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:24:26.394Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:24:26.395Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:24:26.395Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (6/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:24:32.682Z] [ERROR] - Error general en runScrapingBot: Cannot read properties of undefined (reading 'length')
+[2024-05-02T15:35:24.615Z] [WARNING] - Scroll error
+[2024-05-02T15:37:02.705Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:37:02.706Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:37:02.706Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:37:12.953Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:37:12.953Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:37:12.954Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (2/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:37:23.117Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:37:23.118Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:37:23.118Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (3/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:37:33.333Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:37:33.334Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:37:33.334Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (4/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:37:43.506Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:37:43.506Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:37:43.507Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (5/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:37:53.954Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:37:53.954Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:37:53.955Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (6/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:38:00.222Z] [ERROR] - Error general en runScrapingBot: Cannot read properties of undefined (reading 'length')
+[2024-05-02T15:41:36.328Z] [WARNING] - Scroll error
+[2024-05-02T15:42:00.268Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:42:00.268Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:42:00.269Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:42:10.464Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:42:10.465Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:42:10.466Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (2/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:42:21.108Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:42:21.109Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:42:21.109Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (3/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:42:31.294Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:42:31.295Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:42:31.295Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (4/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:42:41.481Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:42:41.482Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:42:41.482Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (5/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:42:51.648Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:42:51.648Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:42:51.649Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (6/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:42:57.956Z] [ERROR] - Error general en runScrapingBot: Cannot read properties of undefined (reading 'length')
+[2024-05-02T15:50:38.850Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:50:38.851Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:50:38.851Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:50:49.015Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:50:49.015Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:50:49.016Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (2/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:50:59.188Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:50:59.189Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:50:59.190Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (3/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:51:09.356Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:51:09.357Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:51:09.358Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (4/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:51:19.707Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:51:19.708Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:51:19.708Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (5/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:51:29.899Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:51:29.900Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:51:29.900Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (6/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:51:54.810Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:51:54.811Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:51:54.812Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:52:05.011Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:52:05.012Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:52:05.012Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (2/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:52:15.192Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:52:15.192Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:52:15.193Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (3/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:52:25.390Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:52:25.390Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:52:25.391Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (4/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:52:35.539Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:52:35.540Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:52:35.540Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (5/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:52:45.750Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:52:45.751Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:52:45.752Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (6/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T15:59:24.260Z] [WARNING] - Scroll error
+[2024-05-02T15:59:54.422Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T15:59:54.423Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T15:59:54.423Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:00:04.640Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:00:04.641Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:00:04.642Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (2/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:00:15.014Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:00:15.015Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:00:15.016Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (3/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:00:25.187Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:00:25.187Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:00:25.188Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (4/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:00:35.396Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:00:35.397Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:00:35.398Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (5/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:00:45.564Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:00:45.565Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:00:45.566Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (6/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:00:51.878Z] [ERROR] - Error general en runScrapingBot: Cannot read properties of undefined (reading 'length')
+[2024-05-02T16:05:03.139Z] [WARNING] - Scroll error
+[2024-05-02T16:05:19.844Z] [WARNING] - Scroll error
+[2024-05-02T16:05:30.961Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:05:30.962Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:05:30.963Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:05:41.161Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:05:41.161Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:05:41.162Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (2/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:05:51.341Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:05:51.342Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:05:51.343Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (3/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:06:01.586Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:06:01.587Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:06:01.587Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (4/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:06:11.815Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:06:11.816Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:06:11.816Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (5/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:06:22.000Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:06:22.001Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:06:22.002Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (6/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:06:28.270Z] [ERROR] - Error general en runScrapingBot: failedURLs es 
+[2024-05-02T16:09:15.246Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:09:15.246Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:09:15.247Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:09:25.424Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:09:25.425Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:09:25.426Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (2/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:09:35.579Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:09:35.580Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:09:35.581Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (3/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:09:45.751Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:09:45.752Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:09:45.752Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (4/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:10:07.332Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:10:07.332Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:10:07.333Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (5/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:10:17.523Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:10:17.523Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:10:17.524Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (6/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:10:23.658Z] [ERROR] - Error general en runScrapingBot: failedURLs is not defined
+[2024-05-02T16:12:11.394Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:12:11.395Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:12:11.396Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:12:21.592Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:12:21.593Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:12:21.594Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (2/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:12:31.798Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:12:31.799Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:12:31.799Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (3/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:12:42.004Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:12:42.005Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:12:42.006Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (4/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:12:52.222Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:12:52.223Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:12:52.223Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (5/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:13:02.392Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:13:02.393Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:13:02.394Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (6/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:13:08.414Z] [ERROR] - Error general en runScrapingBot: storedData is not defined
+[2024-05-02T16:18:32.660Z] [WARNING] - Scroll error
+[2024-05-02T16:18:43.739Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:18:43.739Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:18:43.740Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:18:53.974Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:18:53.975Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:18:53.976Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (2/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:19:04.134Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:19:04.135Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:19:04.135Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (3/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:19:14.324Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:19:14.325Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:19:14.325Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (4/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:19:24.483Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:19:24.484Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:19:24.484Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (5/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:19:34.913Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:19:34.914Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:19:34.914Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (6/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:19:41.060Z] [ERROR] - Error general en runScrapingBot: failedURLs es 
+[2024-05-02T16:21:44.778Z] [WARNING] - Scroll error
+[2024-05-02T16:21:55.322Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:21:55.322Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:21:55.323Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:22:05.577Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:22:05.578Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:22:05.579Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (2/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:22:15.744Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:22:15.745Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:22:15.745Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (3/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:22:25.961Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:22:25.961Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:22:25.962Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (4/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:22:36.115Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:22:36.115Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:22:36.116Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (5/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:22:46.304Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:22:46.305Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:22:46.305Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (6/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:22:52.434Z] [ERROR] - Error general en runScrapingBot: failedURLs error 
+[2024-05-02T16:26:06.487Z] [WARNING] - Scroll error
+[2024-05-02T16:26:32.100Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:26:32.101Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:26:32.101Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:26:42.293Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:26:42.294Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:26:42.294Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (2/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:26:52.550Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:26:52.551Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:26:52.552Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (3/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:27:02.744Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:27:02.745Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:27:02.746Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (4/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:27:13.360Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:27:13.360Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:27:13.361Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (5/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:27:23.540Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:27:23.540Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:27:23.541Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (6/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:27:33.821Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:27:33.821Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:27:33.822Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:27:43.991Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:27:43.992Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:27:43.992Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (2/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:27:54.147Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:27:54.148Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:27:54.149Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (3/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:28:04.319Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:28:04.319Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:28:04.320Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (4/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:28:17.107Z] [WARNING] - Scroll error
+[2024-05-02T16:28:27.664Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:28:27.664Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:28:27.665Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (5/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:28:37.852Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T16:28:37.853Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T16:28:37.853Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20vacuna?_q=carne%20vacuna&map=ft&page=1. Intentando nuevamente (6/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T16:28:43.859Z] [WARNING] - Algunas URLs fallaron incluso después de reintentar.
+[2024-05-02T16:28:43.860Z] [ERROR] - Error general en runScrapingBot: Assignment to constant variable.
+[2024-05-02T16:32:13.671Z] [WARNING] - Scroll error
+[2024-05-02T16:45:08.718Z] [WARNING] - Scroll error
+[2024-05-02T16:45:21.991Z] [WARNING] - Scroll error
+[2024-05-02T17:22:27.919Z] [WARNING] - Scroll error
+[2024-05-02T17:22:49.664Z] [WARNING] - Scroll error
+[2024-05-02T17:23:04.631Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T17:23:04.632Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T17:23:04.633Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carnes?initialMap=c&initialQuery=carnes&map=category-1,category-2&query=/carnes/carne-vacuna&searchState. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T17:23:17.435Z] [WARNING] - Scroll error
+[2024-05-02T17:23:30.621Z] [WARNING] - Scroll error
+[2024-05-02T18:07:53.506Z] [WARNING] - Scroll error
+[2024-05-02T18:08:09.984Z] [WARNING] - Scroll error
+[2024-05-02T18:09:14.342Z] [WARNING] - Scroll error
+[2024-05-02T18:12:53.668Z] [WARNING] - Scroll error
+[2024-05-02T18:13:24.977Z] [WARNING] - Scroll error
+[2024-05-02T18:16:54.873Z] [WARNING] - Scroll error
+[2024-05-02T18:17:11.416Z] [WARNING] - Scroll error
+[2024-05-02T18:19:06.939Z] [WARNING] - Scroll error
+[2024-05-02T18:20:34.158Z] [WARNING] - Scroll error
+[2024-05-02T18:20:55.247Z] [WARNING] - Scroll error
+[2024-05-02T18:21:27.870Z] [WARNING] - Scroll error
+[2024-05-02T18:21:50.266Z] [WARNING] - Scroll error
+[2024-05-02T18:24:36.360Z] [WARNING] - Scroll error
+[2024-05-02T18:25:07.219Z] [WARNING] - Scroll error
+[2024-05-02T18:26:32.810Z] [WARNING] - Scroll error
+[2024-05-02T18:29:13.954Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-02T18:29:13.955Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-02T18:29:13.956Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/fiambres?_q=fiambres&map=ft. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-02T18:29:26.938Z] [WARNING] - Scroll error
+[2024-05-02T18:29:40.162Z] [WARNING] - Scroll error
+[2024-05-02T18:29:53.387Z] [WARNING] - Scroll error
+[2024-05-02T18:30:07.040Z] [WARNING] - Scroll error
+[2024-05-02T18:30:20.689Z] [WARNING] - Scroll error
+[2024-05-02T18:30:34.327Z] [WARNING] - Scroll error
+[2024-05-02T18:30:54.431Z] [WARNING] - Scroll error
+[2024-05-02T18:36:21.200Z] [WARNING] - Scroll error
+[2024-05-02T18:37:10.282Z] [WARNING] - Scroll error
+[2024-05-02T18:40:00.500Z] [WARNING] - Scroll error
+[2024-05-02T18:42:45.956Z] [WARNING] - Scroll error
+[2024-05-02T18:50:36.373Z] [WARNING] - Scroll error
+[2024-05-02T18:56:34.048Z] [ERROR] - recordVariation error: Cast to date failed for value "Invalid Date" (type Date) at path "date" for model "registro_precios"

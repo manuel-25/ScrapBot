@@ -2,9 +2,8 @@ import connectDB from '../config/mongoose-config.js'
 import RecordManager from "../Mongo/recordManager.js"
 import VariationManager from '../Mongo/variationManager.js'
 import logger from "../config/winston.js"
-import { tweetVariations, tweetCategoryDecrease, tweetCategoryIncrease } from './twitterService.js'
-
-const today = new Date(new Date().getTime() - (3 * 60 * 60 * 1000)) // Ajusta a la hora de Argentina (GTM - 3)
+import { tweetVariations, tweetCategoryDecrease, tweetCategoryIncrease, tweetStartOfMonth } from './twitterService.js'
+import { today } from '../config/utils.js'
 
 //Record daily variation (only 1 time per day after scrapping is done)
 export async function recordVariation() {
@@ -169,28 +168,52 @@ async function getCategoryVariations(date, topCount) {
 export async function tweetDateVariation(date) {
     try {
         const firstDateOfMonth = await getFirstDateOfMonth(date)
-        if(!firstDateOfMonth) throw new Error('No se ah encontrado el primer registro del mes')
+        if(!firstDateOfMonth) {
+            logger.error('No se encontraron variaciones para la fecha: ', date)
+            return false
+        }
+
+        //First day of month
+        const dayNumber = today.getDay()
+        const firstDateDay = firstDateOfMonth.getDay()
+        if(dayNumber === firstDateDay){
+            const tweet = await tweetStartOfMonth(today, firstDateOfMonth)
+            return false
+        }
     
         const variations = await VariationManager.getByDate(date)
-        if (!variations) throw new Error("No se encontraron variaciones para la fecha:", date)
+        if (!variations) { 
+            logger.error('No se encontraron variaciones para la fecha: ', date)
+            return false
+        }
     
         const tweet = await tweetVariations(variations, date, firstDateOfMonth)
         return tweet
     } catch(err) {
-        console.error('Error al generar el Tweet', err)
+        logger.error('tweetDateVariation error', err)
     }
 }
 
 export async function categoryDecreases(date) {
     try {
         const firstDateOfMonth = await getFirstDateOfMonth(date)
-        if(!firstDateOfMonth) throw new Error('No se ah encontrado el primer registro del mes')
+        if(!firstDateOfMonth) {
+            logger.error('No se ah encontrado el primer registro del mes')
+            return false
+        }
     
         const { topDecreases } = await getCategoryVariations(today, 5)
-        if (!topDecreases) throw new Error("No se encontraron variaciones de categoria para la fecha:", date)
+        if (!topDecreases) {
+            logger.error('No se encontraron variaciones negativas de categoria para la fecha: ', date)
+            return false
+        }
     
         const negativePercentCategories = topDecreases.filter(category => category.categoryPercentDifference < 0)
-        if(negativePercentCategories.length < 1) throw new Error('No hay categorias con variaciones negativas.')
+        if(negativePercentCategories.length < 1) {
+            logger.error('No hay categorias con variaciones negativas.')
+            return false
+        }
+
         const tweet = await tweetCategoryDecrease(negativePercentCategories, date, firstDateOfMonth)
         return tweet
     } catch(err) {
@@ -201,31 +224,34 @@ export async function categoryDecreases(date) {
 export async function categoryIncreases(date) {
     try {
         const firstDateOfMonth = await getFirstDateOfMonth(date)
-        if(!firstDateOfMonth) throw new Error('No se ah encontrado el primer registro del mes')
+        if(!firstDateOfMonth) {
+            logger.error('No se ah encontrado el primer registro del mes')
+            return false
+        }
     
         const { topIncreases } = await getCategoryVariations(today, 5)
-        if (!topIncreases) throw new Error("No se encontraron variaciones de categoria para la fecha:", date)
+        if (!topIncreases) {
+            logger.error("No se encontraron variaciones positivas de categoria para la fecha:", date)
+            return false
+        }
     
         const positivePercentCategories = topIncreases.filter(category => category.categoryPercentDifference > 0)
-        if(positivePercentCategories.length < 1) throw new Error('No hay categorias con variaciones positivas.')
+        if(positivePercentCategories.length < 1) {
+            logger.error('No hay categorias con variaciones positivas.')
+            return false
+        }
+
         const tweet = await tweetCategoryIncrease(positivePercentCategories, date, firstDateOfMonth)
         return tweet
     } catch(err) {
-        console.error('Error al generar el Tweet', err)
+        logger.error('categoryIncreases error', err)
     }
 }
 
-/*await connectDB()
-//await recordVariation()
-await tweetDateVariation(today)
-await categoryIncreases(today)
-await categoryDecreases(today)*/
 
 
+await recordVariation()
 //const { topIncreases, topDecreases } = await getIncreaseAndDecrease(today, 'Vino', 20)
-
-
-
 
 //const { topIncreases, topDecreases } = await getCategoryVariations(today, 10)
 //console.log('topIncreases: ', topIncreases)
