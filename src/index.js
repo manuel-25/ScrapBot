@@ -214,60 +214,86 @@ async function scrapeAllURLs(urls, page) {
 
 // Receives a url and it creates a .json with  the data scraped from that page 
 async function scrapeURL(dinamicUrl, page) {
-    await delay(1000)
-    //Set website parameters
-    const startTime = new Date()
-    await page.goto(dinamicUrl, { waitUntil: 'domcontentloaded', timeout: 20000 })
+    try {
+        await delay(1000) // Pequeña espera antes de comenzar
+    
+        const startTime = new Date()
+        await page.goto(dinamicUrl, { waitUntil: 'domcontentloaded', timeout: 20000 })
+    
+        let dataScrapped = []
+        let previousProductCount = 0
+        let pageNumber = 1
+        let totalPages = 1
+        let containerSelector = '.vtex-search-result-3-x-gallery'
 
-    let dataScrapped = []
-    let previousProductCount = 0
-    let pageNumber = 1
-    let totalPages = 1
-    let containerSelector = '.vtex-search-result-3-x-gallery'
-    await page.waitForSelector('.vtex-search-result-3-x-gallery', { timeout: 20000 })
+        let retries = 0
+        let containerFound = false
 
-    await delay(1000)
-    while (pageNumber <= totalPages && pageNumber <= MAX_SCRAPING_PAGES) {
-        let currentProducts = await scrapeProduct(page, containerSelector)
-        if (!currentProducts || currentProducts.length === previousProductCount && pageNumber === totalPages) {                 //hace falta
-            logger.warning("No se encontraron nuevos productos o se alcanzó el final de la página.")
-        }
-
-        currentProducts.forEach(product => {
-            if (!dataScrapped.some(existingProduct => existingProduct.nombre === product.nombre)) {
-                dataScrapped.push(product)
+        while (retries < 3 && !containerFound) {
+            try {
+                await page.waitForSelector(containerSelector, { timeout: 10000 })
+                containerFound = true
+            } catch (error) {
+                logger.warning("El contenedor principal no se encontró. Reintentando...")
+                await page.reload({ waitUntil: 'domcontentloaded', timeout: 20000 })
+                retries++
             }
-        })
-        previousProductCount = currentProducts.length
-
-        // Scroll down
-        await scrollDown(page)
-        currentProducts = await scrapeProduct(page, containerSelector)
-
-        //Next page
-        if(currentProducts.length === previousProductCount) {
-            totalPages = await getTotalPages(page)
-            logger.debug(`Current page: ${pageNumber}/${totalPages}`)
-            pageNumber++
-            await goToPage(page, pageNumber, dinamicUrl)
-            await delay(1000)
         }
-    }
-    const formattedTime = elapsedTime(startTime)
-    const currentDate = new Date(new Date().getTime() - (3 * 60 * 60 * 1000)).toISOString()         //Hora Argentina GTM-3  reemplazar por TODAY
 
-    //Data extraida
-    const urlData = {
-        category: getCategoryNameFromUrl(dinamicUrl),
-        date: currentDate,
-        totalProducts: dataScrapped.length,
-        time_spent: formattedTime,
-        url: dinamicUrl,
-        data: dataScrapped
+        if (!containerFound) {
+            throw new Error("El contenedor no se encontró después de varios intentos.")
+        }
+
+        while (pageNumber <= totalPages && pageNumber <= MAX_SCRAPING_PAGES) {
+            const currentProducts = await scrapeProduct(page, containerSelector)
+
+            if (!currentProducts || currentProducts.length === previousProductCount && pageNumber === totalPages) {
+                logger.warning("No se encontraron nuevos productos o se alcanzó el final de la página.")
+                break
+            }
+
+            currentProducts.forEach(product => {
+                if (!dataScrapped.some(existingProduct => existingProduct.nombre === product.nombre)) {
+                    dataScrapped.push(product)
+                }
+            })
+
+            previousProductCount = currentProducts.length
+
+            // Scroll down and fetch more products
+            await scrollDown(page)
+            await delay(1000)
+
+            // Go to the next page
+            if (currentProducts.length === previousProductCount) {
+                totalPages = await getTotalPages(page)
+                logger.debug(`Página actual: ${pageNumber}/${totalPages}`)
+                pageNumber++
+                await goToPage(page, pageNumber, dinamicUrl)
+            }
+        }
+
+        const formattedTime = elapsedTime(startTime)
+        const currentDate = new Date(new Date().getTime() - (3 * 60 * 60 * 1000)).toISOString() // Hora Argentina GTM-3
+    
+        const urlData = {
+            category: getCategoryNameFromUrl(dinamicUrl),
+            date: currentDate,
+            totalProducts: dataScrapped.length,
+            time_spent: formattedTime,
+            url: dinamicUrl,
+            data: dataScrapped
+        }
+
+        logger.info(`Se tardó ${formattedTime} en scrapear ${dinamicUrl}`)
+        return urlData
+
+    } catch (err) {
+        logger.error("scrapeURL error:", err.message)
+        return null
     }
-    logger.info(`Se tardo ${formattedTime} en scrappear ${dinamicUrl}`)
-    return urlData    
 }
+
 
 //Receives the page & container selector (unique to the website may change values)  and returns an array of products
 async function scrapeProduct(page, containerSelector) {
