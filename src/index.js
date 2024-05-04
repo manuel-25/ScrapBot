@@ -224,6 +224,7 @@ async function scrapeURL(dinamicUrl, page) {
     let pageNumber = 1
     let totalPages = 1
     let containerSelector = '.vtex-search-result-3-x-gallery'
+    await page.waitForSelector('.vtex-search-result-3-x-gallery', { timeout: 20000 })
 
     await delay(1000)
     while (pageNumber <= totalPages && pageNumber <= MAX_SCRAPING_PAGES) {
