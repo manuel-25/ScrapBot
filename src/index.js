@@ -217,7 +217,7 @@ async function scrapeURL(dinamicUrl, page) {
     await delay(1000)
     //Set website parameters
     const startTime = new Date()
-    await page.goto(dinamicUrl, { waitUntil: 'domcontentloaded', timeout: 10000 })
+    await page.goto(dinamicUrl, { waitUntil: 'domcontentloaded', timeout: 20000 })
 
     let dataScrapped = []
     let previousProductCount = 0
