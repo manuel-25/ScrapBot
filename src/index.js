@@ -20,10 +20,10 @@ function elapsedTime(startTime) {
 }
 
 //Code Starts here! 
-cron.schedule('04 18 * * *', () => {
+/*cron.schedule('04 18 * * *', () => {
     logger.info(`Scrapbot se ejecuto a: ${new Date()}`)
     runFullTask()
-})
+})*/
 
 const runFullTask = async () => {
     try {
@@ -145,7 +145,7 @@ async function analyzeDataAndTweet(today) {
     }
 }
 
-//await analyzeDataAndTweet(today)
+runFullTask()
 
 // Configuración para iniciar el navegador y la página
 async function startBrowser() {
