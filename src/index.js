@@ -20,7 +20,7 @@ function elapsedTime(startTime) {
 }
 
 //Code Starts here! 
-cron.schedule('52 17 * * *', () => {
+cron.schedule('55 17 * * *', () => {
     logger.info(`Scrapbot se ejecuto a: ${new Date()}`)
     runFullTask()
 })
