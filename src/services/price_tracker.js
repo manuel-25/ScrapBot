@@ -3,7 +3,7 @@ import RecordManager from "../Mongo/recordManager.js"
 import VariationManager from '../Mongo/variationManager.js'
 import logger from "../config/winston.js"
 import { tweetVariations, tweetCategoryDecrease, tweetCategoryIncrease, tweetStartOfMonth } from './twitterService.js'
-import { today } from '../config/utils.js'
+export const today = new Date(new Date().getTime() - (3 * 60 * 60 * 1000))
 
 //Record daily variation (only 1 time per day after scrapping is done)
 export async function recordVariation(today) {
@@ -258,9 +258,11 @@ export async function categoryIncreases(date) {
 //yesterday.setDate(yesterday.getDate() - 1);
 
 
-//await connectDB()
-//await recordVariation(today)
-//await tweetDateVariation(today)
+/*await connectDB()
+await recordVariation(today)
+await tweetDateVariation(today)
+await categoryIncreases(today)
+await categoryDecreases(today)*/
 
 
 

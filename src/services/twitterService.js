@@ -1,6 +1,6 @@
 import { twitterClient } from "../config/twitterClient.js"
 import { formatter, getEmojiForCategory, getDaysAndMonth } from "../config/utils.js"
-
+//AGREGAR VALIDACIONES SI NO ESTA TODO NO SE TUITEA
 
 // Función para tuitear información sobre variaciones de precios
 export const tweetVariations = async (variations, date, firstDateOfMonth) => {
@@ -18,7 +18,9 @@ export const tweetVariations = async (variations, date, firstDateOfMonth) => {
         tweetText += `• Cambió un ${totalPercent.toFixed(2)}% ${percentEmoticon}\n`
         tweetText += `• De un total de ${totalProducts} productos, la caída fue de ${totalDrop} pesos ${dolarEmoticon}`
 
-        const tweet = await twitterClient.v2.tweet(tweetText)
+        const tweet = tweetText
+        console.log('tweet: ', tweet)
+        //const tweet = await twitterClient.v2.tweet(tweetText)
         return tweet
     } catch (err) {
         console.error("Error al enviar tweetVariations:", err)
@@ -35,7 +37,9 @@ export const tweetCategoryDecrease = async(variations, date, firstDateOfMonth) =
             tweetText += ` ${getEmojiForCategory(category.category)} ${category.category}: ${category.categoryPercentDifference.toFixed(2)}%\n`
         })
 
-        const tweet = await twitterClient.v2.tweet(tweetText)
+        //const tweet = await twitterClient.v2.tweet(tweetText)
+        const tweet = tweetText
+        console.log('tweet: ', tweet)
         return tweet
     } catch(err) {
         console.error("Error al enviar tweetCategoryDecrease:", err)
@@ -52,7 +56,9 @@ export const tweetCategoryIncrease = async(variations, date, firstDateOfMonth) =
             tweetText += ` ${getEmojiForCategory(category.category)} ${category.category}: +${category.categoryPercentDifference.toFixed(2)}%\n`
         })
 
-        const tweet = await twitterClient.v2.tweet(tweetText)
+        //const tweet = await twitterClient.v2.tweet(tweetText)
+        const tweet = tweetText
+        console.log('tweet: ', tweet)
         return tweet
     } catch(err) {
         console.error("Error al enviar tweetCategoryIncrease:", err)

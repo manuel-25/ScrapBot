@@ -3,8 +3,9 @@ import connectDB from './config/mongoose-config.js'
 import RecordManager from "./Mongo/recordManager.js"
 import logger from "./config/winston.js"
 import cron from  "node-cron"
-import { jumboURLs, staticURL, today } from "./config/utils.js"
+import { jumboURLs, staticURL } from "./config/utils.js"
 import { recordVariation, tweetDateVariation, categoryIncreases, categoryDecreases } from "./services/price_tracker.js"
+const today = new Date(new Date().getTime() - (3 * 60 * 60 * 1000))
 
 //CANASTA BASICA https://chequeado.com/el-explicador/que-es-la-canasta-basica-alimentaria-del-indec-y-como-se-compone/
 const MAX_BOT_RETRIES = 3
@@ -19,7 +20,7 @@ function elapsedTime(startTime) {
 }
 
 //Code Starts here! 
-cron.schedule('01 8 * * *', () => {
+cron.schedule('52 17 * * *', () => {
     logger.info(`Scrapbot se ejecuto a: ${new Date()}`)
     runFullTask()
 })
@@ -28,6 +29,7 @@ const runFullTask = async () => {
     try {
       logger.info("Iniciando el proceso de scraping.")
       const scrap = await runScrapingBot()
+      await delay(10000)
       if(scrap) {
         logger.info("Iniciando proceso de analisis.")
         await analyzeDataAndTweet(today)
@@ -40,6 +42,7 @@ const runFullTask = async () => {
 
 async function runScrapingBot() {
     try {
+        // Conexión a la base de datos y al navegador
         await connectDB()
         const { page, browser } = await startBrowser()
         if (!page || !browser) {
@@ -47,43 +50,58 @@ async function runScrapingBot() {
         }
 
         // Scraping inicial
-        const returnedData = await scrapeDataFromURLs(jumboURLs, page)
-        const { storedData, storedfailedURLs } = returnedData
-        console.log('returnedData: ', returnedData)
-        console.log('storedData: ', storedData)
-        console.log('failedURLs: ', storedfailedURLs)
+        logger.info(`Iniciando scraping de ${jumboURLs.length} URLs.`)
+        const { storedData, storedfailedURLs } = await scrapeDataFromURLs(jumboURLs, page)
+
         // Guardar los datos que se han scrapeado
-        if (storedData) {
+        if (storedData && storedData.length > 0) {
             const result = await validateAndSaveData(storedData)
-            if (result) { logger.info('Datos almacenados exitosamente.') }      //agregar else si no se guardan los datos
+            if(!result) return logger.warning("Los datos no se pudieron almacenar correctamente.")
+            logger.info(`Datos almacenados exitosamente (${storedData.length} registros).`)
+        } else {
+            logger.warning("No se encontraron datos para almacenar.")
         }
 
-        if (!storedfailedURLs) throw new Error('failedURLs error ', storedfailedURLs)
+        // Manejo de URLs fallidas
+        if (!storedfailedURLs || storedfailedURLs.length === 0) {
+            logger.info("No hubo URLs fallidas durante el scraping.")
+            browser.close()
+            return true // Todo fue exitoso
+        }
 
+        // Si hay URLs fallidas, reintentarlo
         let attempt = 0
         while (storedfailedURLs.length > 0 && attempt < MAX_BOT_RETRIES) {
             attempt++
-            logger.info(`Reintentando URLs fallidas. Intento: ${attempt}/${MAX_BOT_RETRIES}`)
+            logger.info(`Reintentando URLs fallidas. Intento: ${attempt}/${MAX_BOT_RETRIES}.`)
 
             const failed = await retryFailedURLs(storedfailedURLs, page)
-            if (failed.length === 0) {
-                logger.info('Todas las URLs fueron scrapeadas con éxito después de reintentar.')
+            storedfailedURLs = failed
+
+            if (storedfailedURLs.length === 0) {
+                logger.info("Todas las URLs fueron scrapeadas con éxito después de reintentar.")
                 break
             }
+
+            logger.warning(`Quedan ${storedfailedURLs.length} URLs fallidas después del intento ${attempt}.`)
         }
 
-        // Si alcanzaste el límite de reintentos y todavía hay URLs fallidas
-        if (attempt === MAX_BOT_RETRIES && failed.length > 0) {
-            logger.error('No se pudieron scrappear las siguientes urls ',  failed)
-            return false
+        // Si se alcanzó el límite de reintentos y todavía hay URLs fallidas
+        if (attempt >= MAX_BOT_RETRIES && storedfailedURLs.length > 0) {
+            logger.error("No se pudieron scrappear las siguientes URLs después de varios intentos:", storedfailedURLs.join(", "))
+            browser.close()
+            return false // No se puede continuar
         }
 
         browser.close()
+        return true // Todo salió bien y se puede continuar
     } catch (err) {
-        logger.error("Error general en runScrapingBot:", err)
+        logger.error("Error general en runScrapingBot:", err.message)
         return false
     }
 }
+
+
 
 async function retryFailedURLs(failedURLs, page) {
     if (!failedURLs || failedURLs.length === 0) return
@@ -126,6 +144,8 @@ async function analyzeDataAndTweet(today) {
         logger.error("analyzeDataAndTweet error:", err)
     }
 }
+
+//await analyzeDataAndTweet(today)
 
 // Configuración para iniciar el navegador y la página
 async function startBrowser() {

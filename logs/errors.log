@@ -750,3 +750,180 @@
 [2024-05-02T18:42:45.956Z] [WARNING] - Scroll error
 [2024-05-02T18:50:36.373Z] [WARNING] - Scroll error
 [2024-05-02T18:56:34.048Z] [ERROR] - recordVariation error: Cast to date failed for value "Invalid Date" (type Date) at path "date" for model "registro_precios"
+[2024-05-02T19:14:47.911Z] [ERROR] - getFirstDateOfMonth error Cannot read properties of undefined (reading 'getMonth')
+[2024-05-02T19:14:47.912Z] [ERROR] - No se encontraron variaciones para la fecha: 
+[2024-05-02T19:15:43.311Z] [ERROR] - getFirstDateOfMonth error Cannot read properties of undefined (reading 'getMonth')
+[2024-05-02T19:15:43.311Z] [ERROR] - No se encontraron variaciones para la fecha: 
+[2024-05-02T19:19:19.703Z] [ERROR] - getFirstDateOfMonth error Cannot read properties of undefined (reading 'getMonth')
+[2024-05-02T19:19:19.704Z] [ERROR] - No se encontraron variaciones para la fecha: 
+[2024-05-02T19:20:00.056Z] [ERROR] - getFirstDateOfMonth error Cannot read properties of undefined (reading 'getMonth')
+[2024-05-02T19:20:00.056Z] [ERROR] - No se encontraron variaciones para la fecha: 
+[2024-05-02T19:20:25.912Z] [ERROR] - getFirstDateOfMonth error Cannot read properties of undefined (reading 'getMonth')
+[2024-05-02T19:20:25.912Z] [ERROR] - No se encontraron variaciones para la fecha: 
+[2024-05-03T14:34:13.835Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-03T14:34:13.836Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-03T14:34:13.836Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-03T14:35:26.472Z] [WARNING] - Scroll error
+[2024-05-03T14:37:02.734Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-03T14:37:02.735Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-03T14:37:02.736Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-03T14:37:12.983Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-03T14:37:12.984Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-03T14:37:12.985Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (2/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-03T14:37:23.202Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-03T14:37:23.205Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-03T14:37:23.206Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (3/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-03T14:37:56.422Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-03T14:37:56.423Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-03T14:37:56.423Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (4/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-03T14:38:18.082Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-03T14:38:18.083Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-03T14:38:18.083Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (5/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-03T14:38:28.359Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-03T14:38:28.360Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-03T14:38:28.361Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (6/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-03T14:40:30.881Z] [WARNING] - Scroll error
+[2024-05-03T14:41:01.040Z] [WARNING] - Scroll error
+[2024-05-03T14:45:53.020Z] [WARNING] - Scroll error
+[2024-05-03T14:46:10.493Z] [WARNING] - Scroll error
+[2024-05-03T14:46:21.911Z] [WARNING] - Scroll error
+[2024-05-03T14:46:43.015Z] [WARNING] - Scroll error
+[2024-05-03T14:47:36.068Z] [WARNING] - Scroll error
+[2024-05-03T14:47:48.202Z] [WARNING] - Scroll error
+[2024-05-03T14:48:33.102Z] [WARNING] - Scroll error
+[2024-05-03T14:53:02.448Z] [WARNING] - Scroll error
+[2024-05-03T14:54:18.354Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-03T14:54:18.354Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-03T14:54:18.355Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/fiambres?_q=fiambres&map=ft. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-03T15:03:50.204Z] [WARNING] - Scroll error
+[2024-05-03T15:19:18.580Z] [WARNING] - Scroll error
+[2024-05-03T15:21:42.323Z] [ERROR] - getFirstDateOfMonth error No se ingreso la fecha actual
+[2024-05-03T15:21:42.324Z] [ERROR] - recordVariation error: recordVariation error: No se encontro el primer registro del mes
+[2024-05-03T15:21:42.324Z] [ERROR] - No se pudo obtener la variación de la fecha: 
+[2024-05-03T15:21:55.730Z] [ERROR] - getFirstDateOfMonth error No se ingreso la fecha actual
+[2024-05-03T15:21:55.731Z] [ERROR] - recordVariation error: recordVariation error: No se encontro el primer registro del mes
+[2024-05-03T15:21:55.731Z] [ERROR] - No se pudo obtener la variación de la fecha: 
+[2024-05-04T15:36:58.945Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-04T15:36:58.945Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-04T15:36:58.946Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-04T15:37:09.142Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-04T15:37:09.143Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-04T15:37:09.144Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (2/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-04T15:37:19.311Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-04T15:37:19.312Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-04T15:37:19.313Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (3/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-04T15:37:32.116Z] [WARNING] - Scroll error
+[2024-05-04T15:37:42.653Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-04T15:37:42.653Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-04T15:37:42.654Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (4/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-04T15:37:52.847Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-04T15:37:52.848Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-04T15:37:52.849Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (5/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-04T15:38:02.996Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-04T15:38:02.997Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-04T15:38:02.998Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (6/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-04T15:41:17.303Z] [WARNING] - Scroll error
+[2024-05-04T15:42:47.727Z] [WARNING] - Scroll error
+[2024-05-04T15:45:17.498Z] [WARNING] - Scroll error
+[2024-05-04T15:46:41.911Z] [WARNING] - Scroll error
+[2024-05-04T15:47:13.363Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-04T15:47:13.405Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-04T15:47:13.406Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/verduras?_q=verduras&map=ft. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-04T15:47:32.413Z] [WARNING] - Scroll error
+[2024-05-04T15:47:46.677Z] [WARNING] - Scroll error
+[2024-05-04T15:47:54.820Z] [WARNING] - Scroll error
+[2024-05-04T15:48:02.931Z] [WARNING] - Scroll error
+[2024-05-04T15:48:11.115Z] [WARNING] - Scroll error
+[2024-05-04T15:48:19.287Z] [WARNING] - Scroll error
+[2024-05-04T15:48:27.508Z] [WARNING] - Scroll error
+[2024-05-04T15:48:35.677Z] [WARNING] - Scroll error
+[2024-05-04T15:48:43.788Z] [WARNING] - Scroll error
+[2024-05-04T15:48:52.039Z] [WARNING] - Scroll error
+[2024-05-04T15:51:55.130Z] [WARNING] - Scroll error
+[2024-05-04T15:52:13.844Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-04T15:52:13.844Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-04T15:52:13.845Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carnes?initialMap=c&initialQuery=carnes&map=category-1,category-2&query=/carnes/carne-vacuna&searchState. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-04T15:52:26.629Z] [WARNING] - Scroll error
+[2024-05-04T15:53:21.748Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-04T15:53:21.749Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-04T15:53:21.749Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20cerdo?_q=carne%20cerdo&map=ft. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-04T15:53:31.901Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-04T15:53:31.902Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-04T15:53:31.902Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20cerdo?_q=carne%20cerdo&map=ft. Intentando nuevamente (2/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-04T15:53:42.088Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-04T15:53:42.089Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-04T15:53:42.089Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20cerdo?_q=carne%20cerdo&map=ft. Intentando nuevamente (3/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-04T15:53:52.231Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-04T15:53:52.231Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-04T15:53:52.232Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20cerdo?_q=carne%20cerdo&map=ft. Intentando nuevamente (4/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-04T15:54:02.407Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-04T15:54:02.408Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-04T15:54:02.409Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20cerdo?_q=carne%20cerdo&map=ft. Intentando nuevamente (5/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-04T15:54:12.556Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-04T15:54:12.557Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-04T15:54:12.557Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carne%20cerdo?_q=carne%20cerdo&map=ft. Intentando nuevamente (6/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-04T15:55:42.474Z] [WARNING] - Scroll error
+[2024-05-04T15:56:12.763Z] [WARNING] - Scroll error
+[2024-05-04T15:57:27.233Z] [WARNING] - Scroll error
+[2024-05-04T15:59:20.814Z] [WARNING] - Scroll error
+[2024-05-04T16:01:09.339Z] [WARNING] - Scroll error
+[2024-05-04T16:01:39.751Z] [WARNING] - Scroll error
+[2024-05-04T16:01:55.444Z] [WARNING] - Scroll error
+[2024-05-04T16:02:13.780Z] [WARNING] - Scroll error
+[2024-05-04T16:06:10.504Z] [WARNING] - Scroll error
+[2024-05-04T16:06:55.902Z] [WARNING] - Scroll error
+[2024-05-04T16:07:11.696Z] [WARNING] - Scroll error
+[2024-05-04T16:17:22.824Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-04T16:17:22.825Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-04T16:17:22.826Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/queso%20crema?_q=queso%20crema&map=ft. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-04T16:17:35.737Z] [WARNING] - Scroll error
+[2024-05-04T16:19:39.345Z] [WARNING] - Scroll error
+[2024-05-04T16:20:26.032Z] [WARNING] - Scroll error
+[2024-05-04T16:21:16.208Z] [WARNING] - Scroll error
+[2024-05-04T16:22:39.788Z] [ERROR] - getFirstDateOfMonth error No se ingreso la fecha actual
+[2024-05-04T16:22:39.789Z] [ERROR] - recordVariation error: recordVariation error: No se encontro el primer registro del mes
+[2024-05-04T16:22:39.790Z] [ERROR] - No se pudo obtener la variación de la fecha: 
+[2024-05-04T16:23:25.999Z] [ERROR] - getFirstDateOfMonth error No se ingreso la fecha actual
+[2024-05-04T16:23:26.000Z] [ERROR] - recordVariation error: recordVariation error: No se encontro el primer registro del mes
+[2024-05-04T16:23:26.000Z] [ERROR] - No se pudo obtener la variación de la fecha: 
+[2024-05-04T16:23:54.974Z] [ERROR] - No hay categorias con variaciones positivas.
+[2024-05-04T20:02:56.027Z] [WARNING] - Scroll error
+[2024-05-04T20:09:29.245Z] [WARNING] - Scroll error
+[2024-05-04T20:09:45.842Z] [WARNING] - Scroll error
+[2024-05-04T20:11:02.361Z] [WARNING] - Scroll error
+[2024-05-04T20:13:54.055Z] [WARNING] - Scroll error
+[2024-05-04T20:14:05.770Z] [WARNING] - Scroll error
+[2024-05-04T20:14:49.092Z] [WARNING] - Scroll error
+[2024-05-04T20:15:00.542Z] [WARNING] - Scroll error
+[2024-05-04T20:16:03.554Z] [WARNING] - Scroll error
+[2024-05-04T20:17:14.753Z] [WARNING] - Scroll error
+[2024-05-04T20:18:16.504Z] [WARNING] - Scroll error
+[2024-05-04T20:19:49.138Z] [WARNING] - Scroll error
+[2024-05-04T20:21:54.943Z] [WARNING] - Scroll error
+[2024-05-04T20:23:22.598Z] [WARNING] - Scroll error
+[2024-05-04T20:24:14.373Z] [WARNING] - Scroll error
+[2024-05-04T20:24:45.839Z] [WARNING] - Scroll error
+[2024-05-04T20:25:06.729Z] [WARNING] - Scroll error
+[2024-05-04T20:27:09.147Z] [WARNING] - Scroll error
+[2024-05-04T20:27:26.057Z] [WARNING] - Scroll error
+[2024-05-04T20:28:12.342Z] [WARNING] - Scroll error
+[2024-05-04T20:31:31.062Z] [WARNING] - Scroll error
+[2024-05-04T20:33:43.578Z] [WARNING] - Scroll error
+[2024-05-04T20:38:37.480Z] [WARNING] - Scroll error
+[2024-05-04T20:39:13.430Z] [WARNING] - Scroll error
+[2024-05-04T20:39:27.089Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-04T20:40:16.496Z] [WARNING] - Scroll error
+[2024-05-04T20:41:20.547Z] [WARNING] - Scroll error
+[2024-05-04T20:41:53.904Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-04T20:41:53.905Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-04T20:41:53.906Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yerba?_q=yerba&map=ft. Intentando nuevamente (1/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-04T20:42:40.883Z] [WARNING] - Scroll error
+[2024-05-04T20:42:54.673Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-04T20:42:54.674Z] [WARNING] - No se encontraron nuevos productos o se alcanzó el final de la página.
+[2024-05-04T20:42:54.675Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yerba?_q=yerba&map=ft. Intentando nuevamente (2/6)... Cannot read properties of null (reading 'forEach')
+[2024-05-04T20:43:18.837Z] [WARNING] - Scroll error
+[2024-05-04T20:43:43.421Z] [WARNING] - Scroll error
+[2024-05-04T20:45:21.526Z] [WARNING] - Scroll error
+[2024-05-04T20:46:14.603Z] [ERROR] - getFirstDateOfMonth error No se ingreso la fecha actual
+[2024-05-04T20:46:14.603Z] [ERROR] - recordVariation error: recordVariation error: No se encontro el primer registro del mes
+[2024-05-04T20:46:14.604Z] [ERROR] - No se pudo obtener la variación de la fecha: 
