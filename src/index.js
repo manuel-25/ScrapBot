@@ -187,42 +187,8 @@ async function scrapeDataFromURLs(urls, page) {
     }
 }
 
-async function scrapeAllURLs(urls, page) {
-    let failedURLs = []
-    let dataToSave = []
-
-    for (const url of urls) {
-        let retryCount = 0
-
-        while (retryCount < MAX_SCRAPING_RETRIES) {
-            try {
-                const data = await scrapeURL(url, page)
-
-                if (data) { // Agregar solo si data no es null
-                    dataToSave.push(data)
-                    logger.info(`${dataToSave.length}/${urls.length} URLs scraped.`)
-                    break
-                } else {
-                    retryCount++
-                    logger.warning(`scrapeURL devolvió null. Reintentando (${retryCount}/${MAX_SCRAPING_RETRIES})...`)
-                    await delay(6000)
-                }
-            } catch (error) {
-                retryCount++
-                logger.warning(`Error al extraer datos de ${url}. Intentando nuevamente (${retryCount}/${MAX_SCRAPING_RETRIES})...`, error)
-                await delay(6000)
-            }
-        }
-
-        if (retryCount === MAX_SCRAPING_RETRIES) {
-            failedURLs.push(url)
-        }
-    }
-    return { dataToSave, failedURLs }
-}
-
 // Función principal de scraping
-/*async function scrapeAllURLs(urls, page) {
+async function scrapeAllURLs(urls, page) {
     let failedURLs = []
     let dataToSave = []
 
@@ -244,7 +210,7 @@ async function scrapeAllURLs(urls, page) {
         if (retryCount === MAX_SCRAPING_RETRIES) failedURLs.push(url)
     }
     return { dataToSave, failedURLs }
-}*/
+}
 
 // Receives a url and it creates a .json with  the data scraped from that page 
 async function scrapeURL(dinamicUrl, page) {
@@ -258,18 +224,18 @@ async function scrapeURL(dinamicUrl, page) {
         let previousProductCount = 0
         let pageNumber = 1
         let totalPages = 1
-        let containerSelector = '.vtex-search-result-3-x-gallery'           //mover a utils
+        let containerSelector = '.vtex-search-result-3-x-gallery'
 
         let retries = 0
         let containerFound = false
 
-        while (retries < 4 && !containerFound) {
+        while (retries < 3 && !containerFound) {
             try {
                 await page.waitForSelector(containerSelector, { timeout: 10000 })
                 containerFound = true
             } catch (error) {
                 logger.warning("El contenedor principal no se encontró. Reintentando...")
-                await page.reload({ waitUntil: 'domcontentloaded', timeout: 10000 })
+                await page.reload({ waitUntil: 'domcontentloaded', timeout: 20000 })
                 retries++
             }
         }
