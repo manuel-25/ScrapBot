@@ -1,8 +1,5 @@
 //SIGUIENTE MES AGREGAR: PESCADO, CARNE DE VACA Y CERDO. VERDURAS
 
-export const jumboURLsX = ['https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft',
-'https://www.jumbo.com.ar/verduras?_q=verduras&map=ft']
-
 export const jumboURLs = ['https://www.jumbo.com.ar/pan?_q=pan&map=ft', 'https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft',
  'https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft', 'https://www.jumbo.com.ar/arroz?_q=arroz&map=ft',
  'https://www.jumbo.com.ar/harinas?_q=harinas&map=ft', 'https://www.jumbo.com.ar/fideos?_q=fideos&map=ft', 'https://www.jumbo.com.ar/papa?_q=papa&map=ft',
