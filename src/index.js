@@ -3,7 +3,7 @@ import connectDB from './config/mongoose-config.js'
 import RecordManager from "./Mongo/recordManager.js"
 import logger from "./config/winston.js"
 import cron from  "node-cron"
-import { jumboURLs, staticURL } from "./config/utils.js"
+import { jumboURLs } from "./config/utils.js"
 import { recordVariation, tweetDateVariation, categoryIncreases, categoryDecreases } from "./services/price_tracker.js"
 const today = new Date(new Date().getTime() - (3 * 60 * 60 * 1000))
 
@@ -39,6 +39,8 @@ const runFullTask = async () => {
       logger.error("runFullTask error:", err)
     }
 }
+
+runFullTask()
 
 async function runScrapingBot() {
     try {
@@ -101,8 +103,6 @@ async function runScrapingBot() {
     }
 }
 
-
-
 async function retryFailedURLs(failedURLs, page) {
     if (!failedURLs || failedURLs.length === 0) return
 
@@ -144,8 +144,6 @@ async function analyzeDataAndTweet(today) {
         logger.error("analyzeDataAndTweet error:", err)
     }
 }
-
-runFullTask()
 
 // Configuración para iniciar el navegador y la página
 async function startBrowser() {
@@ -194,21 +192,31 @@ async function scrapeAllURLs(urls, page) {
 
     for (const url of urls) {
         let retryCount = 0
-
-        while (retryCount < MAX_SCRAPING_RETRIES) {
+        let success = false
+        
+        while (retryCount < MAX_SCRAPING_RETRIES && !success) {
             try {
                 const data = await scrapeURL(url, page)
-                dataToSave.push(data)
-                logger.info(`${dataToSave.length}/${urls.length} URLs scraped.`)
-                break
+                if (data) {
+                    dataToSave.push(data)
+                    logger.info(`${dataToSave.length}/${urls.length} URLs scraped.`)
+                    success = true
+                } else {
+                    throw new Error("No se pudo obtener datos de la URL.")
+                }
             } catch (error) {
                 retryCount++
-                logger.warning(`Error al extraer datos de ${url}. Intentando nuevamente (${retryCount}/${MAX_SCRAPING_RETRIES})...`, error)
+                logger.warning(`Error al extraer datos de ${url}. Intentando nuevamente (${retryCount}/${MAX_SCRAPING_RETRIES})...`, error )
                 await delay(6000)
             }
         }
-        if (retryCount === MAX_SCRAPING_RETRIES) failedURLs.push(url)
+
+        if (!success) {
+            logger.error(`Falló el scraping para la URL: ${url} después de ${MAX_SCRAPING_RETRIES} reintentos.`)
+            failedURLs.push(url)
+        }
     }
+
     return { dataToSave, failedURLs }
 }
 
@@ -218,39 +226,40 @@ async function scrapeURL(dinamicUrl, page) {
         await delay(1000) // Pequeña espera antes de comenzar
     
         const startTime = new Date()
-        await page.goto(dinamicUrl, { waitUntil: 'domcontentloaded', timeout: 20000 })
+        await page.goto(dinamicUrl, { waitUntil: 'domcontentloaded', timeout: 15000 })
     
         let dataScrapped = []
         let previousProductCount = 0
         let pageNumber = 1
         let totalPages = 1
-        let containerSelector = '.vtex-search-result-3-x-gallery'
-
-        let retries = 0
+        const containerSelector = '.vtex-search-result-3-x-gallery'
         let containerFound = false
 
-        while (retries < 3 && !containerFound) {
-            try {
-                await page.waitForSelector(containerSelector, { timeout: 10000 })
-                containerFound = true
-            } catch (error) {
-                logger.warning("El contenedor principal no se encontró. Reintentando...")
-                await page.reload({ waitUntil: 'domcontentloaded', timeout: 20000 })
-                retries++
-            }
-        }
-
-        if (!containerFound) {
-            throw new Error("El contenedor no se encontró después de varios intentos.")
-        }
-
         while (pageNumber <= totalPages && pageNumber <= MAX_SCRAPING_PAGES) {
+
+            // Reintentos para encontrar el contenedor
+            let containerRetries = 0
+            while (containerRetries < 3 && !containerFound) {
+                try {
+                    await page.waitForSelector(containerSelector, { timeout: 10000 })
+                    containerFound = true
+                } catch (error) {
+                    logger.warning(`El contenedor no se encontró en ${dinamicUrl}. Reintentando...`)
+                    await page.reload({ waitUntil: 'domcontentloaded', timeout: 10000 })
+                    containerRetries++
+                }
+            }
+
+            if (!containerFound) {
+                logger.error(`No se encontró el contenedor para ${dinamicUrl} después de varios intentos.`)
+                return null
+            }
             const currentProducts = await scrapeProduct(page, containerSelector)
 
-            if (!currentProducts || currentProducts.length === previousProductCount && pageNumber === totalPages) {
+            /*if (!currentProducts || currentProducts.length === previousProductCount && pageNumber === totalPages) {
                 logger.warning("No se encontraron nuevos productos o se alcanzó el final de la página.")
                 break
-            }
+            }*/
 
             currentProducts.forEach(product => {
                 if (!dataScrapped.some(existingProduct => existingProduct.nombre === product.nombre)) {
@@ -260,14 +269,14 @@ async function scrapeURL(dinamicUrl, page) {
 
             previousProductCount = currentProducts.length
 
-            // Scroll down and fetch more products
+            // Desplazarse hacia abajo para obtener más productos
             await scrollDown(page)
             await delay(1000)
 
-            // Go to the next page
+            // Ir a la siguiente página
             if (currentProducts.length === previousProductCount) {
                 totalPages = await getTotalPages(page)
-                logger.debug(`Página actual: ${pageNumber}/${totalPages}`)
+                logger.info(`Pagina ${pageNumber}/${totalPages}`)
                 pageNumber++
                 await goToPage(page, pageNumber, dinamicUrl)
             }
@@ -289,11 +298,10 @@ async function scrapeURL(dinamicUrl, page) {
         return urlData
 
     } catch (err) {
-        logger.error("scrapeURL error:", err.message)
-        return null
+        logger.error(`Error al scrapear la URL ${dinamicUrl}:`, err)
+        return null // Indica que el scraping falló
     }
 }
-
 
 //Receives the page & container selector (unique to the website may change values)  and returns an array of products
 async function scrapeProduct(page, containerSelector) {
@@ -455,7 +463,6 @@ function getCategoryNameFromUrl(url) {
         .map(word => capitalizeFirstLetter(word))
         .join(" ")
 
-    console.log(categoryNameCapitalized)
     return categoryNameCapitalized
 }
 
@@ -463,7 +470,6 @@ function getCategoryNameFromUrl(url) {
 function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1)
 }
-
 
 async function deleteTodayRecords() {
     await connectDB()

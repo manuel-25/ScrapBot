@@ -265,8 +265,8 @@ await categoryIncreases(today)
 await categoryDecreases(today)*/
 
 
-
-//const { topIncreases, topDecreases } = await getIncreaseAndDecrease(today, 'Vino', 20)
+//await connectDB()
+//const { topIncreases, topDecreases } = await getIncreaseAndDecrease(today, 'Aceite', 20)
 //const { topIncreases, topDecreases } = await getCategoryVariations(yesterday, 10)
 //console.log('topIncreases: ', topIncreases)
 //console.log('topDecreases: ', topDecreases)

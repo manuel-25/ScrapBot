@@ -1,9 +1,9 @@
 //SIGUIENTE MES AGREGAR: PESCADO, CARNE DE VACA Y CERDO. VERDURAS
 
-export const jumboURLsX = ['https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft',
-'https://www.jumbo.com.ar/carnes?initialMap=c&initialQuery=carnes&map=category-1,category-2&query=/carnes/carne-vacuna&searchState']
+export const jumboURLs = ['https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft',
+'https://www.jumbo.com.ar/verduras?_q=verduras&map=ft']
 
-export const jumboURLs = ['https://www.jumbo.com.ar/pan?_q=pan&map=ft', 'https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft',
+export const jumboURLsX = ['https://www.jumbo.com.ar/pan?_q=pan&map=ft', 'https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft',
  'https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft', 'https://www.jumbo.com.ar/arroz?_q=arroz&map=ft',
  'https://www.jumbo.com.ar/harinas?_q=harinas&map=ft', 'https://www.jumbo.com.ar/fideos?_q=fideos&map=ft', 'https://www.jumbo.com.ar/papa?_q=papa&map=ft',
  'https://www.jumbo.com.ar/batata?_q=batata&layout=grid&map=ft', 'https://www.jumbo.com.ar/azucar?_q=azucar&map=ft', 'https://www.jumbo.com.ar/dulce%20de%20leche?_q=dulce%20de%20leche&map=ft',
@@ -28,7 +28,7 @@ export const categoryEmoticons = [
     { category: 'Fideos', emoji: '🍝' },
     { category: 'Papa', emoji: '🥔' },
     { category: 'Batata', emoji: '🍠' },
-    { category: 'Azúcar', emoji: '🍭' },
+    { category: 'Azucar', emoji: '🍭' },
     { category: 'Dulce De Leche', emoji: '🍯' },
     { category: 'Verduras', emoji: '🥦' },
     { category: 'Frutas', emoji: '🍎' },
@@ -45,9 +45,9 @@ export const categoryEmoticons = [
     { category: 'Aceite', emoji: '🛢️' },
     { category: 'Cerveza', emoji: '🍺' },
     { category: 'Vino', emoji: '🍷' },
-    { category: 'Café', emoji: '☕' },
+    { category: 'Cafe', emoji: '☕' },
     { category: 'Yerba', emoji: '🍵' },
-    { category: 'Té', emoji: '🍵' },
+    { category: 'Te', emoji: '🍵' },
     { category: 'Queso Crema', emoji: '🧀' },
 ]
 
