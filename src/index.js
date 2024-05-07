@@ -20,7 +20,7 @@ function elapsedTime(startTime) {
 }
 
 //Code Starts here! 
-cron.schedule('08 11 * * *', () => {
+cron.schedule('08 8 * * *', () => {
     logger.info(`Scrapbot se ejecuto a: ${new Date()}`)
     runFullTask()
 })
@@ -40,7 +40,7 @@ const runFullTask = async () => {
     }
 }
 
-runFullTask()
+//runFullTask()
 
 async function runScrapingBot() {
     try {
@@ -306,7 +306,6 @@ async function scrapeURL(dinamicUrl, page, startPage) {
         return { success: false, page: pageNumber } // Indica que el scraping falló y devuelve la página
     }
 }
-
 
 //Receives the page & container selector (unique to the website may change values)  and returns an array of products
 async function scrapeProduct(page, containerSelector) {
