@@ -228,7 +228,7 @@ async function scrapeURL(dinamicUrl, page, startPage) {
 
         const startTime = new Date()
         console.log('startPage', startPage)
-        await page.goto(`${dinamicUrl}&page=${startPage}`, { waitUntil: 'domcontentloaded', timeout: 15000 })
+        await page.goto(`${dinamicUrl}&page=${startPage}`, { waitUntil: 'domcontentloaded', timeout: 25000 })
 
         let dataScrapped = []
         let previousProductCount = 0
@@ -242,11 +242,11 @@ async function scrapeURL(dinamicUrl, page, startPage) {
             let containerRetries = 0
             while (containerRetries < 3 && !containerFound) {
                 try {
-                    await page.waitForSelector(containerSelector, { timeout: 10000 })
+                    await page.waitForSelector(containerSelector, { timeout: 20000 })
                     containerFound = true
                 } catch (error) {
                     logger.warning(`El contenedor no se encontró en ${dinamicUrl}. Reintentando...`)
-                    await page.reload({ waitUntil: 'domcontentloaded', timeout: 10000 })
+                    await page.reload({ waitUntil: 'domcontentloaded', timeout: 20000 })
                     containerRetries++
                 }
             }
