@@ -31,15 +31,22 @@ export async function recordVariation(today) {
 //Return the date of the first price records of the actual month.
 async function getFirstDateOfMonth(today) {
     try {
-        if(!today) throw new Error('No se ingreso la fecha actual')
+        if (!today || isNaN(new Date(today).getTime())) {
+            today = new Date(new Date().getTime() - (3 * 60 * 60 * 1000));
+        }
 
-        const month = today.getMonth()
-        const year = today.getFullYear()
-        const firstDateOfMonth = await  RecordManager.getFirstDayOfMonth(month, year)
-        if(!firstDateOfMonth) throw new Error(`No se encontró el primer día del mes ${month + 1} en el año ${year}.`)
-        return firstDateOfMonth
-    } catch(err) {
-        logger.error('getFirstDateOfMonth error', err)
+        const month = today.getMonth();
+        const year = today.getFullYear();
+        const firstDateOfMonth = await RecordManager.getFirstDayOfMonth(month, year);
+
+        if (!firstDateOfMonth || isNaN(new Date(firstDateOfMonth).getTime())) {
+            throw new Error(`No se encontró el primer día del mes ${month + 1} en el año ${year}.`);
+        }
+
+        return new Date(firstDateOfMonth)
+    } catch (err) {
+        logger.error('getFirstDateOfMonth error', err);
+        throw err
     }
 }
 
@@ -266,7 +273,7 @@ await categoryDecreases(today)*/
 
 
 //await connectDB()
-//const { topIncreases, topDecreases } = await getIncreaseAndDecrease(today, 'Aceite', 20)
+//const { topIncreases, topDecreases } = await getIncreaseAndDecrease(today, 'Carne Cerdo', 3)
 //const { topIncreases, topDecreases } = await getCategoryVariations(yesterday, 10)
 //console.log('topIncreases: ', topIncreases)
 //console.log('topDecreases: ', topDecreases)

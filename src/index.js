@@ -20,10 +20,10 @@ function elapsedTime(startTime) {
 }
 
 //Code Starts here! 
-/*cron.schedule('04 18 * * *', () => {
+cron.schedule('08 11 * * *', () => {
     logger.info(`Scrapbot se ejecuto a: ${new Date()}`)
     runFullTask()
-})*/
+})
 
 const runFullTask = async () => {
     try {
@@ -61,14 +61,14 @@ async function runScrapingBot() {
             if(!result) return logger.warning("Los datos no se pudieron almacenar correctamente.")
             logger.info(`Datos almacenados exitosamente (${storedData.length} registros).`)
         } else {
-            logger.warning("No se encontraron datos para almacenar.")
+            logger.error("No se encontraron datos para almacenar.")
         }
 
         // Manejo de URLs fallidas
         if (!storedfailedURLs || storedfailedURLs.length === 0) {
             logger.info("No hubo URLs fallidas durante el scraping.")
             browser.close()
-            return true // Todo fue exitoso
+            return true
         }
 
         // Si hay URLs fallidas, reintentarlo
@@ -98,7 +98,7 @@ async function runScrapingBot() {
         browser.close()
         return true // Todo salió bien y se puede continuar
     } catch (err) {
-        logger.error("Error general en runScrapingBot:", err.message)
+        logger.error("Error general en runScrapingBot:", err)
         return false
     }
 }
@@ -110,7 +110,6 @@ async function retryFailedURLs(failedURLs, page) {
     const { storedData, storedfailedURLs } = returnedData
     if (storedData) { await validateAndSaveData(storedData) }
 
-    console.log('failed', storedfailedURLs)
     if (storedfailedURLs.length > 0) {
         logger.warning('Algunas URLs fallaron incluso después de reintentar.', storedfailedURLs)
         return storedfailedURLs
@@ -193,16 +192,18 @@ async function scrapeAllURLs(urls, page) {
     for (const url of urls) {
         let retryCount = 0
         let success = false
-        
+        let startPage = 1
+
         while (retryCount < MAX_SCRAPING_RETRIES && !success) {
             try {
-                const data = await scrapeURL(url, page)
-                if (data) {
-                    dataToSave.push(data)
+                const scrapeResult = await scrapeURL(url, page, startPage)
+
+                if (scrapeResult && scrapeResult.success) {
+                    dataToSave.push(scrapeResult.data)
                     logger.info(`${dataToSave.length}/${urls.length} URLs scraped.`)
                     success = true
                 } else {
-                    throw new Error("No se pudo obtener datos de la URL.")
+                    throw new Error("No se pudieron obtener datos válidos.")
                 }
             } catch (error) {
                 retryCount++
@@ -213,7 +214,7 @@ async function scrapeAllURLs(urls, page) {
 
         if (!success) {
             logger.error(`Falló el scraping para la URL: ${url} después de ${MAX_SCRAPING_RETRIES} reintentos.`)
-            failedURLs.push(url)
+            failedURLs.push(url) // Agregar a la lista de URLs fallidas
         }
     }
 
@@ -221,22 +222,22 @@ async function scrapeAllURLs(urls, page) {
 }
 
 // Receives a url and it creates a .json with  the data scraped from that page 
-async function scrapeURL(dinamicUrl, page) {
+async function scrapeURL(dinamicUrl, page, startPage) {
     try {
         await delay(1000) // Pequeña espera antes de comenzar
-    
+
         const startTime = new Date()
-        await page.goto(dinamicUrl, { waitUntil: 'domcontentloaded', timeout: 15000 })
-    
+        console.log('startPage', startPage)
+        await page.goto(`${dinamicUrl}&page=${startPage}`, { waitUntil: 'domcontentloaded', timeout: 15000 })
+
         let dataScrapped = []
         let previousProductCount = 0
-        let pageNumber = 1
+        let pageNumber = startPage
         let totalPages = 1
         const containerSelector = '.vtex-search-result-3-x-gallery'
         let containerFound = false
 
         while (pageNumber <= totalPages && pageNumber <= MAX_SCRAPING_PAGES) {
-
             // Reintentos para encontrar el contenedor
             let containerRetries = 0
             while (containerRetries < 3 && !containerFound) {
@@ -252,17 +253,20 @@ async function scrapeURL(dinamicUrl, page) {
 
             if (!containerFound) {
                 logger.error(`No se encontró el contenedor para ${dinamicUrl} después de varios intentos.`)
-                return null
+                return { success: false, page: pageNumber }
             }
+
             const currentProducts = await scrapeProduct(page, containerSelector)
 
-            /*if (!currentProducts || currentProducts.length === previousProductCount && pageNumber === totalPages) {
-                logger.warning("No se encontraron nuevos productos o se alcanzó el final de la página.")
-                break
-            }*/
+            if (!currentProducts || currentProducts.length === 0) {
+                logger.warning(`No se encontraron productos en la página ${pageNumber} para ${dinamicUrl}.`)
+                return { success: false, page: pageNumber }
+            }
 
-            currentProducts.forEach(product => {
-                if (!dataScrapped.some(existingProduct => existingProduct.nombre === product.nombre)) {
+            currentProducts.forEach((product) => {
+                if (
+                    !dataScrapped.some((existingProduct) => existingProduct.nombre === product.nombre)
+                ) {
                     dataScrapped.push(product)
                 }
             })
@@ -273,10 +277,10 @@ async function scrapeURL(dinamicUrl, page) {
             await scrollDown(page)
             await delay(1000)
 
-            // Ir a la siguiente página
+            // Ir a la siguiente página si hay más productos
             if (currentProducts.length === previousProductCount) {
                 totalPages = await getTotalPages(page)
-                logger.info(`Pagina ${pageNumber}/${totalPages}`)
+                logger.info(`Página actual: ${pageNumber}/${totalPages}`)
                 pageNumber++
                 await goToPage(page, pageNumber, dinamicUrl)
             }
@@ -291,28 +295,29 @@ async function scrapeURL(dinamicUrl, page) {
             totalProducts: dataScrapped.length,
             time_spent: formattedTime,
             url: dinamicUrl,
-            data: dataScrapped
+            data: dataScrapped,
         }
 
         logger.info(`Se tardó ${formattedTime} en scrapear ${dinamicUrl}`)
-        return urlData
+        return { success: true, data: urlData } // Devuelve la información del scraping exitoso
 
     } catch (err) {
         logger.error(`Error al scrapear la URL ${dinamicUrl}:`, err)
-        return null // Indica que el scraping falló
+        return { success: false, page: pageNumber } // Indica que el scraping falló y devuelve la página
     }
 }
+
 
 //Receives the page & container selector (unique to the website may change values)  and returns an array of products
 async function scrapeProduct(page, containerSelector) {
     await new Promise(resolve => setTimeout(resolve, 2000))             //TIMEOUTE 1500 OR ERRORS
 
-    const containerExists = await page.$(containerSelector)
-    if (!containerExists) logger.warning('El contenedor principal no se encontró en la página.')
+    /*const containerExists = await page.$(containerSelector)
+    if (!containerExists) logger.warning('El contenedor principal no se encontró en la página.')*/
 
     const articlesData = await page.evaluate(async (containerSelector) => {
         const container = document.querySelector(containerSelector)
-        if (!container) return null
+        if (!container) return //logger.warning('El contenedor principal no se encontró en la página.')
 
         const productsData = []
         const productNodes = container.children

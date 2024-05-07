@@ -1366,3 +1366,250 @@
 [2024-05-05T20:59:44.244Z] [WARNING] - El contenedor principal no se encontró en la página.
 [2024-05-05T20:59:44.246Z] [ERROR] - Error al scrapear la URL https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft: Cannot read properties of null (reading 'forEach')
 [2024-05-05T20:59:44.247Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (4/6)... No se pudo obtener datos de la URL.
+[2024-05-06T14:08:18.194Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-06T14:08:18.195Z] [ERROR] - Error al scrapear la URL https://www.jumbo.com.ar/pan?_q=pan&map=ft: Cannot read properties of null (reading 'forEach')
+[2024-05-06T14:08:18.196Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (1/6)... No se pudo obtener datos de la URL.
+[2024-05-06T14:08:51.404Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-06T14:08:51.405Z] [ERROR] - Error al scrapear la URL https://www.jumbo.com.ar/pan?_q=pan&map=ft: Cannot read properties of null (reading 'forEach')
+[2024-05-06T14:08:51.406Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (2/6)... No se pudo obtener datos de la URL.
+[2024-05-06T14:09:04.156Z] [WARNING] - Scroll error
+[2024-05-06T14:09:24.503Z] [WARNING] - Scroll error
+[2024-05-06T14:10:00.133Z] [WARNING] - Scroll error
+[2024-05-06T14:10:18.605Z] [WARNING] - Scroll error
+[2024-05-06T14:10:49.883Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-06T14:10:49.884Z] [ERROR] - Error al scrapear la URL https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft: Cannot read properties of null (reading 'forEach')
+[2024-05-06T14:10:49.885Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (1/6)... No se pudo obtener datos de la URL.
+[2024-05-06T14:11:04.325Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-06T14:11:04.326Z] [ERROR] - Error al scrapear la URL https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft: Cannot read properties of null (reading 'forEach')
+[2024-05-06T14:11:04.326Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (2/6)... No se pudo obtener datos de la URL.
+[2024-05-06T14:11:21.534Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Reintentando...
+[2024-05-06T14:11:31.690Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Reintentando...
+[2024-05-06T14:11:41.862Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Reintentando...
+[2024-05-06T14:11:42.057Z] [ERROR] - No se encontró el contenedor para https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft después de varios intentos.
+[2024-05-06T14:11:42.058Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (3/6)... No se pudo obtener datos de la URL.
+[2024-05-06T14:12:05.226Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-06T14:12:05.227Z] [ERROR] - Error al scrapear la URL https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft: Cannot read properties of null (reading 'forEach')
+[2024-05-06T14:12:05.228Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (4/6)... No se pudo obtener datos de la URL.
+[2024-05-06T14:12:18.167Z] [WARNING] - Scroll error
+[2024-05-06T14:12:48.751Z] [WARNING] - Scroll error
+[2024-05-06T14:12:55.268Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-06T14:12:55.269Z] [ERROR] - Error al scrapear la URL https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft: Cannot read properties of null (reading 'forEach')
+[2024-05-06T14:12:55.270Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (5/6)... No se pudo obtener datos de la URL.
+[2024-05-06T14:13:12.480Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Reintentando...
+[2024-05-06T14:13:22.654Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Reintentando...
+[2024-05-06T14:13:29.788Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-06T14:13:29.789Z] [ERROR] - Error al scrapear la URL https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft: Cannot read properties of null (reading 'forEach')
+[2024-05-06T14:13:29.790Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (6/6)... No se pudo obtener datos de la URL.
+[2024-05-06T14:13:35.793Z] [ERROR] - Falló el scraping para la URL: https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft después de 6 reintentos.
+[2024-05-06T14:13:53.721Z] [WARNING] - Scroll error
+[2024-05-06T14:14:09.860Z] [WARNING] - Scroll error
+[2024-05-06T14:15:00.345Z] [WARNING] - Scroll error
+[2024-05-06T14:15:24.133Z] [WARNING] - Scroll error
+[2024-05-06T14:15:40.424Z] [WARNING] - Scroll error
+[2024-05-06T14:15:56.390Z] [WARNING] - Scroll error
+[2024-05-06T14:17:09.452Z] [WARNING] - Scroll error
+[2024-05-06T14:17:46.444Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-06T14:17:46.445Z] [ERROR] - Error al scrapear la URL https://www.jumbo.com.ar/legumbres%20secas?_q=legumbres%20secas&map=ft: Cannot read properties of null (reading 'forEach')
+[2024-05-06T14:17:46.446Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/legumbres%20secas?_q=legumbres%20secas&map=ft. Intentando nuevamente (1/6)... No se pudo obtener datos de la URL.
+[2024-05-06T14:18:03.660Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/legumbres%20secas?_q=legumbres%20secas&map=ft. Reintentando...
+[2024-05-06T14:18:13.856Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/legumbres%20secas?_q=legumbres%20secas&map=ft. Reintentando...
+[2024-05-06T14:18:24.018Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/legumbres%20secas?_q=legumbres%20secas&map=ft. Reintentando...
+[2024-05-06T14:18:24.545Z] [ERROR] - No se encontró el contenedor para https://www.jumbo.com.ar/legumbres%20secas?_q=legumbres%20secas&map=ft después de varios intentos.
+[2024-05-06T14:18:24.546Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/legumbres%20secas?_q=legumbres%20secas&map=ft. Intentando nuevamente (2/6)... No se pudo obtener datos de la URL.
+[2024-05-06T14:18:41.753Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/legumbres%20secas?_q=legumbres%20secas&map=ft. Reintentando...
+[2024-05-06T14:18:51.764Z] [WARNING] - Scroll error
+[2024-05-06T14:19:19.009Z] [WARNING] - Scroll error
+[2024-05-06T14:19:34.748Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-06T14:19:34.749Z] [ERROR] - Error al scrapear la URL https://www.jumbo.com.ar/verduras?_q=verduras&map=ft: Cannot read properties of null (reading 'forEach')
+[2024-05-06T14:19:34.749Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/verduras?_q=verduras&map=ft. Intentando nuevamente (1/6)... No se pudo obtener datos de la URL.
+[2024-05-06T14:19:47.574Z] [WARNING] - Scroll error
+[2024-05-06T14:20:02.181Z] [WARNING] - Scroll error
+[2024-05-06T14:20:13.759Z] [WARNING] - Scroll error
+[2024-05-06T14:20:24.835Z] [WARNING] - Scroll error
+[2024-05-06T14:20:32.319Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-06T14:20:32.320Z] [ERROR] - Error al scrapear la URL https://www.jumbo.com.ar/verduras?_q=verduras&map=ft: Cannot read properties of null (reading 'forEach')
+[2024-05-06T14:20:32.321Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/verduras?_q=verduras&map=ft. Intentando nuevamente (2/6)... No se pudo obtener datos de la URL.
+[2024-05-06T14:20:46.271Z] [WARNING] - Scroll error
+[2024-05-06T14:20:52.381Z] [WARNING] - Scroll error
+[2024-05-06T14:21:02.448Z] [WARNING] - Scroll error
+[2024-05-06T14:21:08.506Z] [WARNING] - Scroll error
+[2024-05-06T14:21:14.520Z] [WARNING] - Scroll error
+[2024-05-06T14:21:20.585Z] [WARNING] - Scroll error
+[2024-05-06T14:21:36.948Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-06T14:21:36.950Z] [ERROR] - Error al scrapear la URL https://www.jumbo.com.ar/verduras?_q=verduras&map=ft: Cannot read properties of null (reading 'forEach')
+[2024-05-06T14:21:36.950Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/verduras?_q=verduras&map=ft. Intentando nuevamente (3/6)... No se pudo obtener datos de la URL.
+[2024-05-06T14:21:58.874Z] [WARNING] - Scroll error
+[2024-05-06T14:22:22.938Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-06T14:22:22.939Z] [ERROR] - Error al scrapear la URL https://www.jumbo.com.ar/verduras?_q=verduras&map=ft: Cannot read properties of null (reading 'forEach')
+[2024-05-06T14:22:22.940Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/verduras?_q=verduras&map=ft. Intentando nuevamente (4/6)... No se pudo obtener datos de la URL.
+[2024-05-06T14:22:35.815Z] [WARNING] - Scroll error
+[2024-05-06T14:22:59.076Z] [WARNING] - Scroll error
+[2024-05-06T14:23:02.510Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-06T14:23:02.512Z] [ERROR] - Error al scrapear la URL https://www.jumbo.com.ar/verduras?_q=verduras&map=ft: Cannot read properties of null (reading 'forEach')
+[2024-05-06T14:23:02.512Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/verduras?_q=verduras&map=ft. Intentando nuevamente (5/6)... No se pudo obtener datos de la URL.
+[2024-05-06T14:23:15.343Z] [WARNING] - Scroll error
+[2024-05-06T14:23:25.685Z] [WARNING] - Scroll error
+[2024-05-06T14:23:52.286Z] [WARNING] - Scroll error
+[2024-05-06T14:24:03.351Z] [WARNING] - Scroll error
+[2024-05-06T14:24:12.998Z] [WARNING] - Scroll error
+[2024-05-06T14:24:24.757Z] [WARNING] - Scroll error
+[2024-05-06T14:24:35.462Z] [WARNING] - Scroll error
+[2024-05-06T14:24:45.900Z] [WARNING] - Scroll error
+[2024-05-06T14:24:52.630Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-06T14:24:52.631Z] [ERROR] - Error al scrapear la URL https://www.jumbo.com.ar/verduras?_q=verduras&map=ft: Cannot read properties of null (reading 'forEach')
+[2024-05-06T14:24:52.632Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/verduras?_q=verduras&map=ft. Intentando nuevamente (6/6)... No se pudo obtener datos de la URL.
+[2024-05-06T14:24:58.647Z] [ERROR] - Falló el scraping para la URL: https://www.jumbo.com.ar/verduras?_q=verduras&map=ft después de 6 reintentos.
+[2024-05-06T14:25:43.613Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-06T14:25:43.615Z] [ERROR] - Error al scrapear la URL https://www.jumbo.com.ar/frutas?_q=frutas&map=ft: Cannot read properties of null (reading 'forEach')
+[2024-05-06T14:25:43.615Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/frutas?_q=frutas&map=ft. Intentando nuevamente (1/6)... No se pudo obtener datos de la URL.
+[2024-05-06T14:25:57.868Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-06T14:25:57.869Z] [ERROR] - Error al scrapear la URL https://www.jumbo.com.ar/frutas?_q=frutas&map=ft: Cannot read properties of null (reading 'forEach')
+[2024-05-06T14:25:57.870Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/frutas?_q=frutas&map=ft. Intentando nuevamente (2/6)... No se pudo obtener datos de la URL.
+[2024-05-06T14:26:10.549Z] [WARNING] - Scroll error
+[2024-05-06T14:26:28.738Z] [WARNING] - Scroll error
+[2024-05-06T14:26:41.424Z] [WARNING] - Scroll error
+[2024-05-06T14:27:48.814Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-06T14:27:51.582Z] [WARNING] - Scroll error
+[2024-05-06T14:28:00.425Z] [WARNING] - Scroll error
+[2024-05-06T14:28:45.663Z] [WARNING] - Scroll error
+[2024-05-06T14:29:09.026Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-06T14:29:09.028Z] [ERROR] - Error al scrapear la URL https://www.jumbo.com.ar/fiambres?_q=fiambres&map=ft: Cannot read properties of null (reading 'forEach')
+[2024-05-06T14:29:09.028Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/fiambres?_q=fiambres&map=ft. Intentando nuevamente (1/6)... No se pudo obtener datos de la URL.
+[2024-05-06T14:29:34.371Z] [WARNING] - Scroll error
+[2024-05-06T14:30:12.000Z] [WARNING] - Scroll error
+[2024-05-06T14:30:34.178Z] [WARNING] - Scroll error
+[2024-05-06T14:30:55.282Z] [WARNING] - Scroll error
+[2024-05-06T14:31:05.276Z] [WARNING] - Scroll error
+[2024-05-06T14:31:23.531Z] [WARNING] - Scroll error
+[2024-05-06T14:31:34.616Z] [WARNING] - Scroll error
+[2024-05-06T14:31:59.003Z] [WARNING] - Scroll error
+[2024-05-06T14:32:28.688Z] [WARNING] - Scroll error
+[2024-05-06T14:32:46.372Z] [WARNING] - Scroll error
+[2024-05-06T14:32:55.225Z] [WARNING] - Scroll error
+[2024-05-06T14:33:24.336Z] [WARNING] - Scroll error
+[2024-05-06T14:33:47.051Z] [WARNING] - Scroll error
+[2024-05-06T14:33:56.771Z] [WARNING] - Scroll error
+[2024-05-06T14:34:27.090Z] [WARNING] - Scroll error
+[2024-05-06T14:34:35.451Z] [WARNING] - Scroll error
+[2024-05-06T14:35:44.720Z] [WARNING] - Scroll error
+[2024-05-06T14:36:24.507Z] [WARNING] - Scroll error
+[2024-05-06T14:38:06.838Z] [WARNING] - Scroll error
+[2024-05-06T14:38:20.570Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-06T14:38:20.572Z] [ERROR] - Error al scrapear la URL https://www.jumbo.com.ar/vino?_q=vino&map=ft: Cannot read properties of null (reading 'forEach')
+[2024-05-06T14:38:20.572Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/vino?_q=vino&map=ft. Intentando nuevamente (1/6)... No se pudo obtener datos de la URL.
+[2024-05-06T14:38:52.853Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-06T14:38:52.854Z] [ERROR] - Error al scrapear la URL https://www.jumbo.com.ar/vino?_q=vino&map=ft: Cannot read properties of null (reading 'forEach')
+[2024-05-06T14:38:52.855Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/vino?_q=vino&map=ft. Intentando nuevamente (2/6)... No se pudo obtener datos de la URL.
+[2024-05-06T14:39:10.040Z] [WARNING] - Scroll error
+[2024-05-06T14:39:24.252Z] [WARNING] - Scroll error
+[2024-05-06T14:40:57.118Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-06T14:40:57.119Z] [ERROR] - Error al scrapear la URL https://www.jumbo.com.ar/cafe?_q=cafe&map=ft: Cannot read properties of null (reading 'forEach')
+[2024-05-06T14:40:57.119Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cafe?_q=cafe&map=ft. Intentando nuevamente (1/6)... No se pudo obtener datos de la URL.
+[2024-05-06T14:41:10.248Z] [WARNING] - Scroll error
+[2024-05-06T14:41:22.798Z] [WARNING] - Scroll error
+[2024-05-06T14:41:31.795Z] [WARNING] - Scroll error
+[2024-05-06T14:41:48.339Z] [WARNING] - Scroll error
+[2024-05-06T14:42:22.167Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-06T14:42:22.169Z] [ERROR] - Error al scrapear la URL https://www.jumbo.com.ar/yerba?_q=yerba&map=ft: Cannot read properties of null (reading 'forEach')
+[2024-05-06T14:42:22.169Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yerba?_q=yerba&map=ft. Intentando nuevamente (1/6)... No se pudo obtener datos de la URL.
+[2024-05-06T14:42:35.022Z] [WARNING] - Scroll error
+[2024-05-06T14:42:41.112Z] [WARNING] - Scroll error
+[2024-05-06T14:42:58.047Z] [WARNING] - Scroll error
+[2024-05-06T14:43:06.681Z] [WARNING] - Scroll error
+[2024-05-06T14:43:46.935Z] [WARNING] - Scroll error
+[2024-05-06T14:46:09.769Z] [WARNING] - Scroll error
+[2024-05-06T14:46:20.143Z] [WARNING] - Scroll error
+[2024-05-06T14:46:37.640Z] [WARNING] - Scroll error
+[2024-05-06T14:47:00.740Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-06T14:47:00.742Z] [ERROR] - Error al scrapear la URL https://www.jumbo.com.ar/verduras?_q=verduras&map=ft: Cannot read properties of null (reading 'forEach')
+[2024-05-06T14:47:00.743Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/verduras?_q=verduras&map=ft. Intentando nuevamente (1/6)... No se pudo obtener datos de la URL.
+[2024-05-06T14:47:13.696Z] [WARNING] - Scroll error
+[2024-05-06T14:47:19.796Z] [WARNING] - Scroll error
+[2024-05-06T14:47:25.877Z] [WARNING] - Scroll error
+[2024-05-06T14:47:31.950Z] [WARNING] - Scroll error
+[2024-05-06T14:47:35.426Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-06T14:47:35.427Z] [ERROR] - Error al scrapear la URL https://www.jumbo.com.ar/verduras?_q=verduras&map=ft: Cannot read properties of null (reading 'forEach')
+[2024-05-06T14:47:35.428Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/verduras?_q=verduras&map=ft. Intentando nuevamente (2/6)... No se pudo obtener datos de la URL.
+[2024-05-06T14:47:48.479Z] [WARNING] - Scroll error
+[2024-05-06T14:47:54.932Z] [WARNING] - Scroll error
+[2024-05-06T14:48:11.208Z] [WARNING] - Scroll error
+[2024-05-06T14:48:17.451Z] [WARNING] - Scroll error
+[2024-05-06T14:48:32.017Z] [WARNING] - Scroll error
+[2024-05-06T14:48:40.567Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-06T14:48:40.568Z] [ERROR] - Error al scrapear la URL https://www.jumbo.com.ar/verduras?_q=verduras&map=ft: Cannot read properties of null (reading 'forEach')
+[2024-05-06T14:48:40.569Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/verduras?_q=verduras&map=ft. Intentando nuevamente (3/6)... No se pudo obtener datos de la URL.
+[2024-05-06T14:48:54.089Z] [WARNING] - Scroll error
+[2024-05-06T14:49:04.767Z] [WARNING] - Scroll error
+[2024-05-06T14:49:10.880Z] [WARNING] - Scroll error
+[2024-05-06T14:49:21.247Z] [WARNING] - Scroll error
+[2024-05-06T14:49:27.373Z] [WARNING] - Scroll error
+[2024-05-06T14:49:33.640Z] [WARNING] - Scroll error
+[2024-05-06T14:49:39.846Z] [WARNING] - Scroll error
+[2024-05-06T14:49:54.398Z] [WARNING] - Scroll error
+[2024-05-06T14:50:19.510Z] [WARNING] - Scroll error
+[2024-05-06T14:50:27.288Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-06T14:50:27.290Z] [ERROR] - Error al scrapear la URL https://www.jumbo.com.ar/verduras?_q=verduras&map=ft: Cannot read properties of null (reading 'forEach')
+[2024-05-06T14:50:27.290Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/verduras?_q=verduras&map=ft. Intentando nuevamente (4/6)... No se pudo obtener datos de la URL.
+[2024-05-06T14:50:40.460Z] [WARNING] - Scroll error
+[2024-05-06T14:50:50.762Z] [WARNING] - Scroll error
+[2024-05-06T14:51:18.230Z] [WARNING] - Scroll error
+[2024-05-06T14:51:38.093Z] [WARNING] - Scroll error
+[2024-05-06T14:51:44.289Z] [WARNING] - Scroll error
+[2024-05-06T14:51:55.877Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-06T14:51:55.878Z] [ERROR] - Error al scrapear la URL https://www.jumbo.com.ar/verduras?_q=verduras&map=ft: Cannot read properties of null (reading 'forEach')
+[2024-05-06T14:51:55.878Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/verduras?_q=verduras&map=ft. Intentando nuevamente (5/6)... No se pudo obtener datos de la URL.
+[2024-05-06T14:52:23.958Z] [WARNING] - Scroll error
+[2024-05-06T14:52:30.439Z] [WARNING] - Scroll error
+[2024-05-06T14:52:47.048Z] [WARNING] - Scroll error
+[2024-05-06T14:52:57.896Z] [WARNING] - Scroll error
+[2024-05-06T14:53:07.495Z] [WARNING] - Scroll error
+[2024-05-06T14:53:22.877Z] [WARNING] - El contenedor principal no se encontró en la página.
+[2024-05-06T14:53:22.878Z] [ERROR] - Error al scrapear la URL https://www.jumbo.com.ar/verduras?_q=verduras&map=ft: Cannot read properties of null (reading 'forEach')
+[2024-05-06T14:53:22.879Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/verduras?_q=verduras&map=ft. Intentando nuevamente (6/6)... No se pudo obtener datos de la URL.
+[2024-05-06T14:53:28.889Z] [ERROR] - Falló el scraping para la URL: https://www.jumbo.com.ar/verduras?_q=verduras&map=ft después de 6 reintentos.
+[2024-05-06T14:53:29.023Z] [WARNING] - Algunas URLs fallaron incluso después de reintentar.
+[2024-05-06T14:53:29.023Z] [ERROR] - Error general en runScrapingBot:
+[2024-05-06T14:58:05.365Z] [WARNING] - Scroll error
+[2024-05-06T14:58:15.698Z] [WARNING] - Scroll error
+[2024-05-06T14:58:25.905Z] [WARNING] - Scroll error
+[2024-05-06T14:58:56.352Z] [WARNING] - Scroll error
+[2024-05-06T14:59:23.491Z] [WARNING] - Scroll error
+[2024-05-06T14:59:36.888Z] [WARNING] - Scroll error
+[2024-05-06T14:59:49.552Z] [ERROR] - Error al scrapear la URL https://www.jumbo.com.ar/verduras?_q=verduras&map=ft: logger is not defined
+[2024-05-06T14:59:49.553Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/verduras?_q=verduras&map=ft. Intentando nuevamente (1/6)... pageNumber is not defined
+[2024-05-06T15:00:03.089Z] [WARNING] - Scroll error
+[2024-05-06T15:00:10.379Z] [WARNING] - Scroll error
+[2024-05-06T15:00:20.495Z] [WARNING] - Scroll error
+[2024-05-06T15:00:34.820Z] [WARNING] - Scroll error
+[2024-05-06T15:01:00.632Z] [WARNING] - Scroll error
+[2024-05-06T15:01:06.905Z] [WARNING] - Scroll error
+[2024-05-06T15:01:13.036Z] [WARNING] - Scroll error
+[2024-05-06T15:01:39.790Z] [WARNING] - Scroll error
+[2024-05-06T15:01:45.835Z] [WARNING] - Scroll error
+[2024-05-06T15:01:59.987Z] [WARNING] - Scroll error
+[2024-05-06T15:02:06.052Z] [WARNING] - Scroll error
+[2024-05-06T15:02:31.783Z] [ERROR] - Error al scrapear la URL https://www.jumbo.com.ar/verduras?_q=verduras&map=ft: Cannot read properties of undefined (reading 'forEach')
+[2024-05-06T15:02:31.783Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/verduras?_q=verduras&map=ft. Intentando nuevamente (1/6)... pageNumber is not defined
+[2024-05-06T15:02:45.086Z] [WARNING] - Scroll error
+[2024-05-06T15:08:41.165Z] [WARNING] - Scroll error
+[2024-05-06T15:12:09.959Z] [WARNING] - Scroll error
+[2024-05-06T15:12:33.142Z] [WARNING] - Scroll error
+[2024-05-06T15:12:45.763Z] [WARNING] - Scroll error
+[2024-05-06T15:12:55.831Z] [WARNING] - Scroll error
+[2024-05-06T15:13:57.273Z] [WARNING] - Scroll error
+[2024-05-06T15:14:07.170Z] [WARNING] - Scroll error
+[2024-05-06T15:14:29.385Z] [ERROR] - getFirstDateOfMonth error No se ingreso la fecha actual
+[2024-05-06T15:14:29.385Z] [ERROR] - recordVariation error: recordVariation error: No se encontro el primer registro del mes
+[2024-05-06T15:14:29.385Z] [ERROR] - No se pudo obtener la variación de la fecha: 
+[2024-05-06T15:17:24.752Z] [WARNING] - Scroll error
+[2024-05-06T15:17:51.758Z] [WARNING] - Scroll error
+[2024-05-06T15:18:04.641Z] [WARNING] - Scroll error
+[2024-05-06T15:18:12.436Z] [WARNING] - No se encontraron productos en la página 6 para https://www.jumbo.com.ar/verduras?_q=verduras&map=ft.
+[2024-05-06T15:18:23.043Z] [ERROR] - recordVariation error: Cast to date failed for value "Invalid Date" (type Date) at path "date" for model "registro_precios"
+[2024-05-06T15:18:23.043Z] [ERROR] - No se pudo obtener la variación de la fecha: 
+[2024-05-06T15:22:11.564Z] [WARNING] - Scroll error
+[2024-05-06T15:22:17.666Z] [WARNING] - Scroll error
+[2024-05-06T15:22:21.280Z] [WARNING] - No se encontraron productos en la página 6 para https://www.jumbo.com.ar/verduras?_q=verduras&map=ft.
+[2024-05-06T15:22:21.281Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/verduras?_q=verduras&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-06T15:22:37.904Z] [WARNING] - Scroll error
+[2024-05-06T15:22:43.884Z] [WARNING] - Scroll error
