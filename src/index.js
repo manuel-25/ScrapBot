@@ -271,7 +271,7 @@ async function scrapeURL(dinamicUrl, page, startPage) {
                     containerFound = true
                 } catch (error) {
                     logger.warning(`El contenedor no se encontró en ${dinamicUrl}. Reintentando...`)
-                    await page.reload({ waitUntil: 'domcontentloaded', timeout: 40000 })
+                    await page.reload({ waitUntil: 'networkidle0', timeout: 40000 })
                     containerRetries++
                 }
             }
@@ -557,7 +557,15 @@ function delay(time) {
     })
 }
 
-async function goToPage(page, pageNumber, dinamicUrl) { await page.goto(`${dinamicUrl}&page=${pageNumber}`) }
+//async function goToPage(page, pageNumber, dinamicUrl) { await page.goto(`${dinamicUrl}&page=${pageNumber}`) }
+
+async function goToPage(page, pageNumber, dinamicUrl) {
+    try {
+        await page.goto(`${dinamicUrl}&page=${pageNumber}`, { waitUntil: 'networkidle0', timeout: 25000 });
+    } catch (error) {
+        logger.error(`Error al cambiar a la página ${pageNumber} de ${dinamicUrl}:`, error);
+    }
+}
 
 function formatTime(milliseconds) {
     const totalSeconds = milliseconds / 1000
