@@ -212,7 +212,7 @@ async function scrapeAllURLs(urls, page) {
                 if(!scrapeResult.success && scrapeResult.data > 0) {
                     const newData = scrapeResult.data
                     dataFromUrl = avoidDuplicateData(newData, dataFromUrl)
-                    startPage = scrapeResult.page
+                    startPage = scrapeResult.page || 1
                 } else {
                     throw new Error('No se pudieron obtener datos válidos.')
                 }
@@ -251,7 +251,6 @@ async function scrapeURL(dinamicUrl, page, startPage) {
     try {
         await delay(1000) // Pequeña espera antes de comenzar evita errores
 
-        //const startTime = new Date()
         await page.goto(`${dinamicUrl}&page=${startPage}`, { waitUntil: 'domcontentloaded', timeout: 40000 })
 
         let dataScrapped = []
@@ -564,7 +563,7 @@ function delay(time) {
 
 async function goToPage(page, pageNumber, dinamicUrl) {
     try {
-        await page.goto(`${dinamicUrl}&page=${pageNumber}`, { waitUntil: 'networkidle0', timeout: 25000 })
+        await page.goto(`${dinamicUrl}&page=${pageNumber}`, { waitUntil: 'networkidle0', timeout: 40000 })
     } catch (error) {
         logger.error(`Error al cambiar a la página ${pageNumber} de ${dinamicUrl}:`, error)
     }
