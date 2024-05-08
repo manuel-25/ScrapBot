@@ -1613,3 +1613,492 @@
 [2024-05-06T15:22:21.281Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/verduras?_q=verduras&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
 [2024-05-06T15:22:37.904Z] [WARNING] - Scroll error
 [2024-05-06T15:22:43.884Z] [WARNING] - Scroll error
+[2024-05-07T14:02:50.442Z] [WARNING] - Scroll error
+[2024-05-07T14:03:32.930Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Reintentando...
+[2024-05-07T14:03:53.161Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Reintentando...
+[2024-05-07T14:04:13.359Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Reintentando...
+[2024-05-07T14:04:13.688Z] [ERROR] - No se encontró el contenedor para https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft después de varios intentos.
+[2024-05-07T14:04:13.689Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-07T14:04:40.895Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft. Reintentando...
+[2024-05-07T14:05:06.530Z] [WARNING] - No se encontraron productos en la página 2 para https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft.
+[2024-05-07T14:05:06.531Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-07T14:05:33.750Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Reintentando...
+[2024-05-07T14:05:53.937Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Reintentando...
+[2024-05-07T14:06:25.577Z] [WARNING] - No se encontraron productos en la página 5 para https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft.
+[2024-05-07T14:06:25.578Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (2/6)... No se pudieron obtener datos válidos.
+[2024-05-07T14:06:52.990Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Reintentando...
+[2024-05-07T14:07:13.196Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Reintentando...
+[2024-05-07T14:07:25.926Z] [WARNING] - No se encontraron productos en la página 3 para https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft.
+[2024-05-07T14:07:25.927Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (3/6)... No se pudieron obtener datos válidos.
+[2024-05-07T14:07:53.304Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Reintentando...
+[2024-05-07T14:08:13.498Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Reintentando...
+[2024-05-07T14:08:33.721Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Reintentando...
+[2024-05-07T14:08:33.945Z] [ERROR] - No se encontró el contenedor para https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft después de varios intentos.
+[2024-05-07T14:08:33.946Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (4/6)... No se pudieron obtener datos válidos.
+[2024-05-07T14:09:01.426Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Reintentando...
+[2024-05-07T14:09:21.582Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Reintentando...
+[2024-05-07T14:09:29.623Z] [WARNING] - No se encontraron productos en la página 2 para https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft.
+[2024-05-07T14:09:29.624Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (5/6)... No se pudieron obtener datos válidos.
+[2024-05-07T14:09:56.887Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Reintentando...
+[2024-05-07T14:10:17.681Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Reintentando...
+[2024-05-07T14:10:38.148Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Reintentando...
+[2024-05-07T14:10:38.461Z] [ERROR] - No se encontró el contenedor para https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft después de varios intentos.
+[2024-05-07T14:10:38.461Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (6/6)... No se pudieron obtener datos válidos.
+[2024-05-07T14:10:44.471Z] [ERROR] - Falló el scraping para la URL: https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft después de 6 reintentos.
+[2024-05-07T14:11:08.814Z] [WARNING] - Scroll error
+[2024-05-07T14:11:18.652Z] [WARNING] - Scroll error
+[2024-05-07T14:11:33.601Z] [WARNING] - Scroll error
+[2024-05-07T14:12:03.573Z] [WARNING] - Scroll error
+[2024-05-07T14:12:41.571Z] [WARNING] - Scroll error
+[2024-05-07T14:12:48.074Z] [WARNING] - No se encontraron productos en la página 8 para https://www.jumbo.com.ar/fideos?_q=fideos&map=ft.
+[2024-05-07T14:12:48.074Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/fideos?_q=fideos&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-07T14:13:00.842Z] [WARNING] - Scroll error
+[2024-05-07T14:13:15.840Z] [WARNING] - Scroll error
+[2024-05-07T14:13:34.307Z] [WARNING] - Scroll error
+[2024-05-07T14:13:43.841Z] [WARNING] - Scroll error
+[2024-05-07T14:14:07.323Z] [WARNING] - Scroll error
+[2024-05-07T14:14:21.328Z] [WARNING] - Scroll error
+[2024-05-07T14:14:30.364Z] [WARNING] - Scroll error
+[2024-05-07T14:15:33.549Z] [WARNING] - Scroll error
+[2024-05-07T14:15:55.767Z] [WARNING] - Scroll error
+[2024-05-07T14:16:19.291Z] [WARNING] - Scroll error
+[2024-05-07T14:16:34.841Z] [WARNING] - No se encontraron productos en la página 4 para https://www.jumbo.com.ar/verduras?_q=verduras&map=ft.
+[2024-05-07T14:16:34.842Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/verduras?_q=verduras&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-07T14:16:47.666Z] [WARNING] - Scroll error
+[2024-05-07T14:17:11.026Z] [WARNING] - Scroll error
+[2024-05-07T14:17:21.073Z] [WARNING] - Scroll error
+[2024-05-07T14:17:39.409Z] [WARNING] - Scroll error
+[2024-05-07T14:17:58.052Z] [WARNING] - Scroll error
+[2024-05-07T14:18:05.103Z] [WARNING] - No se encontraron productos en la página 11 para https://www.jumbo.com.ar/verduras?_q=verduras&map=ft.
+[2024-05-07T14:18:05.104Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/verduras?_q=verduras&map=ft. Intentando nuevamente (2/6)... No se pudieron obtener datos válidos.
+[2024-05-07T14:18:19.400Z] [WARNING] - Scroll error
+[2024-05-07T14:18:25.517Z] [WARNING] - Scroll error
+[2024-05-07T14:18:48.962Z] [WARNING] - Scroll error
+[2024-05-07T14:18:55.148Z] [WARNING] - Scroll error
+[2024-05-07T14:19:01.604Z] [WARNING] - Scroll error
+[2024-05-07T14:19:08.105Z] [WARNING] - Scroll error
+[2024-05-07T14:19:27.589Z] [WARNING] - No se encontraron productos en la página 13 para https://www.jumbo.com.ar/verduras?_q=verduras&map=ft.
+[2024-05-07T14:19:27.590Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/verduras?_q=verduras&map=ft. Intentando nuevamente (3/6)... No se pudieron obtener datos válidos.
+[2024-05-07T14:19:40.540Z] [WARNING] - Scroll error
+[2024-05-07T14:19:50.690Z] [WARNING] - Scroll error
+[2024-05-07T14:19:56.758Z] [WARNING] - Scroll error
+[2024-05-07T14:20:06.886Z] [WARNING] - Scroll error
+[2024-05-07T14:20:12.864Z] [WARNING] - Scroll error
+[2024-05-07T14:20:21.514Z] [WARNING] - No se encontraron productos en la página 9 para https://www.jumbo.com.ar/verduras?_q=verduras&map=ft.
+[2024-05-07T14:20:21.515Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/verduras?_q=verduras&map=ft. Intentando nuevamente (4/6)... No se pudieron obtener datos válidos.
+[2024-05-07T14:20:35.071Z] [WARNING] - Scroll error
+[2024-05-07T14:20:49.697Z] [WARNING] - Scroll error
+[2024-05-07T14:20:55.776Z] [WARNING] - Scroll error
+[2024-05-07T14:21:10.244Z] [WARNING] - Scroll error
+[2024-05-07T14:21:18.385Z] [WARNING] - No se encontraron productos en la página 10 para https://www.jumbo.com.ar/verduras?_q=verduras&map=ft.
+[2024-05-07T14:21:18.386Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/verduras?_q=verduras&map=ft. Intentando nuevamente (5/6)... No se pudieron obtener datos válidos.
+[2024-05-07T14:21:33.045Z] [WARNING] - Scroll error
+[2024-05-07T14:21:39.201Z] [WARNING] - Scroll error
+[2024-05-07T14:21:52.798Z] [WARNING] - Scroll error
+[2024-05-07T14:22:20.292Z] [WARNING] - Scroll error
+[2024-05-07T14:22:27.988Z] [WARNING] - No se encontraron productos en la página 12 para https://www.jumbo.com.ar/verduras?_q=verduras&map=ft.
+[2024-05-07T14:22:27.989Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/verduras?_q=verduras&map=ft. Intentando nuevamente (6/6)... No se pudieron obtener datos válidos.
+[2024-05-07T14:22:33.993Z] [ERROR] - Falló el scraping para la URL: https://www.jumbo.com.ar/verduras?_q=verduras&map=ft después de 6 reintentos.
+[2024-05-07T14:22:52.023Z] [WARNING] - Scroll error
+[2024-05-07T14:23:05.404Z] [WARNING] - No se encontraron productos en la página 4 para https://www.jumbo.com.ar/frutas?_q=frutas&map=ft.
+[2024-05-07T14:23:05.404Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/frutas?_q=frutas&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-07T14:23:43.787Z] [WARNING] - No se encontraron productos en la página 6 para https://www.jumbo.com.ar/frutas?_q=frutas&map=ft.
+[2024-05-07T14:23:43.788Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/frutas?_q=frutas&map=ft. Intentando nuevamente (2/6)... No se pudieron obtener datos válidos.
+[2024-05-07T14:24:25.854Z] [WARNING] - Scroll error
+[2024-05-07T14:25:14.854Z] [WARNING] - Scroll error
+[2024-05-07T14:25:49.519Z] [WARNING] - No se encontraron productos en la página 4 para https://www.jumbo.com.ar/pescado?_q=pescado&map=ft.
+[2024-05-07T14:25:49.520Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pescado?_q=pescado&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-07T14:26:28.508Z] [WARNING] - Scroll error
+[2024-05-07T14:28:29.029Z] [WARNING] - No se encontraron productos en la página 2 para https://www.jumbo.com.ar/leche?_q=leche&map=ft.
+[2024-05-07T14:28:29.030Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/leche?_q=leche&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-07T14:30:25.241Z] [WARNING] - No se encontraron productos en la página 7 para https://www.jumbo.com.ar/yogur?_q=yogur&map=ft.
+[2024-05-07T14:30:25.242Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yogur?_q=yogur&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-07T14:32:35.470Z] [WARNING] - Scroll error
+[2024-05-07T14:33:02.232Z] [WARNING] - No se encontraron productos en la página 3 para https://www.jumbo.com.ar/cerveza?_q=cerveza&map=ft.
+[2024-05-07T14:33:02.233Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cerveza?_q=cerveza&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-07T14:34:09.510Z] [WARNING] - Scroll error
+[2024-05-07T14:35:30.722Z] [WARNING] - No se encontraron productos en la página 10 para https://www.jumbo.com.ar/vino?_q=vino&map=ft.
+[2024-05-07T14:35:30.723Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/vino?_q=vino&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-07T14:38:04.429Z] [WARNING] - No se encontraron productos en la página 2 para https://www.jumbo.com.ar/cafe?_q=cafe&map=ft.
+[2024-05-07T14:38:04.430Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cafe?_q=cafe&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-07T14:38:57.405Z] [WARNING] - Scroll error
+[2024-05-07T14:40:49.200Z] [WARNING] - Scroll error
+[2024-05-07T14:41:26.220Z] [WARNING] - No se encontraron productos en la página 4 para https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft.
+[2024-05-07T14:41:26.222Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-07T14:42:55.968Z] [WARNING] - Scroll error
+[2024-05-07T14:43:15.412Z] [WARNING] - Scroll error
+[2024-05-07T14:43:41.578Z] [WARNING] - Scroll error
+[2024-05-07T14:43:49.011Z] [WARNING] - No se encontraron productos en la página 7 para https://www.jumbo.com.ar/verduras?_q=verduras&map=ft.
+[2024-05-07T14:43:49.012Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/verduras?_q=verduras&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-07T14:44:02.153Z] [WARNING] - Scroll error
+[2024-05-07T14:44:36.736Z] [WARNING] - Scroll error
+[2024-05-07T14:44:51.105Z] [WARNING] - No se encontraron productos en la página 10 para https://www.jumbo.com.ar/verduras?_q=verduras&map=ft.
+[2024-05-07T14:44:51.106Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/verduras?_q=verduras&map=ft. Intentando nuevamente (2/6)... No se pudieron obtener datos válidos.
+[2024-05-07T14:45:04.963Z] [WARNING] - Scroll error
+[2024-05-07T14:45:28.165Z] [WARNING] - Scroll error
+[2024-05-07T14:45:34.487Z] [WARNING] - Scroll error
+[2024-05-07T14:46:03.631Z] [WARNING] - No se encontraron productos en la página 12 para https://www.jumbo.com.ar/verduras?_q=verduras&map=ft.
+[2024-05-07T14:46:03.632Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/verduras?_q=verduras&map=ft. Intentando nuevamente (3/6)... No se pudieron obtener datos válidos.
+[2024-05-07T14:46:17.038Z] [WARNING] - Scroll error
+[2024-05-07T14:46:23.259Z] [WARNING] - Scroll error
+[2024-05-07T14:46:26.712Z] [WARNING] - No se encontraron productos en la página 3 para https://www.jumbo.com.ar/verduras?_q=verduras&map=ft.
+[2024-05-07T14:46:26.712Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/verduras?_q=verduras&map=ft. Intentando nuevamente (4/6)... No se pudieron obtener datos válidos.
+[2024-05-07T14:46:40.000Z] [WARNING] - Scroll error
+[2024-05-07T14:46:55.374Z] [WARNING] - Scroll error
+[2024-05-07T14:47:05.808Z] [WARNING] - Scroll error
+[2024-05-07T14:47:29.340Z] [WARNING] - Scroll error
+[2024-05-07T14:47:51.504Z] [WARNING] - Scroll error
+[2024-05-07T14:48:02.081Z] [WARNING] - Scroll error
+[2024-05-07T14:48:17.073Z] [WARNING] - No se encontraron productos en la página 17 para https://www.jumbo.com.ar/verduras?_q=verduras&map=ft.
+[2024-05-07T14:48:17.074Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/verduras?_q=verduras&map=ft. Intentando nuevamente (5/6)... No se pudieron obtener datos válidos.
+[2024-05-07T14:48:34.023Z] [WARNING] - Scroll error
+[2024-05-07T14:48:48.360Z] [WARNING] - Scroll error
+[2024-05-07T14:49:09.228Z] [WARNING] - Scroll error
+[2024-05-07T14:49:18.869Z] [WARNING] - Scroll error
+[2024-05-07T14:49:29.475Z] [WARNING] - Scroll error
+[2024-05-07T14:49:48.589Z] [WARNING] - Scroll error
+[2024-05-07T14:49:55.033Z] [WARNING] - Scroll error
+[2024-05-07T14:50:17.779Z] [WARNING] - Scroll error
+[2024-05-07T14:50:23.882Z] [WARNING] - No se encontraron productos en la página 19 para https://www.jumbo.com.ar/verduras?_q=verduras&map=ft.
+[2024-05-07T14:50:23.883Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/verduras?_q=verduras&map=ft. Intentando nuevamente (6/6)... No se pudieron obtener datos válidos.
+[2024-05-07T14:50:29.898Z] [ERROR] - Falló el scraping para la URL: https://www.jumbo.com.ar/verduras?_q=verduras&map=ft después de 6 reintentos.
+[2024-05-07T14:50:30.036Z] [WARNING] - Algunas URLs fallaron incluso después de reintentar.
+[2024-05-07T14:50:30.036Z] [ERROR] - Error general en runScrapingBot: Assignment to constant variable.
+[2024-05-07T22:51:13.064Z] [WARNING] - Scroll error
+[2024-05-07T22:51:20.638Z] [WARNING] - No se encontraron productos en la página 2 para https://www.jumbo.com.ar/verduras?_q=verduras&map=ft.
+[2024-05-07T22:51:20.639Z] [ERROR] - scrapeDataFromURLs error scrapeResult is not defined
+[2024-05-07T22:51:20.639Z] [ERROR] - Error general en runScrapingBot: Cannot destructure property 'storedData' of '(intermediate value)' as it is undefined.
+[2024-05-07T23:04:58.342Z] [WARNING] - Scroll error
+[2024-05-07T23:05:08.146Z] [WARNING] - Scroll error
+[2024-05-07T23:05:18.407Z] [WARNING] - Scroll error
+[2024-05-07T23:05:52.218Z] [WARNING] - Scroll error
+[2024-05-07T23:06:25.221Z] [WARNING] - Scroll error
+[2024-05-07T23:06:55.898Z] [WARNING] - No se encontraron productos en la página 18 para https://www.jumbo.com.ar/verduras?_q=verduras&map=ft.
+[2024-05-07T23:06:55.898Z] [ERROR] - scrapeDataFromURLs error scrapeResult is not defined
+[2024-05-07T23:06:55.899Z] [ERROR] - Error general en runScrapingBot: Cannot destructure property 'storedData' of '(intermediate value)' as it is undefined.
+[2024-05-07T23:11:21.445Z] [WARNING] - Scroll error
+[2024-05-07T23:11:25.396Z] [WARNING] - No se encontraron productos en la página 2 para https://www.jumbo.com.ar/verduras?_q=verduras&map=ft.
+[2024-05-07T23:11:25.398Z] [ERROR] - scrapeDataFromURLs error scrapeResult is not defined
+[2024-05-07T23:11:25.399Z] [ERROR] - Error general en runScrapingBot: Cannot destructure property 'storedData' of '(intermediate value)' as it is undefined.
+[2024-05-08T13:24:26.969Z] [WARNING] - Scroll error
+[2024-05-08T13:24:33.263Z] [WARNING] - No se encontraron productos en la página 3 para https://www.jumbo.com.ar/verduras?_q=verduras&map=ft.
+[2024-05-08T13:24:33.265Z] [ERROR] - scrapeDataFromURLs error scrapeResult is not defined
+[2024-05-08T13:24:33.265Z] [ERROR] - Error general en runScrapingBot: Cannot destructure property 'storedData' of '(intermediate value)' as it is undefined.
+[2024-05-08T13:27:10.540Z] [WARNING] - Scroll error
+[2024-05-08T13:28:01.012Z] [WARNING] - Scroll error
+[2024-05-08T13:28:22.430Z] [WARNING] - No se encontraron productos en la página 2 para https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft.
+[2024-05-08T13:28:22.431Z] [ERROR] - scrapeDataFromURLs error scrapeResult is not defined
+[2024-05-08T13:28:22.431Z] [ERROR] - Error general en runScrapingBot: Cannot destructure property 'storedData' of '(intermediate value)' as it is undefined.
+[2024-05-08T13:34:38.690Z] [WARNING] - No se encontraron productos en la página 3 para https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft.
+[2024-05-08T13:34:38.692Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-08T13:35:05.901Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Reintentando...
+[2024-05-08T13:35:26.114Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Reintentando...
+[2024-05-08T13:35:32.875Z] [WARNING] - No se encontraron productos en la página 2 para https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft.
+[2024-05-08T13:35:32.876Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (2/6)... No se pudieron obtener datos válidos.
+[2024-05-08T13:35:49.747Z] [WARNING] - Scroll error
+[2024-05-08T13:35:59.074Z] [WARNING] - Scroll error
+[2024-05-08T13:37:04.318Z] [WARNING] - Scroll error
+[2024-05-08T13:37:13.350Z] [WARNING] - Scroll error
+[2024-05-08T13:37:20.209Z] [WARNING] - No se encontraron productos en la página 5 para https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft.
+[2024-05-08T13:37:20.210Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-08T13:37:34.266Z] [WARNING] - No se encontraron productos en la página 2 para https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft.
+[2024-05-08T13:37:34.267Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (2/6)... No se pudieron obtener datos válidos.
+[2024-05-08T13:38:01.450Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Reintentando...
+[2024-05-08T13:38:12.416Z] [WARNING] - No se encontraron productos en la página 3 para https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft.
+[2024-05-08T13:38:12.417Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (3/6)... No se pudieron obtener datos válidos.
+[2024-05-08T13:38:39.595Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Reintentando...
+[2024-05-08T13:39:02.494Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Reintentando...
+[2024-05-08T13:39:08.976Z] [WARNING] - Scroll error
+[2024-05-08T13:39:16.235Z] [WARNING] - No se encontraron productos en la página 3 para https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft.
+[2024-05-08T13:39:16.236Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (4/6)... No se pudieron obtener datos válidos.
+[2024-05-08T13:40:14.714Z] [WARNING] - Scroll error
+[2024-05-08T13:40:40.256Z] [WARNING] - Scroll error
+[2024-05-08T13:40:49.400Z] [WARNING] - Scroll error
+[2024-05-08T13:41:34.738Z] [WARNING] - No se encontraron productos en la página 9 para https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft.
+[2024-05-08T13:41:34.739Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-08T13:42:00.341Z] [WARNING] - Scroll error
+[2024-05-08T13:42:06.765Z] [WARNING] - No se encontraron productos en la página 3 para https://www.jumbo.com.ar/arroz?_q=arroz&map=ft.
+[2024-05-08T13:42:06.766Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/arroz?_q=arroz&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-08T13:57:52.798Z] [WARNING] - Scroll error
+[2024-05-08T13:58:13.472Z] [WARNING] - No se encontraron productos en la página 4 para https://www.jumbo.com.ar/pan?_q=pan&map=ft.
+[2024-05-08T13:58:13.474Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (1/6)... Cannot read properties of undefined (reading 'length')
+[2024-05-08T13:58:20.636Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (2/6)... No se pudieron obtener datos válidos.
+[2024-05-08T13:58:51.472Z] [WARNING] - Scroll error
+[2024-05-08T13:59:02.767Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (3/6)... No se pudieron obtener datos válidos.
+[2024-05-08T13:59:27.489Z] [WARNING] - Scroll error
+[2024-05-08T13:59:33.573Z] [WARNING] - Scroll error
+[2024-05-08T13:59:35.318Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (4/6)... No se pudieron obtener datos válidos.
+[2024-05-08T13:59:48.104Z] [WARNING] - Scroll error
+[2024-05-08T13:59:58.111Z] [WARNING] - Scroll error
+[2024-05-08T14:00:04.450Z] [WARNING] - Scroll error
+[2024-05-08T14:00:11.769Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (5/6)... No se pudieron obtener datos válidos.
+[2024-05-08T14:00:24.609Z] [WARNING] - Scroll error
+[2024-05-08T14:28:45.102Z] [WARNING] - Scroll error
+[2024-05-08T14:28:53.884Z] [WARNING] - Scroll error
+[2024-05-08T14:29:10.103Z] [WARNING] - Scroll error
+[2024-05-08T14:29:13.498Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-08T14:29:34.816Z] [WARNING] - Scroll error
+[2024-05-08T14:29:45.305Z] [WARNING] - Scroll error
+[2024-05-08T14:29:51.105Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (2/6)... No se pudieron obtener datos válidos.
+[2024-05-08T14:30:03.744Z] [WARNING] - Scroll error
+[2024-05-08T14:30:21.541Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (3/6)... No se pudieron obtener datos válidos.
+[2024-05-08T14:30:34.422Z] [WARNING] - Scroll error
+[2024-05-08T14:33:29.579Z] [WARNING] - Scroll error
+[2024-05-08T14:33:40.468Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-08T14:41:17.918Z] [WARNING] - Scroll error
+[2024-05-08T14:41:32.447Z] [WARNING] - Scroll error
+[2024-05-08T14:41:39.379Z] [WARNING] - No se encontraron productos en la página 4 para https://www.jumbo.com.ar/pan?_q=pan&map=ft.
+[2024-05-08T14:41:39.380Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-08T14:41:52.762Z] [WARNING] - Scroll error
+[2024-05-08T14:41:58.693Z] [WARNING] - Scroll error
+[2024-05-08T14:42:04.652Z] [WARNING] - Scroll error
+[2024-05-08T14:42:10.591Z] [WARNING] - Scroll error
+[2024-05-08T14:42:51.678Z] [WARNING] - Scroll error
+[2024-05-08T14:42:59.165Z] [WARNING] - No se encontraron productos en la página 3 para https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft.
+[2024-05-08T14:42:59.166Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-08T14:43:26.589Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Reintentando...
+[2024-05-08T14:43:32.391Z] [WARNING] - Scroll error
+[2024-05-08T14:43:36.070Z] [WARNING] - No se encontraron productos en la página 2 para https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft.
+[2024-05-08T14:43:36.071Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (2/6)... No se pudieron obtener datos válidos.
+[2024-05-08T14:44:03.297Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Reintentando...
+[2024-05-08T14:44:23.457Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Reintentando...
+[2024-05-08T14:44:43.644Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Reintentando...
+[2024-05-08T14:44:43.835Z] [ERROR] - No se encontró el contenedor para https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft después de varios intentos.
+[2024-05-08T14:44:43.836Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (3/6)... No se pudieron obtener datos válidos.
+[2024-05-08T14:44:56.758Z] [WARNING] - Scroll error
+[2024-05-08T14:45:37.235Z] [WARNING] - Scroll error
+[2024-05-08T14:45:59.821Z] [WARNING] - Scroll error
+[2024-05-08T14:46:07.793Z] [WARNING] - Scroll error
+[2024-05-08T14:46:22.937Z] [WARNING] - Scroll error
+[2024-05-08T14:46:57.351Z] [WARNING] - Scroll error
+[2024-05-08T14:47:12.607Z] [WARNING] - Scroll error
+[2024-05-08T14:48:15.096Z] [WARNING] - No se encontraron productos en la página 7 para https://www.jumbo.com.ar/fideos?_q=fideos&map=ft.
+[2024-05-08T14:48:15.097Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/fideos?_q=fideos&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-08T14:48:36.417Z] [WARNING] - Scroll error
+[2024-05-08T14:48:59.775Z] [WARNING] - No se encontraron productos en la página 8 para https://www.jumbo.com.ar/fideos?_q=fideos&map=ft.
+[2024-05-08T14:48:59.776Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/fideos?_q=fideos&map=ft. Intentando nuevamente (2/6)... No se pudieron obtener datos válidos.
+[2024-05-08T14:49:42.025Z] [WARNING] - Scroll error
+[2024-05-08T14:50:06.509Z] [WARNING] - Scroll error
+[2024-05-08T14:50:12.605Z] [WARNING] - No se encontraron productos en la página 12 para https://www.jumbo.com.ar/fideos?_q=fideos&map=ft.
+[2024-05-08T14:50:12.605Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/fideos?_q=fideos&map=ft. Intentando nuevamente (3/6)... No se pudieron obtener datos válidos.
+[2024-05-08T14:50:28.044Z] [WARNING] - No se encontraron productos en la página 2 para https://www.jumbo.com.ar/fideos?_q=fideos&map=ft.
+[2024-05-08T14:50:28.044Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/fideos?_q=fideos&map=ft. Intentando nuevamente (4/6)... No se pudieron obtener datos válidos.
+[2024-05-08T14:50:40.931Z] [WARNING] - Scroll error
+[2024-05-08T14:50:48.701Z] [WARNING] - No se encontraron productos en la página 3 para https://www.jumbo.com.ar/fideos?_q=fideos&map=ft.
+[2024-05-08T14:50:48.702Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/fideos?_q=fideos&map=ft. Intentando nuevamente (5/6)... No se pudieron obtener datos válidos.
+[2024-05-08T14:51:01.359Z] [WARNING] - Scroll error
+[2024-05-08T14:51:11.389Z] [WARNING] - Scroll error
+[2024-05-08T14:51:49.759Z] [WARNING] - Scroll error
+[2024-05-08T14:52:10.072Z] [WARNING] - Scroll error
+[2024-05-08T14:53:08.540Z] [WARNING] - Scroll error
+[2024-05-08T14:53:44.716Z] [WARNING] - Scroll error
+[2024-05-08T14:54:32.221Z] [WARNING] - Scroll error
+[2024-05-08T14:54:49.995Z] [WARNING] - Scroll error
+[2024-05-08T14:55:15.558Z] [WARNING] - Scroll error
+[2024-05-08T14:55:33.256Z] [WARNING] - Scroll error
+[2024-05-08T14:55:42.337Z] [WARNING] - Scroll error
+[2024-05-08T14:55:51.647Z] [WARNING] - Scroll error
+[2024-05-08T14:56:01.294Z] [WARNING] - Scroll error
+[2024-05-08T14:56:11.146Z] [WARNING] - Scroll error
+[2024-05-08T14:56:54.269Z] [WARNING] - No se encontraron productos en la página 3 para https://www.jumbo.com.ar/frutas?_q=frutas&map=ft.
+[2024-05-08T14:56:54.270Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/frutas?_q=frutas&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-08T14:57:30.125Z] [WARNING] - Scroll error
+[2024-05-08T14:57:40.718Z] [WARNING] - Scroll error
+[2024-05-08T14:58:08.930Z] [WARNING] - Scroll error
+[2024-05-08T14:58:17.123Z] [WARNING] - No se encontraron productos en la página 3 para https://www.jumbo.com.ar/carnes?initialMap=c&initialQuery=carnes&map=category-1,category-2&query=/carnes/carne-vacuna&searchState.
+[2024-05-08T14:58:17.124Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/carnes?initialMap=c&initialQuery=carnes&map=category-1,category-2&query=/carnes/carne-vacuna&searchState. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-08T14:58:29.990Z] [WARNING] - Scroll error
+[2024-05-08T14:58:36.083Z] [WARNING] - Scroll error
+[2024-05-08T14:58:48.987Z] [WARNING] - Scroll error
+[2024-05-08T14:59:33.921Z] [WARNING] - Scroll error
+[2024-05-08T14:59:43.545Z] [WARNING] - Scroll error
+[2024-05-08T14:59:58.162Z] [WARNING] - No se encontraron productos en la página 5 para https://www.jumbo.com.ar/pescado?_q=pescado&map=ft.
+[2024-05-08T14:59:58.162Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pescado?_q=pescado&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-08T15:00:20.420Z] [WARNING] - No se encontraron productos en la página 4 para https://www.jumbo.com.ar/pescado?_q=pescado&map=ft.
+[2024-05-08T15:00:20.421Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pescado?_q=pescado&map=ft. Intentando nuevamente (2/6)... No se pudieron obtener datos válidos.
+[2024-05-08T15:01:23.444Z] [WARNING] - No se encontraron productos en la página 3 para https://www.jumbo.com.ar/fiambres?_q=fiambres&map=ft.
+[2024-05-08T15:01:23.445Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/fiambres?_q=fiambres&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-08T15:01:36.192Z] [WARNING] - Scroll error
+[2024-05-08T15:01:50.573Z] [WARNING] - No se encontraron productos en la página 4 para https://www.jumbo.com.ar/fiambres?_q=fiambres&map=ft.
+[2024-05-08T15:01:50.573Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/fiambres?_q=fiambres&map=ft. Intentando nuevamente (2/6)... No se pudieron obtener datos válidos.
+[2024-05-08T15:02:29.216Z] [WARNING] - No se encontraron productos en la página 6 para https://www.jumbo.com.ar/fiambres?_q=fiambres&map=ft.
+[2024-05-08T15:02:29.217Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/fiambres?_q=fiambres&map=ft. Intentando nuevamente (3/6)... No se pudieron obtener datos válidos.
+[2024-05-08T15:02:42.261Z] [WARNING] - Scroll error
+[2024-05-08T15:02:56.394Z] [WARNING] - Scroll error
+[2024-05-08T15:03:02.437Z] [WARNING] - Scroll error
+[2024-05-08T15:03:08.409Z] [WARNING] - Scroll error
+[2024-05-08T15:03:42.698Z] [WARNING] - Scroll error
+[2024-05-08T15:03:55.763Z] [WARNING] - No se encontraron productos en la página 3 para https://www.jumbo.com.ar/pollo?_q=pollo&map=ft.
+[2024-05-08T15:03:55.764Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pollo?_q=pollo&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-08T15:04:08.713Z] [WARNING] - Scroll error
+[2024-05-08T15:04:35.131Z] [WARNING] - No se encontraron productos en la página 2 para https://www.jumbo.com.ar/leche?_q=leche&map=ft.
+[2024-05-08T15:04:35.132Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/leche?_q=leche&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-08T15:04:59.147Z] [WARNING] - Scroll error
+[2024-05-08T15:05:14.827Z] [WARNING] - Scroll error
+[2024-05-08T15:06:02.229Z] [WARNING] - No se encontraron productos en la página 3 para https://www.jumbo.com.ar/yogur?_q=yogur&map=ft.
+[2024-05-08T15:06:02.230Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yogur?_q=yogur&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-08T15:06:15.902Z] [WARNING] - Scroll error
+[2024-05-08T15:06:21.922Z] [WARNING] - Scroll error
+[2024-05-08T15:07:12.124Z] [WARNING] - Scroll error
+[2024-05-08T15:07:50.735Z] [WARNING] - Scroll error
+[2024-05-08T15:08:16.792Z] [WARNING] - No se encontraron productos en la página 7 para https://www.jumbo.com.ar/aceite?_q=aceite&map=ft.
+[2024-05-08T15:08:16.793Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/aceite?_q=aceite&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-08T15:08:29.607Z] [WARNING] - Scroll error
+[2024-05-08T15:08:35.619Z] [WARNING] - Scroll error
+[2024-05-08T15:08:53.883Z] [WARNING] - Scroll error
+[2024-05-08T15:09:00.038Z] [WARNING] - Scroll error
+[2024-05-08T15:09:21.667Z] [WARNING] - Scroll error
+[2024-05-08T15:09:49.398Z] [WARNING] - Scroll error
+[2024-05-08T15:10:43.157Z] [WARNING] - No se encontraron productos en la página 2 para https://www.jumbo.com.ar/vino?_q=vino&map=ft.
+[2024-05-08T15:10:43.157Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/vino?_q=vino&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-08T15:10:55.935Z] [WARNING] - Scroll error
+[2024-05-08T15:11:22.731Z] [WARNING] - Scroll error
+[2024-05-08T15:11:44.671Z] [WARNING] - No se encontraron productos en la página 8 para https://www.jumbo.com.ar/vino?_q=vino&map=ft.
+[2024-05-08T15:11:44.672Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/vino?_q=vino&map=ft. Intentando nuevamente (2/6)... No se pudieron obtener datos válidos.
+[2024-05-08T15:12:05.885Z] [WARNING] - Scroll error
+[2024-05-08T15:14:20.377Z] [WARNING] - Scroll error
+[2024-05-08T15:14:29.026Z] [WARNING] - Scroll error
+[2024-05-08T15:14:35.881Z] [WARNING] - No se encontraron productos en la página 4 para https://www.jumbo.com.ar/cafe?_q=cafe&map=ft.
+[2024-05-08T15:14:35.881Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/cafe?_q=cafe&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-08T15:15:43.024Z] [WARNING] - No se encontraron productos en la página 2 para https://www.jumbo.com.ar/yerba?_q=yerba&map=ft.
+[2024-05-08T15:15:43.025Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yerba?_q=yerba&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-08T15:15:56.045Z] [WARNING] - Scroll error
+[2024-05-08T15:16:24.062Z] [WARNING] - No se encontraron productos en la página 5 para https://www.jumbo.com.ar/yerba?_q=yerba&map=ft.
+[2024-05-08T15:16:24.062Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/yerba?_q=yerba&map=ft. Intentando nuevamente (2/6)... No se pudieron obtener datos válidos.
+[2024-05-08T15:16:49.657Z] [WARNING] - Scroll error
+[2024-05-08T15:17:02.912Z] [WARNING] - Scroll error
+[2024-05-08T15:17:25.028Z] [WARNING] - No se encontraron productos en la página 2 para https://www.jumbo.com.ar/te?_q=te&map=ft.
+[2024-05-08T15:17:25.029Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/te?_q=te&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-08T15:17:37.760Z] [WARNING] - Scroll error
+[2024-05-08T15:17:48.703Z] [WARNING] - No se encontraron productos en la página 3 para https://www.jumbo.com.ar/te?_q=te&map=ft.
+[2024-05-08T15:17:48.704Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/te?_q=te&map=ft. Intentando nuevamente (2/6)... No se pudieron obtener datos válidos.
+[2024-05-08T15:18:10.023Z] [WARNING] - Scroll error
+[2024-05-08T15:18:19.388Z] [WARNING] - Scroll error
+[2024-05-08T15:18:28.257Z] [WARNING] - Scroll error
+[2024-05-08T15:19:05.949Z] [ERROR] - recordVariation error: Cast to date failed for value "Invalid Date" (type Date) at path "date" for model "registro_precios"
+[2024-05-08T15:19:05.950Z] [ERROR] - No se pudo obtener la variación de la fecha: 
+[2024-05-08T15:32:20.753Z] [ERROR] - recordVariation error: Fecha no válida: undefined
+[2024-05-08T15:32:20.754Z] [ERROR] - No se pudo obtener la variación de la fecha: 
+[2024-05-08T15:38:03.966Z] [ERROR] - recordVariation error: Fecha no válida: undefined
+[2024-05-08T15:38:03.967Z] [ERROR] - No se pudo obtener la variación de la fecha: 
+[2024-05-08T15:38:21.486Z] [ERROR] - recordVariation error: Fecha no válida: undefined
+[2024-05-08T15:38:21.487Z] [ERROR] - No se pudo obtener la variación de la fecha: 
+[2024-05-08T15:41:08.016Z] [ERROR] - recordVariation error: Fecha no válida: undefined
+[2024-05-08T15:41:08.016Z] [ERROR] - No se pudo obtener la variación de la fecha: 
+[2024-05-08T15:41:48.909Z] [ERROR] - recordVariation error: Fecha no válida: undefined
+[2024-05-08T15:41:48.910Z] [ERROR] - No se pudo obtener la variación de la fecha: 
+[2024-05-08T15:43:46.626Z] [ERROR] - getFirstDateOfMonth error: Operation `registro_precios.find()` buffering timed out after 10000ms
+[2024-05-08T15:43:46.627Z] [ERROR] - recordVariation error: Operation `registro_precios.find()` buffering timed out after 10000ms
+[2024-05-08T15:43:46.628Z] [ERROR] - No se pudo obtener la variación de la fecha: 
+[2024-05-08T15:45:03.878Z] [ERROR] - getFirstDateOfMonth error: Operation `registro_precios.find()` buffering timed out after 10000ms
+[2024-05-08T15:45:03.879Z] [ERROR] - recordVariation error: Operation `registro_precios.find()` buffering timed out after 10000ms
+[2024-05-08T15:45:03.880Z] [ERROR] - No se pudo obtener la variación de la fecha: 
+[2024-05-08T16:20:47.477Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/frutas%20y%20verduras?_q=frutas%20y%20verduras&fuzzy=0&initialMap=ft&initialQuery=frutas%20y%20verduras&map=category-3,category-3,category-3,category-3,ft&operator=and&page=2&query=/hortalizas-livianas/hortalizas-pesadas/verduras-empaquetadas/verduras-frescas-de-hoja/frutas%20y%20verduras&searchState. Reintentando...
+[2024-05-08T16:21:07.623Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/frutas%20y%20verduras?_q=frutas%20y%20verduras&fuzzy=0&initialMap=ft&initialQuery=frutas%20y%20verduras&map=category-3,category-3,category-3,category-3,ft&operator=and&page=2&query=/hortalizas-livianas/hortalizas-pesadas/verduras-empaquetadas/verduras-frescas-de-hoja/frutas%20y%20verduras&searchState. Reintentando...
+[2024-05-08T16:21:27.834Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/frutas%20y%20verduras?_q=frutas%20y%20verduras&fuzzy=0&initialMap=ft&initialQuery=frutas%20y%20verduras&map=category-3,category-3,category-3,category-3,ft&operator=and&page=2&query=/hortalizas-livianas/hortalizas-pesadas/verduras-empaquetadas/verduras-frescas-de-hoja/frutas%20y%20verduras&searchState. Reintentando...
+[2024-05-08T16:21:27.981Z] [ERROR] - No se encontró el contenedor para https://www.jumbo.com.ar/frutas%20y%20verduras?_q=frutas%20y%20verduras&fuzzy=0&initialMap=ft&initialQuery=frutas%20y%20verduras&map=category-3,category-3,category-3,category-3,ft&operator=and&page=2&query=/hortalizas-livianas/hortalizas-pesadas/verduras-empaquetadas/verduras-frescas-de-hoja/frutas%20y%20verduras&searchState después de varios intentos.
+[2024-05-08T16:21:27.982Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/frutas%20y%20verduras?_q=frutas%20y%20verduras&fuzzy=0&initialMap=ft&initialQuery=frutas%20y%20verduras&map=category-3,category-3,category-3,category-3,ft&operator=and&page=2&query=/hortalizas-livianas/hortalizas-pesadas/verduras-empaquetadas/verduras-frescas-de-hoja/frutas%20y%20verduras&searchState. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-08T16:21:55.316Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/frutas%20y%20verduras?_q=frutas%20y%20verduras&fuzzy=0&initialMap=ft&initialQuery=frutas%20y%20verduras&map=category-3,category-3,category-3,category-3,ft&operator=and&page=2&query=/hortalizas-livianas/hortalizas-pesadas/verduras-empaquetadas/verduras-frescas-de-hoja/frutas%20y%20verduras&searchState. Reintentando...
+[2024-05-08T16:22:15.546Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/frutas%20y%20verduras?_q=frutas%20y%20verduras&fuzzy=0&initialMap=ft&initialQuery=frutas%20y%20verduras&map=category-3,category-3,category-3,category-3,ft&operator=and&page=2&query=/hortalizas-livianas/hortalizas-pesadas/verduras-empaquetadas/verduras-frescas-de-hoja/frutas%20y%20verduras&searchState. Reintentando...
+[2024-05-08T16:22:35.848Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/frutas%20y%20verduras?_q=frutas%20y%20verduras&fuzzy=0&initialMap=ft&initialQuery=frutas%20y%20verduras&map=category-3,category-3,category-3,category-3,ft&operator=and&page=2&query=/hortalizas-livianas/hortalizas-pesadas/verduras-empaquetadas/verduras-frescas-de-hoja/frutas%20y%20verduras&searchState. Reintentando...
+[2024-05-08T16:22:35.969Z] [ERROR] - No se encontró el contenedor para https://www.jumbo.com.ar/frutas%20y%20verduras?_q=frutas%20y%20verduras&fuzzy=0&initialMap=ft&initialQuery=frutas%20y%20verduras&map=category-3,category-3,category-3,category-3,ft&operator=and&page=2&query=/hortalizas-livianas/hortalizas-pesadas/verduras-empaquetadas/verduras-frescas-de-hoja/frutas%20y%20verduras&searchState después de varios intentos.
+[2024-05-08T16:22:35.970Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/frutas%20y%20verduras?_q=frutas%20y%20verduras&fuzzy=0&initialMap=ft&initialQuery=frutas%20y%20verduras&map=category-3,category-3,category-3,category-3,ft&operator=and&page=2&query=/hortalizas-livianas/hortalizas-pesadas/verduras-empaquetadas/verduras-frescas-de-hoja/frutas%20y%20verduras&searchState. Intentando nuevamente (2/6)... No se pudieron obtener datos válidos.
+[2024-05-08T16:23:03.155Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/frutas%20y%20verduras?_q=frutas%20y%20verduras&fuzzy=0&initialMap=ft&initialQuery=frutas%20y%20verduras&map=category-3,category-3,category-3,category-3,ft&operator=and&page=2&query=/hortalizas-livianas/hortalizas-pesadas/verduras-empaquetadas/verduras-frescas-de-hoja/frutas%20y%20verduras&searchState. Reintentando...
+[2024-05-08T16:23:23.375Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/frutas%20y%20verduras?_q=frutas%20y%20verduras&fuzzy=0&initialMap=ft&initialQuery=frutas%20y%20verduras&map=category-3,category-3,category-3,category-3,ft&operator=and&page=2&query=/hortalizas-livianas/hortalizas-pesadas/verduras-empaquetadas/verduras-frescas-de-hoja/frutas%20y%20verduras&searchState. Reintentando...
+[2024-05-08T16:26:19.697Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1. Reintentando...
+[2024-05-08T16:26:39.853Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1. Reintentando...
+[2024-05-08T16:27:00.028Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1. Reintentando...
+[2024-05-08T16:27:00.213Z] [ERROR] - No se encontró el contenedor para https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1 después de varios intentos.
+[2024-05-08T16:27:00.215Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-08T16:27:27.368Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1. Reintentando...
+[2024-05-08T16:27:50.199Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1. Reintentando...
+[2024-05-08T16:28:10.407Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1. Reintentando...
+[2024-05-08T16:28:10.538Z] [ERROR] - No se encontró el contenedor para https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1 después de varios intentos.
+[2024-05-08T16:28:10.539Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1. Intentando nuevamente (2/6)... No se pudieron obtener datos válidos.
+[2024-05-08T16:28:37.731Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1. Reintentando...
+[2024-05-08T16:28:58.349Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1. Reintentando...
+[2024-05-08T16:29:18.540Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1. Reintentando...
+[2024-05-08T16:29:18.678Z] [ERROR] - No se encontró el contenedor para https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1 después de varios intentos.
+[2024-05-08T16:29:18.679Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1. Intentando nuevamente (3/6)... No se pudieron obtener datos válidos.
+[2024-05-08T16:29:45.864Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1. Reintentando...
+[2024-05-08T20:50:32.742Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (1/6)... Cannot access 'dataFromUrl' before initialization
+[2024-05-08T20:50:59.959Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (2/6)... Cannot access 'dataFromUrl' before initialization
+[2024-05-08T20:52:34.678Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (1/6)... scrapeResult is not defined
+[2024-05-08T21:03:09.725Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/pan?_q=pan&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-08T21:05:03.255Z] [WARNING] - Scroll error
+[2024-05-08T21:09:27.363Z] [WARNING] - Scroll error
+[2024-05-08T21:10:03.395Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1. Reintentando...
+[2024-05-08T21:10:23.551Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1. Reintentando...
+[2024-05-08T21:10:43.792Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1. Reintentando...
+[2024-05-08T21:11:03.950Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1. Reintentando...
+[2024-05-08T21:11:04.167Z] [ERROR] - No se encontró el contenedor para https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1 después de varios intentos.
+[2024-05-08T21:11:04.169Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-08T21:11:31.389Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1. Reintentando...
+[2024-05-08T21:11:51.700Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1. Reintentando...
+[2024-05-08T21:12:12.017Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1. Reintentando...
+[2024-05-08T21:12:32.218Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1. Reintentando...
+[2024-05-08T21:12:32.363Z] [ERROR] - No se encontró el contenedor para https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1 después de varios intentos.
+[2024-05-08T21:12:32.364Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1. Intentando nuevamente (2/6)... No se pudieron obtener datos válidos.
+[2024-05-08T21:13:24.374Z] [ERROR] - scrapeDataFromURLs error Cannot read properties of undefined (reading 'length')
+[2024-05-08T21:13:24.375Z] [ERROR] - Error general en runScrapingBot: Cannot destructure property 'storedData' of '(intermediate value)' as it is undefined.
+[2024-05-08T21:18:36.131Z] [WARNING] - Scroll error
+[2024-05-08T21:19:36.307Z] [WARNING] - Scroll error
+[2024-05-08T21:22:54.772Z] [WARNING] - Scroll error
+[2024-05-08T21:25:22.673Z] [WARNING] - Scroll error
+[2024-05-08T21:30:15.271Z] [WARNING] - Scroll error
+[2024-05-08T21:30:31.802Z] [ERROR] - scrapeProduct error: El contenedor principal no se encontró en la página.
+[2024-05-08T21:30:31.803Z] [WARNING] - No se encontraron productos en la página 3 para https://www.jumbo.com.ar/verduras?_q=verduras&map=ft.
+[2024-05-08T21:30:31.809Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/verduras?_q=verduras&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-08T21:30:42.529Z] [WARNING] - Scroll error
+[2024-05-08T21:32:52.765Z] [WARNING] - Scroll error
+[2024-05-08T21:33:20.811Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1. Reintentando...
+[2024-05-08T21:33:40.973Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1. Reintentando...
+[2024-05-08T21:34:01.167Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1. Reintentando...
+[2024-05-08T21:34:21.324Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1. Reintentando...
+[2024-05-08T21:34:21.500Z] [ERROR] - No se encontró el contenedor para https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1 después de varios intentos.
+[2024-05-08T21:34:21.501Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-08T21:34:48.750Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1. Reintentando...
+[2024-05-08T21:35:08.966Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1. Reintentando...
+[2024-05-08T21:37:46.194Z] [ERROR] - scrapeProduct error: El contenedor principal no se encontró en la página.
+[2024-05-08T21:37:46.194Z] [WARNING] - No se encontraron productos en la página 10 para https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft.
+[2024-05-08T21:37:46.195Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-08T21:38:00.092Z] [ERROR] - scrapeProduct error: El contenedor principal no se encontró en la página.
+[2024-05-08T21:38:00.092Z] [WARNING] - No se encontraron productos en la página 2 para https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft.
+[2024-05-08T21:38:00.093Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (2/6)... No se pudieron obtener datos válidos.
+[2024-05-08T21:38:23.521Z] [ERROR] - scrapeProduct error: El contenedor principal no se encontró en la página.
+[2024-05-08T21:38:23.521Z] [WARNING] - No se encontraron productos en la página 5 para https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft.
+[2024-05-08T21:38:23.522Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (3/6)... No se pudieron obtener datos válidos.
+[2024-05-08T21:38:46.527Z] [ERROR] - scrapeProduct error: El contenedor principal no se encontró en la página.
+[2024-05-08T21:38:46.527Z] [WARNING] - No se encontraron productos en la página 5 para https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft.
+[2024-05-08T21:38:46.528Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (4/6)... No se pudieron obtener datos válidos.
+[2024-05-08T21:39:03.688Z] [ERROR] - scrapeProduct error: El contenedor principal no se encontró en la página.
+[2024-05-08T21:39:03.689Z] [WARNING] - No se encontraron productos en la página 3 para https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft.
+[2024-05-08T21:39:03.690Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft. Intentando nuevamente (5/6)... No se pudieron obtener datos válidos.
+[2024-05-08T21:43:36.548Z] [WARNING] - Scroll error
+[2024-05-08T21:43:55.288Z] [WARNING] - Scroll error
+[2024-05-08T21:46:37.997Z] [WARNING] - Scroll error
+[2024-05-08T21:48:03.987Z] [WARNING] - Scroll error
+[2024-05-08T21:49:28.026Z] [WARNING] - Scroll error
+[2024-05-08T21:50:20.773Z] [ERROR] - scrapeProduct error: El contenedor principal no se encontró en la página.
+[2024-05-08T21:50:20.773Z] [WARNING] - No se encontraron productos en la página 3 para https://www.jumbo.com.ar/fiambres?_q=fiambres&map=ft.
+[2024-05-08T21:50:20.773Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/fiambres?_q=fiambres&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-08T21:50:43.870Z] [ERROR] - scrapeProduct error: El contenedor principal no se encontró en la página.
+[2024-05-08T21:50:43.871Z] [WARNING] - No se encontraron productos en la página 4 para https://www.jumbo.com.ar/fiambres?_q=fiambres&map=ft.
+[2024-05-08T21:50:43.871Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/fiambres?_q=fiambres&map=ft. Intentando nuevamente (2/6)... No se pudieron obtener datos válidos.
+[2024-05-08T21:52:20.856Z] [ERROR] - scrapeProduct error: El contenedor principal no se encontró en la página.
+[2024-05-08T21:52:20.856Z] [WARNING] - No se encontraron productos en la página 2 para https://www.jumbo.com.ar/leche?_q=leche&map=ft.
+[2024-05-08T21:52:20.857Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/leche?_q=leche&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-08T21:54:46.837Z] [WARNING] - Scroll error
+[2024-05-08T21:55:40.925Z] [WARNING] - Scroll error
+[2024-05-08T21:56:43.010Z] [WARNING] - Scroll error
+[2024-05-08T21:59:12.863Z] [WARNING] - Scroll error
+[2024-05-08T21:59:40.863Z] [WARNING] - Scroll error
+[2024-05-08T22:00:44.647Z] [WARNING] - Scroll error
+[2024-05-08T22:02:50.580Z] [WARNING] - Scroll error
+[2024-05-08T22:03:18.429Z] [ERROR] - scrapeProduct error: logger is not defined
+[2024-05-08T22:03:18.430Z] [WARNING] - No se encontraron productos en la página 2 para https://www.jumbo.com.ar/aceite?_q=aceite&map=ft.
+[2024-05-08T22:03:18.430Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/aceite?_q=aceite&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-08T22:05:28.137Z] [WARNING] - Scroll error
+[2024-05-08T22:06:02.244Z] [ERROR] - scrapeProduct error: logger is not defined
+[2024-05-08T22:06:02.245Z] [WARNING] - No se encontraron productos en la página 6 para https://www.jumbo.com.ar/vino?_q=vino&map=ft.
+[2024-05-08T22:06:02.245Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/vino?_q=vino&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.

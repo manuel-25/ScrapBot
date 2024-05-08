@@ -5,13 +5,12 @@ import logger from "./config/winston.js"
 import cron from  "node-cron"
 import { jumboURLs } from "./config/utils.js"
 import { recordVariation, tweetDateVariation, categoryIncreases, categoryDecreases } from "./services/price_tracker.js"
-const today = new Date(new Date().getTime() - (3 * 60 * 60 * 1000))
 
 //CANASTA BASICA https://chequeado.com/el-explicador/que-es-la-canasta-basica-alimentaria-del-indec-y-como-se-compone/
 const MAX_BOT_RETRIES = 3
-const MAX_SCRAPING_PAGES = 20
+const MAX_SCRAPING_PAGES = 10
 const MAX_SCRAPING_RETRIES = 6
-const SCRAP_RETRY = 3
+const CONTAINER_RETRY = 4
 
 function elapsedTime(startTime) {
     const endTime = new Date()
@@ -20,10 +19,10 @@ function elapsedTime(startTime) {
 }
 
 //Code Starts here! 
-cron.schedule('08 8 * * *', () => {
+/*cron.schedule('51 19 * * *', () => {
     logger.info(`Scrapbot se ejecuto a: ${new Date()}`)
     runFullTask()
-})
+})*/
 
 const runFullTask = async () => {
     try {
@@ -32,7 +31,7 @@ const runFullTask = async () => {
       await delay(10000)
       if(scrap) {
         logger.info("Iniciando proceso de analisis.")
-        await analyzeDataAndTweet(today)
+        await analyzeDataAndTweet(getDate())
         return
       }
     } catch (err) {
@@ -41,6 +40,7 @@ const runFullTask = async () => {
 }
 
 //runFullTask()
+runScrapingBot()
 
 async function runScrapingBot() {
     try {
@@ -53,7 +53,7 @@ async function runScrapingBot() {
 
         // Scraping inicial
         logger.info(`Iniciando scraping de ${jumboURLs.length} URLs.`)
-        const { storedData, storedfailedURLs } = await scrapeDataFromURLs(jumboURLs, page)
+        let { storedData, storedfailedURLs } = await scrapeDataFromURLs(jumboURLs, page)
 
         // Guardar los datos que se han scrapeado
         if (storedData && storedData.length > 0) {
@@ -117,19 +117,19 @@ async function retryFailedURLs(failedURLs, page) {
     return storedfailedURLs
 }
 
-async function analyzeDataAndTweet(today) {
+async function analyzeDataAndTweet(date) {
     try {
-        const variation = await recordVariation()
+        const variation = await recordVariation(date)
         if(!variation)  {
-            logger.error('No se pudo obtener la variación de la fecha: ', today)
+            logger.error('No se pudo obtener la variación de la fecha: ', date)
             return
         }
 
-        const tweetVariation = await tweetDateVariation(today)
+        const tweetVariation = await tweetDateVariation(date)
         if(!tweetVariation) return
 
-        const tweetcategoryIncreases = await categoryIncreases(today)
-        const tweetcategoryDecreases = await categoryDecreases(today)
+        const tweetcategoryIncreases = await categoryIncreases(date)
+        const tweetcategoryDecreases = await categoryDecreases(date)
 
         if(!tweetVariation) logger.error('No se ah tuiteado la variation')
         if(!tweetcategoryIncreases) logger.error('No se ah tuiteado la categoryIncrease')
@@ -173,6 +173,8 @@ async function scrapeDataFromURLs(urls, page) {
             for (const data of dataToSave) {
                 storedData.push(data)
             }
+        } else {
+            throw new Error('scrapeAllURLs returned no dataToSave -- aborting')
         }
         storedfailedURLs.push(...failedURLs)
     
@@ -184,10 +186,139 @@ async function scrapeDataFromURLs(urls, page) {
     }
 }
 
-// Función principal de scraping
 async function scrapeAllURLs(urls, page) {
     let failedURLs = []
     let dataToSave = []
+
+    for (const url of urls) {
+        let retryCount = 0
+        let successUrl = false
+        let startPage = 1
+        let dataFromUrl = []
+
+        const startTime = new Date()
+        while (retryCount < MAX_SCRAPING_RETRIES && !successUrl) {
+            try {
+                const scrapeResult = await scrapeURL(url, page, startPage)
+
+                if (scrapeResult.success) {
+                    const newData = scrapeResult.data
+                    dataFromUrl = avoidDuplicateData(newData, dataFromUrl)
+                    successUrl = true
+                    logger.info(`${dataToSave.length + 1}/${urls.length} URLs scraped.`)
+                    break
+                }
+
+                if(!scrapeResult.success && scrapeResult.data > 0) {
+                    const newData = scrapeResult.data
+                    dataFromUrl = avoidDuplicateData(newData, dataFromUrl)
+                    startPage = scrapeResult.page
+                } else {
+                    throw new Error('No se pudieron obtener datos válidos.')
+                }
+
+            } catch (error) {
+                retryCount++
+                logger.warning(`Error al extraer datos de ${url}. Intentando nuevamente (${retryCount}/${MAX_SCRAPING_RETRIES})...`, error )
+                await delay(6000)
+            }
+        }
+
+        if (!successUrl) {
+            logger.error(`Falló el scraping para la URL: ${url} después de ${MAX_SCRAPING_RETRIES} reintentos.`)
+            failedURLs.push(url)
+        } else {
+            const formattedTime = elapsedTime(startTime)
+            const currentDate = getDate()
+        
+            const urlData = {
+                category: getCategoryNameFromUrl(url),
+                date: currentDate,
+                totalProducts: dataFromUrl.length,
+                time_spent: formattedTime,
+                url,
+                data: dataFromUrl,
+            }
+            dataToSave.push(urlData)
+            logger.info(`Se tardó ${formattedTime} en scrapear ${url}`)
+        }
+    }
+    return { dataToSave, failedURLs }
+}
+
+// Receives a URL tu search through pages and return the scrapped data.
+async function scrapeURL(dinamicUrl, page, startPage) {
+    try {
+        await delay(1000) // Pequeña espera antes de comenzar evita errores
+
+        //const startTime = new Date()
+        console.log('startPage', startPage)
+        await page.goto(`${dinamicUrl}&page=${startPage}`, { waitUntil: 'domcontentloaded', timeout: 40000 })
+
+        let dataScrapped = []
+        let previousProductCount = 0
+        let pageNumber = startPage
+        let totalPages = 1
+        const containerSelector = '.vtex-search-result-3-x-gallery'
+        let containerFound = false
+
+        while (pageNumber <= totalPages && pageNumber <= MAX_SCRAPING_PAGES) {
+            // Reintentos para encontrar el contenedor de productos
+            let containerRetries = 0
+            while (containerRetries < CONTAINER_RETRY && !containerFound) {
+                try {
+                    await page.waitForSelector(containerSelector, { timeout: 20000 })
+                    containerFound = true
+                } catch (error) {
+                    logger.warning(`El contenedor no se encontró en ${dinamicUrl}. Reintentando...`)
+                    await page.reload({ waitUntil: 'domcontentloaded', timeout: 40000 })
+                    containerRetries++
+                }
+            }
+            //Si no hay contenedor de productos => return
+            if (!containerFound) {
+                logger.error(`No se encontró el contenedor para ${dinamicUrl} después de varios intentos.`)
+                return { success: false, page: pageNumber, data: dataScrapped }
+            }
+
+            // Desplazarse hacia abajo para obtener más productos
+            await scrollDown(page)
+            await delay(1000)
+
+            const currentProducts = await scrapeProduct(page, containerSelector)
+
+            if (!currentProducts || currentProducts.length === 0) {
+                logger.warning(`No se encontraron productos en la página ${pageNumber} para ${dinamicUrl}.`)
+                return { success: false, page: pageNumber, data: dataScrapped }
+            }
+
+            currentProducts.forEach((product) => {
+                if ( !dataScrapped.some((existingProduct) => existingProduct.nombre === product.nombre) ) {
+                    dataScrapped.push(product)
+                }
+            })
+
+            previousProductCount = currentProducts.length
+            // Ir a la siguiente pagina si hay mas paginas.
+            if (currentProducts.length === previousProductCount) {
+                totalPages = await getTotalPages(page)
+                logger.info(`Página actual: ${pageNumber}/${totalPages}`)
+                pageNumber++
+                await goToPage(page, pageNumber, dinamicUrl)
+            }
+        }
+        return { success: true, data: dataScrapped }
+
+    } catch (err) {
+        logger.error(`Error al scrapear la URL ${dinamicUrl}:`, err)
+        return { success: false, page: pageNumber }
+    }
+}
+
+/* async function scrapeAllURLs(urls, page) {
+    let failedURLs = []
+    let dataToSave = []
+    let scrapeResult = { success: false, page: 1 }
 
     for (const url of urls) {
         let retryCount = 0
@@ -196,19 +327,50 @@ async function scrapeAllURLs(urls, page) {
 
         while (retryCount < MAX_SCRAPING_RETRIES && !success) {
             try {
-                const scrapeResult = await scrapeURL(url, page, startPage)
+                scrapeResult = await scrapeURL(url, page, startPage)
+                console.log('scrapeResult:', scrapeResult)
 
-                if (scrapeResult && scrapeResult.success) {
-                    dataToSave.push(scrapeResult.data)
+                // Si es exitoso y tiene datos
+                if (scrapeResult.success && scrapeResult.data.length > 0) {
+                    const newData = scrapeResult.data.data
+
+                    // Evitar duplicados comparando por clave única (nombre o ID)
+                    const uniqueData = newData.filter((item) => {
+                        return !dataToSave.some((existingItem) => {
+                            return existingItem.data.some((d) => d.nombre === item.nombre)
+                        })
+                    })
+
+                    // Si hay datos únicos, agregarlos
+                    if (uniqueData.length > 0) {
+                        dataToSave.push({
+                            ...scrapeResult.data,
+                            data: uniqueData
+                        })
+                    }
+
                     logger.info(`${dataToSave.length}/${urls.length} URLs scraped.`)
                     success = true
                 } else {
-                    throw new Error("No se pudieron obtener datos válidos.")
+                    if (scrapeResult.data.length > 0) {
+                        const newData = scrapeResult.data.data
+
+                        dataToSave.push({
+                            ...scrapeResult.data,
+                            data: newData,
+                        })
+                        startPage = scrapeResult.page
+                    } else {
+                        throw new Error("No se pudieron obtener datos válidos.")
+                    }
                 }
+
             } catch (error) {
                 retryCount++
-                logger.warning(`Error al extraer datos de ${url}. Intentando nuevamente (${retryCount}/${MAX_SCRAPING_RETRIES})...`, error )
-                await delay(6000)
+                startPage = scrapeResult.page || 1 // Continuar desde la última página conocida
+
+                logger.warning(`Error al extraer datos de ${url}. Intentando nuevamente (${retryCount}/${MAX_SCRAPING_RETRIES})...`, error)
+                await delay(6000) // Esperar entre reintentos
             }
         }
 
@@ -253,14 +415,14 @@ async function scrapeURL(dinamicUrl, page, startPage) {
 
             if (!containerFound) {
                 logger.error(`No se encontró el contenedor para ${dinamicUrl} después de varios intentos.`)
-                return { success: false, page: pageNumber }
+                return { success: false, page: pageNumber, data: urlData }
             }
 
             const currentProducts = await scrapeProduct(page, containerSelector)
 
-            if (!currentProducts || currentProducts.length === 0) {
+            if (!currentProducts) {
                 logger.warning(`No se encontraron productos en la página ${pageNumber} para ${dinamicUrl}.`)
-                return { success: false, page: pageNumber }
+                return { success: false, page: pageNumber, data: urlData }
             }
 
             currentProducts.forEach((product) => {
@@ -299,60 +461,65 @@ async function scrapeURL(dinamicUrl, page, startPage) {
         }
 
         logger.info(`Se tardó ${formattedTime} en scrapear ${dinamicUrl}`)
-        return { success: true, data: urlData } // Devuelve la información del scraping exitoso
+        return { success: true, data: urlData }
 
     } catch (err) {
         logger.error(`Error al scrapear la URL ${dinamicUrl}:`, err)
-        return { success: false, page: pageNumber } // Indica que el scraping falló y devuelve la página
+        return { success: false, page: pageNumber, data: urlData }
     }
-}
+} */
 
 //Receives the page & container selector (unique to the website may change values)  and returns an array of products
 async function scrapeProduct(page, containerSelector) {
-    await new Promise(resolve => setTimeout(resolve, 2000))             //TIMEOUTE 1500 OR ERRORS
+    try {
+        await new Promise(resolve => setTimeout(resolve, 2000))             //TIMEOUTE 1500 OR ERROR
 
-    /*const containerExists = await page.$(containerSelector)
-    if (!containerExists) logger.warning('El contenedor principal no se encontró en la página.')*/
-
-    const articlesData = await page.evaluate(async (containerSelector) => {
-        const container = document.querySelector(containerSelector)
-        if (!container) return //logger.warning('El contenedor principal no se encontró en la página.')
-
-        const productsData = []
-        const productNodes = container.children
-        for (const product of productNodes) {
-            const nombreElement = product.querySelector('.vtex-product-summary-2-x-productNameContainer')
-            const marcaElement = product.querySelector('.vtex-product-summary-2-x-productBrandName')
-            await new Promise(resolve => setTimeout(resolve, 10))       //ASSURES THE PRICE LOADS CORRECTLY
-            const precioElement = product.querySelector('.jumboargentinaio-store-theme-1dCOMij_MzTzZOCohX1K7w')
-            const precioRegularElement = product.querySelector('.jumboargentinaio-store-theme-1QiyQadHj-1_x9js9EXUYK')
-
-            // Verificar que todos los elementos necesarios estén presentes
-            if (nombreElement && marcaElement && precioElement && precioRegularElement) {
-                const nombre = nombreElement.textContent.trim()
-                const marca = marcaElement.textContent.trim()
-                let precio = precioElement.textContent.trim()
-                const precioRegular = precioRegularElement.textContent.trim()
-
-                //Cleans price string
-                let number = precio.replace(/\$/g, '')
-                number = number.replace(/\./g, '')
-                number = number.replace(/,/g, '.')
-                precio = Number(number)
-
-                productsData.push({
-                    nombre,
-                    marca,
-                    precio,
-                    precioRegular
-                })
+        const articlesData = await page.evaluate(async (containerSelector) => {
+            const container = document.querySelector(containerSelector)
+            if (!container) {
+                console.log("El contenedor principal no se encontró en la página.")
+                return null
             }
-        }
-
-        return productsData
-    }, containerSelector)
-
-    return articlesData
+    
+            const productsData = []
+            const productNodes = container.children
+            for (const product of productNodes) {
+                const nombreElement = product.querySelector('.vtex-product-summary-2-x-productNameContainer')
+                const marcaElement = product.querySelector('.vtex-product-summary-2-x-productBrandName')
+                await new Promise(resolve => setTimeout(resolve, 10))       //ASSURES THE PRICE LOADS CORRECTLY
+                const precioElement = product.querySelector('.jumboargentinaio-store-theme-1dCOMij_MzTzZOCohX1K7w')
+                const precioRegularElement = product.querySelector('.jumboargentinaio-store-theme-1QiyQadHj-1_x9js9EXUYK')
+    
+                // Verificar que todos los elementos necesarios estén presentes
+                if (nombreElement && marcaElement && precioElement && precioRegularElement) {
+                    const nombre = nombreElement.textContent.trim()
+                    const marca = marcaElement.textContent.trim()
+                    let precio = precioElement.textContent.trim()
+                    const precioRegular = precioRegularElement.textContent.trim()
+    
+                    //Cleans price string
+                    let number = precio.replace(/\$/g, '')
+                    number = number.replace(/\./g, '')
+                    number = number.replace(/,/g, '.')
+                    precio = Number(number)
+    
+                    productsData.push({
+                        nombre,
+                        marca,
+                        precio,
+                        precioRegular
+                    })
+                }
+            }
+    
+            return productsData
+        }, containerSelector)
+    
+        return articlesData
+    } catch(err) {
+        logger.error("scrapeProduct error:", err)
+        return null
+    }
 }
 
 async function scrollDown(page) {
@@ -481,3 +648,20 @@ async function deleteTodayRecords() {
     const deletes = await RecordManager.deleteRecordsOfToday()
     logger.info(deletes)
 } 
+
+function getDate() {
+    return new Date(new Date().getTime() - (3 * 60 * 60 * 1000))
+}
+
+// Filtrar datos para evitar duplicados
+function avoidDuplicateData(newData, dataFromUrl) {
+    const uniqueData = newData.filter((item) => {
+        return !dataFromUrl.some((existingItem) => existingItem.nombre === item.nombre) 
+    })
+
+    uniqueData.forEach((item) => {
+        dataFromUrl.push(item)
+    })
+
+    return dataFromUrl
+}

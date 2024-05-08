@@ -8,14 +8,16 @@ export const today = new Date(new Date().getTime() - (3 * 60 * 60 * 1000))
 //Record daily variation (only 1 time per day after scrapping is done)
 export async function recordVariation(today) {
     try {
-        const firstDateOfMonth = await getFirstDateOfMonth(today)
+        const validToday = createValidDate(today)
+
+        const firstDateOfMonth = await getFirstDateOfMonth(validToday)
         if(!firstDateOfMonth) throw new Error('recordVariation error: No se encontro el primer registro del mes')
 
         const historicData = await RecordManager.getByDateRecord(firstDateOfMonth)
-        const currentData = await RecordManager.getByDateRecord(today)
+        const currentData = await RecordManager.getByDateRecord(validToday)
 
         const historicMap = createHistoricMap(historicData)
-        const comparedPrices = compareCategoryPrices(currentData, historicMap, today)
+        const comparedPrices = compareCategoryPrices(currentData, historicMap, validToday)
         if(comparedPrices) { 
             await VariationManager.create(comparedPrices) 
             logger.info('Variation recorded succesfully')
@@ -28,24 +30,32 @@ export async function recordVariation(today) {
     }
 }
 
+// Asegurar la creación de fechas válidas
+function createValidDate(value) {
+    const date = new Date(value)
+    if (isNaN(date.getTime())) {
+        throw new Error("Fecha no válida: " + value)
+    }
+    return date
+}
+
 //Return the date of the first price records of the actual month.
 async function getFirstDateOfMonth(today) {
     try {
-        if (!today || isNaN(new Date(today).getTime())) {
-            today = new Date(new Date().getTime() - (3 * 60 * 60 * 1000));
-        }
+        const validToday = createValidDate(today) // Validar la fecha antes de usarla
+        
+        const month = validToday.getMonth()
+        const year = validToday.getFullYear()
 
-        const month = today.getMonth();
-        const year = today.getFullYear();
-        const firstDateOfMonth = await RecordManager.getFirstDayOfMonth(month, year);
-
+        const firstDateOfMonth = await RecordManager.getFirstDayOfMonth(month, year)
+        
         if (!firstDateOfMonth || isNaN(new Date(firstDateOfMonth).getTime())) {
-            throw new Error(`No se encontró el primer día del mes ${month + 1} en el año ${year}.`);
+            throw new Error(`No se encontró el primer día del mes ${month + 1} en el año ${year}`)
         }
 
-        return new Date(firstDateOfMonth)
+        return new Date(firstDateOfMonth) // Devolver la primera fecha del mes
     } catch (err) {
-        logger.error('getFirstDateOfMonth error', err);
+        logger.error("getFirstDateOfMonth error:", err)
         throw err
     }
 }
@@ -222,10 +232,6 @@ export async function categoryDecreases(date) {
         }
     
         const negativePercentCategories = topDecreases.filter(category => category.categoryPercentDifference < 0)
-        if(negativePercentCategories.length < 1) {
-            logger.error('No hay categorias con variaciones negativas.')
-            return false
-        }
 
         const tweet = await tweetCategoryDecrease(negativePercentCategories, date, firstDateOfMonth)
         return tweet
@@ -249,10 +255,6 @@ export async function categoryIncreases(date) {
         }
     
         const positivePercentCategories = topIncreases.filter(category => category.categoryPercentDifference > 0)
-        if(positivePercentCategories.length < 1) {
-            logger.error('No hay categorias con variaciones positivas.')
-            return false
-        }
 
         const tweet = await tweetCategoryIncrease(positivePercentCategories, date, firstDateOfMonth)
         return tweet
@@ -262,7 +264,7 @@ export async function categoryIncreases(date) {
 }
 
 //let yesterday = new Date(today)
-//yesterday.setDate(yesterday.getDate() - 1);
+//yesterday.setDate(yesterday.getDate() - 1)
 
 
 /*await connectDB()
@@ -273,7 +275,7 @@ await categoryDecreases(today)*/
 
 
 //await connectDB()
-//const { topIncreases, topDecreases } = await getIncreaseAndDecrease(today, 'Carne Cerdo', 3)
+//const { topIncreases, topDecreases } = await getIncreaseAndDecrease(today, 'Carne Cerdo', 5)
 //const { topIncreases, topDecreases } = await getCategoryVariations(yesterday, 10)
 //console.log('topIncreases: ', topIncreases)
 //console.log('topDecreases: ', topDecreases)
