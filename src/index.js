@@ -303,10 +303,11 @@ async function scrapeURL(dinamicUrl, page, startPage) {
             if (currentProducts.length === previousProductCount) {
                 totalPages = await getTotalPages(page)
                 logger.info(`Página actual: ${pageNumber}/${totalPages}`)
-                if (pageNumber < totalPages) {
-                    pageNumber++
-                    await goToPage(page, pageNumber, dinamicUrl)
+                if (pageNumber >= totalPages) {
+                    break
                 }
+                pageNumber++
+                await goToPage(page, pageNumber, dinamicUrl)
             }
         }
         return { success: true, data: dataScrapped }
