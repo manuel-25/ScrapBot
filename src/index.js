@@ -270,7 +270,7 @@ async function scrapeURL(dinamicUrl, page, startPage) {
                     containerFound = true
                 } catch (error) {
                     logger.warning(`El contenedor no se encontró en ${dinamicUrl}. Reintentando...`)
-                    await page.reload({ waitUntil: 'networkidle0', timeout: 40000 })
+                    await page.reload({ waitUntil: 'networkidle0', timeout: 60000 })
                     containerRetries++
                 }
             }
@@ -309,10 +309,11 @@ async function scrapeURL(dinamicUrl, page, startPage) {
                 await goToPage(page, pageNumber, dinamicUrl)
             }
         }
-        return { success: true, data: dataScrapped }
+        return { success: true, data: dataScrapped, page: 1 }
 
     } catch (err) {
         logger.error(`Error al scrapear la URL ${dinamicUrl}:`, err)
+        await page.screenshot({ path: `error_${startPage}.png` })
         return { success: false, page: pageNumber }
     }
 }
