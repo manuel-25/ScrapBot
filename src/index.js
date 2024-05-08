@@ -252,12 +252,12 @@ async function scrapeURL(dinamicUrl, page, startPage) {
         await delay(1000) // Pequeña espera antes de comenzar evita errores
 
         //const startTime = new Date()
-        console.log('startPage', startPage)
         await page.goto(`${dinamicUrl}&page=${startPage}`, { waitUntil: 'domcontentloaded', timeout: 40000 })
 
         let dataScrapped = []
         let previousProductCount = 0
         let pageNumber = startPage
+        console.log('pageNumber:', pageNumber)
         let totalPages = 1
         const containerSelector = '.vtex-search-result-3-x-gallery'
         let containerFound = false
@@ -303,8 +303,10 @@ async function scrapeURL(dinamicUrl, page, startPage) {
             if (currentProducts.length === previousProductCount) {
                 totalPages = await getTotalPages(page)
                 logger.info(`Página actual: ${pageNumber}/${totalPages}`)
-                pageNumber++
-                await goToPage(page, pageNumber, dinamicUrl)
+                if (pageNumber < totalPages) {
+                    pageNumber++
+                    await goToPage(page, pageNumber, dinamicUrl)
+                }
             }
         }
         return { success: true, data: dataScrapped }
@@ -561,9 +563,9 @@ function delay(time) {
 
 async function goToPage(page, pageNumber, dinamicUrl) {
     try {
-        await page.goto(`${dinamicUrl}&page=${pageNumber}`, { waitUntil: 'networkidle0', timeout: 25000 });
+        await page.goto(`${dinamicUrl}&page=${pageNumber}`, { waitUntil: 'networkidle0', timeout: 25000 })
     } catch (error) {
-        logger.error(`Error al cambiar a la página ${pageNumber} de ${dinamicUrl}:`, error);
+        logger.error(`Error al cambiar a la página ${pageNumber} de ${dinamicUrl}:`, error)
     }
 }
 
