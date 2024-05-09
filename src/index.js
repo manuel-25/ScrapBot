@@ -18,10 +18,10 @@ function elapsedTime(startTime) {
 }
 
 //Code Starts here! 
-/*cron.schedule('51 19 * * *', () => {
+cron.schedule('00 8 * * *', () => {
     logger.info(`Scrapbot se ejecuto a: ${new Date()}`)
     runFullTask()
-})*/
+})
 
 const runFullTask = async () => {
     try {
@@ -37,9 +37,6 @@ const runFullTask = async () => {
       logger.error("runFullTask error:", err)
     }
 }
-
-//runFullTask()
-runScrapingBot()
 
 async function runScrapingBot() {
     try {
@@ -255,7 +252,6 @@ async function scrapeURL(dinamicUrl, page, startPage) {
         let dataScrapped = []
         let previousProductCount = 0
         let pageNumber = startPage
-        console.log('pageNumber:', pageNumber)
         let totalPages = 1
         const containerSelector = '.vtex-search-result-3-x-gallery'
         let containerFound = false
@@ -376,8 +372,7 @@ async function scrollDown(page) {
         await page.evaluate(() => {
             window.scrollBy(0, window.innerHeight)
         })
-        await page.waitForFunction(`document.body.scrollHeight >= ${initialHeight}`, { timeout: 2500 })
-        await delay(500)
+        await page.waitForFunction(`document.body.scrollHeight >= ${initialHeight}`, { timeout: 3000 })
         return true
     } catch (error) {
         logger.warning('Scroll error', error.message)
@@ -404,8 +399,6 @@ function delay(time) {
         setTimeout(resolve, time)
     })
 }
-
-//async function goToPage(page, pageNumber, dinamicUrl) { await page.goto(`${dinamicUrl}&page=${pageNumber}`) }
 
 async function goToPage(page, pageNumber, dinamicUrl) {
     try {

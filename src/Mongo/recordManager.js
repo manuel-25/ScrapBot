@@ -71,7 +71,7 @@ class RecordManagerDao {
 
     async getRecordByCategoryAndDate(category, date) {
         return await this.recordModel.findOne({ category, date })
-      }
+    }
     
     async deleteRecordsOfToday() {
         const today = new Date()

@@ -269,20 +269,3 @@ export async function categoryIncreases(date) {
         logger.error('categoryIncreases error', err)
     }
 }
-
-//let yesterday = new Date(today)
-//yesterday.setDate(yesterday.getDate() - 1)
-
-
-/*await connectDB()
-await recordVariation(today)
-await tweetDateVariation(today)
-await categoryIncreases(today)
-await categoryDecreases(today)*/
-
-
-//await connectDB()
-//const { topIncreases, topDecreases } = await getIncreaseAndDecrease(today, 'Carne Cerdo', 5)
-//const { topIncreases, topDecreases } = await getCategoryVariations(yesterday, 10)
-//console.log('topIncreases: ', topIncreases)
-//console.log('topDecreases: ', topDecreases)
