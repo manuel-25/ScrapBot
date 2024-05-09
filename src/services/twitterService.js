@@ -6,8 +6,20 @@ import logger from "../config/winston.js"
 // Función para tuitear información sobre variaciones de precios
 export const tweetVariations = async (variations, date, firstDateOfMonth) => {
     try {
+        if(!variations) {
+            throw new Error('La lista de categorias no ha sido proporcionada')
+        }
+
+        if(!date) {
+            throw new Error('La fecha no ha sido proporcionada')
+        }
+
+        if(!firstDateOfMonth) {
+            throw new Error('La fecha historica no ha sido proporcionada')
+        }
+
         //Dates
-        const { firstDay, lastDay, monthName } = getDaysAndMonth(date, firstDateOfMonth)
+        const { lastDay, monthName } = getDaysAndMonth(date, firstDateOfMonth)
 
         let tweetText = `📊 Variación de precios de la canasta básica de ${monthName} al dia ${lastDay}:\n\n`
         const percentEmoticon = variations.totalPercentDifference >= 0 ? "📈" : "📉"
@@ -25,13 +37,25 @@ export const tweetVariations = async (variations, date, firstDateOfMonth) => {
         console.log('tweet: ', tweet)*/
         return tweet
     } catch (err) {
-        console.error("Error al enviar tweetVariations:", err)
+        logger.error("Error al enviar tweetVariations:", err)
     }
 }
 
 export const tweetCategoryDecrease = async(variations, date, firstDateOfMonth) => {
     try {
-        const { firstDay, lastDay, monthName } = getDaysAndMonth(date, firstDateOfMonth)
+        if(!variations) {
+            throw new Error('La lista de categorias no ha sido proporcionada')
+        }
+
+        if(!date) {
+            throw new Error('La fecha no ha sido proporcionada')
+        }
+
+        if(!firstDateOfMonth) {
+            throw new Error('La fecha historica no ha sido proporcionada')
+        }
+
+        const { lastDay, monthName } = getDaysAndMonth(date, firstDateOfMonth)
 
         let tweetText = `📉 Las categorías con mayor caída de precios de ${monthName} al dia ${lastDay}:\n\n`
         
@@ -49,13 +73,25 @@ export const tweetCategoryDecrease = async(variations, date, firstDateOfMonth) =
         console.log('tweet: ', tweet)*/
         return tweet
     } catch(err) {
-        console.error("Error al enviar tweetCategoryDecrease:", err)
+        logger.error("Error al enviar tweetCategoryDecrease:", err)
     }
 }
 
 export const tweetCategoryIncrease = async(variations, date, firstDateOfMonth) => {
     try {
-        const { firstDay, lastDay, monthName } = getDaysAndMonth(date, firstDateOfMonth)
+        if(!variations) {
+            throw new Error('La lista de categorias no ha sido proporcionada')
+        }
+
+        if(!date) {
+            throw new Error('La fecha no ha sido proporcionada')
+        }
+
+        if(!firstDateOfMonth) {
+            throw new Error('La fecha historica no ha sido proporcionada')
+        }
+
+        const { lastDay, monthName } = getDaysAndMonth(date, firstDateOfMonth)
 
         let tweetText = `📈 Las categorías con mayor aumento de precios de ${monthName} al dia ${lastDay}:\n\n`
         
@@ -73,7 +109,7 @@ export const tweetCategoryIncrease = async(variations, date, firstDateOfMonth) =
         console.log('tweet: ', tweet)*/
         return tweet
     } catch(err) {
-        console.error("Error al enviar tweetCategoryIncrease:", err)
+        logger.error("Error al enviar tweetCategoryIncrease:", err)
     }
 }
 

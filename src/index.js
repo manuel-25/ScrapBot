@@ -6,7 +6,6 @@ import cron from  "node-cron"
 import { jumboURLs } from "./config/utils.js"
 import { recordVariation, tweetDateVariation, categoryIncreases, categoryDecreases } from "./services/price_tracker.js"
 
-//CANASTA BASICA https://chequeado.com/el-explicador/que-es-la-canasta-basica-alimentaria-del-indec-y-como-se-compone/
 const MAX_BOT_RETRIES = 3
 const MAX_SCRAPING_PAGES = 10
 const MAX_SCRAPING_RETRIES = 6
@@ -39,8 +38,8 @@ const runFullTask = async () => {
     }
 }
 
-runFullTask()
-//runScrapingBot()
+//runFullTask()
+runScrapingBot()
 
 async function runScrapingBot() {
     try {
@@ -317,160 +316,6 @@ async function scrapeURL(dinamicUrl, page, startPage) {
         return { success: false, page: pageNumber }
     }
 }
-
-/* async function scrapeAllURLs(urls, page) {
-    let failedURLs = []
-    let dataToSave = []
-    let scrapeResult = { success: false, page: 1 }
-
-    for (const url of urls) {
-        let retryCount = 0
-        let success = false
-        let startPage = 1
-
-        while (retryCount < MAX_SCRAPING_RETRIES && !success) {
-            try {
-                scrapeResult = await scrapeURL(url, page, startPage)
-                console.log('scrapeResult:', scrapeResult)
-
-                // Si es exitoso y tiene datos
-                if (scrapeResult.success && scrapeResult.data.length > 0) {
-                    const newData = scrapeResult.data.data
-
-                    // Evitar duplicados comparando por clave única (nombre o ID)
-                    const uniqueData = newData.filter((item) => {
-                        return !dataToSave.some((existingItem) => {
-                            return existingItem.data.some((d) => d.nombre === item.nombre)
-                        })
-                    })
-
-                    // Si hay datos únicos, agregarlos
-                    if (uniqueData.length > 0) {
-                        dataToSave.push({
-                            ...scrapeResult.data,
-                            data: uniqueData
-                        })
-                    }
-
-                    logger.info(`${dataToSave.length}/${urls.length} URLs scraped.`)
-                    success = true
-                } else {
-                    if (scrapeResult.data.length > 0) {
-                        const newData = scrapeResult.data.data
-
-                        dataToSave.push({
-                            ...scrapeResult.data,
-                            data: newData,
-                        })
-                        startPage = scrapeResult.page
-                    } else {
-                        throw new Error("No se pudieron obtener datos válidos.")
-                    }
-                }
-
-            } catch (error) {
-                retryCount++
-                startPage = scrapeResult.page || 1 // Continuar desde la última página conocida
-
-                logger.warning(`Error al extraer datos de ${url}. Intentando nuevamente (${retryCount}/${MAX_SCRAPING_RETRIES})...`, error)
-                await delay(6000) // Esperar entre reintentos
-            }
-        }
-
-        if (!success) {
-            logger.error(`Falló el scraping para la URL: ${url} después de ${MAX_SCRAPING_RETRIES} reintentos.`)
-            failedURLs.push(url) // Agregar a la lista de URLs fallidas
-        }
-    }
-
-    return { dataToSave, failedURLs }
-}
-
-// Receives a url and it creates a .json with  the data scraped from that page 
-async function scrapeURL(dinamicUrl, page, startPage) {
-    try {
-        await delay(1000) // Pequeña espera antes de comenzar
-
-        const startTime = new Date()
-        console.log('startPage', startPage)
-        await page.goto(`${dinamicUrl}&page=${startPage}`, { waitUntil: 'domcontentloaded', timeout: 25000 })
-
-        let dataScrapped = []
-        let previousProductCount = 0
-        let pageNumber = startPage
-        let totalPages = 1
-        const containerSelector = '.vtex-search-result-3-x-gallery'
-        let containerFound = false
-
-        while (pageNumber <= totalPages && pageNumber <= MAX_SCRAPING_PAGES) {
-            // Reintentos para encontrar el contenedor
-            let containerRetries = 0
-            while (containerRetries < 3 && !containerFound) {
-                try {
-                    await page.waitForSelector(containerSelector, { timeout: 20000 })
-                    containerFound = true
-                } catch (error) {
-                    logger.warning(`El contenedor no se encontró en ${dinamicUrl}. Reintentando...`)
-                    await page.reload({ waitUntil: 'domcontentloaded', timeout: 20000 })
-                    containerRetries++
-                }
-            }
-
-            if (!containerFound) {
-                logger.error(`No se encontró el contenedor para ${dinamicUrl} después de varios intentos.`)
-                return { success: false, page: pageNumber, data: urlData }
-            }
-
-            const currentProducts = await scrapeProduct(page, containerSelector)
-
-            if (!currentProducts) {
-                logger.warning(`No se encontraron productos en la página ${pageNumber} para ${dinamicUrl}.`)
-                return { success: false, page: pageNumber, data: urlData }
-            }
-
-            currentProducts.forEach((product) => {
-                if (
-                    !dataScrapped.some((existingProduct) => existingProduct.nombre === product.nombre)
-                ) {
-                    dataScrapped.push(product)
-                }
-            })
-
-            previousProductCount = currentProducts.length
-
-            // Desplazarse hacia abajo para obtener más productos
-            await scrollDown(page)
-            await delay(1000)
-
-            // Ir a la siguiente página si hay más productos
-            if (currentProducts.length === previousProductCount) {
-                totalPages = await getTotalPages(page)
-                logger.info(`Página actual: ${pageNumber}/${totalPages}`)
-                pageNumber++
-                await goToPage(page, pageNumber, dinamicUrl)
-            }
-        }
-
-        const formattedTime = elapsedTime(startTime)
-        const currentDate = new Date(new Date().getTime() - (3 * 60 * 60 * 1000)).toISOString() // Hora Argentina GTM-3
-    
-        const urlData = {
-            category: getCategoryNameFromUrl(dinamicUrl),
-            date: currentDate,
-            totalProducts: dataScrapped.length,
-            time_spent: formattedTime,
-            url: dinamicUrl,
-            data: dataScrapped,
-        }
-
-        logger.info(`Se tardó ${formattedTime} en scrapear ${dinamicUrl}`)
-        return { success: true, data: urlData }
-
-    } catch (err) {
-        logger.error(`Error al scrapear la URL ${dinamicUrl}:`, err)
-        return { success: false, page: pageNumber, data: urlData }
-    }
-} */
 
 //Receives the page & container selector (unique to the website may change values)  and returns an array of products
 async function scrapeProduct(page, containerSelector) {
