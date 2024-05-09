@@ -3,7 +3,7 @@ import RecordManager from "../Mongo/recordManager.js"
 import VariationManager from '../Mongo/variationManager.js'
 import logger from "../config/winston.js"
 import { tweetVariations, tweetCategoryDecrease, tweetCategoryIncrease, tweetStartOfMonth } from './twitterService.js'
-export const today = new Date(new Date().getTime() - (3 * 60 * 60 * 1000))
+const today = new Date(new Date().getTime() - (3 * 60 * 60 * 1000))
 
 //Record daily variation (only 1 time per day after scrapping is done)
 export async function recordVariation(today) {
@@ -42,18 +42,25 @@ function createValidDate(value) {
 //Return the date of the first price records of the actual month.
 async function getFirstDateOfMonth(today) {
     try {
-        const validToday = createValidDate(today) // Validar la fecha antes de usarla
+        if (!(today instanceof Date)) {
+            throw new Error('La fecha proporcionada no es válida.')
+        }
         
-        const month = validToday.getMonth()
-        const year = validToday.getFullYear()
+        const month = today.getMonth()
+        const year = today.getFullYear()
 
-        const firstDateOfMonth = await RecordManager.getFirstDayOfMonth(month, year)
-        
-        if (!firstDateOfMonth || isNaN(new Date(firstDateOfMonth).getTime())) {
-            throw new Error(`No se encontró el primer día del mes ${month + 1} en el año ${year}`)
+        // Consulta el primer registro del mes actual en la base de datos
+        const firstRecord = await RecordManager.getFirstDayOfMonth(month, year)
+        if (!firstRecord) {
+            throw new Error(`No se encontró el primer día del mes ${month + 1}.`)
         }
 
-        return new Date(firstDateOfMonth) // Devolver la primera fecha del mes
+        const firstDateOfMonth = new Date(firstRecord)
+        if (isNaN(firstDateOfMonth.getTime())) {
+            throw new Error(`La fecha del primer registro del mes es inválida: ${firstRecord.date}`)
+        }
+
+        return firstDateOfMonth
     } catch (err) {
         logger.error("getFirstDateOfMonth error:", err)
         throw err
@@ -192,15 +199,15 @@ export async function tweetDateVariation(date) {
     try {
         const firstDateOfMonth = await getFirstDateOfMonth(date)
         if(!firstDateOfMonth) {
-            logger.error('No se encontraron variaciones para la fecha: ', date)
+            logger.error('No se encontraron variaciones para la fecha: firstDateOfMonth ', date)
             return false
         }
 
         //First day of month
-        const dayNumber = today.getDay()
-        const firstDateDay = firstDateOfMonth.getDay()
-        if(dayNumber === firstDateDay){
-            const tweet = await tweetStartOfMonth(today, firstDateOfMonth)
+        const todayNumber = date.getDate()
+        const firstDateDay = firstDateOfMonth.getDate()
+        if(todayNumber === firstDateDay){
+            const tweet = await tweetStartOfMonth(date, firstDateOfMonth)
             return false
         }
     

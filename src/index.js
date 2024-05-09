@@ -39,8 +39,8 @@ const runFullTask = async () => {
     }
 }
 
-//runFullTask()
-runScrapingBot()
+runFullTask()
+//runScrapingBot()
 
 async function runScrapingBot() {
     try {

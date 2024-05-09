@@ -5469,3 +5469,314 @@
 [2024-05-08T22:06:02.245Z] [ERROR] - scrapeProduct error: logger is not defined
 [2024-05-08T22:06:02.245Z] [WARNING] - No se encontraron productos en la página 6 para https://www.jumbo.com.ar/vino?_q=vino&map=ft.
 [2024-05-08T22:06:02.245Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/vino?_q=vino&map=ft. Intentando nuevamente (1/6)... No se pudieron obtener datos válidos.
+[2024-05-09T13:18:50.374Z] [INFO] - Iniciando el proceso de scraping.
+[2024-05-09T13:18:51.530Z] [INFO] - Connected to MongoDB
+[2024-05-09T13:18:52.127Z] [INFO] - Navegador iniciado.
+[2024-05-09T13:18:52.128Z] [INFO] - Iniciando scraping de 29 URLs.
+[2024-05-09T13:19:01.778Z] [INFO] - Página actual: 1/5
+[2024-05-09T13:19:13.425Z] [WARNING] - Scroll error
+[2024-05-09T13:19:16.670Z] [INFO] - Página actual: 2/5
+[2024-05-09T13:19:28.896Z] [WARNING] - Scroll error
+[2024-05-09T13:19:32.151Z] [INFO] - Página actual: 3/5
+[2024-05-09T13:19:45.626Z] [INFO] - Página actual: 4/5
+[2024-05-09T13:19:55.759Z] [WARNING] - Scroll error
+[2024-05-09T13:19:58.905Z] [INFO] - Página actual: 5/5
+[2024-05-09T13:19:58.905Z] [INFO] - 1/29 URLs scraped.
+[2024-05-09T13:19:58.906Z] [INFO] - Se tardó 1 minutos, 6 segundos y 777 milisegundos en scrapear https://www.jumbo.com.ar/pan?_q=pan&map=ft
+[2024-05-09T13:20:06.898Z] [WARNING] - Scroll error
+[2024-05-09T13:20:10.022Z] [INFO] - Página actual: 1/1
+[2024-05-09T13:20:10.022Z] [INFO] - 2/29 URLs scraped.
+[2024-05-09T13:20:10.022Z] [INFO] - Se tardó 0 minutos, 11 segundos y 116 milisegundos en scrapear https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft
+[2024-05-09T13:20:19.137Z] [WARNING] - Scroll error
+[2024-05-09T13:20:22.376Z] [INFO] - Página actual: 1/10
+[2024-05-09T13:20:35.902Z] [INFO] - Página actual: 2/10
+[2024-05-09T13:20:47.390Z] [WARNING] - Scroll error
+[2024-05-09T13:20:50.633Z] [INFO] - Página actual: 3/10
+[2024-05-09T13:21:05.487Z] [INFO] - Página actual: 4/10
+[2024-05-09T13:21:18.852Z] [INFO] - Página actual: 5/10
+[2024-05-09T13:21:31.120Z] [INFO] - Página actual: 6/10
+[2024-05-09T13:21:43.870Z] [WARNING] - Scroll error
+[2024-05-09T13:21:47.117Z] [INFO] - Página actual: 7/10
+[2024-05-09T13:22:00.091Z] [INFO] - Página actual: 8/10
+[2024-05-09T13:22:09.984Z] [WARNING] - Scroll error
+[2024-05-09T13:22:13.226Z] [INFO] - Página actual: 9/10
+[2024-05-09T13:22:27.455Z] [INFO] - Página actual: 10/10
+[2024-05-09T13:22:27.455Z] [INFO] - 3/29 URLs scraped.
+[2024-05-09T13:22:27.455Z] [INFO] - Se tardó 2 minutos, 17 segundos y 433 milisegundos en scrapear https://www.jumbo.com.ar/galletitas%20dulces?_q=galletitas%20dulces&map=ft
+[2024-05-09T13:22:37.466Z] [INFO] - Página actual: 1/4
+[2024-05-09T13:22:49.938Z] [INFO] - Página actual: 2/4
+[2024-05-09T13:23:03.065Z] [INFO] - Página actual: 3/4
+[2024-05-09T13:23:14.783Z] [INFO] - Página actual: 4/4
+[2024-05-09T13:23:14.783Z] [INFO] - 4/29 URLs scraped.
+[2024-05-09T13:23:14.783Z] [INFO] - Se tardó 0 minutos, 47 segundos y 327 milisegundos en scrapear https://www.jumbo.com.ar/arroz?_q=arroz&map=ft
+[2024-05-09T13:23:25.609Z] [INFO] - Página actual: 1/2
+[2024-05-09T13:23:38.542Z] [INFO] - Página actual: 2/2
+[2024-05-09T13:23:38.542Z] [INFO] - 5/29 URLs scraped.
+[2024-05-09T13:23:38.542Z] [INFO] - Se tardó 0 minutos, 23 segundos y 759 milisegundos en scrapear https://www.jumbo.com.ar/harinas?_q=harinas&map=ft
+[2024-05-09T13:23:48.471Z] [INFO] - Página actual: 1/12
+[2024-05-09T13:24:00.752Z] [WARNING] - Scroll error
+[2024-05-09T13:24:03.998Z] [INFO] - Página actual: 2/12
+[2024-05-09T13:24:15.692Z] [WARNING] - Scroll error
+[2024-05-09T13:24:18.924Z] [INFO] - Página actual: 3/12
+[2024-05-09T13:24:30.076Z] [WARNING] - Scroll error
+[2024-05-09T13:24:33.312Z] [INFO] - Página actual: 4/12
+[2024-05-09T13:24:44.447Z] [INFO] - Página actual: 5/12
+[2024-05-09T13:24:54.412Z] [WARNING] - Scroll error
+[2024-05-09T13:24:57.668Z] [INFO] - Página actual: 6/12
+[2024-05-09T13:25:10.150Z] [WARNING] - Scroll error
+[2024-05-09T13:25:13.388Z] [INFO] - Página actual: 7/12
+[2024-05-09T13:25:28.874Z] [INFO] - Página actual: 8/12
+[2024-05-09T13:25:41.856Z] [INFO] - Página actual: 9/12
+[2024-05-09T13:25:53.571Z] [INFO] - Página actual: 10/12
+[2024-05-09T13:26:03.143Z] [INFO] - 6/29 URLs scraped.
+[2024-05-09T13:26:03.143Z] [INFO] - Se tardó 2 minutos, 24 segundos y 601 milisegundos en scrapear https://www.jumbo.com.ar/fideos?_q=fideos&map=ft
+[2024-05-09T13:26:12.766Z] [INFO] - Página actual: 1/1
+[2024-05-09T13:26:12.767Z] [INFO] - 7/29 URLs scraped.
+[2024-05-09T13:26:12.767Z] [INFO] - Se tardó 0 minutos, 9 segundos y 624 milisegundos en scrapear https://www.jumbo.com.ar/papa?_q=papa&map=ft
+[2024-05-09T13:26:23.537Z] [INFO] - Página actual: 1/1
+[2024-05-09T13:26:23.537Z] [INFO] - 8/29 URLs scraped.
+[2024-05-09T13:26:23.537Z] [INFO] - Se tardó 0 minutos, 10 segundos y 770 milisegundos en scrapear https://www.jumbo.com.ar/batata?_q=batata&layout=grid&map=ft
+[2024-05-09T13:26:33.386Z] [INFO] - Página actual: 1/3
+[2024-05-09T13:26:45.231Z] [WARNING] - Scroll error
+[2024-05-09T13:26:48.477Z] [INFO] - Página actual: 2/3
+[2024-05-09T13:27:00.533Z] [WARNING] - Scroll error
+[2024-05-09T13:27:03.735Z] [INFO] - Página actual: 3/3
+[2024-05-09T13:27:03.735Z] [INFO] - 9/29 URLs scraped.
+[2024-05-09T13:27:03.735Z] [INFO] - Se tardó 0 minutos, 40 segundos y 198 milisegundos en scrapear https://www.jumbo.com.ar/azucar?_q=azucar&map=ft
+[2024-05-09T13:27:14.762Z] [INFO] - Página actual: 1/2
+[2024-05-09T13:27:27.185Z] [WARNING] - Scroll error
+[2024-05-09T13:27:30.280Z] [INFO] - Página actual: 2/2
+[2024-05-09T13:27:30.281Z] [INFO] - 10/29 URLs scraped.
+[2024-05-09T13:27:30.281Z] [INFO] - Se tardó 0 minutos, 26 segundos y 546 milisegundos en scrapear https://www.jumbo.com.ar/dulce%20de%20leche?_q=dulce%20de%20leche&map=ft
+[2024-05-09T13:27:40.130Z] [INFO] - Página actual: 1/2
+[2024-05-09T13:27:51.445Z] [WARNING] - Scroll error
+[2024-05-09T13:27:54.558Z] [INFO] - Página actual: 2/2
+[2024-05-09T13:27:54.558Z] [INFO] - 11/29 URLs scraped.
+[2024-05-09T13:27:54.558Z] [INFO] - Se tardó 0 minutos, 24 segundos y 277 milisegundos en scrapear https://www.jumbo.com.ar/legumbres%20secas?_q=legumbres%20secas&map=ft
+[2024-05-09T13:28:05.382Z] [WARNING] - Scroll error
+[2024-05-09T13:28:08.529Z] [INFO] - Página actual: 1/41
+[2024-05-09T13:28:21.916Z] [WARNING] - Scroll error
+[2024-05-09T13:28:25.053Z] [INFO] - Página actual: 2/41
+[2024-05-09T13:28:37.823Z] [WARNING] - Scroll error
+[2024-05-09T13:28:40.977Z] [INFO] - Página actual: 3/41
+[2024-05-09T13:28:55.842Z] [INFO] - Página actual: 4/41
+[2024-05-09T13:29:09.622Z] [WARNING] - Scroll error
+[2024-05-09T13:29:12.763Z] [INFO] - Página actual: 5/41
+[2024-05-09T13:29:25.319Z] [WARNING] - Scroll error
+[2024-05-09T13:29:28.536Z] [INFO] - Página actual: 6/41
+[2024-05-09T13:29:41.953Z] [WARNING] - Scroll error
+[2024-05-09T13:29:45.096Z] [INFO] - Página actual: 7/41
+[2024-05-09T13:30:00.942Z] [WARNING] - Scroll error
+[2024-05-09T13:30:04.088Z] [INFO] - Página actual: 8/41
+[2024-05-09T13:30:17.251Z] [WARNING] - Scroll error
+[2024-05-09T13:30:20.395Z] [INFO] - Página actual: 9/41
+[2024-05-09T13:30:34.177Z] [WARNING] - Scroll error
+[2024-05-09T13:30:37.322Z] [INFO] - Página actual: 10/41
+[2024-05-09T13:30:49.575Z] [INFO] - 12/29 URLs scraped.
+[2024-05-09T13:30:49.576Z] [INFO] - Se tardó 2 minutos, 55 segundos y 17 milisegundos en scrapear https://www.jumbo.com.ar/verduras?_q=verduras&map=ft
+[2024-05-09T13:30:59.395Z] [INFO] - Página actual: 1/8
+[2024-05-09T13:31:12.172Z] [INFO] - Página actual: 2/8
+[2024-05-09T13:31:23.527Z] [WARNING] - Scroll error
+[2024-05-09T13:31:26.780Z] [INFO] - Página actual: 3/8
+[2024-05-09T13:31:39.896Z] [INFO] - Página actual: 4/8
+[2024-05-09T13:31:54.403Z] [INFO] - Página actual: 5/8
+[2024-05-09T13:32:05.243Z] [WARNING] - Scroll error
+[2024-05-09T13:32:08.487Z] [INFO] - Página actual: 6/8
+[2024-05-09T13:32:19.010Z] [WARNING] - Scroll error
+[2024-05-09T13:32:22.251Z] [INFO] - Página actual: 7/8
+[2024-05-09T13:32:33.347Z] [WARNING] - Scroll error
+[2024-05-09T13:32:36.418Z] [INFO] - Página actual: 8/8
+[2024-05-09T13:32:36.418Z] [INFO] - 13/29 URLs scraped.
+[2024-05-09T13:32:36.418Z] [INFO] - Se tardó 1 minutos, 46 segundos y 842 milisegundos en scrapear https://www.jumbo.com.ar/frutas?_q=frutas&map=ft
+[2024-05-09T13:32:45.912Z] [INFO] - Página actual: 1/3
+[2024-05-09T13:32:57.319Z] [WARNING] - Scroll error
+[2024-05-09T13:33:00.564Z] [INFO] - Página actual: 2/3
+[2024-05-09T13:33:12.324Z] [WARNING] - Scroll error
+[2024-05-09T13:33:15.417Z] [INFO] - Página actual: 3/3
+[2024-05-09T13:33:15.417Z] [INFO] - 14/29 URLs scraped.
+[2024-05-09T13:33:15.417Z] [INFO] - Se tardó 0 minutos, 38 segundos y 999 milisegundos en scrapear https://www.jumbo.com.ar/carnes?initialMap=c&initialQuery=carnes&map=category-1,category-2&query=/carnes/carne-vacuna&searchState
+[2024-05-09T13:33:25.515Z] [INFO] - Página actual: 1/1
+[2024-05-09T13:33:25.515Z] [INFO] - 15/29 URLs scraped.
+[2024-05-09T13:33:25.515Z] [INFO] - Se tardó 0 minutos, 10 segundos y 98 milisegundos en scrapear https://www.jumbo.com.ar/carne%20cerdo?_q=carne%20cerdo&map=ft
+[2024-05-09T13:33:35.565Z] [INFO] - Página actual: 1/5
+[2024-05-09T13:34:00.833Z] [WARNING] - Scroll error
+[2024-05-09T13:34:04.076Z] [INFO] - Página actual: 2/5
+[2024-05-09T13:34:20.312Z] [WARNING] - Scroll error
+[2024-05-09T13:34:23.547Z] [INFO] - Página actual: 3/5
+[2024-05-09T13:34:35.548Z] [INFO] - Página actual: 4/5
+[2024-05-09T13:34:46.006Z] [WARNING] - Scroll error
+[2024-05-09T13:34:49.212Z] [INFO] - Página actual: 5/5
+[2024-05-09T13:34:49.212Z] [INFO] - 16/29 URLs scraped.
+[2024-05-09T13:34:49.212Z] [INFO] - Se tardó 1 minutos, 23 segundos y 697 milisegundos en scrapear https://www.jumbo.com.ar/pescado?_q=pescado&map=ft
+[2024-05-09T13:34:59.121Z] [INFO] - Página actual: 1/6
+[2024-05-09T13:35:10.507Z] [WARNING] - Scroll error
+[2024-05-09T13:35:13.739Z] [INFO] - Página actual: 2/6
+[2024-05-09T13:35:25.993Z] [INFO] - Página actual: 3/6
+[2024-05-09T13:35:38.030Z] [INFO] - Página actual: 4/6
+[2024-05-09T13:35:50.152Z] [INFO] - Página actual: 5/6
+[2024-05-09T13:36:02.300Z] [INFO] - Página actual: 6/6
+[2024-05-09T13:36:02.300Z] [INFO] - 17/29 URLs scraped.
+[2024-05-09T13:36:02.300Z] [INFO] - Se tardó 1 minutos, 13 segundos y 88 milisegundos en scrapear https://www.jumbo.com.ar/fiambres?_q=fiambres&map=ft
+[2024-05-09T13:36:12.769Z] [INFO] - Página actual: 1/2
+[2024-05-09T13:36:25.470Z] [WARNING] - Scroll error
+[2024-05-09T13:36:28.617Z] [INFO] - Página actual: 2/2
+[2024-05-09T13:36:28.617Z] [INFO] - 18/29 URLs scraped.
+[2024-05-09T13:36:28.617Z] [INFO] - Se tardó 0 minutos, 26 segundos y 317 milisegundos en scrapear https://www.jumbo.com.ar/huevos?_q=huevos&map=ft
+[2024-05-09T13:36:38.610Z] [INFO] - Página actual: 1/3
+[2024-05-09T13:36:52.823Z] [INFO] - Página actual: 2/3
+[2024-05-09T13:37:05.488Z] [WARNING] - Scroll error
+[2024-05-09T13:37:08.707Z] [INFO] - Página actual: 3/3
+[2024-05-09T13:37:08.707Z] [INFO] - 19/29 URLs scraped.
+[2024-05-09T13:37:08.707Z] [INFO] - Se tardó 0 minutos, 40 segundos y 90 milisegundos en scrapear https://www.jumbo.com.ar/pollo?_q=pollo&map=ft
+[2024-05-09T13:37:18.827Z] [INFO] - Página actual: 1/9
+[2024-05-09T13:37:33.600Z] [INFO] - Página actual: 2/9
+[2024-05-09T13:37:45.707Z] [WARNING] - Scroll error
+[2024-05-09T13:37:48.952Z] [INFO] - Página actual: 3/9
+[2024-05-09T13:38:02.122Z] [WARNING] - Scroll error
+[2024-05-09T13:38:05.382Z] [INFO] - Página actual: 4/9
+[2024-05-09T13:38:18.171Z] [WARNING] - Scroll error
+[2024-05-09T13:38:21.419Z] [INFO] - Página actual: 5/9
+[2024-05-09T13:38:34.550Z] [INFO] - Página actual: 6/9
+[2024-05-09T13:38:46.357Z] [WARNING] - Scroll error
+[2024-05-09T13:38:49.611Z] [INFO] - Página actual: 7/9
+[2024-05-09T13:39:02.517Z] [WARNING] - Scroll error
+[2024-05-09T13:39:05.773Z] [INFO] - Página actual: 8/9
+[2024-05-09T13:39:19.449Z] [WARNING] - Scroll error
+[2024-05-09T13:39:22.506Z] [INFO] - Página actual: 9/9
+[2024-05-09T13:39:22.506Z] [INFO] - 20/29 URLs scraped.
+[2024-05-09T13:39:22.506Z] [INFO] - Se tardó 2 minutos, 13 segundos y 799 milisegundos en scrapear https://www.jumbo.com.ar/leche?_q=leche&map=ft
+[2024-05-09T13:39:31.042Z] [WARNING] - Scroll error
+[2024-05-09T13:39:34.299Z] [INFO] - Página actual: 1/9
+[2024-05-09T13:39:48.720Z] [WARNING] - Scroll error
+[2024-05-09T13:39:51.954Z] [INFO] - Página actual: 2/9
+[2024-05-09T13:40:02.169Z] [WARNING] - Scroll error
+[2024-05-09T13:40:05.424Z] [INFO] - Página actual: 3/9
+[2024-05-09T13:40:16.780Z] [WARNING] - Scroll error
+[2024-05-09T13:40:20.034Z] [INFO] - Página actual: 4/9
+[2024-05-09T13:40:31.214Z] [WARNING] - Scroll error
+[2024-05-09T13:40:34.457Z] [INFO] - Página actual: 5/9
+[2024-05-09T13:40:47.936Z] [INFO] - Página actual: 6/9
+[2024-05-09T13:41:00.805Z] [INFO] - Página actual: 7/9
+[2024-05-09T13:41:10.647Z] [WARNING] - Scroll error
+[2024-05-09T13:41:13.892Z] [INFO] - Página actual: 8/9
+[2024-05-09T13:41:24.094Z] [WARNING] - Scroll error
+[2024-05-09T13:41:27.274Z] [INFO] - Página actual: 9/9
+[2024-05-09T13:41:27.275Z] [INFO] - 21/29 URLs scraped.
+[2024-05-09T13:41:27.275Z] [INFO] - Se tardó 2 minutos, 4 segundos y 769 milisegundos en scrapear https://www.jumbo.com.ar/yogur?_q=yogur&map=ft
+[2024-05-09T13:41:35.778Z] [WARNING] - Scroll error
+[2024-05-09T13:41:38.981Z] [INFO] - Página actual: 1/1
+[2024-05-09T13:41:38.981Z] [INFO] - 22/29 URLs scraped.
+[2024-05-09T13:41:38.981Z] [INFO] - Se tardó 0 minutos, 11 segundos y 706 milisegundos en scrapear https://www.jumbo.com.ar/manteca?_q=manteca&map=ft
+[2024-05-09T13:41:46.445Z] [WARNING] - Scroll error
+[2024-05-09T13:41:49.696Z] [INFO] - Página actual: 1/8
+[2024-05-09T13:42:02.427Z] [WARNING] - Scroll error
+[2024-05-09T13:42:05.675Z] [INFO] - Página actual: 2/8
+[2024-05-09T13:42:19.785Z] [INFO] - Página actual: 3/8
+[2024-05-09T13:42:31.060Z] [WARNING] - Scroll error
+[2024-05-09T13:42:34.300Z] [INFO] - Página actual: 4/8
+[2024-05-09T13:42:46.814Z] [WARNING] - Scroll error
+[2024-05-09T13:42:50.073Z] [INFO] - Página actual: 5/8
+[2024-05-09T13:43:01.201Z] [WARNING] - Scroll error
+[2024-05-09T13:43:04.444Z] [INFO] - Página actual: 6/8
+[2024-05-09T13:43:14.847Z] [WARNING] - Scroll error
+[2024-05-09T13:43:18.086Z] [INFO] - Página actual: 7/8
+[2024-05-09T13:43:31.346Z] [INFO] - Página actual: 8/8
+[2024-05-09T13:43:31.346Z] [INFO] - 23/29 URLs scraped.
+[2024-05-09T13:43:31.346Z] [INFO] - Se tardó 1 minutos, 52 segundos y 365 milisegundos en scrapear https://www.jumbo.com.ar/aceite?_q=aceite&map=ft
+[2024-05-09T13:43:40.995Z] [INFO] - Página actual: 1/9
+[2024-05-09T13:43:52.908Z] [WARNING] - Scroll error
+[2024-05-09T13:43:56.156Z] [INFO] - Página actual: 2/9
+[2024-05-09T13:44:07.394Z] [WARNING] - Scroll error
+[2024-05-09T13:44:10.651Z] [INFO] - Página actual: 3/9
+[2024-05-09T13:44:21.742Z] [INFO] - Página actual: 4/9
+[2024-05-09T13:44:33.846Z] [WARNING] - Scroll error
+[2024-05-09T13:44:37.085Z] [INFO] - Página actual: 5/9
+[2024-05-09T13:44:47.769Z] [WARNING] - Scroll error
+[2024-05-09T13:44:51.002Z] [INFO] - Página actual: 6/9
+[2024-05-09T13:45:01.540Z] [WARNING] - Scroll error
+[2024-05-09T13:45:04.793Z] [INFO] - Página actual: 7/9
+[2024-05-09T13:45:18.409Z] [WARNING] - Scroll error
+[2024-05-09T13:45:21.668Z] [INFO] - Página actual: 8/9
+[2024-05-09T13:45:32.693Z] [WARNING] - Scroll error
+[2024-05-09T13:45:35.836Z] [INFO] - Página actual: 9/9
+[2024-05-09T13:45:35.836Z] [INFO] - 24/29 URLs scraped.
+[2024-05-09T13:45:35.836Z] [INFO] - Se tardó 2 minutos, 4 segundos y 490 milisegundos en scrapear https://www.jumbo.com.ar/cerveza?_q=cerveza&map=ft
+[2024-05-09T13:45:45.391Z] [INFO] - Página actual: 1/31
+[2024-05-09T13:45:57.766Z] [WARNING] - Scroll error
+[2024-05-09T13:46:01.016Z] [INFO] - Página actual: 2/31
+[2024-05-09T13:46:14.653Z] [INFO] - Página actual: 3/31
+[2024-05-09T13:46:24.475Z] [WARNING] - Scroll error
+[2024-05-09T13:46:27.718Z] [INFO] - Página actual: 4/31
+[2024-05-09T13:46:39.355Z] [WARNING] - Scroll error
+[2024-05-09T13:46:42.584Z] [INFO] - Página actual: 5/31
+[2024-05-09T13:46:57.816Z] [INFO] - Página actual: 6/31
+[2024-05-09T13:47:07.176Z] [WARNING] - Scroll error
+[2024-05-09T13:47:10.414Z] [INFO] - Página actual: 7/31
+[2024-05-09T13:47:24.938Z] [INFO] - Página actual: 8/31
+[2024-05-09T13:47:34.474Z] [WARNING] - Scroll error
+[2024-05-09T13:47:37.720Z] [INFO] - Página actual: 9/31
+[2024-05-09T13:47:51.457Z] [INFO] - Página actual: 10/31
+[2024-05-09T13:48:02.409Z] [INFO] - 25/29 URLs scraped.
+[2024-05-09T13:48:02.410Z] [INFO] - Se tardó 2 minutos, 26 segundos y 574 milisegundos en scrapear https://www.jumbo.com.ar/vino?_q=vino&map=ft
+[2024-05-09T13:48:11.679Z] [INFO] - Página actual: 1/7
+[2024-05-09T13:48:23.281Z] [WARNING] - Scroll error
+[2024-05-09T13:48:26.514Z] [INFO] - Página actual: 2/7
+[2024-05-09T13:48:37.349Z] [INFO] - Página actual: 3/7
+[2024-05-09T13:48:47.848Z] [WARNING] - Scroll error
+[2024-05-09T13:48:51.086Z] [INFO] - Página actual: 4/7
+[2024-05-09T13:49:04.039Z] [INFO] - Página actual: 5/7
+[2024-05-09T13:49:16.334Z] [INFO] - Página actual: 6/7
+[2024-05-09T13:49:26.909Z] [WARNING] - Scroll error
+[2024-05-09T13:49:29.965Z] [INFO] - Página actual: 7/7
+[2024-05-09T13:49:29.965Z] [INFO] - 26/29 URLs scraped.
+[2024-05-09T13:49:29.966Z] [INFO] - Se tardó 1 minutos, 27 segundos y 555 milisegundos en scrapear https://www.jumbo.com.ar/cafe?_q=cafe&map=ft
+[2024-05-09T13:49:40.826Z] [INFO] - Página actual: 1/6
+[2024-05-09T13:49:52.481Z] [WARNING] - Scroll error
+[2024-05-09T13:49:55.721Z] [INFO] - Página actual: 2/6
+[2024-05-09T13:50:08.240Z] [INFO] - Página actual: 3/6
+[2024-05-09T13:50:21.856Z] [INFO] - Página actual: 4/6
+[2024-05-09T13:50:33.634Z] [WARNING] - Scroll error
+[2024-05-09T13:50:36.878Z] [INFO] - Página actual: 5/6
+[2024-05-09T13:50:48.653Z] [WARNING] - Scroll error
+[2024-05-09T13:50:51.697Z] [INFO] - Página actual: 6/6
+[2024-05-09T13:50:51.697Z] [INFO] - 27/29 URLs scraped.
+[2024-05-09T13:50:51.698Z] [INFO] - Se tardó 1 minutos, 21 segundos y 731 milisegundos en scrapear https://www.jumbo.com.ar/yerba?_q=yerba&map=ft
+[2024-05-09T13:51:02.007Z] [INFO] - Página actual: 1/5
+[2024-05-09T13:51:15.921Z] [WARNING] - Scroll error
+[2024-05-09T13:51:19.164Z] [INFO] - Página actual: 2/5
+[2024-05-09T13:51:29.660Z] [WARNING] - Scroll error
+[2024-05-09T13:51:32.909Z] [INFO] - Página actual: 3/5
+[2024-05-09T13:51:45.467Z] [INFO] - Página actual: 4/5
+[2024-05-09T13:51:56.069Z] [WARNING] - Scroll error
+[2024-05-09T13:51:59.226Z] [INFO] - Página actual: 5/5
+[2024-05-09T13:51:59.226Z] [INFO] - 28/29 URLs scraped.
+[2024-05-09T13:51:59.226Z] [INFO] - Se tardó 1 minutos, 7 segundos y 528 milisegundos en scrapear https://www.jumbo.com.ar/te?_q=te&map=ft
+[2024-05-09T13:52:09.205Z] [INFO] - Página actual: 1/1
+[2024-05-09T13:52:09.206Z] [INFO] - 29/29 URLs scraped.
+[2024-05-09T13:52:09.206Z] [INFO] - Se tardó 0 minutos, 9 segundos y 980 milisegundos en scrapear https://www.jumbo.com.ar/queso%20crema?_q=queso%20crema&map=ft
+[2024-05-09T13:52:09.206Z] [INFO] - Tiempo total: 33 minutos, 17 segundos y 78 milisegundos
+[2024-05-09T13:52:12.868Z] [INFO] - Datos almacenados exitosamente (29 registros).
+[2024-05-09T13:52:12.868Z] [INFO] - No hubo URLs fallidas durante el scraping.
+[2024-05-09T13:52:22.881Z] [INFO] - Iniciando proceso de analisis.
+[2024-05-09T13:52:24.299Z] [INFO] - Variation recorded succesfully
+[2024-05-09T14:17:57.170Z] [INFO] - Connected to MongoDB
+[2024-05-09T14:17:58.762Z] [INFO] - tweetCategoryIncrease: 
+[2024-05-09T14:17:59.449Z] [INFO] - tweetCategoryDecrease: 
+[2024-05-09T14:19:46.512Z] [INFO] - Connected to MongoDB
+[2024-05-09T14:20:25.398Z] [INFO] - Connected to MongoDB
+[2024-05-09T14:21:22.369Z] [INFO] - Connected to MongoDB
+[2024-05-09T14:23:35.873Z] [INFO] - Connected to MongoDB
+[2024-05-09T14:24:36.120Z] [INFO] - Connected to MongoDB
+[2024-05-09T14:34:31.325Z] [INFO] - Connected to MongoDB
+[2024-05-09T14:34:31.740Z] [ERROR] - getFirstDateOfMonth error: La fecha del primer registro del mes es inválida: undefined
+[2024-05-09T14:34:31.741Z] [ERROR] - tweetDateVariation error La fecha del primer registro del mes es inválida: undefined
+[2024-05-09T14:36:54.064Z] [INFO] - Connected to MongoDB
+[2024-05-09T14:36:55.288Z] [ERROR] - Error en getFirstDateOfMonth: No se encontró el primer registro del mes 5 del año 2024.
+[2024-05-09T14:36:55.289Z] [ERROR] - tweetDateVariation error No se encontró el primer registro del mes 5 del año 2024.
+[2024-05-09T14:38:07.517Z] [INFO] - Connected to MongoDB
+[2024-05-09T14:38:07.932Z] [ERROR] - getFirstDateOfMonth error: La fecha del primer registro del mes es inválida: undefined
+[2024-05-09T14:38:07.933Z] [ERROR] - tweetDateVariation error La fecha del primer registro del mes es inválida: undefined
+[2024-05-09T14:39:02.096Z] [INFO] - Connected to MongoDB
+[2024-05-09T14:41:01.424Z] [INFO] - Connected to MongoDB
+[2024-05-09T14:43:22.728Z] [INFO] - Connected to MongoDB
+[2024-05-09T14:46:03.966Z] [INFO] - Connected to MongoDB
