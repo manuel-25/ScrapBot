@@ -38,8 +38,6 @@ const runFullTask = async () => {
     }
 }
 
-await runScrapingBot()
-
 async function runScrapingBot() {
     try {
         // Conexión a la base de datos y al navegador
