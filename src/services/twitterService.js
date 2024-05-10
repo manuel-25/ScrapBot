@@ -24,7 +24,7 @@ export const tweetVariations = async (variations, date, firstDateOfMonth) => {
         let tweetText = `📊 Variación de precios de la canasta básica de ${monthName} al dia ${lastDay}:\n\n`
         const percentEmoticon = variations.totalPercentDifference >= 0 ? "📈" : "📉"
 
-        const totalPercent = variations.totalPercentDifference
+        const totalPercent = variations.totalWeightedPercent
         const totalProducts = variations.totalProducts
         const totalDrop = formatter.format(variations.totalPriceDifference)
         const dolarEmoticon = totalDrop >= 0 ? "📈" : "💸"
