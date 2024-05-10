@@ -2,6 +2,7 @@ import connectDB from '../config/mongoose-config.js'
 import RecordManager from "../Mongo/recordManager.js"
 import VariationManager from '../Mongo/variationManager.js'
 import logger from "../config/winston.js"
+import { categoryWeight, weightTotal } from '../config/utils.js'
 import { tweetVariations, tweetCategoryDecrease, tweetCategoryIncrease, tweetStartOfMonth, tweetProductDecrease, tweetProductIncrease } from './twitterService.js'
 const today = new Date(new Date().getTime() - (3 * 60 * 60 * 1000))
 
@@ -11,14 +12,15 @@ export async function recordVariation(today) {
         const validToday = createValidDate(today)
 
         const firstDateOfMonth = await getFirstDateOfMonth(validToday)
-        if(!firstDateOfMonth) throw new Error('recordVariation error: No se encontro el primer registro del mes')
+        if(!firstDateOfMonth) throw new Error('No se encontro el primer registro del mes')
 
         const historicData = await RecordManager.getByDateRecord(firstDateOfMonth)
         const currentData = await RecordManager.getByDateRecord(validToday)
 
         const historicMap = createHistoricMap(historicData)
         const comparedPrices = compareCategoryPrices(currentData, historicMap, validToday)
-        if(comparedPrices) { 
+        if(comparedPrices) {
+            console.log(comparedPrices)
             await VariationManager.create(comparedPrices) 
             logger.info('Variation recorded succesfully')
             return true
@@ -82,14 +84,15 @@ function compareCategoryPrices(currentData, historicMap, date) {
         date: date,
         totalPriceDifference: 0,
         totalPercentDifference: 0,
+        totalWeightedPercent: 0,
         totalProducts: 0,
         results: []
     }
 
+    //Category Data
     let totalHistoricPrice = 0
     let totalCurrentPrice = 0
     let totalProducts = 0
-    let products = 0
 
     currentData.forEach(category => {
         //Categories data
@@ -97,7 +100,8 @@ function compareCategoryPrices(currentData, historicMap, date) {
             category: category.category,
             categoryPriceDifference: 0,
             categoryPercentDifference: 0,
-            products,
+            categoryWeightedPercent: 0,
+            products: 0,
             data: []
         }
 
@@ -125,11 +129,11 @@ function compareCategoryPrices(currentData, historicMap, date) {
                 // Sumar al total para la categoría y el global
                 categoryResults.categoryPriceDifference += priceDifference
                 categoryResults.categoryPriceDifference =  parseFloat(categoryResults.categoryPriceDifference.toFixed(3))
-                categoryResults.products = categoryResults.data.length
-                categoryHistoricPrice += historicPrice
-                categoryCurrentPrice += currentPrice
+                categoryResults.products++
 
                 // Acumular para el total
+                categoryHistoricPrice += historicPrice
+                categoryCurrentPrice += currentPrice
                 totalHistoricPrice += historicPrice
                 totalCurrentPrice += currentPrice
                 totalProducts ++
@@ -141,6 +145,11 @@ function compareCategoryPrices(currentData, historicMap, date) {
             categoryResults.categoryPercentDifference = parseFloat(((categoryCurrentPrice - categoryHistoricPrice) / categoryHistoricPrice * 100).toFixed(3))
         }
 
+        // Calcular ponderacion de la categoría
+        const weightRelative = categoryWeight[category.category] / weightTotal
+        categoryResults.categoryWeightedPercent = parseFloat((categoryResults.categoryPercentDifference * weightRelative).toFixed(3))
+        comparedResults.totalWeightedPercent += parseFloat((categoryResults.categoryWeightedPercent).toFixed(3))
+
         comparedResults.results.push(categoryResults)
     })
 
@@ -151,8 +160,11 @@ function compareCategoryPrices(currentData, historicMap, date) {
         comparedResults.totalPercentDifference = parseFloat(((comparedResults.totalPriceDifference / totalHistoricPrice) * 100).toFixed(3))
     }
 
+    comparedResults.totalWeightedPercent = parseFloat((comparedResults.totalWeightedPercent).toFixed(3))
+
     return comparedResults
 }
+
 
 function sortVariations(variations, category) {
     let results = variations.results
@@ -270,13 +282,15 @@ export async function categoryIncreases(date) {
     }
 }
 
-/*await connectDB()
-const category = 'Verduras'
-const { topIncreases, topDecreases } = await getIncreaseAndDecrease(today, category, 10)
+//await connectDB()
+//const variation = await recordVariation(today)
+//console.log('variation', variation)
+
+//const category = 'Carne Cerdo'
+//const { topIncreases, topDecreases } = await getIncreaseAndDecrease(today, category, 10)
 //console.log('topDecreases: ', topDecreases)
-console.log('topIncreases: ', topIncreases)
+//console.log('topIncreases: ', topIncreases)
 
 //tweetProductDecrease(topDecreases, category)
 //tweetProductIncrease(topIncreases, category)
 
-*/

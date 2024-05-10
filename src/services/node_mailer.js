@@ -26,7 +26,6 @@ export async function sendEmail(subject, text) {
     }
 }
 
-// Ejemplo de uso para enviar un correo al finalizar el proceso de scraping
 async function scrapeAndNotify() {
     // Imagina que aquí haces todo el scraping y tienes el resultado
     const scrapingResult = "El scraping se completó con éxito. Resultado: XYZ"

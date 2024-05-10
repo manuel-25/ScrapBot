@@ -1,4 +1,12 @@
-export const jumboURLsx = ['https://www.jumbo.com.ar/frutas-y-verduras?initialMap=c&initialQuery=frutas-y-verduras&map=category-1,category-2&page=8&query=/frutas-y-verduras/verduras&searchState' 
+//CATEGORIAS AGREGAR MES SIGUIENTE: https://www.jumbo.com.ar/24458?initialMap=productClusterIds&initialQuery=24458&map=category-1,productclusterids&query=/bebidas/24458&searchState
+
+export const jumboURLsx = ['https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1', 'https://www.jumbo.com.ar/Frutas-y-Verduras/Frutas?page=1', 'https://www.jumbo.com.ar/Lacteos/Leches',
+'https://www.jumbo.com.ar/Lacteos/Mantecas-y-Margarinas?initialMap=c,c&initialQuery=lacteos/mantecas-y-margarinas&map=category-1,category-2,category-3&query=/lacteos/mantecas-y-margarinas/manteca&searchState',
+'https://www.jumbo.com.ar/quesos-y-fiambres?initialMap=c&initialQuery=quesos-y-fiambres&map=category-1,category-2&query=/quesos-y-fiambres/fiambres&searchState', 'https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?initialMap=c,c&initialQuery=frutas-y-verduras/verduras&map=category-1,category-2,tipo-de-producto&query=/frutas-y-verduras/verduras/papas&searchState',
+'https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?initialMap=c,c&initialQuery=frutas-y-verduras/verduras&map=category-1,category-2,tipo-de-producto&query=/frutas-y-verduras/verduras/batatas&searchState',
+'https://www.jumbo.com.ar/Almacen/Desayuno-y-Merienda?initialMap=c,c&initialQuery=almacen/desayuno-y-merienda&map=category-1,category-2,tipo-de-producto&query=/almacen/desayuno-y-merienda/yerba-mate&searchState',
+'https://www.jumbo.com.ar/vinagre?_q=vinagre&fuzzy=0&initialMap=ft&initialQuery=vinagre&map=category-2,category-3,ft&operator=and&query=/aceites-y-vinagres/vinagres/vinagre&searchState',
+'https://www.jumbo.com.ar/aceite?_q=aceite&fuzzy=0&initialMap=ft&initialQuery=aceite&map=category-3,ft&operator=and&query=/aceites-comunes/aceite&searchState'
 ]
 
 //CANASTA BASICA https://chequeado.com/el-explicador/que-es-la-canasta-basica-alimentaria-del-indec-y-como-se-compone/
@@ -49,6 +57,40 @@ export const categoryEmoticons = [
     { category: 'Te', emoji: '🍵' },
     { category: 'Queso Crema', emoji: '🧀' },
 ]
+
+export const categoryWeight = {
+    "Pan": 6750,
+    "Galletitas De Agua": 420,
+    "Galletitas Dulces": 210,
+    "Arroz": 1200,
+    "Harinas": 1290,
+    "Fideos": 1740,
+    "Papa": 6510,
+    "Batata": 510,
+    "Azucar": 1230,
+    "Dulce De Leche": 330,
+    "Legumbres Secas": 240,
+    "Verduras": 5730,
+    "Frutas": 4950,
+    "Carne Vacuna": 4200,
+    "Pollo": 1500,
+    "Carne Cerdo": 600,
+    "Pescado": 240,
+    "Huevos": 600,
+    "Leche": 9270,
+    "Queso": 330,
+    "Fiambres": 60,
+    "Yogur": 570,
+    "Manteca": 60,
+    "Aceite": 1200,
+    "Cerveza": 540,
+    "Vino": 540,
+    "Cafe": 30,
+    "Yerba": 510,
+    "Queso Crema": 330,
+    "Te": 100,
+}
+export const weightTotal = 51790
 
 export function getEmojiForCategory(categoryName) {
     const category = categoryEmoticons.find(item => item.category === categoryName)

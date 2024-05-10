@@ -14,6 +14,7 @@ const categorySchema = new Schema({
     category: { type: String, required: true, index: true },
     categoryPriceDifference: { type: Number, required: true },
     categoryPercentDifference: { type: Number, required: true },
+    categoryWeightedPercent: { type: Number, required: true },
     data: [productSchema],
 })
 
@@ -22,6 +23,7 @@ const comparisonResultSchema = new Schema({
     date: { type: Date, required: true, index: true},
     totalPriceDifference: { type: Number, required: true },
     totalPercentDifference: { type: Number, required: true },
+    totalWeightedPercent: { type: Number, required: true},
     totalProducts: { type: Number, required: true},
     results: [categorySchema],
 })
