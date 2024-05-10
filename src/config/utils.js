@@ -1,5 +1,4 @@
-export const jumboURLsx = ['https://www.jumbo.com.ar/pan?_q=pan&map=ft', 'https://www.jumbo.com.ar/galletitas%20de%20agua?_q=galletitas%20de%20agua&map=ft',
-'https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1' 
+export const jumboURLsx = ['https://www.jumbo.com.ar/frutas-y-verduras?initialMap=c&initialQuery=frutas-y-verduras&map=category-1,category-2&page=8&query=/frutas-y-verduras/verduras&searchState' 
 ]
 
 //CANASTA BASICA https://chequeado.com/el-explicador/que-es-la-canasta-basica-alimentaria-del-indec-y-como-se-compone/

@@ -2,7 +2,7 @@ import connectDB from '../config/mongoose-config.js'
 import RecordManager from "../Mongo/recordManager.js"
 import VariationManager from '../Mongo/variationManager.js'
 import logger from "../config/winston.js"
-import { tweetVariations, tweetCategoryDecrease, tweetCategoryIncrease, tweetStartOfMonth } from './twitterService.js'
+import { tweetVariations, tweetCategoryDecrease, tweetCategoryIncrease, tweetStartOfMonth, tweetProductDecrease, tweetProductIncrease } from './twitterService.js'
 const today = new Date(new Date().getTime() - (3 * 60 * 60 * 1000))
 
 //Record daily variation (only 1 time per day after scrapping is done)
@@ -269,3 +269,14 @@ export async function categoryIncreases(date) {
         logger.error('categoryIncreases error', err)
     }
 }
+
+/*await connectDB()
+const category = 'Verduras'
+const { topIncreases, topDecreases } = await getIncreaseAndDecrease(today, category, 10)
+//console.log('topDecreases: ', topDecreases)
+console.log('topIncreases: ', topIncreases)
+
+//tweetProductDecrease(topDecreases, category)
+//tweetProductIncrease(topIncreases, category)
+
+*/

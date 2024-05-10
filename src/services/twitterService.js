@@ -29,7 +29,7 @@ export const tweetVariations = async (variations, date, firstDateOfMonth) => {
         const totalDrop = formatter.format(variations.totalPriceDifference)
         const dolarEmoticon = totalDrop >= 0 ? "📈" : "💸"
         tweetText += `• Cambió un ${totalPercent.toFixed(2)}% ${percentEmoticon}\n`
-        tweetText += `• De un total de ${totalProducts} productos, la caída fue de ${totalDrop} pesos ${dolarEmoticon}`
+        tweetText += `• De un total de ${totalProducts} productos, la ${totalDrop >= 0 ? 'subida' : 'caída'} fue de ${totalDrop} pesos ${dolarEmoticon}`
 
         const tweet = await twitterClient.v2.tweet(tweetText)
         logger.info('tweetVariations: ', tweet)
@@ -37,7 +37,7 @@ export const tweetVariations = async (variations, date, firstDateOfMonth) => {
         console.log('tweet: ', tweet)*/
         return tweet
     } catch (err) {
-        logger.error("Error al enviar tweetVariations:", err)
+        logger.error("tweetVariations error:", err)
     }
 }
 
@@ -73,7 +73,7 @@ export const tweetCategoryDecrease = async(variations, date, firstDateOfMonth) =
         console.log('tweet: ', tweet)*/
         return tweet
     } catch(err) {
-        logger.error("Error al enviar tweetCategoryDecrease:", err)
+        logger.error("tweetCategoryDecrease error:", err)
     }
 }
 
@@ -109,7 +109,7 @@ export const tweetCategoryIncrease = async(variations, date, firstDateOfMonth) =
         console.log('tweet: ', tweet)*/
         return tweet
     } catch(err) {
-        logger.error("Error al enviar tweetCategoryIncrease:", err)
+        logger.error("tweetCategoryIncrease error:", err)
     }
 }
 
@@ -124,24 +124,81 @@ export const tweetStartOfMonth = async (today, firstDateOfMonth) => {
         const tweet = await twitterClient.v2.tweet(tweetText)
         return tweet
     } catch (err) {
-        console.error("Error al enviar el tuit del inicio del mes:", err)
+        logger.error("Error al enviar el tuit del inicio del mes:", err)
     }
 }
 
 // A implementar...
 export const tweetCategoryList = async (categories) => {
     try {
-        let tweetText = "🔍 Se analizarán las siguientes categorías:\n\n";
+        let tweetText = "🔍 Se analizarán las siguientes categorías:\n\n"
 
         categories.forEach((categoryName) => {
-            const emoji = getEmojiForCategory(categoryName);
-            tweetText += `${emoji} ${categoryName}\n`;
-        });
+            const emoji = getEmojiForCategory(categoryName)
+            tweetText += `${emoji} ${categoryName}\n`
+        })
 
-        console.log("Tweet:", tweetText);
-        // const tweet = await twitterClient.v2.tweet(tweetText); // Descomentar para enviar el tweet
-        return tweetText;
+        console.log("Tweet:", tweetText)
+        // const tweet = await twitterClient.v2.tweet(tweetText)
+        return tweetText
     } catch (err) {
-        console.error("Error al enviar el tweet de la lista de categorías:", err);
+        logger.error("tweetCategoryList error:", err)
+    }
+}
+
+export async function tweetProductDecrease(topDecrease, category) {
+    try {
+        if (!topDecrease || topDecrease.length === 0) {
+            throw new Error("No hay productos con mayores caídas para tuitear")
+        }
+
+        const emoji = getEmojiForCategory(category)
+        let tweetText = `📉 Productos de ${category} con mayores caídas de precios:\n`
+
+        topDecrease.sort((a, b) => a.percentDifference - b.percentDifference)
+        // Validación para mantener el texto dentro del límite de caracteres
+        topDecrease.forEach((product) => {
+            const productText = `${emoji} ${product.productName}: ${product.percentDifference.toFixed(2)}% ($${
+                formatter.format(product.currentPrice)
+            })\n`
+
+            if (tweetText.length + productText.length < 279) {
+                tweetText += productText
+            }
+        })
+
+        const tweet = await twitterClient.v2.tweet(tweetText)
+        logger.info("tweetProductDecrease:", tweet)
+        return tweet
+    } catch (err) {
+        logger.error("tweetProductDecrease error:", err)
+    }
+}
+
+export async function tweetProductIncrease(topIncrease, category) {
+    try {
+        if (!topIncrease || topIncrease.length === 0) {
+            throw new Error("No hay productos con mayores subidas para tuitear")
+        }
+
+        const emoji = getEmojiForCategory(category)
+        let tweetText = "📈 Productos con mayores subidas de precios:\n"
+
+        // Validación para mantener el texto dentro del límite de caracteres
+        topIncrease.forEach((product) => {
+            const productText = `${emoji} ${product.productName}: ${product.percentDifference.toFixed(2)}% ($${
+                formatter.format(product.currentPrice)
+            })\n`
+
+            if (tweetText.length + productText.length < 279) {
+                tweetText += productText
+            }
+        })
+
+        const tweet = await twitterClient.v2.tweet(tweetText)
+        logger.info("tweetProductIncrease:", tweet)
+        return tweet
+    } catch (err) {
+        logger.error("tweetProductIncrease error:", err)
     }
 }

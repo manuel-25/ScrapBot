@@ -2187,3 +2187,10 @@
 [2024-05-09T14:36:55.288Z] [ERROR] - tweetDateVariation error No se encontró el primer registro del mes 5 del año 2024.
 [2024-05-09T14:38:07.932Z] [ERROR] - getFirstDateOfMonth error: La fecha del primer registro del mes es inválida: undefined
 [2024-05-09T14:38:07.933Z] [ERROR] - tweetDateVariation error La fecha del primer registro del mes es inválida: undefined
+[2024-05-10T16:50:32.503Z] [ERROR] - tweetProductDecrease error: tweet is not defined
+[2024-05-10T16:50:53.605Z] [ERROR] - tweetProductDecrease error: tweet is not defined
+[2024-05-10T17:07:41.137Z] [ERROR] - tweetProductDecrease error: Request failed with code 400 - Invalid Request: One or more parameters to your request was invalid. (see https://api.twitter.com/2/problems/invalid-request)
+[2024-05-10T17:47:56.160Z] [ERROR] - tweetProductDecrease error: Cannot access 'tweet' before initialization
+[2024-05-10T17:49:36.443Z] [ERROR] - tweetProductDecrease error: Request failed with code 400 - Invalid Request: One or more parameters to your request was invalid. (see https://api.twitter.com/2/problems/invalid-request)
+[2024-05-10T17:50:06.078Z] [ERROR] - tweetProductDecrease error: Request failed with code 400 - Invalid Request: One or more parameters to your request was invalid. (see https://api.twitter.com/2/problems/invalid-request)
+[2024-05-10T17:51:35.785Z] [ERROR] - tweetProductDecrease error: Request failed with code 400 - Invalid Request: One or more parameters to your request was invalid. (see https://api.twitter.com/2/problems/invalid-request)
