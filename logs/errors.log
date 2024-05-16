@@ -2256,3 +2256,6 @@
 [2024-05-10T21:34:46.909Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1. Reintentando...
 [2024-05-10T21:34:49.398Z] [ERROR] - No se encontró el contenedor para https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1 después de varios intentos.
 [2024-05-10T21:34:49.398Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1. Intentando nuevamente (4/6)... No se pudieron obtener datos válidos.
+[2024-05-16T22:57:26.568Z] [ERROR] - getFirstDateOfMonth error: Operation `registro_precios.find()` buffering timed out after 10000ms
+[2024-05-16T22:57:26.569Z] [ERROR] - categoryIncreases error Operation `registro_precios.find()` buffering timed out after 10000ms
+[2024-05-16T22:57:36.584Z] [ERROR] - getFirstDateOfMonth error: Operation `registro_precios.find()` buffering timed out after 10000ms

@@ -282,10 +282,12 @@ export async function categoryIncreases(date) {
     }
 }
 
-//await connectDB()
+await connectDB()
 //const variation = await recordVariation(today)
 //console.log('variation', variation)
-//const increse = await categoryIncreases(today)
+
+await categoryIncreases(today)
+//await categoryDecreases(today)
 
 
 //const category = 'Azucar'

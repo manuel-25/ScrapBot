@@ -103,10 +103,10 @@ export const tweetCategoryIncrease = async(variations, date, firstDateOfMonth) =
             })
         }
 
-        /*const tweet = await twitterClient.v2.tweet(tweetText)
-        logger.info('tweetCategoryIncrease: ', tweet)*/
-        const tweet = tweetText
-        console.log('tweet: ', tweet)
+        const tweet = await twitterClient.v2.tweet(tweetText)
+        logger.info('tweetCategoryIncrease: ', tweet)
+        /*const tweet = tweetText
+        console.log('tweet: ', tweet)*/
         return tweet
     } catch(err) {
         logger.error("tweetCategoryIncrease error:", err)

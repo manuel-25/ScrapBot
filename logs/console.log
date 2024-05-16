@@ -5998,3 +5998,10 @@
 [2024-05-14T18:39:39.664Z] [INFO] - tweetProductDecrease:
 [2024-05-16T22:52:02.044Z] [INFO] - Connected to MongoDB
 [2024-05-16T22:52:27.465Z] [INFO] - Connected to MongoDB
+[2024-05-16T22:57:26.568Z] [ERROR] - getFirstDateOfMonth error: Operation `registro_precios.find()` buffering timed out after 10000ms
+[2024-05-16T22:57:26.569Z] [ERROR] - categoryIncreases error Operation `registro_precios.find()` buffering timed out after 10000ms
+[2024-05-16T22:57:36.584Z] [ERROR] - getFirstDateOfMonth error: Operation `registro_precios.find()` buffering timed out after 10000ms
+[2024-05-16T22:57:42.608Z] [INFO] - Connected to MongoDB
+[2024-05-16T22:57:43.996Z] [INFO] - tweetCategoryDecrease: 
+[2024-05-16T22:58:08.791Z] [INFO] - Connected to MongoDB
+[2024-05-16T22:58:09.937Z] [INFO] - tweetCategoryIncrease: 
