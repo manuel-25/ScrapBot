@@ -244,7 +244,7 @@ export async function categoryDecreases(date) {
             return false
         }
     
-        const { topDecreases } = await getCategoryVariations(today, 5)
+        const { topDecreases } = await getCategoryVariations(date, 5)
         if (!topDecreases) {
             logger.error('No se encontraron variaciones negativas de categoria para la fecha: ', date)
             return false
@@ -267,7 +267,7 @@ export async function categoryIncreases(date) {
             return false
         }
     
-        const { topIncreases } = await getCategoryVariations(today, 5)
+        const { topIncreases } = await getCategoryVariations(date, 5)
         if (!topIncreases) {
             logger.error("No se encontraron variaciones positivas de categoria para la fecha:", date)
             return false
@@ -285,8 +285,10 @@ export async function categoryIncreases(date) {
 //await connectDB()
 //const variation = await recordVariation(today)
 //console.log('variation', variation)
+//const increse = await categoryIncreases(today)
 
-//const category = 'Carne Cerdo'
+
+//const category = 'Azucar'
 //const { topIncreases, topDecreases } = await getIncreaseAndDecrease(today, category, 10)
 //console.log('topDecreases: ', topDecreases)
 //console.log('topIncreases: ', topIncreases)

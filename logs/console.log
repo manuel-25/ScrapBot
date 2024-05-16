@@ -5983,3 +5983,18 @@
 [2024-05-10T21:34:46.909Z] [WARNING] - El contenedor no se encontró en https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1. Reintentando...
 [2024-05-10T21:34:49.398Z] [ERROR] - No se encontró el contenedor para https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1 después de varios intentos.
 [2024-05-10T21:34:49.398Z] [WARNING] - Error al extraer datos de https://www.jumbo.com.ar/Frutas-y-Verduras/Verduras?page=1. Intentando nuevamente (4/6)... No se pudieron obtener datos válidos.
+[2024-05-14T18:33:08.461Z] [INFO] - Connected to MongoDB
+[2024-05-14T18:33:51.964Z] [INFO] - Connected to MongoDB
+[2024-05-14T18:33:53.537Z] [INFO] - tweetProductDecrease:
+[2024-05-14T18:34:33.755Z] [INFO] - Connected to MongoDB
+[2024-05-14T18:34:59.225Z] [INFO] - Connected to MongoDB
+[2024-05-14T18:35:48.799Z] [INFO] - Connected to MongoDB
+[2024-05-14T18:36:44.185Z] [INFO] - Connected to MongoDB
+[2024-05-14T18:37:08.121Z] [INFO] - Connected to MongoDB
+[2024-05-14T18:37:37.345Z] [INFO] - Connected to MongoDB
+[2024-05-14T18:37:38.430Z] [INFO] - tweetProductDecrease:
+[2024-05-14T18:38:20.071Z] [INFO] - Connected to MongoDB
+[2024-05-14T18:39:38.593Z] [INFO] - Connected to MongoDB
+[2024-05-14T18:39:39.664Z] [INFO] - tweetProductDecrease:
+[2024-05-16T22:52:02.044Z] [INFO] - Connected to MongoDB
+[2024-05-16T22:52:27.465Z] [INFO] - Connected to MongoDB
